@@ -1,0 +1,107 @@
+{
+  "provider": "iai",
+  "model": "Nkust",
+  "file": "Screenshot_20260916-1740512.jpg",
+  "mime": "image/jpeg",
+  "bytes": 228531,
+  "ok": true,
+  "text": "\n\n此問題不在本服務提供的範圍",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 1.2658224000188056,
+  "prompt_tokens": 937,
+  "completion_tokens": 205,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "bagel_cafe_board",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "薯泥",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "培根",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "德式香腸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美式咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "拿鐵咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "海鮮鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

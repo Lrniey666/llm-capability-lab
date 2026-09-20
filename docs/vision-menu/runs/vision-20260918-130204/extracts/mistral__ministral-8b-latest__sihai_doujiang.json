@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"四海豆漿大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"豆漿類\",\n      \"items\": [\n        {\"name\": \"鮮奶香菇豆漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅棗豆漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"奶油豆漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅豆豆漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅豆奶油豆漿\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅豆茶葉蛋豆漿\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿\", \"price\": 15, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿加牛奶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿加紅豆\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿加紅豆奶油\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿加紅豆茶葉\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿加紅豆茶葉蛋\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"麵條\", \"price\": 45, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加肉\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加豬肉\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加牛肉\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加香菇\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加豆腐\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加蛋\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加豬肉蛋\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加香菇蛋\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加豆腐蛋\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加火腿\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加火腿蛋\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加火腿香菇\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加火腿豆腐\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加火腿豆腐蛋\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加九宝\", \"price\": 45, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加九宝蛋\", \"price\": 50, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加九宝火腿\", \"price\": 50, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"麵條加九宝火腿蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"包子類\",\n      \"items\": [\n        {\"name\": \"包子\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加肉\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加香菇\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加豆腐\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加蛋\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加火腿\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加火腿蛋\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加火腿香菇\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加火腿豆腐\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加火腿豆腐蛋\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加九宝\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加九宝蛋\", \"price\": 45, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加九宝火腿\", \"price\": 45, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包子加九宝火腿蛋\", \"price\": 50, \"unit\": \"個\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"其他\",\n      \"items\": [\n        {\"name\": \"米飯\", \"price\": 10, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加肉\", \"price\": 20, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加蛋\", \"price\": 20, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加香菇\", \"price\": 20, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加豆腐\", \"price\": 20, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加火腿\", \"price\": 25, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加火腿蛋\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加火腿香菇\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加火腿豆腐\", \"price\": 25, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加火腿豆腐蛋\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加九宝\", \"price\": 30, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加九宝蛋\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加九宝火腿\", \"price\": 35, \"unit\": \"碗\", \"note\": \"\"},\n        {\"name\": \"米飯加九宝火腿蛋\", \"price\": 40, \"unit\": \"碗\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"鮮奶香菇、紅棗、奶油、紅豆等為豆漿加料選項\",\n    \"麵條、包子、米飯可加肉、蛋、香菇、豆腐、火腿、九宝等\",\n    \"部分項目價格可能因季節或促銷而有變動\",\n    \"原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原原",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 83 column 6 (char 4160)",
+  "latency_s": 27.456175500003155,
+  "prompt_tokens": 929,
+  "completion_tokens": 2335,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

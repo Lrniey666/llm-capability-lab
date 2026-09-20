@@ -1,0 +1,433 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-2512",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"四海豆浆大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"豆漿類\",\n      \"items\": [\n        {\"name\": \"鮮鮮豆漿\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"香香豆漿\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"芋香豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"紅豆豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"咖啡豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"奶茶豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"米紅豆漿\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"豆漿\", \"price\": 15, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"豆漿(大杯)\", \"price\": 20, \"unit\": \"杯\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"茶飲類\",\n      \"items\": [\n        {\"name\": \"綠茶\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"紅茶\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"奶茶\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"珍珠奶茶\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"綠茶(大杯)\", \"price\": 25, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"紅茶(大杯)\", \"price\": 25, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"奶茶(大杯)\", \"price\": 30, \"unit\": \"杯\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"麵線類\",\n      \"items\": [\n        {\"name\": \"麵線\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"麵線(加蛋)\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"麵線(加火腿)\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"麵線(加肉絲)\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵線(加火腿+肉絲)\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵線(加蛋+火腿+肉絲)\", \"price\": 60, \"unit\": \"碗\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"炒麵\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"炒麵(加蛋)\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"炒麵(加火腿)\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"炒麵(加肉絲)\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"炒麵(加蛋+火腿+肉絲)\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"其他小吃\",\n      \"items\": [\n        {\"name\": \"油條\", \"price\": 10, \"unit\": \"根\"},\n        {\"name\": \"煎餅\", \"price\": 15, \"unit\": \"個\"},\n        {\"name\": \"煎餅(加蛋)\", \"price\": 20, \"unit\": \"個\"},\n        {\"name\": \"煎餅(加火腿)\", \"price\": 25, \"unit\": \"個\"},\n        {\"name\": \"煎餅(加肉絲)\", \"price\": 25, \"unit\": \"個\"},\n        {\"name\": \"煎餅(加蛋+火腿+肉絲)\", \"price\": 30, \"unit\": \"個\", \"note\": \"看不清\"},\n        {\"name\": \"小笼包\", \"price\": 30, \"unit\": \"個\"},\n        {\"name\": \"蒸蛋\", \"price\": 15, \"unit\": \"個\"},\n        {\"name\": \"蒸蛋(加火腿)\", \"price\": 20, \"unit\": \"個\"},\n        {\"name\": \"蒸蛋(加肉絲)\", \"price\": 20, \"unit\": \"個\"},\n        {\"name\": \"蒸蛋(加蛋)\", \"price\": 25, \"unit\": \"個\", \"note\": \"看不清\"},\n        {\"name\": \"蒸蛋(加火腿+肉絲)\", \"price\": 25, \"unit\": \"個\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"其他\",\n      \"items\": [\n        {\"name\": \"米粉\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"米粉(加蛋)\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"米粉(加火腿)\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"米粉(加肉絲)\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"米粉(加蛋+火腿+肉絲)\", \"price\": 45, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"粉絲\", \"price\": 30, \"unit\": \"碗\"},\n        {\"name\": \"粉絲(加蛋)\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲(加火腿)\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲(加肉絲)\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲(加蛋+火腿+肉絲)\", \"price\": 40, \"unit\": \"碗\", \"note\": \"看不清\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"原味原鄉風味\",\n    \"各式麵線麵條\",\n    \"加蛋加火腿加肉絲\",\n    \"頭份麵線\",\n    \"九層塔\",\n    \"加工費\",\n    \"小份\",\n    \"內用\",\n    \"熱騰騰\",\n    \"包包\",\n    \"煎餅\",\n    \"煎餅加蛋\",\n    \"煎餅加火腿\",\n    \"煎餅加肉絲\",\n    \"煎餅加蛋火腿肉絲\",\n    \"蒸蛋\",\n    \"蒸蛋加火腿\",\n    \"蒸蛋加肉絲\",\n    \"蒸蛋加蛋\",\n    \"蒸蛋加火腿肉絲\",\n    \"米粉\",\n    \"米粉加蛋\",\n    \"米粉加火腿\",\n    \"米粉加肉絲\",\n    \"米粉加蛋火腿肉絲\",\n    \"粉絲\",\n    \"粉絲加蛋\",\n    \"粉絲加火腿\",\n    \"粉絲加肉絲\",\n    \"粉絲加蛋火腿肉絲\",\n    \"看不清的價格請詢問店家\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "四海豆浆大王",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "豆漿類",
+        "items": [
+          {
+            "name": "鮮鮮豆漿",
+            "price": 20,
+            "unit": "杯"
+          },
+          {
+            "name": "香香豆漿",
+            "price": 20,
+            "unit": "杯"
+          },
+          {
+            "name": "芋香豆漿",
+            "price": 25,
+            "unit": "杯"
+          },
+          {
+            "name": "紅豆豆漿",
+            "price": 25,
+            "unit": "杯"
+          },
+          {
+            "name": "咖啡豆漿",
+            "price": 25,
+            "unit": "杯"
+          },
+          {
+            "name": "奶茶豆漿",
+            "price": 25,
+            "unit": "杯"
+          },
+          {
+            "name": "米紅豆漿",
+            "price": 20,
+            "unit": "杯"
+          },
+          {
+            "name": "豆漿",
+            "price": 15,
+            "unit": "杯",
+            "note": "看不清"
+          },
+          {
+            "name": "豆漿(大杯)",
+            "price": 20,
+            "unit": "杯",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "茶飲類",
+        "items": [
+          {
+            "name": "綠茶",
+            "price": 20,
+            "unit": "杯"
+          },
+          {
+            "name": "紅茶",
+            "price": 20,
+            "unit": "杯"
+          },
+          {
+            "name": "奶茶",
+            "price": 25,
+            "unit": "杯"
+          },
+          {
+            "name": "珍珠奶茶",
+            "price": 30,
+            "unit": "杯"
+          },
+          {
+            "name": "綠茶(大杯)",
+            "price": 25,
+            "unit": "杯",
+            "note": "看不清"
+          },
+          {
+            "name": "紅茶(大杯)",
+            "price": 25,
+            "unit": "杯",
+            "note": "看不清"
+          },
+          {
+            "name": "奶茶(大杯)",
+            "price": 30,
+            "unit": "杯",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "麵線類",
+        "items": [
+          {
+            "name": "麵線",
+            "price": 40,
+            "unit": "碗"
+          },
+          {
+            "name": "麵線(加蛋)",
+            "price": 45,
+            "unit": "碗"
+          },
+          {
+            "name": "麵線(加火腿)",
+            "price": 45,
+            "unit": "碗"
+          },
+          {
+            "name": "麵線(加肉絲)",
+            "price": 50,
+            "unit": "碗"
+          },
+          {
+            "name": "麵線(加火腿+肉絲)",
+            "price": 55,
+            "unit": "碗",
+            "note": "看不清"
+          },
+          {
+            "name": "麵線(加蛋+火腿+肉絲)",
+            "price": 60,
+            "unit": "碗",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "麵類",
+        "items": [
+          {
+            "name": "炒麵",
+            "price": 40,
+            "unit": "碗"
+          },
+          {
+            "name": "炒麵(加蛋)",
+            "price": 45,
+            "unit": "碗"
+          },
+          {
+            "name": "炒麵(加火腿)",
+            "price": 50,
+            "unit": "碗"
+          },
+          {
+            "name": "炒麵(加肉絲)",
+            "price": 50,
+            "unit": "碗"
+          },
+          {
+            "name": "炒麵(加蛋+火腿+肉絲)",
+            "price": 55,
+            "unit": "碗",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "其他小吃",
+        "items": [
+          {
+            "name": "油條",
+            "price": 10,
+            "unit": "根"
+          },
+          {
+            "name": "煎餅",
+            "price": 15,
+            "unit": "個"
+          },
+          {
+            "name": "煎餅(加蛋)",
+            "price": 20,
+            "unit": "個"
+          },
+          {
+            "name": "煎餅(加火腿)",
+            "price": 25,
+            "unit": "個"
+          },
+          {
+            "name": "煎餅(加肉絲)",
+            "price": 25,
+            "unit": "個"
+          },
+          {
+            "name": "煎餅(加蛋+火腿+肉絲)",
+            "price": 30,
+            "unit": "個",
+            "note": "看不清"
+          },
+          {
+            "name": "小笼包",
+            "price": 30,
+            "unit": "個"
+          },
+          {
+            "name": "蒸蛋",
+            "price": 15,
+            "unit": "個"
+          },
+          {
+            "name": "蒸蛋(加火腿)",
+            "price": 20,
+            "unit": "個"
+          },
+          {
+            "name": "蒸蛋(加肉絲)",
+            "price": 20,
+            "unit": "個"
+          },
+          {
+            "name": "蒸蛋(加蛋)",
+            "price": 25,
+            "unit": "個",
+            "note": "看不清"
+          },
+          {
+            "name": "蒸蛋(加火腿+肉絲)",
+            "price": 25,
+            "unit": "個",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "其他",
+        "items": [
+          {
+            "name": "米粉",
+            "price": 35,
+            "unit": "碗"
+          },
+          {
+            "name": "米粉(加蛋)",
+            "price": 40,
+            "unit": "碗"
+          },
+          {
+            "name": "米粉(加火腿)",
+            "price": 40,
+            "unit": "碗"
+          },
+          {
+            "name": "米粉(加肉絲)",
+            "price": 40,
+            "unit": "碗"
+          },
+          {
+            "name": "米粉(加蛋+火腿+肉絲)",
+            "price": 45,
+            "unit": "碗",
+            "note": "看不清"
+          },
+          {
+            "name": "粉絲",
+            "price": 30,
+            "unit": "碗"
+          },
+          {
+            "name": "粉絲(加蛋)",
+            "price": 35,
+            "unit": "碗"
+          },
+          {
+            "name": "粉絲(加火腿)",
+            "price": 35,
+            "unit": "碗"
+          },
+          {
+            "name": "粉絲(加肉絲)",
+            "price": 35,
+            "unit": "碗"
+          },
+          {
+            "name": "粉絲(加蛋+火腿+肉絲)",
+            "price": 40,
+            "unit": "碗",
+            "note": "看不清"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "原味原鄉風味",
+      "各式麵線麵條",
+      "加蛋加火腿加肉絲",
+      "頭份麵線",
+      "九層塔",
+      "加工費",
+      "小份",
+      "內用",
+      "熱騰騰",
+      "包包",
+      "煎餅",
+      "煎餅加蛋",
+      "煎餅加火腿",
+      "煎餅加肉絲",
+      "煎餅加蛋火腿肉絲",
+      "蒸蛋",
+      "蒸蛋加火腿",
+      "蒸蛋加肉絲",
+      "蒸蛋加蛋",
+      "蒸蛋加火腿肉絲",
+      "米粉",
+      "米粉加蛋",
+      "米粉加火腿",
+      "米粉加肉絲",
+      "米粉加蛋火腿肉絲",
+      "粉絲",
+      "粉絲加蛋",
+      "粉絲加火腿",
+      "粉絲加肉絲",
+      "粉絲加蛋火腿肉絲",
+      "看不清的價格請詢問店家"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 40.3923313000123,
+  "prompt_tokens": 929,
+  "completion_tokens": 1912,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "四海豆浆大王",
+    "title_hit": false,
+    "item_count": 49,
+    "anchor_n": 8,
+    "name_json_recall": 0.375,
+    "price_json_recall": 0.0,
+    "name_recall": 0.375,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

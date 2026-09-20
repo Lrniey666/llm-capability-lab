@@ -1,0 +1,62 @@
+{
+  "provider": "iai",
+  "model": "Nkust",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "\n\n此問題不在本服務提供的範圍",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 1.650078000006033,
+  "prompt_tokens": 937,
+  "completion_tokens": 205,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

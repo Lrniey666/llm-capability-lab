@@ -1,0 +1,107 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1748012.jpg",
+  "mime": "image/jpeg",
+  "bytes": 202500,
+  "ok": true,
+  "text": "We need to parse the menu. Title: \"RM.SELERA KAMI\" and Chinese \"娜娜印尼料理(楠梓)\". So title should be that. Currency TWD.\n\nCategories: The menu seems to have sections: main dishes (nasi, etc.), maybe \"Hari libur tersedia\" (holiday specials), \"Meja\" (table items) maybe drinks. Also \"BKS\" maybe \"Bakso\" (meatball) but not sure. Let's examine.\n\nFirst table: columns MENU, Harga, Jumlah. Items include \"Pecel ayam(nasi)\" 110, \"Pecel bebek(nasi)\" 170, etc. These are dishes with nasi (rice). Also \"Ayam penyet (nasi)\" 120, etc. Also \"Nasi goreng biasa\" 110, etc. Also \"Kwetiau goreng\" 110. So category maybe \"Nasi & Makanan\" but not given. The header \"MENU\" maybe generic. There's no explicit category name; maybe the first column is the category? Actually the table header is \"MENU\", \"Harga\", \"Jumlah\". So each row is a menu item. There's no subcategory. But we need categories. Possibly \"Makanan\" (food) and \"Minuman\" (drinks). Also \"Hari libur tersedia\" maybe a category for special items. Also \"Meja\" maybe drinks.\n\nLet's list items with price and unit \"份\" (portion). For each item, note if there are two prices (e.g., maybe \"Pecel ayam(nasi)\" 110 maybe for nasi portion; but there is also \"Bakso kecil\" 100 etc. Not sure.\n\nWe need to produce JSON with categories. Let's identify categories:\n\n- \"Makanan\" (food) maybe includes all main dishes. But there is also \"Hari libur tersedia\" which is a special category.\n\n- \"Meja\" maybe drinks (ES Teh, Kopi, etc.) The bottom part shows drinks: \"ES Teh manis\", \"Teh manis Panas\", \"Kopi hitam\", \"Kopi susu\", \"Es campur\", \"Es jeruk\", \"Soda susu\", \"Susu Jahe\", \"SUSU COKLAT\". Also \"BKS\" maybe \"Bakso\" (meatball) but appears as a label \"BKS\" maybe category for meatball items (Bakso kecil, etc.) The top right table includes \"Bakso kecil\" 100, \"Bakso branak\" 160, \"Bakso urat\" 160, \"Bakso iga\" 190, \"Bakso mercon\" 160. So \"BKS\" could be \"Bakso\" category.\n\nAlso \"Meja\" maybe \"Meja\" meaning \"Table\" but likely drinks.\n\nAlso \"Hari libur tersedia\" maybe \"Holiday specials\" category.\n\nAlso \"BKS\" maybe \"Bakso\" category.\n\nAlso \"Meja\" maybe \"Meja\" (table) but includes drinks.\n\nLet's examine the structure:\n\nThe menu appears to have two main tables side by side. Left side: first table includes many items (Pecel, Nasi goreng, Mie goreng, Kwetiau goreng). Then a section \"Hari libur tersedia\" with \"Gado gado sayur\" 100, \"Lontong sayur\" 100. Then a row \"BKS\" maybe a separator? Then \"Meja\" with \"A 001\" maybe table number.\n\nThen second table (right side) includes \"Bakso kecil\" etc., \"Soto babat(nasi)\" etc., \"Soto ayam (nasi)\", \"Soto Lamongan(nasi)\", \"Mie ayam\", \"Mie ayam BAKSO\", \"sate ayam(nasi)\", \"sate kambing(nasi)\", \"ayam bakar(nasi)\", \"bebek bakar(nasi)\". Then another \"BKS\" and \"Meja\" again with drinks.\n\nThus categories likely:\n\n1. \"Makanan\" (food) - includes Pecel, Nasi goreng, Mie, Kwetiau, etc. Also maybe \"Soto\", \"Sate\", \"Bakso\" are also food.\n\nBut maybe categories are defined by the \"BKS\" and \"Meja\" labels. Let's see: In the menu, after the first table, there is a row with \"BKS\" (maybe \"Bakso\" category) and \"Meja\" (maybe \"Meja\" meaning \"Table\" but could be \"Minuman\" drinks). Then after that, there is a second table with drinks and maybe \"Meja\" again.\n\nBut the instruction: categories should be \"分類名稱\". We need to infer category names from visible text. The visible category names appear as \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"MENU\" is generic, not a category.\n\nThus we can create categories:\n\n- \"Makanan\" (maybe not explicit but we can treat the first big table as \"Makanan\". However there is no explicit label; maybe the category is \"MENU\" which is generic. But we need a category name; maybe we can use \"Makanan\" as the category for the first big table (since it's food). But to be safe, we could use the explicit category names present: \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"Makanan\" is not visible; but we can still include categories based on visible headings.\n\nLet's examine the layout:\n\n- Top left: \"MENU\" header, then list of items. No explicit category name above that list. Could be \"Makanan\" but not shown.\n\n- Then a black bar \"Hari libur tersedia\" (Holiday specials). Under that are two items: \"Gado gado sayur\" 100, \"Lontong sayur\" 100.\n\n- Then a row with \"BKS\" (maybe \"Bakso\" category) and \"Meja\" (maybe \"Meja\" meaning \"Table\" but likely \"Minuman\" drinks). Then \"A 001\" maybe table number.\n\n- Then a dashed line, then another table with drinks (ES, Teh, Kopi, etc.) and also \"BKS\" and \"Meja\" again.\n\nThus categories:\n\n- \"Makanan\" (maybe not explicit but we can treat the first table as \"Makanan\". However the instruction says \"把你看得見的內容轉成 JSON\". So we should only include categories that are visible. \"Makanan\" is not visible; it's inferred. So maybe we should not create a category without a visible name. But we need categories list; maybe we can use \"Makanan\" as the name of the first category because it's the main food list. But is it visible? The header \"MENU\" is visible, but not \"Makanan\". However the items are food, so maybe we can treat the first table as category \"Makanan\". But the rule: \"categories\" are the classification names. If not visible, maybe we can't guess. But we need to produce categories; maybe we can use \"Makanan\" as the category name for the first block, \"Hari libur tersedia\" for the holiday specials, \"BKS\" for bakso items, \"Meja\" for drinks.\n\nBut \"Meja\" appears twice; maybe it's a category for drinks (since drinks are on the table). So we can have two categories named \"Meja\"? That would be duplicate; maybe we need distinct category names. Could be \"Meja\" for the drinks section (the bottom part). The \"BKS\" maybe \"Bakso\" category (meatball dishes). So categories:\n\n- \"Makanan\" (first table)\n- \"Hari libur tersedia\"\n- \"BKS\"\n- \"Meja\"\n\nBut \"Meja\" appears twice; maybe it's the same category for drinks. We'll include it once.\n\nNow items: need to list each item with name, price, unit \"份\", note if needed.\n\nLet's parse items:\n\nFirst table (left side) items:\n\n- Pecel ayam(nasi) 110\n- Pecel bebek(nasi) 170\n- Pecel burung(nasi) 150\n- Pecel lele (nasi) 150\n- Ayam penyet (nasi) 120\n- Bebek penyet (nasi) 180\n- Tempe penyet (nasi) 100\n- Nasi goreng biasa 110\n- Nasi goreng ati ampela 130\n- Nasi goreng pete 130\n- Nasi goreng special 150\n- Mie goreng 110\n- Kwetiau goreng 110\n\nNote: Some items have \"(nasi)\" indicating rice portion; maybe unit is \"份\". We'll set unit \"份\". No note needed unless there are two prices.\n\nSecond table (right side) items:\n\n- Bakso kecil 100\n- Bakso branak 160\n- Bakso urat 160\n- Bakso iga 190\n- Bakso mercon 160\n- Soto babat(nasi) 150\n- Soto ayam (nasi) 120\n- Soto Lamongan(nasi) 120\n- Mie ayam 110\n- Mie ayam BAKSO 130\n- sate ayam(nasi) 160\n- sate kambing(nasi) 180\n- ayam bakar(nasi) 160\n- bebek bakar(nasi) 200\n\nAlso there are \"BKS\" row maybe category label, not an item.\n\nNow \"Hari libur tersedia\" items:\n\n- Gado gado sayur 100\n- Lontong sayur 100\n\nNow \"Meja\" items (drinks) appear in bottom tables:\n\nFirst \"Meja\" row maybe indicates drinks category; then items:\n\n- ES Teh manis 35\n- Teh manis Panas 35\n- Kopi hitam 35\n- Kopi susu 50\n- Es campur 50\n- Es jeruk 50\n- Soda susu 50\n- Susu Jahe 50\n- SUSU COKLAT 50\n\nAlso there is \"BKS\" again maybe category for drinks? Not sure.\n\nBut we need to include all items we can see. Let's list all items with price.\n\nNow we need to ensure price is numeric, unit \"份\". For drinks maybe unit \"份\" as well (maybe cup). We'll use \"份\".\n\nNow notes: For items that have two possible prices (e.g., maybe \"Pecel ayam(nasi)\" 110 maybe for nasi portion; but there is also \"Bakso kecil\" 100 maybe for small portion; but not two prices for same item. However there is \"Pecel ayam(nasi)\" 110; maybe there is also \"Pecel ayam\" without nasi? Not visible. So no note needed.\n\nBut there is \"Pecel lele (nasi)\" 150; maybe there is also \"Pecel lele\" without nasi? Not shown. So no note.\n\nBut there is \"BKS\" maybe indicates \"Bakso\" category; not an item.\n\nAlso \"Meja\" maybe indicates \"Meja\" (table) but not an item.\n\nNow we need to ensure we don't guess. For items we are confident.\n\nNow we need to output JSON with title, currency, categories list.\n\nTitle: \"RM.SELERA KAMI 娜娜印尼料理(楠梓)\" maybe combine? The title should be \"菜單標題或店名\". The visible title includes \"RM.SELERA KAMI\" and Chinese \"娜娜印尼料理(楠梓)\". Probably the title is \"RM.SELERA KAMI 娜娜印尼料理(楠梓)\". We'll set that.\n\nCurrency: \"TWD\".\n\nCategories: We'll create categories with names as visible.\n\nCategory 1: \"Makanan\" (maybe not visible but we can use \"MENU\" as category name? The header is \"MENU\". But that's generic. Maybe the category name is \"MENU\". But that seems odd. The instruction: \"categories\" are classification names. The visible headings that separate sections are \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"MENU\" is just column header, not a category. So we might have categories:\n\n- \"Makanan\" (if we consider the first big table as food). But it's not explicitly labeled; maybe the category is \"MENU\" (the column header). However the column header \"MENU\" is generic; but we could treat the whole first table as \"Makanan\" but it's not visible. Safer to use \"Makanan\" as category name? The rule: \"不要猜、不要編造不存在的品項\". Not about categories, but about items. But categories must be based on visible content. \"Makanan\" is not visible; it's inferred. So maybe we should not create a category without a visible label. However we need at least one category; else JSON would be empty. The visible categories are \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"MENU\" is a category but it's just a header. But we can treat \"MENU\" as category name? The column header \"MENU\" appears at top of each table; maybe each table is a category. The first table's header \"MENU\" maybe indicates \"Makanan\" but not explicit. The second table also has \"MENU\". So maybe each table is a category; but they both have same header \"MENU\". That seems odd.\n\nLet's examine the structure more carefully.\n\nThe menu appears to be printed with two columns side by side. The left column includes items like \"Pecel ayam(nasi)\" etc. The right column includes \"Bakso kecil\" etc. Then there is a row \"Hari libur tersedia\" spanning maybe both columns? Actually it's a black bar across the left side, maybe indicating special items that are only available on holidays. Under that are \"Gado gado sayur\" and \"Lontong sayur\". Then there is a row with \"BKS\" and \"Meja\" and \"A 001\". This seems like a separator indicating \"BKS\" maybe \"Bakso\" category and \"Meja\" maybe \"Meja\" (drinks). Then after a dashed line, there is another set of items: drinks (ES, Teh, Kopi, etc.) and again \"BKS\" and \"Meja\". So maybe \"BKS\" is a category for meatball items (the right top table). \"Meja\" is a category for drinks (the bottom tables). The first big table maybe \"Makanan\" but not labeled; maybe it's \"Makanan\" but not shown. However there is also \"MENU\" header for each table; maybe each table is a category \"MENU\". But that would duplicate.\n\nMaybe the categories are:\n\n- \"Makanan\" (the first big table)\n- \"Hari libur tersedia\"\n- \"BKS\" (Bakso)\n- \"Meja\" (drinks)\n\nBut \"Makanan\" is not visible; but we can infer that the first table is food. However the instruction says \"不要猜、不要編造不存在的品項\". Not about categories, but about items. However categories are derived from visible text; \"Makanan\" is not visible, so maybe we shouldn't create it. But we need categories; maybe we can use \"MENU\" as category name for the first table, and \"MENU\" again for the second? That seems redundant.\n\nAlternatively, maybe the categories are \"Makanan\", \"Hari libur tersedia\", \"BKS\", \"Meja\". The \"Makanan\" may be considered visible because the items are food; but the label \"Makanan\" is not printed. However the header \"MENU\" could be considered the category name (the column header). But that's not a category; it's a column header.\n\nLet's think: The menu likely has categories like \"Nasi\", \"Mie\", \"Soto\", \"Bakso\", \"Minuman\". But those are not printed as headings; they are just items. The only explicit headings are \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"BKS\" stands for \"Bakso\" (meatball). \"Meja\" maybe \"Minuman\" (drinks). So we can use those.\n\nThus categories list could be:\n\n- {\"name\": \"Hari libur tersedia\", \"items\": [...]}\n- {\"name\": \"BKS\", \"items\": [...]}\n- {\"name\": \"Meja\", \"items\": [...]}\n\nBut we also need to include the main food items. Maybe we can treat the first big table as \"Makanan\" but we need a visible name. Could be \"MENU\" as category name. But \"MENU\" appears twice; maybe each table is a category \"MENU\". But that would duplicate.\n\nMaybe the categories are:\n\n- \"Makanan\" (the first table) - but not visible.\n- \"Hari libur tersedia\"\n- \"BKS\"\n- \"Meja\"\n\nBut to be safe, we could include categories for each distinct visible heading: \"Hari libur tersedia\", \"BKS\", \"Meja\". And also include the main food items under a category named \"Makanan\" if we consider that the first table is a category; but since \"Makanan\" not visible, maybe we can treat the first table as \"MENU\" category (the column header). But then we have two categories with same name \"MENU\". That may be okay but duplicates not ideal.\n\nLet's examine the image again: At top left, there is \"RM.SELERA KAMI\" and Chinese. Then \"TEL : 0966955832\" and \"LINE ID\" with QR. Then the table starts with header row: \"MENU\", \"Harga\", \"Jumlah\". So the",
+  "parsed": null,
+  "parse_error": "Expecting value: line 1 column 43 (char 42)",
+  "latency_s": 12.922132199979387,
+  "prompt_tokens": 3069,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "nana_indonesian",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.5,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "Pecel ayam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Pecel bebek",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Nasi goreng biasa",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Bakso iga",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "bebek bakar",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "ES Teh manis",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "Kopi hitam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "Kopi susu",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

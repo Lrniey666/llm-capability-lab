@@ -1,0 +1,116 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1748442.jpg",
+  "mime": "image/jpeg",
+  "bytes": 247277,
+  "ok": true,
+  "text": "We need to parse the menu. Title: \"咚咚海鮮鍋燒\" (looks like \"咚咚海鮮鍋燒\" maybe \"咚咚海鮮鍋燒\" but need to see exact characters. The image shows \"咚咚海鮮鍋燒\" as title. Let's assume title = \"咚咚海鮮鍋燒\". If not visible, empty. It's visible.\n\nCurrency: TWD.\n\nCategories: need to list categories visible. Let's identify categories:\n\nFrom top left: \"經典海鮮鍋燒\" (classic seafood hot pot). Then \"日料小品系列\" (Japanese small dishes). Then \"海鮮制霸系列\" (seafood dominance series). Then \"蔥飯系列\" (onion rice series). Then \"炸物\" (fried foods). Then \"烤物\" (grilled). Also \"肉多多鍋燒系列\" (meat many hot pot series). Also \"超前壞系列\" (maybe \"超前壞系列\"? Actually \"超前壞系列\" maybe \"超前壞系列\" but likely \"超前壞系列\" is a category; maybe \"超前壞系列\" is \"超前壞系列\"? Let's read: In middle bottom there is \"超前壞系列\". Also \"加料區\" (add-ons area). Also \"湯頭任選\" (soup selection) maybe part of categories but not a main category; but we can include as separate category? The rule: categories are \"分類名稱\". Probably main headings. Let's list all headings:\n\n- 經典海鮮鍋燒\n- 日料小品系列\n- 海鮮制霸系列\n- 蔥飯系列\n- 炸物\n- 烤物\n- 肉多多鍋燒系列\n- 超前壞系列\n- 加料區\n\nAlso maybe \"湯頭任選\" is a subcategory but not a main heading; but we can include as category? The rule says categories are \"分類名稱\". Could include all headings. Let's include those we see.\n\nNow need items with name, price, unit, note.\n\nWe need to parse each item line. This is large; we need to extract all items. Let's go through each column.\n\nFirst column: \"經典海鮮鍋燒\" items:\n\n- 海鮮鍋 (maybe \"海鮮鍋\") 138\n- 田園時蔬鍋 138\n- 蛤蜊滿鍋 195\n- 日式炸蝦鍋 195\n- 金多蝦鍋 200\n\nNote: maybe \"每鍋附、高麗菜、金針菇、香菇、小白菜、雞蛋\" is description, not note.\n\nSecond column: \"日料小品系列\" items:\n\n- 紫蘇梅生菜 60\n- 和風洋蔥沙拉 79\n- 永愛大白蝦 150\n- 永愛澎湖小沙拉 180\n- 和風鱈魚肝沙拉 200\n- 日本大生蠔 (2入) 200 (note: (2入) 200)\n- 日本大生蠔 (6入) 520 (note: (6入) 520)\n\nAlso maybe \"和風鱈魚肝沙拉 200\" is item.\n\nThird column: \"海鮮制霸系列\" items:\n\n- 無敵痛風鍋 260\n- 三鷄鍋 260\n- 香炸牡蠣鍋 265\n- 帆膩立蝦鍋 280\n- 金虎龍蝦鍋 280\n- 炸香魷魚鍋 280\n- 蛤尼鮮貝鍋 280\n- 澎湖小卷鍋 280\n- 酥炸軟殼蟹 290\n- 心肝貫貫鍋 299\n- 精品鮑鍋 299\n- 懶人大蝦鍋 299 (鱸鱸三隻) maybe note.\n- 蟹蟹有你鍋 399 (鱸鱸三隻) maybe note.\n- 龍蝦割霸鍋 988\n\nAlso \"湯頭任選\" maybe not item.\n\nFourth column: \"蔥飯系列\" items:\n\n- 日式炸蝦飯 150\n- 泰式炸魚飯 150\n- 日式厚切炸豬排飯 170\n- 秘制唐揚雞腿飯 180\n- 紅棗燉鮮菇燴飯(素食) 180\n- 鹽烤海盜鯖魚飯 190\n- 日式蒲燒鰻魚飯 280\n- 卵心干貝丼飯 299\n\nFifth column: \"炸物\" items:\n\n- 秘制唐揚雞 130\n- 雞塊 60\n- 洋蔥圈 60\n- 黃金脆薯 60\n- 台灣雙色燴蛋 60\n- 酥炸鱈魚條 80\n- 日式炸蝦 99\n- 日式厚切炸豬排 120\n- 酥炸時蔬 150\n- 焙岩蝦球 (小份) 150\n- 焙岩蝦球 (大份) 280\n- 酥炸軟殼蟹 180\n- 炸排拼盤 250\n- 酥炸大牡蠣 250\n\nSixth column: \"烤物\" items:\n\n- 義式烤菇 79\n- 椒鹽節瓜 85\n- 明太子玉子燒 119\n- 海盜鯖魚 140\n- 明太子鮮殼蒜 150\n- 烤香魷魚 190\n- 啤酒儿松阪豬 200\n- 蒲燒鰻魚 220\n- 鹽烤海大蝦 (8隻) 280\n- 焙烤大龍蝦 988 (超好吃) maybe note.\n\nAlso \"超好吃\" is a note.\n\nSeventh column: \"超前壞系列\" items:\n\n- 雙龍強珠鍋 1288\n- 海王的日常 1680\n\nEighth column: \"加料區\" items (add-ons). This is a grid:\n\n- 高麗菜 30\n- 菜 30 (maybe \"菜\" is generic)\n- 猪肉 60\n- 牛肉 70\n- 玉米 30\n- 花椰菜 30\n- 蛋 15\n- 豬肉 60 (duplicate? maybe \"豬肉\" again)\n- 牛肉 70 (duplicate)\n- 王子麵 20\n- 意麵 20\n- 寬冬粉 20\n- 讚岐烏龍麵 30\n- 白飯 20\n- 蛤 65\n- 蝦 65\n- 鯛魚片 65\n- 鳚魚片 65\n- 干貝 80\n\nAlso there are \"湯頭任選\" items: \"昆布 +10\", \"番茄 +10\", \"海鮮 +10\", \"鳳珠 +30\", \"泡菜 +20\". Also \"副餐任選\" items: \"寬冬粉\", \"雞絲麵\", \"讚岐烏龍麵 +20\", \"雞絲麵 +20\", \"雞絲麵 +20\"? Let's read: \"副餐任選一：番茄+10\", \"泡菜+10\", \"沙茶+10\", \"鳳珠+30\", \"海菜+20\". Also \"副餐任選一\" maybe not a separate category but part of notes.\n\nAlso \"加料區\" includes \"高麗菜 30\", \"菜 30\", \"猪肉 60\", \"牛肉 70\", \"玉米 30\", \"花椰菜 30\", \"蛋 15\". Also \"豬肉 60\", \"牛肉 70\", \"王子麵 20\", \"意麵 20\", \"寬冬粉 20\", \"讚岐烏龍麵 30\", \"白飯 20\", \"蛤 65\", \"蝦 65\", \"鯛魚片 65\", \"鳚魚片 65\", \"干貝 80\". Also \"鱸魚圈 60\", \"澎湖小卷 80\". Also \"果號\", \"人數\" maybe not items.\n\nWe need to ensure we capture all items with price. For items with multiple price (e.g., 2入 vs 6入), we need to use the more obvious price (maybe larger? The rule: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So for \"日本大生蠔 (2入) 200\" and \"(6入) 520\", the more obvious maybe 520 (larger). But we need to decide. The \"more obvious\" maybe the larger price? Or the one that is more clearly indicated. The note says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So for \"日本大生蠔 (2入) 200\" and \"(6入) 520\", the more obvious maybe 520 (since it's larger and maybe more obvious). We'll set price 520, note \"(6入)\". Or maybe the other way: the smaller price is for 2 pieces, larger for 6 pieces; the more obvious maybe the larger. We'll set price 520, note \"(6入)\". For \"日本大生蠔 (2入) 200\", we could also include as separate item? But rule says only one entry per item; if there are two prices, choose the more obvious. So we will have one entry for \"日本大生蠔\" with price 520 and note \"(6入)\". But maybe we need to include both? The rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So we choose the more obvious price (maybe the larger) and note the other. So we will have one entry per item, with note containing the other price info.\n\nSimilarly for \"和風鱈魚肝沙拉 200\" maybe only one price.\n\nNow need to ensure unit: likely \"份\" (portion) for most items. For \"日本大生蠔 (6入)\" maybe unit \"份\"? Could be \"份\" as well. We'll set unit \"份\". For \"日本大生蠔 (6入) 520\", note \"(6入)\". For \"日本大生蠔 (2入) 200\", note \"(2入)\". But we only have one entry; maybe we need to include both? The rule says use the more obvious price. Which is more obvious? The larger price maybe more obvious. We'll choose 520 and note \"(6入)\". But then we lose the 200 info. Maybe we can include both as separate entries? The rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So we need one entry, with note containing the other price. So we will have \"日本大生蠔\" price 520, note \"(6入)\". The 200 is in note.\n\nNow need to ensure we capture all items. Let's go systematically.\n\nWe'll create a list of categories with items.\n\nCategory 1: 經典海鮮鍋燒\n\nItems:\n\n- 海鮮鍋: price 138, unit \"份\", note \"\"\n- 田園時蔬鍋: 138, note \"\"\n- 蛤蜊滿鍋: 195, note \"\"\n- 日式炸蝦鍋: 195, note \"\"\n- 金多蝦鍋: 200, note \"\"\n\nCheck if any other items under this category: maybe \"每鍋附、高麗菜、金針菇、香菇、小白菜、雞蛋\" is description, not item.\n\nCategory 2: 日料小品系列\n\nItems:\n\n- 紫蘇梅生菜: 60\n- 和風洋蔥沙拉: 79\n- 永愛大白蝦: 150\n- 永愛澎湖小沙拉: 180\n- 和風鱈魚肝沙拉: 200\n- 日本大生蠔 (2入): 200 -> note \"(2入)\"\n- 日本大生蠔 (6入): 520 -> note \"(6入)\"\n\nBut maybe \"日本大生蠔\" is one item with two options; we need to decide. Let's treat as separate items? The rule says if there are two prices, use the more obvious. Which is more obvious? The larger price (520) maybe more obvious. So we will have one entry: \"日本大生蠔\" price 520, note \"(6入)\". But then we lose the 200. Maybe we can include both as separate entries with notes? The rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So we need one entry per item, with note containing the other price. So we will have \"日本大生蠔\" price 520, note \"(6入)\". The 200 is in note.\n\nBut also \"和風鱈魚肝沙拉 200\" maybe only one price.\n\nCategory 3: 海鮮制霸系列\n\nItems:\n\n- 無敵痛風鍋: 260\n- 三鷄鍋: 260\n- 香炸牡蠣鍋: 265\n- 帆膩立蝦鍋: 280\n- 金虎龍蝦鍋: 280\n- 炸香魷魚鍋: 280\n- 蛤尼鮮貝鍋: 280\n- 澎湖小卷鍋: 280\n- 酥炸軟殼蟹: 290\n- 心肝貫貫鍋: 299\n- 精品鮑鍋: 299\n- 懶人大蝦鍋: 299 (鱸鱸三隻) note maybe \"(鱸鱸三隻)\"\n- 蟹蟹有你鍋: 399 (鱸鱸三隻) note \"(鱸鱸三隻)\"\n- 龍蝦割霸鍋: 988\n\nCheck if any other items: maybe \"湯頭任選\" not item.\n\nCategory 4: 蔥飯系列\n\nItems:\n\n- 日式炸蝦飯: 150\n- 泰式炸魚飯: 150\n- 日式厚切炸豬排飯: 170\n- 秘制唐揚雞腿飯: 180\n- 紅棗燉鮮菇燴飯(素食): 180\n- 鹽烤海盜鯖魚飯: 190\n- 日式蒲燒鰻魚飯: 280\n- 卵心干貝丼飯: 299\n\nCategory 5: 炸物\n\nItems:\n\n- 秘制唐揚雞: 130\n- 雞塊: 60\n- 洋蔥圈: 6",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 15.353171399998246,
+  "prompt_tokens": 2389,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "dongdong_hotpot",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6666666666666666,
+    "price_recall": 0.5555555555555556,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "海鮮鍋燒",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "田園時蔬鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛤蜊滿滿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "日式炸蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "金多蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "肉多多豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "龍蝦鍋霸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙龍強味鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "義式烤菇",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

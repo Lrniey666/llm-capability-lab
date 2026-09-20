@@ -1,0 +1,89 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "Okay, let's see. I need to convert the visible content of this restaurant menu into a JSON structure as per the given rules.\n\nFirst, the title. The menu has \"宜日三餐\" which is probably the restaurant name. So title should be \"宜日三餐\". If it's not visible, but here it's clearly there. Wait, the user says \"看不見就空字串\", but in the image, the title is visible. So title is \"宜日三餐\".\n\nCurrency is TWD as specified.\n\nNow, categories. The menu has several sections. Let's look at the headers. There's \"今日宜經典吃司\", \"今日宜經典蛋餅\", \"今日宜吃好料理\", \"今日宜風味單品\", \"今日宜好料蛋餅\", \"今日宜經典漢堡\". Wait, maybe the categories are the yellow headers. Let me check.\n\nLooking at the image:\n\n- The first yellow header is \"今日宜經典吃司\" (maybe \"今日宜 經典吃司\" but the exact text). Wait, the actual headers:\n\nLooking at the image:\n\n- Top right: \"宜日三餐\" (title)\n- Then there are several sections with yellow headers. Let's list them:\n\n1. \"今日宜經典吃司\" (maybe \"今日宜 經典吃司\" but the exact text is \"今日宜經典吃司\")\n2. \"今日宜經典蛋餅\"\n3. \"今日宜吃好料理\"\n4. \"今日宜風味單品\"\n5. \"今日宜好料蛋餅\"\n6. \"今日宜經典漢堡\"\n\nWait, but the user says \"categories\" are the分類名稱. Let's check each section.\n\nFirst, \"今日宜經典吃司\" – this seems to be a category. Let's check the items under it.\n\nUnder \"今日宜經典吃司\", the items are listed with prices. Let's see:\n\n- 香煎薯吐司: 30 (maybe 30 TWD)\n- 火腿吐司: 30\n- 肉鬆吐司: 30\n- 玉米薯吐司: 30\n- 薯餅吐司: 40\n- 薯餅吐司: 40 (maybe duplicate)\n- 鮪魚吐司: 40\n- 蛤蜊吐司: 40\n- 薯條吐司: 40\n- 薯條吐司: 40 (again)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n- 薯條吐司: 40 (maybe different)\n-",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.145869500003755,
+  "prompt_tokens": 2951,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 6,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1744582.jpg",
+  "mime": "image/jpeg",
+  "bytes": 185047,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"雷荷豆腐鍋專賣店\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"韓式鍋物（以下無副餐）\",\n      \"items\": [\n        {\"name\": \"豆腐鍋\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛/豬/雞/蛋（選一）豆腐鍋\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆腐鍋（加蔥）\", \"price\": 100, \"unit\": \"份\", \"note\": \"加蔥\"},\n        {\"name\": \"牛/豬/雞/蛋豆腐鍋（加蔥）\", \"price\": 120, \"unit\": \"份\", \"note\": \"加蔥\"},\n        {\"name\": \"牛/豬/雞/蛋 泡菜鍋\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司牛/豬/雞/蛋豆腐鍋\", \"price\": 140, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤豬五花（附白飯）\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"#加肉片35、加豬五花60、起司片10、升級泡菜鍋+20\",\n      \"items\": []\n    },\n    {\n      \"name\": \"特色小吃\",\n      \"items\": [\n        {\"name\": \"麻藥雞蛋\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"韓式魚板\", \"price\": 35, \"unit\": \"份\", \"note\": \"3支100\"},\n        {\"name\": \"雞肉棒子（青蔥/米香）\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"辣炒年糕\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"韓式炸雞（小/大）（洋蔥/粉紅/蜂蜜）\", \"price\": 100, \"unit\": \"份\", \"note\": \"大150\"},\n        {\"name\": \"地瓜薯條\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋捲\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生蜂蜜麻糬\", \"price\": 25, \"unit\": \"個\", \"note\": \"3個70\"}\n      ]\n    },\n    {\n      \"name\": \"人氣附餐\",\n      \"items\": [\n        {\"name\": \"白飯/冬粉/王子麵\", \"price\": 10, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Q拉麵\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"營業時間：下午17點 ~ 半夜2點 週日公休\",\n    \"電話：0926067151\",\n    \"內用\",\n    \"外帶\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "雷荷豆腐鍋專賣店",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "韓式鍋物（以下無副餐）",
+        "items": [
+          {
+            "name": "豆腐鍋",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛/豬/雞/蛋（選一）豆腐鍋",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豆腐鍋（加蔥）",
+            "price": 100,
+            "unit": "份",
+            "note": "加蔥"
+          },
+          {
+            "name": "牛/豬/雞/蛋豆腐鍋（加蔥）",
+            "price": 120,
+            "unit": "份",
+            "note": "加蔥"
+          },
+          {
+            "name": "牛/豬/雞/蛋 泡菜鍋",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司牛/豬/雞/蛋豆腐鍋",
+            "price": 140,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "烤豬五花（附白飯）",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "#加肉片35、加豬五花60、起司片10、升級泡菜鍋+20",
+        "items": []
+      },
+      {
+        "name": "特色小吃",
+        "items": [
+          {
+            "name": "麻藥雞蛋",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "韓式魚板",
+            "price": 35,
+            "unit": "份",
+            "note": "3支100"
+          },
+          {
+            "name": "雞肉棒子（青蔥/米香）",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "辣炒年糕",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "韓式炸雞（小/大）（洋蔥/粉紅/蜂蜜）",
+            "price": 100,
+            "unit": "份",
+            "note": "大150"
+          },
+          {
+            "name": "地瓜薯條",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司蛋捲",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花生蜂蜜麻糬",
+            "price": 25,
+            "unit": "個",
+            "note": "3個70"
+          }
+        ]
+      },
+      {
+        "name": "人氣附餐",
+        "items": [
+          {
+            "name": "白飯/冬粉/王子麵",
+            "price": 10,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Q拉麵",
+            "price": 15,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "營業時間：下午17點 ~ 半夜2點 週日公休",
+      "電話：0926067151",
+      "內用",
+      "外帶"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 12.407355200004531,
+  "prompt_tokens": 2449,
+  "completion_tokens": 857,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "leihe_tofu",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "雷荷豆腐鍋專賣店",
+    "title_hit": true,
+    "item_count": 17,
+    "anchor_n": 13,
+    "name_json_recall": 0.9230769230769231,
+    "price_json_recall": 0.8461538461538461,
+    "name_recall": 0.9230769230769231,
+    "price_recall": 0.9230769230769231,
+    "extra_names": [
+      "牛/豬/雞/蛋 泡菜鍋",
+      "白飯/冬粉/王子麵"
+    ],
+    "hallucination_n": 2,
+    "anchors": [
+      {
+        "name": "豆腐鍋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豆漿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "起司豆腐鍋",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "烤豬五花",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "麻藥雞蛋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "韓式魚板",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "雞肉棒子",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "辣炒年糕",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "韓式炸雞",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "地瓜薯條",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司蛋捲",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "花生蜂蜜麻糬",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Q拉麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

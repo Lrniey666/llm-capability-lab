@@ -1,0 +1,547 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "{\n  \"title\": \"MWD Coffee & Brands\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"STEP 1 選主餅\",\n      \"items\": [\n        {\n          \"name\": \"BURGER\",\n          \"items_burger\": [\n            {\"name\": \"香草牛排\", \"price\": 35},\n            {\"name\": \"雞蛋沙拉\", \"price\": 40},\n            {\"name\": \"豬肉起司\", \"price\": 40},\n            {\"name\": \"豬肉起司+雞蛋\", \"price\": 45},\n            {\"name\": \"雞腿起司\", \"price\": 45},\n            {\"name\": \"雞腿起司+雞蛋\", \"price\": 45},\n            {\"name\": \"雞腿起司+雞蛋+起司\", \"price\": 45},\n            {\"name\": \"雞腿起司+雞蛋+起司+香草\", \"price\": 45},\n            {\"name\": \"雞腿起司+雞蛋+起司+雞蛋\", \"price\": 50},\n            {\"name\": \"雞腿起司+雞蛋+起司+雞蛋+香草\", \"price\": 50},\n            {\"name\": \"雞腿起司+雞蛋+起司+雞蛋+雞蛋\", \"price\": 55},\n            {\"name\": \"雞腿起司+雞蛋+起司+雞蛋+雞蛋+香草\", \"price\": 60},\n            {\"name\": \"雞腿起司+雞蛋+雞蛋起司+雞蛋+雞蛋+雞蛋\", \"price\": 65},\n            {\"name\": \"超厚雞腿起司\", \"price\": 70},\n            {\"name\": \"超厚雞腿起司+雞蛋\", \"price\": 75},\n            {\"name\": \"超厚雞腿起司+雞蛋+雞蛋起司\", \"price\": 85}\n          ]\n        },\n        {\n          \"name\": \"TOAST\",\n          \"items_burger\": [\n            {\"name\": \"雞蛋沙拉\", \"price\": 40},\n            {\"name\": \"豬肉起司\", \"price\": 45},\n            {\"name\": \"雞腿起司\", \"price\": 50},\n            {\"name\": \"雞腿起司+雞蛋\", \"price\": 55}\n          ]\n        },\n        {\n          \"name\": \"DANISH BURGER\",\n          \"items_burger\": [\n            {\"name\": \"雞蛋沙拉\", \"price\": 50},\n            {\"name\": \"豬肉起司\", \"price\": 55},\n            {\"name\": \"雞腿起司\", \"price\": 60},\n            {\"name\": \"雞腿起司+雞蛋\", \"price\": 60},\n            {\"name\": \"雞腿起司+雞蛋+起司\", \"price\": 65},\n            {\"name\": \"超厚雞腿起司\", \"price\": 80},\n            {\"name\": \"超厚雞腿起司+雞蛋\", \"price\": 100}\n          ]\n        },\n        {\n          \"name\": \"CROISSANT\",\n          \"items_burger\": [\n            {\"name\": \"雞蛋起司\", \"price\": 45},\n            {\"name\": \"雞蛋起司+雞蛋\", \"price\": 50},\n            {\"name\": \"雞蛋起司+雞蛋+雞蛋\", \"price\": 55},\n            {\"name\": \"雞蛋起司+雞蛋+雞蛋+起司\", \"price\": 60},\n            {\"name\": \"雞蛋起司+雞蛋+雞蛋+起司+香草\", \"price\": 65},\n            {\"name\": \"雞蛋起司+雞蛋+雞蛋+起司+雞蛋\", \"price\": 70},\n            {\"name\": \"雞蛋起司+雞蛋+雞蛋+起司+雞蛋+香草\", \"price\": 75}\n          ]\n        },\n        {\n          \"name\": \"MUFFIN\",\n          \"items_burger\": [\n            {\"name\": \"雞蛋起司\", \"price\": 45},\n            {\"name\": \"雞蛋起司+雞蛋\", \"price\": 50},\n            {\"name\": \"雞蛋起司+雞蛋+起司\", \"price\": 55},\n            {\"name\": \"雞蛋起司+雞蛋+起司+雞蛋\", \"price\": 60},\n            {\"name\": \"雞蛋起司+雞蛋+起司+雞蛋+香草\", \"price\": 70},\n            {\"name\": \"特殊雞蛋起司\", \"price\": 75}\n          ]\n        }\n      ]\n    },\n    {\n      \"name\": \"STEP 2 搭配升級餅\",\n      \"items_upgrade\": [\n        {\"name\": \"A\", \"price\": 40, \"note\": \"+s40\"},\n        {\"name\": \"B\", \"price\": 55, \"note\": \"+s55\"},\n        {\"name\": \"C\", \"price\": 55, \"note\": \"+s55\"}\n      ],\n      \"snacks\": [\n        {\"name\": \"雞蛋炒飯\", \"price\": 25},\n        {\"name\": \"法國烤肉\", \"price\": 35},\n        {\"name\": \"雞蛋煎蛋\", \"price\": 40},\n        {\"name\": \"黃豆蛋餅\", \"price\": 40},\n        {\"name\": \"時蔬燒餅\", \"price\": 50},\n        {\"name\": \"根茶燒餅\", \"price\": 50},\n        {\"name\": \"四角餅\", \"price\": 40},\n        {\"name\": \"雞蛋餅\", \"price\": 45},\n        {\"name\": \"牛肉餅\", \"price\": 45}\n      ],\n      \"soup\": [\n        {\"name\": \"四角麵線湯\", \"price\": 30},\n        {\"name\": \"牛肉麵線湯\", \"price\": 45},\n        {\"name\": \"雞蛋湯\", \"price\": 30}\n      ]\n    },\n    {\n      \"name\": \"中式系列 CHINESE MERL\",\n      \"items\": [\n        {\"name\": \"原味雞蛋餅\", \"price\": 30},\n        {\"name\": \"雞蛋沙拉餅\", \"price\": 45},\n        {\"name\": \"雞蛋起司餅\", \"price\": 50},\n        {\"name\": \"雞蛋雞蛋起司餅\", \"price\": 50},\n        {\"name\": \"雞蛋雞蛋雞蛋起司餅\", \"price\": 55},\n        {\"name\": \"雞蛋雞蛋雞蛋雞蛋起司餅\", \"price\": 65},\n        {\"name\": \"雞蛋雞蛋雞蛋雞蛋雞蛋起司餅\", \"price\": 65},\n        {\"name\": \"雞蛋雞蛋雞蛋雞蛋起司+香草餅\", \"price\": 65},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+雞蛋起司\", \"price\": 65},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+雞蛋起司+雞蛋\", \"price\": 70},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司+雞蛋\", \"price\": 65}\n      ]\n    },\n    {\n      \"name\": \"熱盤系列 HOT PLATE NOODLES\",\n      \"items\": [\n        {\"name\": \"雞蛋起司\", \"price\": 50},\n        {\"name\": \"雞蛋雞蛋起司\", \"price\": 50},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋\", \"price\": 55},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司\", \"price\": 60},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司+香草\", \"price\": 65},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司+雞蛋\", \"price\": 70},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司+雞蛋+香草\", \"price\": 75},\n        {\"name\": \"雞蛋雞蛋起司+雞蛋+起司+雞蛋+雞蛋\", \"price\": 80}\n      ]\n    },\n    {\n      \"name\": \"換盤系列 SPREADS\",\n      \"items\": [\n        {\"name\": \"雞蛋起司\", \"price\": 40},\n        {\"name\": \"雞蛋起司+雞蛋\", \"price\": 50},\n        {\"name\": \"雞蛋起司+雞蛋+起司\", \"price\": 55},\n        {\"name\": \"雞蛋起司+雞蛋+起司+香草\", \"price\": 60}\n      ]\n    },\n    {\n      \"name\": \"麵包餅 PANCAKE ROLL WITH EGG\",\n      \"items\": [\n        {\"name\": \"雞蛋起司\", \"price\": 50}\n      ]\n    },\n    {\n      \"name\": \"沙拉系列 SALAD\",\n      \"items\": [\n        {\"name\": \"雞蛋沙拉\", \"price\": 70},\n        {\"name\": \"雞蛋起司沙拉\", \"price\": 75},\n        {\"name\": \"雞蛋起司+雞蛋沙拉\", \"price\": 80}\n      ]\n    },\n    {\n      \"name\": \"COFFEE\",\n      \"items\": [\n        {\"name\": \"美式咖啡\", \"price\": 40},\n        {\"name\": \"拿鐵咖啡\", \"price\": 50},\n        {\"name\": \"焦糖拿鐵\", \"price\": 55},\n        {\"name\": \"紅茶\", \"price\": 20},\n        {\"name\": \"手搖雪茶\", \"price\": 25},\n        {\"name\": \"雞蛋紅茶\", \"price\": 30},\n        {\"name\": \"紅茶拿鐵\", \"price\": 35},\n        {\"name\": \"雞蛋紅茶拿鐵\", \"price\": 40},\n        {\"name\": \"雞蛋紅茶拿鐵+香草\", \"price\": 50}\n      ]\n    },\n    {\n      \"name\": \"ORINKS\",\n      \"items\": [\n        {\"name\": \"紅茶\", \"price\": 20},\n        {\"name\": \"手搖雪茶\", \"price\": 25},\n        {\"name\": \"雞蛋紅茶\", \"price\": 30},\n        {\"name\": \"紅茶拿鐵\", \"price\": 35},\n        {\"name\": \"雞蛋紅茶拿鐵\", \"price\": 40},\n        {\"name\": \"可可牛奶\", \"price\": 40},\n        {\"name\": \"金雞納包茶\", \"price\": 35}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"MWD 咖啡品牌\",\n    \"LINE 內外餐\",\n    \"升級選擇可搭配升級餅\",\n    \"升級餅價格+40、+55、+55\",\n    \"看不清部分品項及價格\",\n    \"2023年2年前更新\",\n    \"全員勞工加薪2年\",\n    \"MWD 2022 人均加薪2年\",\n    \"APP推出\"\n  ]\n}",
+  "parsed": {
+    "title": "MWD Coffee & Brands",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "STEP 1 選主餅",
+        "items": [
+          {
+            "name": "BURGER",
+            "items_burger": [
+              {
+                "name": "香草牛排",
+                "price": 35
+              },
+              {
+                "name": "雞蛋沙拉",
+                "price": 40
+              },
+              {
+                "name": "豬肉起司",
+                "price": 40
+              },
+              {
+                "name": "豬肉起司+雞蛋",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司+雞蛋",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司+香草",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司+雞蛋",
+                "price": 50
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司+雞蛋+香草",
+                "price": 50
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司+雞蛋+雞蛋",
+                "price": 55
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司+雞蛋+雞蛋+香草",
+                "price": 60
+              },
+              {
+                "name": "雞腿起司+雞蛋+雞蛋起司+雞蛋+雞蛋+雞蛋",
+                "price": 65
+              },
+              {
+                "name": "超厚雞腿起司",
+                "price": 70
+              },
+              {
+                "name": "超厚雞腿起司+雞蛋",
+                "price": 75
+              },
+              {
+                "name": "超厚雞腿起司+雞蛋+雞蛋起司",
+                "price": 85
+              }
+            ]
+          },
+          {
+            "name": "TOAST",
+            "items_burger": [
+              {
+                "name": "雞蛋沙拉",
+                "price": 40
+              },
+              {
+                "name": "豬肉起司",
+                "price": 45
+              },
+              {
+                "name": "雞腿起司",
+                "price": 50
+              },
+              {
+                "name": "雞腿起司+雞蛋",
+                "price": 55
+              }
+            ]
+          },
+          {
+            "name": "DANISH BURGER",
+            "items_burger": [
+              {
+                "name": "雞蛋沙拉",
+                "price": 50
+              },
+              {
+                "name": "豬肉起司",
+                "price": 55
+              },
+              {
+                "name": "雞腿起司",
+                "price": 60
+              },
+              {
+                "name": "雞腿起司+雞蛋",
+                "price": 60
+              },
+              {
+                "name": "雞腿起司+雞蛋+起司",
+                "price": 65
+              },
+              {
+                "name": "超厚雞腿起司",
+                "price": 80
+              },
+              {
+                "name": "超厚雞腿起司+雞蛋",
+                "price": 100
+              }
+            ]
+          },
+          {
+            "name": "CROISSANT",
+            "items_burger": [
+              {
+                "name": "雞蛋起司",
+                "price": 45
+              },
+              {
+                "name": "雞蛋起司+雞蛋",
+                "price": 50
+              },
+              {
+                "name": "雞蛋起司+雞蛋+雞蛋",
+                "price": 55
+              },
+              {
+                "name": "雞蛋起司+雞蛋+雞蛋+起司",
+                "price": 60
+              },
+              {
+                "name": "雞蛋起司+雞蛋+雞蛋+起司+香草",
+                "price": 65
+              },
+              {
+                "name": "雞蛋起司+雞蛋+雞蛋+起司+雞蛋",
+                "price": 70
+              },
+              {
+                "name": "雞蛋起司+雞蛋+雞蛋+起司+雞蛋+香草",
+                "price": 75
+              }
+            ]
+          },
+          {
+            "name": "MUFFIN",
+            "items_burger": [
+              {
+                "name": "雞蛋起司",
+                "price": 45
+              },
+              {
+                "name": "雞蛋起司+雞蛋",
+                "price": 50
+              },
+              {
+                "name": "雞蛋起司+雞蛋+起司",
+                "price": 55
+              },
+              {
+                "name": "雞蛋起司+雞蛋+起司+雞蛋",
+                "price": 60
+              },
+              {
+                "name": "雞蛋起司+雞蛋+起司+雞蛋+香草",
+                "price": 70
+              },
+              {
+                "name": "特殊雞蛋起司",
+                "price": 75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "STEP 2 搭配升級餅",
+        "items_upgrade": [
+          {
+            "name": "A",
+            "price": 40,
+            "note": "+s40"
+          },
+          {
+            "name": "B",
+            "price": 55,
+            "note": "+s55"
+          },
+          {
+            "name": "C",
+            "price": 55,
+            "note": "+s55"
+          }
+        ],
+        "snacks": [
+          {
+            "name": "雞蛋炒飯",
+            "price": 25
+          },
+          {
+            "name": "法國烤肉",
+            "price": 35
+          },
+          {
+            "name": "雞蛋煎蛋",
+            "price": 40
+          },
+          {
+            "name": "黃豆蛋餅",
+            "price": 40
+          },
+          {
+            "name": "時蔬燒餅",
+            "price": 50
+          },
+          {
+            "name": "根茶燒餅",
+            "price": 50
+          },
+          {
+            "name": "四角餅",
+            "price": 40
+          },
+          {
+            "name": "雞蛋餅",
+            "price": 45
+          },
+          {
+            "name": "牛肉餅",
+            "price": 45
+          }
+        ],
+        "soup": [
+          {
+            "name": "四角麵線湯",
+            "price": 30
+          },
+          {
+            "name": "牛肉麵線湯",
+            "price": 45
+          },
+          {
+            "name": "雞蛋湯",
+            "price": 30
+          }
+        ]
+      },
+      {
+        "name": "中式系列 CHINESE MERL",
+        "items": [
+          {
+            "name": "原味雞蛋餅",
+            "price": 30
+          },
+          {
+            "name": "雞蛋沙拉餅",
+            "price": 45
+          },
+          {
+            "name": "雞蛋起司餅",
+            "price": 50
+          },
+          {
+            "name": "雞蛋雞蛋起司餅",
+            "price": 50
+          },
+          {
+            "name": "雞蛋雞蛋雞蛋起司餅",
+            "price": 55
+          },
+          {
+            "name": "雞蛋雞蛋雞蛋雞蛋起司餅",
+            "price": 65
+          },
+          {
+            "name": "雞蛋雞蛋雞蛋雞蛋雞蛋起司餅",
+            "price": 65
+          },
+          {
+            "name": "雞蛋雞蛋雞蛋雞蛋起司+香草餅",
+            "price": 65
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+雞蛋起司",
+            "price": 65
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+雞蛋起司+雞蛋",
+            "price": 70
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司+雞蛋",
+            "price": 65
+          }
+        ]
+      },
+      {
+        "name": "熱盤系列 HOT PLATE NOODLES",
+        "items": [
+          {
+            "name": "雞蛋起司",
+            "price": 50
+          },
+          {
+            "name": "雞蛋雞蛋起司",
+            "price": 50
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋",
+            "price": 55
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司",
+            "price": 60
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司+香草",
+            "price": 65
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司+雞蛋",
+            "price": 70
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司+雞蛋+香草",
+            "price": 75
+          },
+          {
+            "name": "雞蛋雞蛋起司+雞蛋+起司+雞蛋+雞蛋",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "name": "換盤系列 SPREADS",
+        "items": [
+          {
+            "name": "雞蛋起司",
+            "price": 40
+          },
+          {
+            "name": "雞蛋起司+雞蛋",
+            "price": 50
+          },
+          {
+            "name": "雞蛋起司+雞蛋+起司",
+            "price": 55
+          },
+          {
+            "name": "雞蛋起司+雞蛋+起司+香草",
+            "price": 60
+          }
+        ]
+      },
+      {
+        "name": "麵包餅 PANCAKE ROLL WITH EGG",
+        "items": [
+          {
+            "name": "雞蛋起司",
+            "price": 50
+          }
+        ]
+      },
+      {
+        "name": "沙拉系列 SALAD",
+        "items": [
+          {
+            "name": "雞蛋沙拉",
+            "price": 70
+          },
+          {
+            "name": "雞蛋起司沙拉",
+            "price": 75
+          },
+          {
+            "name": "雞蛋起司+雞蛋沙拉",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "name": "COFFEE",
+        "items": [
+          {
+            "name": "美式咖啡",
+            "price": 40
+          },
+          {
+            "name": "拿鐵咖啡",
+            "price": 50
+          },
+          {
+            "name": "焦糖拿鐵",
+            "price": 55
+          },
+          {
+            "name": "紅茶",
+            "price": 20
+          },
+          {
+            "name": "手搖雪茶",
+            "price": 25
+          },
+          {
+            "name": "雞蛋紅茶",
+            "price": 30
+          },
+          {
+            "name": "紅茶拿鐵",
+            "price": 35
+          },
+          {
+            "name": "雞蛋紅茶拿鐵",
+            "price": 40
+          },
+          {
+            "name": "雞蛋紅茶拿鐵+香草",
+            "price": 50
+          }
+        ]
+      },
+      {
+        "name": "ORINKS",
+        "items": [
+          {
+            "name": "紅茶",
+            "price": 20
+          },
+          {
+            "name": "手搖雪茶",
+            "price": 25
+          },
+          {
+            "name": "雞蛋紅茶",
+            "price": 30
+          },
+          {
+            "name": "紅茶拿鐵",
+            "price": 35
+          },
+          {
+            "name": "雞蛋紅茶拿鐵",
+            "price": 40
+          },
+          {
+            "name": "可可牛奶",
+            "price": 40
+          },
+          {
+            "name": "金雞納包茶",
+            "price": 35
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "MWD 咖啡品牌",
+      "LINE 內外餐",
+      "升級選擇可搭配升級餅",
+      "升級餅價格+40、+55、+55",
+      "看不清部分品項及價格",
+      "2023年2年前更新",
+      "全員勞工加薪2年",
+      "MWD 2022 人均加薪2年",
+      "APP推出"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 17.419353000004776,
+  "prompt_tokens": 2041,
+  "completion_tokens": 2965,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "MWD Coffee & Brands",
+    "title_hit": true,
+    "item_count": 48,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

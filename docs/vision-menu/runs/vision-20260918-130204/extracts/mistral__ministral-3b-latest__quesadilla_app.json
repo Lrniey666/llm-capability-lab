@@ -1,0 +1,114 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-174923.png",
+  "mime": "image/png",
+  "bytes": 1977290,
+  "ok": true,
+  "text": "{\n  \"title\": \"人氣單點\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"精選炸物\",\n      \"items\": [\n        {\"name\": \"起司鈕餅 Quesadilla\", \"price\": 129, \"unit\": \"份\"},\n        {\"name\": \"NT$99 套餐\", \"price\": 0, \"unit\": \"\", \"note\": \"NT$99\"},\n        {\"name\": \"火烤雞胸起司鈕餅 Grilled Chicken Quesadilla\", \"price\": 169, \"unit\": \"份\"},\n        {\"name\": \"墨西哥燻豬起司鈕餅 Carnitas Quesadilla\", \"price\": 179, \"unit\": \"份\"},\n        {\"name\": \"火烤牛排起司鈕餅 Steak Quesadilla\", \"price\": 209, \"unit\": \"份\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"現煮研磨\",\n    \"C3H6N6 Lee: 10個月前\",\n    \"shop.ichefpos.com\"\n  ]\n}",
+  "parsed": {
+    "title": "人氣單點",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "精選炸物",
+        "items": [
+          {
+            "name": "起司鈕餅 Quesadilla",
+            "price": 129,
+            "unit": "份"
+          },
+          {
+            "name": "NT$99 套餐",
+            "price": 0,
+            "unit": "",
+            "note": "NT$99"
+          },
+          {
+            "name": "火烤雞胸起司鈕餅 Grilled Chicken Quesadilla",
+            "price": 169,
+            "unit": "份"
+          },
+          {
+            "name": "墨西哥燻豬起司鈕餅 Carnitas Quesadilla",
+            "price": 179,
+            "unit": "份"
+          },
+          {
+            "name": "火烤牛排起司鈕餅 Steak Quesadilla",
+            "price": 209,
+            "unit": "份"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "現煮研磨",
+      "C3H6N6 Lee: 10個月前",
+      "shop.ichefpos.com"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 27.128700000001118,
+  "prompt_tokens": 1734,
+  "completion_tokens": 275,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "quesadilla_app",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "人氣單點",
+    "title_hit": true,
+    "item_count": 5,
+    "anchor_n": 4,
+    "name_json_recall": 1.0,
+    "price_json_recall": 1.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [
+      "NT$99 套餐"
+    ],
+    "hallucination_n": 1,
+    "anchors": [
+      {
+        "name": "起司餡餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤雞胸起司餡餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "墨西哥燉豬起司餡餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤牛排起司餡餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

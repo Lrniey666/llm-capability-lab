@@ -1,0 +1,116 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1746412.jpg",
+  "mime": "image/jpeg",
+  "bytes": 136760,
+  "ok": true,
+  "text": "{\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"主菜 Main Course\",\n      \"items\": [\n        {\"name\": \"紐西蘭菲力牛排\", \"price\": 790, \"unit\": \"套餐\", \"note\": \"單點 450\"},\n        {\"name\": \"宜蘭櫻桃鴨胸\", \"price\": 790, \"unit\": \"套餐\", \"note\": \"單點 450\"},\n        {\"name\": \"拓威鮭魚排\", \"price\": 590, \"unit\": \"套餐\", \"note\": \"單點 380\"},\n        {\"name\": \"台灣灣松陰豬\", \"price\": 560, \"unit\": \"套餐\", \"note\": \"單點 350\"},\n        {\"name\": \"香煎雞腿排\", \"price\": 560, \"unit\": \"套餐\", \"note\": \"單點 350\"}\n      ]\n    },\n    {\n      \"name\": \"單點 Single Point\",\n      \"items\": [\n        {\"name\": \"炸烤草蟲（2隻）\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鐵板起司片（3片）\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奶油椒瓜\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"荷包蛋\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"套餐紅茶可+30升級以下飲品（選一）\",\n    \"可樂/可爾必思/Tree top蘑果汁\"\n  ]\n}\n}",
+  "parsed": null,
+  "parse_error": "Extra data: line 29 column 1 (char 891)",
+  "latency_s": 4.871263100008946,
+  "prompt_tokens": 2129,
+  "completion_tokens": 457,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "gt_teppanyaki",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6666666666666666,
+    "price_recall": 0.6666666666666666,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "紐西蘭菲力牛排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "宜蘭櫻桃鴨胸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "挪威鮭魚排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "台灣松阪豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "香煎雞腿排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "焗烤草蝦",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鉄板起司片",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "奶油櫛瓜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

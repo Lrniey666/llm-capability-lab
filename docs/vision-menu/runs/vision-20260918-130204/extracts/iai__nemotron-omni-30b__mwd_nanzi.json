@@ -1,0 +1,62 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "We need to parse the menu image. It's a Taiwanese restaurant menu. We need to output JSON with title, currency, categories (list of category objects with name and items list). Items have name, price (number), unit (\"份\"), note (string). Also notes list for other text.\n\nWe must not guess unclear items. Look at visible parts.\n\nTitle: maybe \"MWD Cafe & Brunch\" or \"日日均衡餐餐美味\". The top left shows \"MWD Cafe & Brunch\". Also \"日日均衡餐餐美味\". Title likely \"MWD Cafe & Brunch\". But maybe the menu title is \"日日均衡餐餐美味\". The instruction: title = menu title or store name, if not visible then empty string. The store name is visible: \"MWD Cafe & Brunch\". Also Chinese \"日日均衡餐餐美味\". Which is title? Probably store name. Let's set title: \"MWD Cafe & Brunch\". If uncertain, maybe empty. But it's visible.\n\nCurrency: TWD.\n\nCategories: We need to identify categories. The menu is divided into sections: \"STEP 1 選主餐\" (choose main). Then subcategories: BURGER, TOAST, DANISH, CROISSANT, MUFFIN, 中式系列 CHINESE MEAL, 鐵板麵系列 HOT PLATE NOODLES, 擺盤捲餅 PANCAKE ROLL WITH EGG, 沙拉系列 SALAD, etc. Also \"STEP 2 搭配升級套餐\" includes \"點心系列 SNACKS\", \"湯品系列 SOUP\", \"研磨咖啡 COFFEE\", \"風味飲品 DRINKS\". Also \"升級套餐 UPGRADE\" with A, B, C.\n\nWe need to list categories as they appear. Let's extract items.\n\nFirst, BURGER section: items with prices. Let's list visible items:\n\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nBut need to verify each line. The image may have some items not fully clear. Let's examine BURGER column:\n\nFrom top:\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nAlso maybe \"黑胡椒豬里肌\" etc. We'll include as listed.\n\nUnit: \"份\" (portion). Note: maybe some have \"單點\" vs \"套餐\". The note says if both prices exist, use the clearer one. Here each line seems single price. So note empty.\n\nNext TOAST section: items:\n\n- 香雞 $35? Wait that's burger. Let's read TOAST column:\n\nTOAST items:\n- 香雞 $35? Actually maybe \"香雞\" is also in toast? Let's see. The column header \"TOAST 湯種\". Items:\n\n- 香雞 $35? Not sure. Let's read:\n\nList:\n- 香雞 $35 (maybe)\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nBut that's same as burger? Actually the menu seems to have overlapping items across categories. Let's examine more carefully.\n\nThe image shows columns:\n\n- BURGER (leftmost)\n- TOAST (next)\n- DANISH\n- CROISSANT\n- MUFFIN\n\nBut the items listed under each may be similar. Let's parse each column.\n\nBURGER column (first after \"BURGER 湯堡\"):\n\nList:\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nTOAST column (header \"TOAST 湯種\"):\n\nList:\n- 香雞 $35? Actually maybe \"香雞\" is also in toast? Let's read:\n\n- 香雞 $35 (maybe)\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nBut that's identical to burger? Might be duplication due to layout. Let's examine actual image: The BURGER column includes items like \"香雞\", \"豬肉\", \"鮮蟹沙拉\", \"鮮蔬\", \"鮪魚\", \"軟炒蛋\", \"炒蛋堡\", \"檸檬雞\", \"燻雞\", \"黑胡椒豬里肌\", \"卡滋雞\", \"超厚雞肉起司\", \"超厚牛肉起司\", \"超厚豬肉\", \"原燒嫩雞起司\". The TOAST column maybe includes same items but maybe different names? Let's read again.\n\nActually the BURGER column header is \"BURGER 湯堡\". The items under BURGER are:\n\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nThe TOAST column header \"TOAST 湯種\". Items:\n\n- 香雞 $35? Wait maybe \"香雞\" is also in toast? Let's read:\n\n- 香雞 $35 (maybe)\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nBut that's same as burger. Maybe the BURGER column includes \"BURGER\" and \"TOAST\" are separate categories but items are overlapping? Actually maybe the BURGER column includes \"BURGER\" items, while TOAST column includes \"TOAST\" items (like toast with toppings). The list may be same but maybe different items. Let's examine more carefully.\n\nThe image shows:\n\nUnder \"BURGER 湯堡\" (maybe \"BURGER\" and \"湯堡\" meaning \"sandwich\"?). Items:\n\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nUnder \"TOAST 湯種\" (maybe \"TOAST\" with \"湯種\" meaning \"soup\"?). Items:\n\n- 香雞 $35? Not sure. Let's read:\n\n- 香雞 $35 (maybe)\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 炒蛋堡 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nBut that's same as burger. Could be that the menu repeats categories. However maybe the BURGER column includes \"BURGER\" and \"TOAST\" are separate but the items are same? That seems odd.\n\nLet's examine DANISH column:\n\nHeader \"DANISH 丹麥堡\". Items:\n\n- 香雞 $50\n- 豬肉 $55\n- 鮮蟹沙拉 $55\n- 鮮蔬 $55\n- 鮪魚 $60\n- 軟炒蛋 $60\n- 炒蛋堡 $60\n- 檸檬雞 $60\n- 燻雞 $60\n- 黑胡椒豬里肌 $65\n- 卡滋雞 $80\n- 超厚雞肉起司 $85\n- 超厚牛肉起司 $85\n- 原燒嫩雞起司 $100\n\nCROISSANT column:\n\nHeader \"CROISSANT 可頌\". Items:\n\n- 歐姆蛋 $45\n- 火腿薯餅 $45\n- 豬肉起司 $50\n- 鮪魚 $55\n- 黑胡椒豬里肌 $55\n- 超厚雞肉起司 $60\n- 花生厚牛起司 $70\n- 原燒嫩雞起司 $70\n- 豐菇起司 $70\n- 超厚豬肉起司 $75\n\nMUFFIN column:\n\nHeader \"MUFFIN 滿分堡\". Items:\n\n- 歐姆蛋 $45\n- 火腿薯餅 $45\n- 豬肉起司 $50\n- 鮪魚 $55\n- 黑胡椒豬里肌 $55\n- 超厚雞肉起司 $60\n- 花生厚牛起司 $70\n- 原燒嫩雞起司 $70\n- 豐菇起司 $70\n- 超厚豬肉起司 $75\n\nNow Chinese Meal (中式系列 CHINESE MEAL) column:\n\nList:\n\n- 原味蛋餅 $30\n- 鮮蔬玉米蛋餅 $45\n- 鮪魚蛋餅 $50\n- 薯條蛋餅 $50\n- 培根蛋餅 $55\n- 豬里肌蛋餅 $55\n- 蘿蔔糕 $35\n- 手工蔥抓蛋餅 $45\n- 黃金泡菜蒸炒餃 $45\n- 黃金泡菜蒸炒餃 $45 (maybe duplicate)\n- 中式拼盤 $50\n- 古早味拼盤 $65\n- 古早味拼盤 $70 (maybe)\n\nBut need to verify each line.\n\nLet's read Chinese Meal items more carefully:\n\nFrom image:\n\n\"中式系列 CHINESE MEAL\" column:\n\n- 原味蛋餅 $30\n- 鮮蔬玉米蛋餅 $45\n- 鮪魚蛋餅 $50\n- 薯條蛋餅 $50\n- 培根蛋餅 $55\n- 豬里肌蛋餅 $55\n- 蘿蔔糕 $35\n- 手工蔥抓蛋餅 $45\n- 黃金泡菜蒸炒餃 $45\n- 黃金泡菜蒸炒餃 $45 (maybe duplicate)\n- 中式拼盤 $50\n- 古早味拼盤 $65\n- 古早味拼盤 $70\n\nBut there may be more items like \"炒飯\" etc. Let's examine again.\n\nScrolling: The Chinese Meal column includes items with prices:\n\n- 原味蛋餅 $30\n- 鮮蔬玉米蛋餅 $45\n- 鮪魚蛋餅 $50\n- 薯條蛋餅 $50\n- 培根蛋餅 $55\n- 豬里肌蛋餅 $55\n- 蘿蔔糕 $35\n- 手工蔥抓蛋餅 $45\n- 黃金泡菜蒸炒餃 $45\n- 黃金泡菜蒸炒餃 $45 (maybe same)\n- 中式拼盤 $50\n- 古早味拼盤 $65\n- 古早味拼盤 $70\n\nAlso maybe \"炒飯\" etc. Not sure.\n\nNext \"鐵板麵系列 HOT PLATE NOODLES\" column:\n\nItems:\n\n- 黑胡椒鐵板麵 $50\n- 蘑菇鐵板麵 $50\n- 香芋蒜薯鐵板麵 $55\n- 川味蒜辣鐵板麵 $55\n- 薯條捲餅 $65\n- 薯條蛋捲餅 $65\n- 薯條蛋捲餅 $65 (maybe duplicate)\n- 薯條蛋捲餅 $65 (maybe)\n- 薯條蛋捲餅 $65 (maybe)\n- 薯條蛋捲餅 $65 (maybe)\n- 薯條蛋捲餅 $",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 16.296906400006264,
+  "prompt_tokens": 3613,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6666666666666666,
+    "price_recall": 0.6666666666666666,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

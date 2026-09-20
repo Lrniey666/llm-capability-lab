@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-4-0",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "# 四 海豆漿大王\n\n![img-0.jpeg](img-0.jpeg)\n\n|  鮮奶豆漿 | 45 | 40 | 30 | 35 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  香紅豆漿 | 45 | 40 | 30 | 35 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25 | 30 | 25  |   |\n\n野菜\n\n|  原味抓餅加蔥蛋 | 40 | 40 | 25 | 15 | 15 | 45 | 30 | 50 | 35 | 50 | 45 | 50 | 40 | 30 | 40 | 35 | 30 | 30 | 30 | 50 | 45 | 25 | 20 | 20 | 6  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|  原味抓餅加蔥蛋 | 40 | 40 | 25 | 15 | 15 | 45 | 30 | 50 | 35 | 50 | 45 | 50 | 40 | 30 | 40 | 35 | 30 | 30 | 30 | 50 | 45 | 25 | 20 | 20 | 6  |\n|  原味抓餅加蔥蛋 | 40 | 40 | 25 | 15 | 15 | 45 | 30 | 50 | 35 | 50 | 45 | 50 | 40 | 30 | 40 | 35 | 30 | 30 | 30 | 50 | 45 | 25 | 20 | 20 | 6  |\n\n小點心\n\n|  鍋燒 | 80 | 80 | 80 | 80 | 45 | 40 | 40 | 40 | 40 | 25 | 45 | 40 | 45 | 45 | 40 | 40 | 40 | 40 | 40 | 35 | 35 | 40 | 30  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 2.1787821000034455,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,772 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "{\n  \"title\": \"宜日三餐\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"經典吐司\",\n      \"items\": [\n        {\"name\": \"香煎蛋吐司\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿吐司\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆吐司\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蛋吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"漢堡肉吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"麥香雞吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"活力鮮蔬蛋吐司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬排吐司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"馬鈴薯泥蛋沙拉吐司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味咔滋脆雞吐司\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"辣味咔滋脆雞吐司\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紐奧良雞腿排吐司\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"懷舊酥炸雞排吐司\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"吃好料吐司\",\n      \"items\": [\n        {\"name\": \"美國牛五花吐司\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日本炸魚吐司\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生牛肉餅吐司\", \"price\": 75, \"note\": \"★\"},\n        {\"name\": \"重磅安格斯牛肉漢堡吐司\", \"price\": 79, \"note\": \"★\"},\n        {\"name\": \"厚切日本和牛挽肉排吐司\", \"price\": 109, \"note\": \"★\"},\n        {\"name\": \"日式炸豬排吐司\", \"price\": 109, \"note\": \"★\"},\n        {\"name\": \"花生溶岩日本和牛挽肉排吐司\", \"price\": 119, \"note\": \"★\"}\n      ]\n    },\n    {\n      \"name\": \"法國吐司\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"煉乳\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"顆粒花生\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牽絲乳酪\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙倍起司蛋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"抹醬吐司/厚片/鬆餅/焗烤\",\n      \"items\": [\n        {\"name\": \"奶油\", \"price\": 20, \"unit\": \"吐司\", \"note\": \"厚片45/鬆餅60\"},\n        {\"name\": \"草莓\", \"price\": 20, \"unit\": \"吐司\", \"note\": \"厚片45/鬆餅60\"},\n        {\"name\": \"巧克力\", \"price\": 20, \"unit\": \"吐司\", \"note\": \"厚片45/鬆餅60\"},\n        {\"name\": \"顆粒花生\", \"price\": 25, \"unit\": \"吐司\", \"note\": \"厚片50/鬆餅65\"},\n        {\"name\": \"椰香奶酥\", \"price\": 25, \"unit\": \"吐司\", \"note\": \"厚片50/鬆餅65\"},\n        {\"name\": \"蒜香\", \"price\": 25, \"unit\": \"吐司\", \"note\": \"厚片50/鬆餅65\"},\n        {\"name\": \"煉乳\", \"price\": 25, \"unit\": \"吐司\", \"note\": \"厚片50/鬆餅65\"},\n        {\"name\": \"換雙色抹醬\", \"price\": 5, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"焗烤火腿玉米\", \"price\": 75, \"unit\": \"份\", \"note\": \"山形厚片\"},\n        {\"name\": \"焗烤鮪魚洋蔥\", \"price\": 80, \"unit\": \"份\", \"note\": \"山形厚片\"},\n        {\"name\": \"焗烤培根玉米\", \"price\": 80, \"unit\": \"份\", \"note\": \"山形厚片\"}\n      ]\n    },\n    {\n      \"name\": \"經典蛋餅\",\n      \"items\": [\n        {\"name\": \"原味蛋餅\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗蛋餅\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅蛋餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"漢堡肉排蛋餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚蛋餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"馬鈴薯泥蛋沙拉蛋餅\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬排蛋餅\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"麥香雞蛋餅\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味咔滋脆雞蛋餅\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"辣味咔滋脆雞蛋餅\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紐奧良雞腿排蛋餅\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"好料蛋餅\",\n      \"items\": [\n        {\"name\": \"美國牛五花蛋餅\", \"price\": 60, \"note\": \"★\"},\n        {\"name\": \"德國香腸蛋餅\", \"price\": 60, \"note\": \"★\"},\n        {\"name\": \"日本炸魚蛋餅\", \"price\": 75, \"note\": \"★\"},\n        {\"name\": \"重磅安格斯牛肉漢堡蛋餅\", \"price\": 89, \"note\": \"★\"},\n        {\"name\": \"厚切日本和牛挽肉排蛋餅\", \"price\": 119, \"note\": \"★\"}\n      ]\n    },\n    {\n      \"name\": \"吃經典漢堡\",\n      \"items\": [\n        {\"name\": \"火腿漢堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅漢堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉漢堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根漢堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"活力鮮蔬蛋漢堡\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"麥香雞漢堡\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬排漢堡\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味咔滋脆雞漢堡\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"辣味咔滋脆雞漢堡\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紐奧良雞腿排漢堡\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"懷舊酥炸雞排漢堡\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"吃好料漢堡 (美式漢堡包)\",\n      \"items\": [\n        {\"name\": \"美國牛五花漢堡\", \"price\": 70, \"note\": \"★\"},\n        {\"name\": \"日本炸魚漢堡\", \"price\": 75, \"note\": \"★\"},\n        {\"name\": \"花生豬肉排漢堡\", \"price\": 80, \"note\": \"★\"},\n        {\"name\": \"花生牛肉餅漢堡\", \"price\": 85, \"note\": \"★\"},\n        {\"name\": \"重磅安格斯牛肉漢堡\", \"price\": 89, \"note\": \"★\"},\n        {\"name\": \"花生溶岩安格斯牛肉漢堡\", \"price\": 99, \"note\": \"★\"},\n        {\"name\": \"日式炸豬排漢堡\", \"price\": 115, \"note\": \"★\"},\n        {\"name\": \"厚切日本和牛挽肉排漢堡\", \"price\": 119, \"note\": \"★\"},\n        {\"name\": \"花生溶岩厚切和牛挽肉排漢堡\", \"price\": 125, \"note\": \"★\"},\n        {\"name\": \"厚切日本和牛挽肉排培根漢堡\", \"price\": 139, \"note\": \"★\"},\n        {\"name\": \"雙層重磅安格斯牛肉漢堡\", \"price\": 169, \"note\": \"★\"}\n      ]\n    },\n    {\n      \"name\": \"風味單品\",\n      \"items\": [\n        {\"name\": \"荷包蛋/散蛋\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"白飯\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗2支\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸甜不辣\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小肉豆\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗蛋捲\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"現烤法國可頌\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"美國波浪薯條\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味蔬菜可樂餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞塊4塊\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黃金薯條\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咔滋脆雞(原味/辣味)\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"馬鈴薯蛋沙拉\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"懷舊酥炸雞排\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日本炸魚\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸豬排\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤牛肉餅\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸豬排\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"厚切日本和牛挽肉排\", \"price\": 109, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"營業時間：06:00-13:30 17:00-00:00\",\n    \"訂餐專線：0933913509\",\n    \"地址：高雄市楠梓區創新路883號\",\n    \"加蛋+15元, 加培根+15元, 加起司+12元, 加泡菜+20元\"\n  ]\n}",
+  "parsed": {
+    "title": "宜日三餐",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "經典吐司",
+        "items": [
+          {
+            "name": "香煎蛋吐司",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿吐司",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆吐司",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米蛋吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "漢堡肉吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "麥香雞吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "活力鮮蔬蛋吐司",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬排吐司",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "馬鈴薯泥蛋沙拉吐司",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味咔滋脆雞吐司",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "辣味咔滋脆雞吐司",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紐奧良雞腿排吐司",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "懷舊酥炸雞排吐司",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "吃好料吐司",
+        "items": [
+          {
+            "name": "美國牛五花吐司",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日本炸魚吐司",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花生牛肉餅吐司",
+            "price": 75,
+            "note": "★"
+          },
+          {
+            "name": "重磅安格斯牛肉漢堡吐司",
+            "price": 79,
+            "note": "★"
+          },
+          {
+            "name": "厚切日本和牛挽肉排吐司",
+            "price": 109,
+            "note": "★"
+          },
+          {
+            "name": "日式炸豬排吐司",
+            "price": 109,
+            "note": "★"
+          },
+          {
+            "name": "花生溶岩日本和牛挽肉排吐司",
+            "price": 119,
+            "note": "★"
+          }
+        ]
+      },
+      {
+        "name": "法國吐司",
+        "items": [
+          {
+            "name": "原味",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "煉乳",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "顆粒花生",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牽絲乳酪",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雙倍起司蛋",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "抹醬吐司/厚片/鬆餅/焗烤",
+        "items": [
+          {
+            "name": "奶油",
+            "price": 20,
+            "unit": "吐司",
+            "note": "厚片45/鬆餅60"
+          },
+          {
+            "name": "草莓",
+            "price": 20,
+            "unit": "吐司",
+            "note": "厚片45/鬆餅60"
+          },
+          {
+            "name": "巧克力",
+            "price": 20,
+            "unit": "吐司",
+            "note": "厚片45/鬆餅60"
+          },
+          {
+            "name": "顆粒花生",
+            "price": 25,
+            "unit": "吐司",
+            "note": "厚片50/鬆餅65"
+          },
+          {
+            "name": "椰香奶酥",
+            "price": 25,
+            "unit": "吐司",
+            "note": "厚片50/鬆餅65"
+          },
+          {
+            "name": "蒜香",
+            "price": 25,
+            "unit": "吐司",
+            "note": "厚片50/鬆餅65"
+          },
+          {
+            "name": "煉乳",
+            "price": 25,
+            "unit": "吐司",
+            "note": "厚片50/鬆餅65"
+          },
+          {
+            "name": "換雙色抹醬",
+            "price": 5,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "焗烤火腿玉米",
+            "price": 75,
+            "unit": "份",
+            "note": "山形厚片"
+          },
+          {
+            "name": "焗烤鮪魚洋蔥",
+            "price": 80,
+            "unit": "份",
+            "note": "山形厚片"
+          },
+          {
+            "name": "焗烤培根玉米",
+            "price": 80,
+            "unit": "份",
+            "note": "山形厚片"
+          }
+        ]
+      },
+      {
+        "name": "經典蛋餅",
+        "items": [
+          {
+            "name": "原味蛋餅",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗蛋餅",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅蛋餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "漢堡肉排蛋餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚蛋餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "馬鈴薯泥蛋沙拉蛋餅",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬排蛋餅",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "麥香雞蛋餅",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味咔滋脆雞蛋餅",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "辣味咔滋脆雞蛋餅",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紐奧良雞腿排蛋餅",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "好料蛋餅",
+        "items": [
+          {
+            "name": "美國牛五花蛋餅",
+            "price": 60,
+            "note": "★"
+          },
+          {
+            "name": "德國香腸蛋餅",
+            "price": 60,
+            "note": "★"
+          },
+          {
+            "name": "日本炸魚蛋餅",
+            "price": 75,
+            "note": "★"
+          },
+          {
+            "name": "重磅安格斯牛肉漢堡蛋餅",
+            "price": 89,
+            "note": "★"
+          },
+          {
+            "name": "厚切日本和牛挽肉排蛋餅",
+            "price": 119,
+            "note": "★"
+          }
+        ]
+      },
+      {
+        "name": "吃經典漢堡",
+        "items": [
+          {
+            "name": "火腿漢堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅漢堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉漢堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根漢堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "活力鮮蔬蛋漢堡",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "麥香雞漢堡",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬排漢堡",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味咔滋脆雞漢堡",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "辣味咔滋脆雞漢堡",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紐奧良雞腿排漢堡",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "懷舊酥炸雞排漢堡",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "吃好料漢堡 (美式漢堡包)",
+        "items": [
+          {
+            "name": "美國牛五花漢堡",
+            "price": 70,
+            "note": "★"
+          },
+          {
+            "name": "日本炸魚漢堡",
+            "price": 75,
+            "note": "★"
+          },
+          {
+            "name": "花生豬肉排漢堡",
+            "price": 80,
+            "note": "★"
+          },
+          {
+            "name": "花生牛肉餅漢堡",
+            "price": 85,
+            "note": "★"
+          },
+          {
+            "name": "重磅安格斯牛肉漢堡",
+            "price": 89,
+            "note": "★"
+          },
+          {
+            "name": "花生溶岩安格斯牛肉漢堡",
+            "price": 99,
+            "note": "★"
+          },
+          {
+            "name": "日式炸豬排漢堡",
+            "price": 115,
+            "note": "★"
+          },
+          {
+            "name": "厚切日本和牛挽肉排漢堡",
+            "price": 119,
+            "note": "★"
+          },
+          {
+            "name": "花生溶岩厚切和牛挽肉排漢堡",
+            "price": 125,
+            "note": "★"
+          },
+          {
+            "name": "厚切日本和牛挽肉排培根漢堡",
+            "price": 139,
+            "note": "★"
+          },
+          {
+            "name": "雙層重磅安格斯牛肉漢堡",
+            "price": 169,
+            "note": "★"
+          }
+        ]
+      },
+      {
+        "name": "風味單品",
+        "items": [
+          {
+            "name": "荷包蛋/散蛋",
+            "price": 15,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "白飯",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗2支",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸甜不辣",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小肉豆",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗蛋捲",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "現烤法國可頌",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "美國波浪薯條",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味蔬菜可樂餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞塊4塊",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黃金薯條",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "咔滋脆雞(原味/辣味)",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "馬鈴薯蛋沙拉",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "懷舊酥炸雞排",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日本炸魚",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "德式香腸",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式炸豬排",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "烤牛肉餅",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式炸豬排",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "厚切日本和牛挽肉排",
+            "price": 109,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "營業時間：06:00-13:30 17:00-00:00",
+      "訂餐專線：0933913509",
+      "地址：高雄市楠梓區創新路883號",
+      "加蛋+15元, 加培根+15元, 加起司+12元, 加泡菜+20元"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 13.729230299999472,
+  "prompt_tokens": 1320,
+  "completion_tokens": 3656,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "宜日三餐",
+    "title_hit": true,
+    "item_count": 108,
+    "anchor_n": 6,
+    "name_json_recall": 0.6666666666666666,
+    "price_json_recall": 0.0,
+    "name_recall": 0.8333333333333334,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

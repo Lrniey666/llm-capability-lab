@@ -1,0 +1,501 @@
+{
+  "provider": "iai",
+  "model": "Furen-std",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "{\n  \"title\": \"四海豆漿大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"飲料\",\n      \"items\": [\n        {\"name\": \"鮮奶\", \"price\": 45, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"鮮奶茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小 20, 大 30\"},\n        {\"name\": \"杏仁豆腐\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小 20, 大 30\"},\n        {\"name\": \"杏仁茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"小 25, 大 35\"},\n        {\"name\": \"鹹豆漿\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小 20, 大 30\"},\n        {\"name\": \"紅豆茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"小 20, 大 25\"},\n        {\"name\": \"咖啡\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小 20, 大 30\"},\n        {\"name\": \"奶茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"小 20, 大 25\"},\n        {\"name\": \"豆奶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"小 20, 大 25\"},\n        {\"name\": \"米漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"小 20, 大 20\"},\n        {\"name\": \"紅豆漿\", \"price\": 20, \"unit\": \"杯\", \"note\": \"小 15, 大 20\"}\n      ]\n    },\n    {\n      \"name\": \"主食/點心\",\n      \"items\": [\n        {\"name\": \"原味甜甜圈\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"原味鹹甜圈\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"原味甜甜圈加起司\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"原味鹹甜圈加起司\", \"price\": 15, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"蔥筒\", \"price\": 15, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"雞蛋筒\", \"price\": 15, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"雞蛋筒加起司\", \"price\": 45, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"飯糰\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"燒餅\", \"price\": 50, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"燒餅加九層塔\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"燒餅夾油條\", \"price\": 50, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"燒餅夾蛋\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"燒餅夾肉\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"饅頭\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"饅頭加蛋\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"饅頭加肉\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"小饅頭\", \"price\": 25, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"肉包\", \"price\": 45, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"菜包\", \"price\": 25, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"水餃\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"煎餃\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包子\", \"price\": 6, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"蛋餅\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"脆皮蛋餅\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉餅\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆漿餅\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小肉包\", \"price\": 10, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"起司肉包\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"油條\", \"price\": 20, \"unit\": \"根\", \"note\": \"\"},\n        {\"name\": \"內用飯糰\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"雞塊\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯條\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小狗\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"鍋燒冬心\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋燒意麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋燒麵線\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉吐司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"塔塔雞吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司雞吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿吐司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"法式吐司\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛋餅\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆漿餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋餅\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉醬蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔蛋餅\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蛋餅\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋餅\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛋餅\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": []\n}",
+  "parsed": {
+    "title": "四海豆漿大王",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "飲料",
+        "items": [
+          {
+            "name": "鮮奶",
+            "price": 45,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "鮮奶茶",
+            "price": 30,
+            "unit": "杯",
+            "note": "小 20, 大 30"
+          },
+          {
+            "name": "杏仁豆腐",
+            "price": 30,
+            "unit": "杯",
+            "note": "小 20, 大 30"
+          },
+          {
+            "name": "杏仁茶",
+            "price": 35,
+            "unit": "杯",
+            "note": "小 25, 大 35"
+          },
+          {
+            "name": "鹹豆漿",
+            "price": 30,
+            "unit": "杯",
+            "note": "小 20, 大 30"
+          },
+          {
+            "name": "紅豆茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "小 20, 大 25"
+          },
+          {
+            "name": "咖啡",
+            "price": 30,
+            "unit": "杯",
+            "note": "小 20, 大 30"
+          },
+          {
+            "name": "奶茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "小 20, 大 25"
+          },
+          {
+            "name": "豆奶",
+            "price": 25,
+            "unit": "杯",
+            "note": "小 20, 大 25"
+          },
+          {
+            "name": "米漿",
+            "price": 20,
+            "unit": "杯",
+            "note": "小 20, 大 20"
+          },
+          {
+            "name": "紅豆漿",
+            "price": 20,
+            "unit": "杯",
+            "note": "小 15, 大 20"
+          }
+        ]
+      },
+      {
+        "name": "主食/點心",
+        "items": [
+          {
+            "name": "原味甜甜圈",
+            "price": 40,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "原味鹹甜圈",
+            "price": 40,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "原味甜甜圈加起司",
+            "price": 20,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "原味鹹甜圈加起司",
+            "price": 15,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "蔥筒",
+            "price": 15,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "雞蛋筒",
+            "price": 15,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "雞蛋筒加起司",
+            "price": 45,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "飯糰",
+            "price": 30,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "燒餅",
+            "price": 50,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "燒餅加九層塔",
+            "price": 35,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "燒餅夾油條",
+            "price": 50,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "燒餅夾蛋",
+            "price": 40,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "燒餅夾肉",
+            "price": 30,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "饅頭",
+            "price": 30,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "饅頭加蛋",
+            "price": 30,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "饅頭加肉",
+            "price": 30,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "小饅頭",
+            "price": 25,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "肉包",
+            "price": 45,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "菜包",
+            "price": 25,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "水餃",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "煎餃",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "包子",
+            "price": 6,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "蛋餅",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "脆皮蛋餅",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉餅",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豆漿餅",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小肉包",
+            "price": 10,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "起司肉包",
+            "price": 20,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "油條",
+            "price": 20,
+            "unit": "根",
+            "note": ""
+          },
+          {
+            "name": "內用飯糰",
+            "price": 20,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "雞塊",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯條",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小狗",
+            "price": 20,
+            "unit": "個",
+            "note": ""
+          },
+          {
+            "name": "鍋燒冬心",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋燒意麵",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋燒麵線",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燒肉吐司",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "塔塔雞吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司雞吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿吐司",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "法式吐司",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蛋餅",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豆漿餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司蛋餅",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉醬蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "九層塔蛋餅",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米蛋餅",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋餅",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蛋餅",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "parse_error": null,
+  "latency_s": 60.122497900010785,
+  "prompt_tokens": 1497,
+  "completion_tokens": 1964,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "四海豆漿大王",
+    "title_hit": true,
+    "item_count": 63,
+    "anchor_n": 8,
+    "name_json_recall": 0.5,
+    "price_json_recall": 0.25,
+    "name_recall": 0.5,
+    "price_recall": 0.375,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

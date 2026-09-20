@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-09-18T05:14:00+00:00",
+  "finished_at": "2026-09-18T05:16:30+00:00",
+  "providers": ["groq"],
+  "phase": "catalog+probe+core-smoke",
+  "note": "Off-protocol Groq vision eval. Not part of vision-20260918-130204 (Gemini/Mistral/iAI). Probe used the lab 16×16 red PNG plus real menu JPGs.",
+  "menu_dir": "menu_example/",
+  "gold": "docs/vision-menu/gold.json",
+  "python": "3.10.9",
+  "sdk": "openai via llmlab.client"
+}

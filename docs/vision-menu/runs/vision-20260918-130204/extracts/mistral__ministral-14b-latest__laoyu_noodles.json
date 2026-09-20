@@ -1,0 +1,336 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1750082.jpg",
+  "mime": "image/jpeg",
+  "bytes": 159804,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"老余外帶請打\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"湯麵類\",\n      \"items\": [\n        {\"name\": \"牛肉麵\", \"price\": 130, \"unit\": \"大\", \"note\": \"小110\"},\n        {\"name\": \"榨菜肉絲麵\", \"price\": 75, \"unit\": \"大\", \"note\": \"小60\"},\n        {\"name\": \"骨髓麵\", \"price\": 75, \"unit\": \"大\", \"note\": \"小60\"},\n        {\"name\": \"酸辣麵\", \"price\": 75, \"unit\": \"大\", \"note\": \"小60\"},\n        {\"name\": \"鸚鵡肉麵\", \"price\": 75, \"unit\": \"大\", \"note\": \"小60\"},\n        {\"name\": \"陽春湯麵\", \"price\": 55, \"unit\": \"大\", \"note\": \"小45\"}\n      ]\n    },\n    {\n      \"name\": \"乾麵類(不附清湯)\",\n      \"items\": [\n        {\"name\": \"牛肉排麵\", \"price\": 130, \"unit\": \"大\", \"note\": \"小110\"},\n        {\"name\": \"麻辣乾麵\", \"price\": 60, \"unit\": \"大\", \"note\": \"小50\"},\n        {\"name\": \"陽春乾麵\", \"price\": 55, \"unit\": \"大\", \"note\": \"小45\"}\n      ]\n    },\n    {\n      \"name\": \"湯類\",\n      \"items\": [\n        {\"name\": \"牛肉湯\", \"price\": 180, \"unit\": \"大\", \"note\": \"小100\"},\n        {\"name\": \"骨髓湯\", \"price\": 50, \"unit\": \"大\", \"note\": \"小40\"},\n        {\"name\": \"魚丸湯\", \"price\": 40, \"unit\": \"大\", \"note\": \"小30\"},\n        {\"name\": \"貢丸湯\", \"price\": 40, \"unit\": \"大\", \"note\": \"小30\"},\n        {\"name\": \"蛋花湯\", \"price\": 40, \"unit\": \"大\", \"note\": \"小30\"},\n        {\"name\": \"酸辣湯\", \"price\": 50, \"unit\": \"大\", \"note\": \"小40\"},\n        {\"name\": \"榨菜肉絲湯\", \"price\": 50, \"unit\": \"大\", \"note\": \"小40\"},\n        {\"name\": \"過青菜\", \"price\": 30, \"unit\": \"份\"}\n      ]\n    }\n  ],\n  \"additional_items\": [\n    {\"name\": \"鹽油\", \"price\": \"看不清\"},\n    {\"name\": \"鹽油雞\", \"price\": \"看不清\"},\n    {\"name\": \"蒜泥\", \"price\": \"看不清\"}\n  ],\n  \"notes\": [\n    \"高雄市楠梓區建楠路84巷62號/電話:(07)3515086\",\n    \"號碼單請截下\",\n    \"外帶請打\",\n    \"006325\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "老余外帶請打",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "湯麵類",
+        "items": [
+          {
+            "name": "牛肉麵",
+            "price": 130,
+            "unit": "大",
+            "note": "小110"
+          },
+          {
+            "name": "榨菜肉絲麵",
+            "price": 75,
+            "unit": "大",
+            "note": "小60"
+          },
+          {
+            "name": "骨髓麵",
+            "price": 75,
+            "unit": "大",
+            "note": "小60"
+          },
+          {
+            "name": "酸辣麵",
+            "price": 75,
+            "unit": "大",
+            "note": "小60"
+          },
+          {
+            "name": "鸚鵡肉麵",
+            "price": 75,
+            "unit": "大",
+            "note": "小60"
+          },
+          {
+            "name": "陽春湯麵",
+            "price": 55,
+            "unit": "大",
+            "note": "小45"
+          }
+        ]
+      },
+      {
+        "name": "乾麵類(不附清湯)",
+        "items": [
+          {
+            "name": "牛肉排麵",
+            "price": 130,
+            "unit": "大",
+            "note": "小110"
+          },
+          {
+            "name": "麻辣乾麵",
+            "price": 60,
+            "unit": "大",
+            "note": "小50"
+          },
+          {
+            "name": "陽春乾麵",
+            "price": 55,
+            "unit": "大",
+            "note": "小45"
+          }
+        ]
+      },
+      {
+        "name": "湯類",
+        "items": [
+          {
+            "name": "牛肉湯",
+            "price": 180,
+            "unit": "大",
+            "note": "小100"
+          },
+          {
+            "name": "骨髓湯",
+            "price": 50,
+            "unit": "大",
+            "note": "小40"
+          },
+          {
+            "name": "魚丸湯",
+            "price": 40,
+            "unit": "大",
+            "note": "小30"
+          },
+          {
+            "name": "貢丸湯",
+            "price": 40,
+            "unit": "大",
+            "note": "小30"
+          },
+          {
+            "name": "蛋花湯",
+            "price": 40,
+            "unit": "大",
+            "note": "小30"
+          },
+          {
+            "name": "酸辣湯",
+            "price": 50,
+            "unit": "大",
+            "note": "小40"
+          },
+          {
+            "name": "榨菜肉絲湯",
+            "price": 50,
+            "unit": "大",
+            "note": "小40"
+          },
+          {
+            "name": "過青菜",
+            "price": 30,
+            "unit": "份"
+          }
+        ]
+      }
+    ],
+    "additional_items": [
+      {
+        "name": "鹽油",
+        "price": "看不清"
+      },
+      {
+        "name": "鹽油雞",
+        "price": "看不清"
+      },
+      {
+        "name": "蒜泥",
+        "price": "看不清"
+      }
+    ],
+    "notes": [
+      "高雄市楠梓區建楠路84巷62號/電話:(07)3515086",
+      "號碼單請截下",
+      "外帶請打",
+      "006325"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 11.784805400006007,
+  "prompt_tokens": 1789,
+  "completion_tokens": 795,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "laoyu_noodles",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "老余外帶請打",
+    "title_hit": true,
+    "item_count": 17,
+    "anchor_n": 17,
+    "name_json_recall": 0.6470588235294118,
+    "price_json_recall": 0.6470588235294118,
+    "name_recall": 0.6470588235294118,
+    "price_recall": 0.6470588235294118,
+    "extra_names": [
+      "骨髓麵",
+      "鸚鵡肉麵",
+      "牛肉排麵",
+      "麻辣乾麵",
+      "骨髓湯",
+      "過青菜"
+    ],
+    "hallucination_n": 6,
+    "anchors": [
+      {
+        "name": "牛肉麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "餛飩麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "酸辣麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鴨肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "陽春湯麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "麻醬乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "陽春乾麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "餛飩湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "魚丸湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "酸辣湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "燙青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1743562.jpg",
+  "mime": "image/jpeg",
+  "bytes": 295776,
+  "ok": true,
+  "text": "We need to parse the menu. The image is a menu with many categories. We need to output JSON with title, currency, categories (list of category objects with name and items list). Items have name, price, unit, note. Use visible content. If unclear, note \"看不清\". Do not guess.\n\nFirst, identify title: There's a logo with \"Ding\" maybe \"Ding\" but text: \"Ding\" maybe \"Ding\" but also \"Ding\" not clear. There's \"Ding\" maybe \"Ding\" but also \"Ding\" not sure. There's \"Ding\" maybe \"Ding\" but also \"Ding\" not clear. Let's look: In top left, there is a logo with an owl and text \"Ding\" maybe \"Ding\" but also \"Ding\" maybe \"Ding\" but not clear. The title likely \"Ding\" or \"Ding\" but maybe \"Ding\" is \"Ding\" but not sure. Could be \"Ding\" but maybe \"Ding\" is \"Ding\" but not sure. Let's see other text: \"梅樟店 MENU\". So maybe the restaurant name is \"梅樟店\". Title maybe \"梅樟店\". Also there is \"Ding\" maybe \"Ding\" but not sure. The title field: \"菜單標題或店名，看不見就空字串\". The title likely \"梅樟店\". Let's assume title = \"梅樟店\". If not sure, maybe empty. But we see \"梅樟店 MENU\" near left side. So title = \"梅樟店\". Currency: TWD.\n\nNow categories: We need to list categories visible. Let's scan.\n\nCategories appear as headings:\n\n- \"果盤吐司 20\" (maybe \"果盤吐司\" category)\n- \"熱壓吐司\" (maybe \"熱壓吐司\")\n- \"厚片吐司 30\"\n- \"酥皮吐司\"\n- \"蛋吐司\"\n- \"酥皮吐司\" again? Actually there is \"酥皮吐司\" heading earlier? Let's see.\n\nLet's list all headings:\n\nFrom left column:\n\n- \"香脆蛋餅\" (maybe category)\n- \"果盤吐司 20\" (category)\n- \"厚片吐司 30\"\n- \"蛋吐司\" (maybe \"蛋吐司\")\n- \"酥皮吐司\" (category)\n- \"總匯三明治\" (maybe \"總匯三明治\")\n- \"果盤吐司 20\" also appears again? Actually there is \"果盤吐司 20\" near top left.\n\nAlso \"熱壓吐司\" (maybe \"熱壓吐司\").\n\nAlso \"果盤吐司 20\" maybe \"果盤吐司\" with price 20.\n\nAlso \"熱壓吐司\" maybe \"熱壓吐司\" with price? Not sure.\n\nAlso \"厚片吐司 30\" category.\n\nAlso \"酥皮吐司\" category.\n\nAlso \"蛋吐司\" category.\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\" with subitems.\n\nAlso \"總匯三明治\" category.\n\nAlso \"烤物小食\" (maybe \"烤物小食\").\n\nAlso \"想喝湯\" (maybe \"想喝湯\").\n\nAlso \"炸物小食\" (maybe \"炸物小食\").\n\nAlso \"甜點\" (maybe \"甜點\").\n\nAlso \"找飲料\" (maybe \"找飲料\").\n\nAlso \"烤肉片\" (maybe \"烤肉片\").\n\nAlso \"想吃麵食\" (maybe \"想吃麵食\").\n\nAlso \"湯水堡\" (maybe \"湯水堡\").\n\nAlso \"漢堡\" (maybe \"漢堡\").\n\nAlso \"果盤吐司 20\" maybe \"果盤吐司\".\n\nAlso \"熱壓吐司\" maybe \"熱壓吐司\".\n\nAlso \"厚片吐司 30\" maybe \"厚片吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"蛋吐司\" maybe \"蛋吐司\".\n\nAlso \"酥皮吐司\" again.\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso \"酥皮吐司\" maybe \"酥皮吐司\".\n\nAlso",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 14.595197899994673,
+  "prompt_tokens": 2457,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "owl_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.1111111111111111,
+    "price_recall": 0.1111111111111111,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "果醬吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "厚片吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香脆蛋餅原味",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "巧克力棉花糖",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "深海鮪魚潛水堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙層起司牛",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚總匯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "20260916_122303549.jpg",
+  "mime": "image/jpeg",
+  "bytes": 511822,
+  "ok": true,
+  "text": "{\n  \"title\": \"三商巧福\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"精選套餐\",\n      \"items\": [\n        {\"name\": \"半筒半肉牛肉麵\", \"price\": 239, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超大盛牛肉燉飯\", \"price\": 239, \"unit\": \"份\", \"note\": \"Vegetable: 中等\"},\n        {\"name\": \"牛肉牛肉麵\", \"price\": 259, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味牛肉麵\", \"price\": 229, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅燒排骨飯\", \"price\": 189, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"清燉牛肉麵\", \"price\": 229, \"unit\": \"份\", \"note\": \"Vegetable: 中等\"},\n        {\"name\": \"叉燒牛肉麵\", \"price\": 239, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"番茄牛肉麵\", \"price\": 239, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉肉骨麵\", \"price\": 165, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"番茄肉骨麵\", \"price\": 165, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅燒肉骨麵\", \"price\": 249, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒雙牛肉飯\", \"price\": 235, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"熱湯系列\",\n      \"items\": []\n    },\n    {\n      \"name\": \"小菜系列\",\n      \"items\": [\n        {\"name\": \"清燉雞蛋\", \"price\": 52, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"芝麻牛肉\", \"price\": 52, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"韓國泡菜\", \"price\": 54, \"unit\": \"份\", \"note\": \"Vegetable\"},\n        {\"name\": \"現燉青菜\", \"price\": 54, \"unit\": \"份\", \"note\": \"Vegetable\"},\n        {\"name\": \"燉燒豆干\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆腐\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆芽\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆皮\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆干\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆腐乾\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆芽乾\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆皮\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆腐\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆芽\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燉燒豆干\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"特價飲品\",\n      \"items\": [\n        {\"name\": \"超值高鐵奶茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"高鐵紅茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"高鐵綠茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"套餐組合\",\n      \"items\": [\n        {\"name\": \"A. 原味牛肉麵 + 芝麻牛肉\", \"price\": 179, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"B. 紅燒排骨飯 + 芝麻牛肉\", \"price\": 165, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"C. 雪花牛肉排炒飯\", \"price\": 189, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"D. 番茄肉骨麵炒飯\", \"price\": 165, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"台新信用卡消費回饋3.5%\",\n    \"25元可選擇麵條Q保有獎勵\",\n    \"麵條可選擇白麵或細麵\",\n    \"好喝好吃好滋味\",\n    \"早餐早點: 古早味雞蛋麵 $85\",\n    \"香濃黑豆干 $55\",\n    \"三商巧福\"\n  ]\n}",
+  "parsed": {
+    "title": "三商巧福",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "精選套餐",
+        "items": [
+          {
+            "name": "半筒半肉牛肉麵",
+            "price": 239,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "超大盛牛肉燉飯",
+            "price": 239,
+            "unit": "份",
+            "note": "Vegetable: 中等"
+          },
+          {
+            "name": "牛肉牛肉麵",
+            "price": 259,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味牛肉麵",
+            "price": 229,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅燒排骨飯",
+            "price": 189,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "清燉牛肉麵",
+            "price": 229,
+            "unit": "份",
+            "note": "Vegetable: 中等"
+          },
+          {
+            "name": "叉燒牛肉麵",
+            "price": 239,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "番茄牛肉麵",
+            "price": 239,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉肉骨麵",
+            "price": 165,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "番茄肉骨麵",
+            "price": 165,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅燒肉骨麵",
+            "price": 249,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒雙牛肉飯",
+            "price": 235,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "熱湯系列",
+        "items": []
+      },
+      {
+        "name": "小菜系列",
+        "items": [
+          {
+            "name": "清燉雞蛋",
+            "price": 52,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "芝麻牛肉",
+            "price": 52,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "韓國泡菜",
+            "price": 54,
+            "unit": "份",
+            "note": "Vegetable"
+          },
+          {
+            "name": "現燉青菜",
+            "price": 54,
+            "unit": "份",
+            "note": "Vegetable"
+          },
+          {
+            "name": "燉燒豆干",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆腐",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆芽",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆皮",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆干",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆腐乾",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆芽乾",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆皮",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆腐",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆芽",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燉燒豆干",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "特價飲品",
+        "items": [
+          {
+            "name": "超值高鐵奶茶",
+            "price": 35,
+            "unit": "杯",
+            "note": "看不清"
+          },
+          {
+            "name": "高鐵紅茶",
+            "price": 35,
+            "unit": "杯",
+            "note": "看不清"
+          },
+          {
+            "name": "高鐵綠茶",
+            "price": 35,
+            "unit": "杯",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "套餐組合",
+        "items": [
+          {
+            "name": "A. 原味牛肉麵 + 芝麻牛肉",
+            "price": 179,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "B. 紅燒排骨飯 + 芝麻牛肉",
+            "price": 165,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "C. 雪花牛肉排炒飯",
+            "price": 189,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "D. 番茄肉骨麵炒飯",
+            "price": 165,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "台新信用卡消費回饋3.5%",
+      "25元可選擇麵條Q保有獎勵",
+      "麵條可選擇白麵或細麵",
+      "好喝好吃好滋味",
+      "早餐早點: 古早味雞蛋麵 $85",
+      "香濃黑豆干 $55",
+      "三商巧福"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 19.73580610001227,
+  "prompt_tokens": 1985,
+  "completion_tokens": 1395,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sanchiao_qiaofu",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "三商巧福",
+    "title_hit": true,
+    "item_count": 34,
+    "anchor_n": 15,
+    "name_json_recall": 0.3333333333333333,
+    "price_json_recall": 0.3333333333333333,
+    "name_recall": 0.4,
+    "price_recall": 0.4,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "半筋半肉牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "超大盛牛肉壽喜飯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛三寶牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "原汁牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅燒排骨飯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "清燉牛肉麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "叻沙牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "番茄牛肉麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉炸醬麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "番茄肉醬乾拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅燒四寶牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "揚州雙寶牛肉拉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "醬滷黑豆干",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "滷三拼",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雪花牛肉乾拌麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

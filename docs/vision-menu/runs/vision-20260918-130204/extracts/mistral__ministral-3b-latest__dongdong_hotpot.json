@@ -1,0 +1,474 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1748442.jpg",
+  "mime": "image/jpeg",
+  "bytes": 247277,
+  "ok": true,
+  "text": "{\n  \"title\": \"吆喝天然鮮烹燒\",\n  \"currency\": \"TWD\",\n  \"contact\": {\n    \"phone\": \"07-3520379\",\n    \"address\": \"高雄市楠梓區朝陽路115號\"\n  },\n  \"categories\": [\n    {\n      \"name\": \"經典海鮮烹燒\",\n      \"items\": [\n        {\"name\": \"海鮮蝦\", \"price\": 138},\n        {\"name\": \"紫菜梅生菜\", \"price\": 60},\n        {\"name\": \"和煥洋蝦沙拉\", \"price\": 79},\n        {\"name\": \"和風蝦皮沙拉\", \"price\": 150},\n        {\"name\": \"日本大生蝦\", \"price\": 195},\n        {\"name\": \"永凍淺海小卷\", \"price\": 180},\n        {\"name\": \"金多蝦餅\", \"price\": 200}\n      ]\n    },\n    {\n      \"name\": \"肉多多烹燒系列\",\n      \"items\": [\n        {\"name\": \"肉多多蝦\", \"price\": 138},\n        {\"name\": \"肉多多牛\", \"price\": 150},\n        {\"name\": \"秘制湯頭雞\", \"price\": 180},\n        {\"name\": \"番茄湯+10\", \"price\": 120, \"note\": \"沙茶+10\"},\n        {\"name\": \"泡菜飯\", \"price\": 130},\n        {\"name\": \"雞飯\", \"price\": 130},\n        {\"name\": \"意麵\", \"price\": 20},\n        {\"name\": \"王子麵\", \"price\": 20},\n        {\"name\": \"雞腿麵\", \"price\": 65},\n        {\"name\": \"魚片麵\", \"price\": 65},\n        {\"name\": \"蝦麵\", \"price\": 65},\n        {\"name\": \"雞立貝\", \"price\": 80},\n        {\"name\": \"千層貝\", \"price\": 80}\n      ]\n    },\n    {\n      \"name\": \"日料小品系列\",\n      \"items\": [\n        {\"name\": \"日本炸魚餅\", \"price\": 195},\n        {\"name\": \"永凍淺海小卷\", \"price\": 180},\n        {\"name\": \"金多蝦餅\", \"price\": 200}\n      ]\n    },\n    {\n      \"name\": \"海鮮製造系列\",\n      \"items\": [\n        {\"name\": \"日式炸魚飯\", \"price\": 150},\n        {\"name\": \"泰式炸虱蝦排飯\", \"price\": 150},\n        {\"name\": \"秘制湯頭雞排飯\", \"price\": 180},\n        {\"name\": \"紅燒蝦皮排飯\", \"price\": 180},\n        {\"name\": \"雞立貝飯\", \"price\": 280},\n        {\"name\": \"金虱蝦排飯\", \"price\": 280},\n        {\"name\": \"雞炸魚排飯\", \"price\": 280},\n        {\"name\": \"雞排炸魚排飯\", \"price\": 280},\n        {\"name\": \"精品魚排飯\", \"price\": 299},\n        {\"name\": \"雞排炸魚排飯(三份)\", \"price\": 399},\n        {\"name\": \"龍蝦製造頭號\", \"price\": 988}\n      ]\n    },\n    {\n      \"name\": \"蒸飯系列\",\n      \"items\": [\n        {\"name\": \"日式炸魚飯\", \"price\": 150},\n        {\"name\": \"泰式炸虱蝦排飯\", \"price\": 170},\n        {\"name\": \"秘制湯頭雞排飯\", \"price\": 180},\n        {\"name\": \"紅燒蝦皮排飯\", \"price\": 180},\n        {\"name\": \"雞立貝飯\", \"price\": 280},\n        {\"name\": \"金虱蝦排飯\", \"price\": 280},\n        {\"name\": \"雞炸魚排飯\", \"price\": 280},\n        {\"name\": \"雞排炸魚排飯\", \"price\": 299},\n        {\"name\": \"雞排炸魚排飯(三份)\", \"price\": 399}\n      ]\n    },\n    {\n      \"name\": \"炸物\",\n      \"items\": [\n        {\"name\": \"秘制湯頭雞\", \"price\": 130},\n        {\"name\": \"雞排炸魚\", \"price\": 130},\n        {\"name\": \"雞立貝\", \"price\": 150},\n        {\"name\": \"明太子玉子燒\", \"price\": 119},\n        {\"name\": \"黃金蝦\", \"price\": 60},\n        {\"name\": \"蝦蟆雞\", \"price\": 140},\n        {\"name\": \"明太子蝦精\", \"price\": 150},\n        {\"name\": \"蝦蟆魚\", \"price\": 190},\n        {\"name\": \"雞排炸魚\", \"price\": 220},\n        {\"name\": \"蝦蟆海大蝦\", \"price\": 280},\n        {\"name\": \"蝦蟆大蝦餅\", \"price\": 988}\n      ]\n    },\n    {\n      \"name\": \"超級爆爆系列\",\n      \"items\": [\n        {\"name\": \"雞排炸魚\", \"price\": 1288},\n        {\"name\": \"雞王的日常\", \"price\": 1680}\n      ]\n    },\n    {\n      \"name\": \"加料區\",\n      \"items\": [\n        {\"name\": \"高麗菜\", \"price\": 30},\n        {\"name\": \"雞肉\", \"price\": 60},\n        {\"name\": \"蝦\", \"price\": 30},\n        {\"name\": \"牛肉\", \"price\": 70},\n        {\"name\": \"香蕉\", \"price\": 30},\n        {\"name\": \"米飯\", \"price\": 30},\n        {\"name\": \"玉米\", \"price\": 30},\n        {\"name\": \"蝦花\", \"price\": 30},\n        {\"name\": \"雞蛋\", \"price\": 15},\n        {\"name\": \"王子麵\", \"price\": 20},\n        {\"name\": \"雞腿麵\", \"price\": 20},\n        {\"name\": \"意麵\", \"price\": 20},\n        {\"name\": \"魚片\", \"price\": 65},\n        {\"name\": \"蝦\", \"price\": 65},\n        {\"name\": \"蝦立貝\", \"price\": 80},\n        {\"name\": \"千層貝\", \"price\": 80}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"新鮮料料，高品質菜色\",\n    \"每碗烹燒、高菜色\",\n    \"金針蝦、香蝦、小白菜、蝦蛋\",\n    \"經典海鮮烹燒\",\n    \"日料小品系列\",\n    \"海鮮製造系列\",\n    \"蒸飯系列\",\n    \"炸物\",\n    \"看不清楚的品項如有特殊需求請直接詢問\",\n    \"每人最低消費$130才能享$100優惠（有位子者優先降價）\",\n    \"禁止離開座位外食\",\n    \"若無預約不接受需收$100清潔費\",\n    \"每日限時60分鐘\",\n    \"用餐時間為60分鐘\",\n    \"用餐最低消費每人$130才能享$100優惠\",\n    \"有位子者優先降價\",\n    \"禁食外食\",\n    \"每日限時60分鐘\"\n  ]\n}",
+  "parsed": {
+    "title": "吆喝天然鮮烹燒",
+    "currency": "TWD",
+    "contact": {
+      "phone": "07-3520379",
+      "address": "高雄市楠梓區朝陽路115號"
+    },
+    "categories": [
+      {
+        "name": "經典海鮮烹燒",
+        "items": [
+          {
+            "name": "海鮮蝦",
+            "price": 138
+          },
+          {
+            "name": "紫菜梅生菜",
+            "price": 60
+          },
+          {
+            "name": "和煥洋蝦沙拉",
+            "price": 79
+          },
+          {
+            "name": "和風蝦皮沙拉",
+            "price": 150
+          },
+          {
+            "name": "日本大生蝦",
+            "price": 195
+          },
+          {
+            "name": "永凍淺海小卷",
+            "price": 180
+          },
+          {
+            "name": "金多蝦餅",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "肉多多烹燒系列",
+        "items": [
+          {
+            "name": "肉多多蝦",
+            "price": 138
+          },
+          {
+            "name": "肉多多牛",
+            "price": 150
+          },
+          {
+            "name": "秘制湯頭雞",
+            "price": 180
+          },
+          {
+            "name": "番茄湯+10",
+            "price": 120,
+            "note": "沙茶+10"
+          },
+          {
+            "name": "泡菜飯",
+            "price": 130
+          },
+          {
+            "name": "雞飯",
+            "price": 130
+          },
+          {
+            "name": "意麵",
+            "price": 20
+          },
+          {
+            "name": "王子麵",
+            "price": 20
+          },
+          {
+            "name": "雞腿麵",
+            "price": 65
+          },
+          {
+            "name": "魚片麵",
+            "price": 65
+          },
+          {
+            "name": "蝦麵",
+            "price": 65
+          },
+          {
+            "name": "雞立貝",
+            "price": 80
+          },
+          {
+            "name": "千層貝",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "name": "日料小品系列",
+        "items": [
+          {
+            "name": "日本炸魚餅",
+            "price": 195
+          },
+          {
+            "name": "永凍淺海小卷",
+            "price": 180
+          },
+          {
+            "name": "金多蝦餅",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "海鮮製造系列",
+        "items": [
+          {
+            "name": "日式炸魚飯",
+            "price": 150
+          },
+          {
+            "name": "泰式炸虱蝦排飯",
+            "price": 150
+          },
+          {
+            "name": "秘制湯頭雞排飯",
+            "price": 180
+          },
+          {
+            "name": "紅燒蝦皮排飯",
+            "price": 180
+          },
+          {
+            "name": "雞立貝飯",
+            "price": 280
+          },
+          {
+            "name": "金虱蝦排飯",
+            "price": 280
+          },
+          {
+            "name": "雞炸魚排飯",
+            "price": 280
+          },
+          {
+            "name": "雞排炸魚排飯",
+            "price": 280
+          },
+          {
+            "name": "精品魚排飯",
+            "price": 299
+          },
+          {
+            "name": "雞排炸魚排飯(三份)",
+            "price": 399
+          },
+          {
+            "name": "龍蝦製造頭號",
+            "price": 988
+          }
+        ]
+      },
+      {
+        "name": "蒸飯系列",
+        "items": [
+          {
+            "name": "日式炸魚飯",
+            "price": 150
+          },
+          {
+            "name": "泰式炸虱蝦排飯",
+            "price": 170
+          },
+          {
+            "name": "秘制湯頭雞排飯",
+            "price": 180
+          },
+          {
+            "name": "紅燒蝦皮排飯",
+            "price": 180
+          },
+          {
+            "name": "雞立貝飯",
+            "price": 280
+          },
+          {
+            "name": "金虱蝦排飯",
+            "price": 280
+          },
+          {
+            "name": "雞炸魚排飯",
+            "price": 280
+          },
+          {
+            "name": "雞排炸魚排飯",
+            "price": 299
+          },
+          {
+            "name": "雞排炸魚排飯(三份)",
+            "price": 399
+          }
+        ]
+      },
+      {
+        "name": "炸物",
+        "items": [
+          {
+            "name": "秘制湯頭雞",
+            "price": 130
+          },
+          {
+            "name": "雞排炸魚",
+            "price": 130
+          },
+          {
+            "name": "雞立貝",
+            "price": 150
+          },
+          {
+            "name": "明太子玉子燒",
+            "price": 119
+          },
+          {
+            "name": "黃金蝦",
+            "price": 60
+          },
+          {
+            "name": "蝦蟆雞",
+            "price": 140
+          },
+          {
+            "name": "明太子蝦精",
+            "price": 150
+          },
+          {
+            "name": "蝦蟆魚",
+            "price": 190
+          },
+          {
+            "name": "雞排炸魚",
+            "price": 220
+          },
+          {
+            "name": "蝦蟆海大蝦",
+            "price": 280
+          },
+          {
+            "name": "蝦蟆大蝦餅",
+            "price": 988
+          }
+        ]
+      },
+      {
+        "name": "超級爆爆系列",
+        "items": [
+          {
+            "name": "雞排炸魚",
+            "price": 1288
+          },
+          {
+            "name": "雞王的日常",
+            "price": 1680
+          }
+        ]
+      },
+      {
+        "name": "加料區",
+        "items": [
+          {
+            "name": "高麗菜",
+            "price": 30
+          },
+          {
+            "name": "雞肉",
+            "price": 60
+          },
+          {
+            "name": "蝦",
+            "price": 30
+          },
+          {
+            "name": "牛肉",
+            "price": 70
+          },
+          {
+            "name": "香蕉",
+            "price": 30
+          },
+          {
+            "name": "米飯",
+            "price": 30
+          },
+          {
+            "name": "玉米",
+            "price": 30
+          },
+          {
+            "name": "蝦花",
+            "price": 30
+          },
+          {
+            "name": "雞蛋",
+            "price": 15
+          },
+          {
+            "name": "王子麵",
+            "price": 20
+          },
+          {
+            "name": "雞腿麵",
+            "price": 20
+          },
+          {
+            "name": "意麵",
+            "price": 20
+          },
+          {
+            "name": "魚片",
+            "price": 65
+          },
+          {
+            "name": "蝦",
+            "price": 65
+          },
+          {
+            "name": "蝦立貝",
+            "price": 80
+          },
+          {
+            "name": "千層貝",
+            "price": 80
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "新鮮料料，高品質菜色",
+      "每碗烹燒、高菜色",
+      "金針蝦、香蝦、小白菜、蝦蛋",
+      "經典海鮮烹燒",
+      "日料小品系列",
+      "海鮮製造系列",
+      "蒸飯系列",
+      "炸物",
+      "看不清楚的品項如有特殊需求請直接詢問",
+      "每人最低消費$130才能享$100優惠（有位子者優先降價）",
+      "禁止離開座位外食",
+      "若無預約不接受需收$100清潔費",
+      "每日限時60分鐘",
+      "用餐時間為60分鐘",
+      "用餐最低消費每人$130才能享$100優惠",
+      "有位子者優先降價",
+      "禁食外食",
+      "每日限時60分鐘"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 12.633780400006799,
+  "prompt_tokens": 1302,
+  "completion_tokens": 2002,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "dongdong_hotpot",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "吆喝天然鮮烹燒",
+    "title_hit": false,
+    "item_count": 72,
+    "anchor_n": 9,
+    "name_json_recall": 0.3333333333333333,
+    "price_json_recall": 0.1111111111111111,
+    "name_recall": 0.3333333333333333,
+    "price_recall": 0.1111111111111111,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "海鮮鍋燒",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "田園時蔬鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "蛤蜊滿滿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "日式炸蝦鍋",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "金多蝦鍋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "肉多多豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "龍蝦鍋霸",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "雙龍強味鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "義式烤菇",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

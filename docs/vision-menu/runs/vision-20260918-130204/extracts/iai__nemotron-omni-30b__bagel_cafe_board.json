@@ -1,0 +1,107 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1740512.jpg",
+  "mime": "image/jpeg",
+  "bytes": 228531,
+  "ok": true,
+  "text": "The user wants me to extract information from a menu image and format it as JSON.\nI need to follow specific rules:\n1.  **Title**: Look for a menu title or store name. If not visible, use an empty string.\n2.  **Currency**: TWD (New Taiwan Dollar).\n3.  **Categories**: I need to identify the main categories (headers) and list the items under them.\n    *   Items need: name, price (number), unit (\"份\" - portion), note (if applicable).\n    *   Price rule: Use the clearer price if there are two (e.g., single vs set). Put the other in the note.\n    *   Unclear text: Note \"看不清\", don't guess price.\n4.  **Notes**: List other text visible on the menu.\n\n**Step 1: Scan the image for categories.**\nLooking at the top left and moving right/down:\n-   **軟法類** (Soft/Frozen type? - likely \"Dessert\" or \"Snack\" based on items like pudding, corn, fish). Let's look closer. \"薯泥\" (Mashed potato), \"培根\" (Bacon), \"鮪魚\" (Tuna), \"香雞\" (Chicken), \"德式香腸\" (German sausage), \"德式香腸\" (German sausage - wait, duplicate?), \"椒麻雞腿\" (Spicy chicken leg), \"卡拉雞腿\" (Kara chicken leg), \"海味花枝蝦餅\" (Seafood fish cake shrimp), \"碳烤雞腿\" (Charcoal grilled chicken leg). This looks like a dessert or snack section.\n-   **蛋餅類** (Egg pancake type). Items: \"原味\" (Original), \"玉米\" (Corn), \"火腿\" (Ham), \"肉鬆\" (Pork floss), \"蔬菜\" (Vegetable), \"熱狗\" (Hot dog), \"鮪魚\" (Tuna), \"招牌\" (Signature), \"培根\" (Bacon), \"薯餅\" (Potato pancake), \"起司\" (Cheese), \"燻雞\" (Smoked chicken), \"豬柳\" (Pork tenderloin), \"蕃茄起司\" (Tomato cheese), \"炸豬排\" (Fried pork chop), \"里肌豬排\" (Loin pork chop), \"德式香腸起司\" (German sausage cheese), \"椒麻雞腿\" (Spicy chicken leg), \"卡拉雞腿\" (Kara chicken leg), \"牛肉起司\" (Beef cheese), \"碳烤雞排腿\" (Charcoal grilled chicken leg).\n-   **佛卡夏** (Focaccia). Items: \"薯泥\" (Mashed potato), \"蛋沙拉\" (Egg salad), \"培根\" (Bacon), \"豬柳\" (Pork tenderloin), \"里肌豬排\" (Loin pork chop), \"炸豬排\" (Fried pork chop), \"卡啦雞\" (Kara chicken), \"碳烤雞腿\" (Charcoal grilled chicken leg).\n-   **高包蛋** (High protein egg? - likely \"Egg\" section). Items: \"全熟 / 半熟\" (Full/Half cooked), \"散蛋\" (Scrambled egg), \"熱狗\" (Hot dog), \"香腸\" (Sausage), \"薯泥沙拉\" (Potato salad), \"蛋沙拉\" (Egg salad), \"招牌漢堡肉\" (Signature burger meat), \"熱狗捲蛋\" (Hot dog roll egg), \"蕃茄餅\" (Tomato pie), \"小肉豆\" (Small meat bean?), \"小豆肉加蛋\" (Small meat bean + egg), \"蘿蔔糕\" (Radish cake), \"蘿蔔糕加蛋\" (Radish cake + egg), \"南瓜乳酪玉米濃湯\" (Pumpkin cheese corn soup), \"濃湯泡飯\" (Soup porridge), \"雞塊 (5塊)\" (Chicken nuggets 5 pcs), \"香蒜麵包\" (Garlic bread), \"雞米花 (7塊)\" (Chicken nuggets 7 pcs), \"手工黑輪片\" (Handmade black wheel slice?), \"德式香腸\" (German sausage), \"黃金脆薯\" (Golden crispy potato), \"起司歐姆蛋\" (Cheese omelet), \"酥炸魚柳\" (Crispy fish fillet), \"炸排骨(2塊)\" (Fried ribs 2 pcs), \"蔬果沙拉\" (Fruit salad), \"千島醬\" (Thousand island sauce), \"蜂蜜檸檬醬\" (Honey lemon sauce), \"匈牙利雞腿(煎)\" (Hungarian chicken leg fried), \"義式雞腿(煎)\" (Italian chicken leg fried), \"炸雞腿排\" (Fried chicken cutlet), \"香雞排\" (Spicy chicken cutlet), \"炸豬排\" (Fried pork chop), \"冰心蕃薯\" (Ice heart sweet potato), \"義式香草馬鈴薯(炸)\" (Italian herb potato fried), \"酥炸米血\" (Crispy rice blood).\n-   **研磨咖啡** (Ground coffee). Items: \"美式咖啡\" (Americano), \"拿鐵咖啡\" (Latte), \"榛果拿鐵\" (Hazelnut latte), \"焦糖拿鐵\" (Caramel latte). Wait, looking at the layout, \"研磨咖啡\" is a header. Under it are \"美式咖啡\", \"拿鐵咖啡\", \"榛果拿鐵\", \"焦糖拿鐵\". Wait, looking at the prices: 45, 55, 60, 60. These look like coffee prices.\n-   **飯/麵食類** (Rice/Noodle type). Items: \"海鮮鍋燒意麵\" (Seafood pot fried noodles), \"海鮮鍋燒雞絲\" (Seafood pot fried shredded chicken), \"海鮮鍋燒冬粉\" (Seafood pot fried vermicelli), \"海鮮鍋燒粉粉\" (Seafood pot fried noodles - maybe typo in menu or distinct item), \"海鮮鍋燒粥\" (Seafood pot fried porridge), \"海鮮鍋燒烏龍麵\" (Seafood pot fried udon), \"蔥燒牛肉麵\" (Onion beef noodle), \"蔥燒排骨酥麵\" (Onion crispy pork rib noodle).\n-   **組合套餐** (Combination set meals). Items:\n    1.  \"消夜輕食套餐\" (Late night snack set) - 90.\n    2.  \"消夜健康套餐\" (Late night healthy set) - 130.\n    3.  \"普羅旺斯風味餐\" (Provence style meal) - 135.\n    4.  \"炸物拼盤\" (Fried platter) - 135.\n    5.  \"匈牙利雞腿餐\" (Hungarian chicken leg meal) - 165.\n    6.  \"義式風味雞腿餐\" (Italian style chicken leg meal) - 160.\n    7.  \"海陸肉肉套餐\" (Sea and meat set) - 175.\n-   **飲料類** (Beverage type). Items: \"伯爵紅茶\" (Earl Grey tea), \"冬瓜茶\" (Winter melon tea), \"豆漿 有糖/無糖\" (Soy milk sweet/un sweet), \"奶茶\" (Milk tea), \"可可亞\" (Cocoa?), \"咖啡牛奶\" (Coffee milk), \"冬瓜豆漿\" (Winter melon soy milk), \"冬瓜紅茶\" (Winter melon black tea), \"冬瓜檸檬\" (Winter melon lemon), \"純鮮奶茶\" (Pure fresh milk tea), \"冬瓜鮮奶\" (Winter melon fresh milk), \"可可歐蕾\" (Cocoa Oreo), \"抹茶拿鐵\" (Matcha latte).\n\n**Step 2: Extract items and prices.**\n\n**Category: 軟法類**\n-   薯泥: 55\n-   培根: 55\n-   鮪魚: 55\n-   香雞: 65\n-   德式香腸: 60\n-   椒麻雞腿: 80\n-   卡拉雞腿: 80\n-   海味花枝蝦餅: 85\n-   碳烤雞腿: 80\n\n**Category: 蛋餅類**\n-   原味: 30\n-   玉米: 40\n-   火腿: 40\n-   肉鬆: 35\n-   蔬菜: 40\n-   熱狗: 40\n-   鮪魚: 40\n-   招牌: 50\n-   培根: 45\n-   薯餅: 45\n-   起司: 45\n-   燻雞: 50\n-   豬柳: 50\n-   蕃茄起司: 50\n-   炸豬排: 55\n-   里肌豬排: 55\n-   德式香腸起司: 55\n-   椒麻雞腿: 75\n-   卡拉雞腿: 75\n-   牛肉起司: 75\n-   碳烤雞排腿: 80\n-   碳烤雞腿: 75 (Wait, there are two \"碳烤雞腿\" entries? One is 80, one is 75. Let's look closely. Ah, the last item in \"蛋餅類\" is \"碳烤雞排腿\" 80. The last item in \"佛卡夏\" is \"碳烤雞腿\" 75. Wait, let me re-read \"佛卡夏\". The last item is \"碳烤雞腿\" 75. The item above it is \"卡啦雞\" 75. The item above that is \"炸豬排\" 65. The item above that is \"里肌豬排\" 65. The item above that is \"豬柳\" 55. The item above that is \"培根\" 50. The item above that is \"蛋沙拉\" 50. The item above that is \"薯泥\" 50. Okay, so \"碳烤雞腿\" appears twice with different prices. I will list them as they appear.)\n\n**Category: 佛卡夏**\n-   薯泥: 50\n-   蛋沙拉: 50\n-   培根: 50\n-   豬柳: 55\n-   里肌豬排: 65\n-   炸豬排: 65\n-   卡啦雞: 75\n-   碳烤雞腿: 75\n\n**Category: 高包蛋** (This header is weird, maybe \"Egg\" related but placed oddly. Let's treat it as a category).\n-   全熟 / 半熟: 15 (Note: \"全熟 / 半熟\" implies options, price 15).\n-   散蛋: 15\n-   熱狗: 20\n-   香腸: 20\n-   薯泥沙拉: 25\n-   蛋沙拉: 25\n-   招牌漢堡肉: 35\n-   熱狗捲蛋: 35\n-   蕃茄餅: 25\n-   小肉豆: 30\n-   小豆肉加蛋: 45\n-   蘿蔔糕: 30\n-   蘿蔔糕加蛋: 45\n-   南瓜乳酪玉米濃湯: 35\n-   濃湯泡飯: 45\n-   雞塊 (5塊): 35\n-   香蒜麵包: 35\n-   雞米花 (7塊): 35\n-   手工黑輪片: 45\n-   德式香腸: 40\n-   黃金脆薯: 45\n-   起司歐姆蛋: 50\n-   酥炸魚柳: 50\n-   炸排骨(2塊): 65\n-   蔬果沙拉: 70\n-   千島醬: 30 (Note: \"千島醬\" is likely an add-on, price 30).\n-   蜂蜜檸檬醬: 30 (Note: \"蜂蜜檸檬醬\" is likely an add-on, price 30).\n-   匈牙利雞腿(煎): 75\n-   義式雞腿(煎): 75\n-   炸雞腿排: 80\n-   香雞排: 75\n-   冰心蕃薯: 45\n-   義式香草馬鈴薯(炸): 25\n-   酥炸米血: 25\n\n**Category: 研磨咖啡**\n-   美式咖啡: 45\n-   拿鐵咖啡: 55\n-   榛果拿鐵: 60\n-   焦糖拿鐵: 60\n\n**Category: 飯/麵食類**\n-   海鮮鍋燒意麵: 80\n-   海鮮鍋燒雞絲: 80\n-   海鮮鍋燒冬粉: 80\n-   海鮮鍋燒粉粉: 80\n-   海鮮鍋燒粥: 80\n-   海鮮鍋燒烏龍麵: 85\n-   蔥燒牛肉麵: 105\n-   蔥燒排骨酥麵: 105\n\n**Category: 組合套餐**\n-   消夜輕食套餐: 90\n-   消夜健康套餐: 130\n-   普羅旺斯風味餐: 135\n-   炸物拼盤: 135\n-   匈牙利雞腿餐: 165\n-   義式風味雞腿餐: 160\n-   海陸肉肉套餐: 175\n\n**Category: 飲料類**\n-   伯爵紅茶: 25\n-   冬瓜茶: 25\n-   豆漿 有糖/無糖: 25 (Note: \"有糖/無糖\" implies options, price 25).\n-   奶茶: 30\n-   可可亞: 35\n-   咖啡牛奶: 30\n-   冬瓜豆漿: 30\n-   冬瓜紅茶: 30\n-   冬瓜紅茶: 30 (Wait, \"冬瓜紅茶\" appears twice? Let's check. \"冬瓜豆漿\" 30, \"冬瓜紅茶\" 30, \"冬瓜紅茶\" 30. Wait, looking at the list: \"冬瓜豆漿\" 30, \"冬瓜紅茶\" 30, \"冬瓜紅茶\" 30. Actually, looking closely at the bottom left column under \"飲料類\":\n    -   伯爵紅茶 25\n    -   冬瓜",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 14.364320399996359,
+  "prompt_tokens": 3137,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "bagel_cafe_board",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "薯泥",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "培根",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "德式香腸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "美式咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "拿鐵咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "海鮮鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

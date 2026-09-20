@@ -1,0 +1,1091 @@
+[
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-lite",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We rec"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-pro",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 404 - [{'error': {'code': 404, 'message': 'This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3.1-pro-preview for the latest features and improvements. We recommend"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3-flash-preview",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 2.4369446999917272,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-lite",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 3.193274500023108,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 1.7276445999741554,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-pro-preview",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor y"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-pro-preview-customtools",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.5-flash",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.5-flash-lite",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.6-flash",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.7-flash",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.8-flash",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-flash-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-flash-lite-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-omni-1.1-flash",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-omni-flash-preview",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-pro-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "magistral-medium-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-robotics-er-2-preview",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-robotics-er-2-streaming-preview",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemma-4-26b-a4b-it",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemma-4-31b-it",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "同家前序已 429，本輪不再打",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-coder",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'error': {'message': 'litellm.BadRequestError: OpenAIException - nemotron-3-super-120b is not a multimodal model. Received Model Group=Furen-coder\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': None, 'code"
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-large",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'error': {'message': 'litellm.BadRequestError: OpenAIException - nemotron-3-super-120b is not a multimodal model. Received Model Group=Furen-large\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': None, 'code"
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-max",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'error': {'message': 'litellm.BadRequestError: OpenAIException - nvidia-nemotron-3-ultra-550b-a55b is not a multimodal model. Received Model Group=Furen-max\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': N"
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-omni",
+    "kind": "chat",
+    "probe": "accept_wrong",
+    "probe_detail": "The user asks: \"這張圖是什麼顏色？只回顏色名稱。\" Means \"What color is this",
+    "latency_s": 0.536796400003368,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-std",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.7606603000022005,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "gemma-4-31b",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.4042951999872457,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "nemotron-3-super-120b",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'error': {'message': 'litellm.BadRequestError: OpenAIException - nemotron-3-super-120b is not a multimodal model. Received Model Group=nemotron-3-super-120b\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': N"
+  },
+  {
+    "provider": "iai",
+    "model": "nemotron-omni-30b",
+    "kind": "chat",
+    "probe": "accept_wrong",
+    "probe_detail": "The user asks: \"這張圖是什麼顏色？只回顏色名稱。\" Means \"What color is this",
+    "latency_s": 0.5266499000135809,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Nkust",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "用戶詢問圖片顏色，要求只回顏色名稱。圖片為純紅色塊，無其他元素。需簡潔回答，僅輸出顏色名稱，符合",
+    "latency_s": 1.0256780000054277,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "nvidia-ultra-550b",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type': 'None', 'param': 'None', 'code': '400', 'provider_specific_"
+  },
+  {
+    "provider": "gemini",
+    "model": "models/deep-research-pro-preview-12-2025",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-image",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-native-audio-latest",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-flash-preview-tts",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-pro-preview-tts",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3-pro-image",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3-pro-image-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-image",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-image-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-lite-image",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-live-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.1-flash-tts-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/lyria-3-pro-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/nano-banana-pro-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/veo-3.1-lite-generate-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Pic-small",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-small-2507",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-small-latest",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/antigravity-preview-05-2026",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/antigravity-preview-09-2026",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/aqa",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/deep-research-max-preview-04-2026",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/deep-research-preview-04-2026",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-2.5-computer-use-preview-10-2025",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.5-live-translate-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.5-transcribe",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.5-transcribe-live",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.8-live",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-3.8-live-extended-thinking",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-embedding-001",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-embedding-2",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/gemini-embedding-2-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/lyria-3-clip-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/lyria-3.5",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/lyria-realtime-exp",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/veo-3.1-fast-generate-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "gemini",
+    "model": "models/veo-3.1-generate-preview",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Asr",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "bge-m3-embedding",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Embedding",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Furen-reranker",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Pic-large",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "iai",
+    "model": "Speaker",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-embed",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-embed-2505",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-embed",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-embed-2312",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-moderation-2603",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-2602",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-latest",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-realtime-2602",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-realtime-latest",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-transcribe-realtime-2602",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-tts-2603",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "voxtral-mini-tts-latest",
+    "kind": "wrong_endpoint",
+    "probe": "skipped_wrong_endpoint",
+    "probe_detail": "wrong_endpoint",
+    "latency_s": null,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "magistral-small-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium-2604",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium-3",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium-3-5",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium-3.5",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-medium-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-2512",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "|  Net cash used in financing activities | Net cash used in financing activities",
+    "latency_s": 2.457713900017552,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-3",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "|  Net cash used in financing activities | Net cash used in financing activities",
+    "latency_s": 0.6196073000028264,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-3-0",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "|  Net cash used in financing activities | Net cash used in financing activities",
+    "latency_s": 1.1481450999854133,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-4",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "{\"pages\": [{\"index\": 0, \"markdown\": \"\", \"images\": [], \"tables\": [], \"hyperlinks\"",
+    "latency_s": 0.7226336000021547,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-4-0",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "|  In millions | Net cash provided by operating activities | Net cash provided b",
+    "latency_s": 3.497546800004784,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-4-1",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "{\"pages\": [{\"index\": 0, \"markdown\": \"\", \"images\": [], \"tables\": [], \"hyperlinks\"",
+    "latency_s": 0.614349300012691,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-ocr-latest",
+    "kind": "ocr",
+    "probe": "accept_wrong",
+    "probe_detail": "{\"pages\": [{\"index\": 0, \"markdown\": \"\", \"images\": [], \"tables\": [], \"hyperlinks\"",
+    "latency_s": 0.5542152999842074,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-small-2603",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-small-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-2508",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'object': 'error', 'message': 'Image input is not enabled for this model', 'type': 'invalid_request_invalid_args', 'param': None, 'code': '3051', 'raw_status_code': 400}"
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-latest",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'object': 'error', 'message': 'Image input is not enabled for this model', 'type': 'invalid_request_invalid_args', 'param': None, 'code': '3051', 'raw_status_code': 400}"
+  },
+  {
+    "provider": "mistral",
+    "model": "labs-leanstral-1-5",
+    "kind": "chat",
+    "probe": "error",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 403 - {'object': 'error', 'message': 'Model labs-leanstral-1-5 is a Labs model. To use Labs models, an admin must enable them in your organization settings at https://admin.mistral.ai/plateforme/privacy.', 'type': 'labs_not_enab"
+  },
+  {
+    "provider": "mistral",
+    "model": "labs-leanstral-1-5-1",
+    "kind": "chat",
+    "probe": "error",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 403 - {'object': 'error', 'message': 'Model labs-leanstral-1-5-1 is a Labs model. To use Labs models, an admin must enable them in your organization settings at https://admin.mistral.ai/plateforme/privacy.', 'type': 'labs_not_en"
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-14b-2512",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.593941500002984,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-14b-latest",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.6768744000000879,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-3b-2512",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "這張圖是紅色。",
+    "latency_s": 0.7324285000213422,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-3b-latest",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "這張圖是紅色。",
+    "latency_s": 0.6577945000026375,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-8b-2512",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.9300552999775391,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "ministral-8b-latest",
+    "kind": "chat",
+    "probe": "accept_correct",
+    "probe_detail": "紅色",
+    "latency_s": 0.6031427000125404,
+    "error": null
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-code-fim-latest",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'object': 'error', 'message': 'Image input is not enabled for this model', 'type': 'invalid_request_invalid_args', 'param': None, 'code': '3051', 'raw_status_code': 400}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-code-latest",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 400 - {'object': 'error', 'message': 'Image input is not enabled for this model', 'type': 'invalid_request_invalid_args', 'param': None, 'code': '3051', 'raw_status_code': 400}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-vibe-cli-fast",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-vibe-cli-latest",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-vibe-cli-with-tools",
+    "kind": "chat",
+    "probe": "quota",
+    "probe_detail": "",
+    "latency_s": null,
+    "error": "Error code: 429 - {'object': 'error', 'message': 'Rate limit exceeded', 'type': 'rate_limited', 'param': None, 'code': '1300', 'raw_status_code': 429}"
+  }
+]

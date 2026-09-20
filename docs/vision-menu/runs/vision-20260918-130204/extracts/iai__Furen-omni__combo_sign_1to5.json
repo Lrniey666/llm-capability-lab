@@ -1,0 +1,90 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "We need to parse the image content. It's a menu with 5 columns (5號 to 1號) and a yellow column on the right \"優惠套餐\". Let's read each column.\n\nColumn 5 (blue label \"5號\"): Text: \"紅茶+雞塊\" (red tea + chicken pieces). Also there is a small yellow tag \"起司蛋堡+\"? Wait that seems part of column 5? Actually column 5 has \"紅茶+雞塊\" and a small yellow rectangle with \"起司蛋堡+\" maybe indicating an add-on? Let's examine.\n\nThe layout: The columns are vertical. Let's transcribe each column from left to right.\n\nColumn 5 (pink background):\n- Blue label \"5號\"\n- Text: \"紅茶+雞塊\"\n- At bottom: \"75元\" (price)\n- There's also a small yellow rectangle with \"起司蛋堡+\" maybe indicating an add-on? It is placed above \"紅茶+雞塊\"? Actually the yellow rectangle is between \"5號\" and \"紅茶+雞塊\"? Let's see: The column shows \"5號\" at top, then below that \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed to the right of \"紅茶+雞塊\"? Wait the image: The first column (5號) has \"紅茶+雞塊\" and a yellow rectangle \"起司蛋堡+\" placed above \"雞塊\"? Let's look at the image: The first column (5號) has \"紅茶+雞塊\" (vertical text). The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Actually the yellow rectangle is placed between \"紅茶\" and \"雞塊\"? Let's examine: The column shows \"紅茶+雞塊\" with a yellow rectangle \"起司蛋堡+\" placed above \"雞塊\"? The text \"起司蛋堡+\" appears in the second column (4號) as \"起司+熱狗\". Wait no.\n\nLet's re-evaluate each column.\n\nColumn 5 (pink):\n- Blue label \"5號\"\n- Text: \"紅茶+雞塊\"\n- At bottom: \"75元\"\n- There's a yellow rectangle \"起司蛋堡+\" placed above \"雞塊\"? Actually the yellow rectangle is placed above \"雞塊\" maybe indicating an add-on for the item? The text \"起司蛋堡+\" appears in column 5? Let's see: In column 5, there is \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? The column 5 also includes \"起司蛋堡+\"? Let's read the column content: The column 5 text lines: \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Actually the yellow rectangle is placed above \"雞塊\" maybe indicating that you can add \"起司蛋堡\" to the order. But the column 5 also includes \"起司蛋堡+\"? Let's examine column 4.\n\nColumn 4 (yellow background):\n- Blue label \"4號\"\n- Text: \"起司+熱狗\" (maybe \"起司+熱狗\"? Actually the text is \"起司+熱狗\"? Wait column 4 shows \"起司+熱狗\"? Let's read: The column 4 text: \"起司+熱狗\" (maybe \"起司+熱狗\"?). Actually the column 4 text: \"起司+熱狗\" (the characters: \"起司+熱狗\"). Then below that \"燻雞蛋堡+\". Wait the column 4 text includes \"起司+熱狗\" and \"燻雞蛋堡+\". Let's parse:\n\nColumn 4 content:\n- Blue label \"4號\"\n- Text: \"起司+熱狗\" (maybe \"起司+熱狗\"?)\n- Then \"燻雞蛋堡+\" (maybe \"燻雞蛋堡+\").\n- At bottom: \"75元\"\n\nBut the column 4 also includes \"起司+熱狗\" and \"燻雞蛋堡+\"? Let's read the column 4 text more carefully: The column 4 (yellow) shows \"起司+熱狗\" (the characters: \"起司+熱狗\") and \"燻雞蛋堡+\" (the characters: \"燻雞蛋堡+\"). Actually the column 4 text appears as \"起司+熱狗\" (maybe \"起司+熱狗\") and \"燻雞蛋堡+\" (maybe \"燻雞蛋堡+\"). The column 4 also includes \"起司+熱狗\" and \"燻雞蛋堡+\"? Let's examine the image again.\n\nThe image shows 5 columns:\n\nColumn 5 (pink):\n- Blue label \"5號\"\n- Text: \"紅茶+雞塊\"\n- Yellow rectangle \"起司蛋堡+\" (maybe \"起司蛋堡+\")\n- At bottom: \"75元\"\n\nColumn 4 (yellow):\n- Blue label \"4號\"\n- Text: \"起司+熱狗\" (maybe \"起司+熱狗\")\n- Text: \"燻雞蛋堡+\" (maybe \"燻雞蛋堡+\")\n- At bottom: \"75元\"\n\nColumn 3 (pink):\n- Blue label \"3號\"\n- Text: \"紅茶+熱狗\"\n- Text: \"豬肉蛋堡+\"\n- At bottom: \"75元\"\n\nColumn 2 (yellow):\n- Blue label \"2號\"\n- Text: \"紅茶+熱狗\"\n- Text: \"香雞蛋堡+\"\n- At bottom: \"75元\"\n\nColumn 1 (yellow):\n- Blue label \"1號\"\n- Text: \"鐵板麵+紅茶\"\n- At bottom: \"60元\"\n\nRightmost column (yellow with stars):\n- Text: \"優惠套餐\" (maybe \"優惠套餐\" meaning discount set meal). No price shown.\n\nNow we need to produce JSON with categories. The categories likely correspond to each column? Or maybe categories are the items. The spec: \"categories\": [ { \"name\": \"分類名稱\", \"items\": [ {\"name\": \"品名\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"} ] } ]\n\nWe need to create categories. Possibly each column is a category (e.g., \"5號\", \"4號\", etc.) But the spec says \"分類名稱\" (category name). Could be the column header (the number). Or maybe the category is \"套餐\" etc. Not sure.\n\nWe need to output JSON with title empty, currency TWD, categories list, notes list.\n\nWe need to list items with name, price, unit, note. The unit is \"份\" (portion). The price is numeric.\n\nWe need to consider that some items have two prices (e.g., maybe \"起司蛋堡+\" is an add-on with price? Not given). The note says: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". In this menu, each column seems to have a single price (75 or 60). The yellow rectangle \"起司蛋堡+\" maybe indicates an add-on with no price shown; maybe it's an extra item that can be added, but price not shown. So we might note \"看不清\" for price? But we can see price for the main item (75). The note can include \"起司蛋堡+\".\n\nLet's parse each column more carefully.\n\nColumn 5:\n- Title: \"5號\"\n- Item name: \"紅茶+雞塊\"\n- Price: 75元\n- Note: maybe \"起司蛋堡+\" (if that's an add-on). But the note should be for price differences, not for add-ons. However the rule: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". Here we have only one price. The yellow rectangle \"起司蛋堡+\" maybe indicates an add-on that can be added, but no price shown. So we could put note: \"起司蛋堡+\". But the rule says note for price differences, not for add-ons. However we can still include note for other info.\n\nBut maybe the yellow rectangle \"起司蛋堡+\" is actually part of column 5's item name: \"紅茶+雞塊 起司蛋堡+\"? Actually maybe the column 5 includes \"紅茶+雞塊\" and also \"起司蛋堡+\" as a separate item? Let's examine the layout: The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? The column 5 text: \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Actually the column 5 shows \"紅茶+雞塊\" with \"起司蛋堡+\" placed above \"雞塊\"? Let's imagine the layout: The column 5 has \"5號\" at top, then \"紅茶+雞塊\" (vertical). The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Or maybe it's placed to the right of \"紅茶\"? Hard to know.\n\nLet's examine column 4: Blue label \"4號\". Text: \"起司+熱狗\". Then \"燻雞蛋堡+\". So column 4 includes two items? Actually maybe the column 4 includes \"起司+熱狗\" and \"燻雞蛋堡+\" as two separate items, each with price 75. But the price is shown at bottom \"75元\". So maybe the price applies to both items (set). Or maybe the column includes two items combined.\n\nColumn 3: \"紅茶+熱狗\" and \"豬肉蛋堡+\". Price 75.\n\nColumn 2: \"紅茶+熱狗\" and \"香雞蛋堡+\". Price 75.\n\nColumn 1: \"鐵板麵+紅茶\". Price 60.\n\nThus each column seems to list a set (combo) of items. The \"起司蛋堡+\" in column 5 maybe is a note indicating that you can add \"起司蛋堡\" to the order (maybe for extra charge). But there is no price shown for that add-on. So we could put note: \"起司蛋堡+\".\n\nSimilarly column 4: \"起司+熱狗\" and \"燻雞蛋堡+\" maybe are two items; but price is 75. So maybe the price applies to the combo.\n\nColumn 3: \"紅茶+熱狗\" and \"豬肉蛋堡+\".\n\nColumn 2: \"紅茶+熱狗\" and \"香雞蛋堡+\".\n\nColumn 1: \"鐵板麵+紅茶\". Price 60.\n\nNow we need to create categories. Possibly each column is a category (e.g., \"5號\", \"4號\", etc.). But the spec says \"分類名稱\" (category name). Could be the column header (the number). Let's assume each column is a category named after the number (e.g., \"5號\", \"4號\", \"3號\", \"2號\", \"1號\").\n\nBut there is also the rightmost column \"優惠套餐\". That could be a category name \"優惠套餐\". However there is no item listed there (just a label). Maybe it's a note.\n\nThe spec: categories is a list of objects, each with \"name\" (category name) and \"items\" list. So we need to group items into categories. Possibly each column is a category. Let's create categories:\n\n- Category \"5號\": item \"紅茶+雞塊\" price 75, unit \"份\", note maybe \"起司蛋堡+\" (if that's an add-on). But note field is for price notes; maybe we can put note \"起司蛋堡+\" as additional info.\n\n- Category \"4號\": items: \"起司+熱狗\" and \"燻雞蛋堡+\". But we need each item separate. However the column shows two items separated by \"+\"? Actually \"起司+熱狗\" maybe \"起司+熱狗\" (maybe \"起司+熱狗\" meaning \"起司+熱狗\"?). And \"燻雞蛋堡+\" maybe \"燻雞蛋堡+\". Both share same price 75. So we could have two items:\n\n   - \"起司+熱狗\": price 75, unit \"份\", note \"\" (maybe none)\n   - \"燻雞蛋堡+\": price 75, unit \"份\", note \"\".\n\nBut the column also includes \"起司蛋堡+\"? Wait column 5 includes \"起司蛋堡+\". So maybe column 5 includes \"紅茶+雞塊\" and \"起司蛋堡+\" as separate items? Let's examine column 5 again: The column 5 text: \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Actually maybe the column 5 includes \"紅茶+雞塊\" and also \"起司蛋堡+\" as a separate item (maybe \"起司蛋堡+\" is a separate item that can be added). But the column 5 also includes \"起司蛋堡+\"? Let's read the column 5 text: \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Actually the yellow rectangle is placed above \"雞塊\"? Let's see: The column 5 text lines: \"紅茶+雞塊\". The yellow rectangle \"起司蛋堡+\" is placed above \"雞塊\"? Or maybe it's placed above \"紅茶\"? Hard.\n\nLet's think: The column 5 might be \"紅茶+雞塊\" (tea + chicken pieces). The yellow rectangle \"起司蛋堡+\" maybe indicates that you can also add \"起司蛋堡\" (cheese egg burger) to the order. But there is no price for that add-on. So maybe we treat it as a note.\n\nBut the spec says \"不要猜、不要編造不存在的品項\". So if we are not sure about the exact item name, we should not guess. The yellow rectangle \"起司蛋堡+\" is visible, so we can include it as part of the item name? Or as a note? The rule: \"看不清就 note 寫「看不清」, 不要填假價格\". So we can include note \"起司蛋堡+\" if we cannot determine price.\n\nBut maybe the column 5 includes \"紅茶+雞塊\" and \"起司蛋堡+\" as separate items, each with price 75? Actually the price 75 is at bottom, maybe applies to the whole combo (including the add-on). So maybe the item name is \"紅茶+雞塊\" and the note \"起司蛋堡+\" indicates that you can also add \"起司蛋堡\" (maybe for extra cost). But we don't have price for that.\n\nGiven the ambiguity, maybe we should treat each column as a single item (the main combo). The note can include any extra text visible in that column that is not part of the main item name.\n\nLet's list items:\n\nColumn 5:\n- Item name: \"紅茶+雞塊\"\n- Price: 75\n- Note: \"起司蛋堡+\" (if that's visible)\n\nColumn 4:\n- Item name: \"起司+熱狗\" (maybe \"起司+熱狗\"?)\n- Price: 75\n- Note: \"燻雞蛋堡+\" (if that's separate)\n\nBut maybe the column 4 includes \"起司+熱狗\" and \"燻雞蛋堡+\" as two separate items, each with price 75. However the column shows \"起司+熱狗\" and \"燻雞蛋堡+\" separated by a plus sign? Actually the column 4 text: \"起司+熱狗\" (maybe \"起司+熱狗\") and \"燻雞蛋堡+\" (maybe \"燻雞蛋堡+\"). The plus sign may separate items. So maybe the column includes two items: \"起司+熱狗\" and \"燻雞蛋堡+\". Both have price 75. So we could list two items.\n\nColumn 3:\n- Item name: \"紅茶+熱狗\"\n- Note: \"豬肉蛋堡+\"\n\nColumn 2:\n- Item name: \"紅茶+熱狗\"\n- Note: \"香雞蛋堡+\"\n\nColumn 1:\n- Item name: \"鐵板麵+紅茶\"\n- Price: 60\n- Note: none\n\nNow the rightmost column \"優惠套餐\" maybe indicates a discount set meal, but no specific item name or price. So we could add a note \"優惠套餐\" in notes list.\n\nBut the spec says \"notes\": [\"菜單上的其他文字\"] - list of other text on the menu. So we can include \"優惠套餐\" as a note.\n\nNow we need to decide the categories. Possibly each column is a category named after the number (e.g., \"5號\", \"4號\", \"3號\", \"2號\", \"1號\"). Or maybe the category name is \"套餐\" etc. The spec example: categories:",
+  "parsed": {
+    "name": "分類名稱",
+    "items": [
+      {
+        "name": "品名",
+        "price": 70,
+        "unit": "份",
+        "note": ""
+      }
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 11.953240500006359,
+  "prompt_tokens": 2069,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 5,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.6,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

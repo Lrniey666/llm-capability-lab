@@ -1,0 +1,107 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "{\n  \"title\": \"四海豆漿大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"飲料\",\n      \"items\": [\n        {\"name\": \"鮮奶豆漿\", \"price\": 45, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"鮮奶茶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"杏仁茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小 20\"},\n        {\"name\": \"杏仁豆漿\", \"price\": 35, \"unit\": \"杯\", \"note\": \"",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 10 column 66 (char 297)",
+  "latency_s": 17.603958499996224,
+  "prompt_tokens": 1289,
+  "completion_tokens": 163,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.25,
+    "price_recall": 0.25,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

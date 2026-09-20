@@ -1,0 +1,22 @@
+[
+  {
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "Image must have at least 32 pixels in each dimension",
+    "latency_s": null,
+    "error": "Error code: 400 - Image must have at least 32 pixels in each dimension",
+    "note": "16×16 red PNG. Same 400 with reasoning_effort=none and max_tokens=256."
+  },
+  {
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "kind": "chat",
+    "probe": "reject",
+    "probe_detail": "messages[0].content must be a string",
+    "latency_s": null,
+    "error": "Error code: 400 - messages[0].content must be a string",
+    "note": "Lab default chat model. Text-only."
+  }
+]

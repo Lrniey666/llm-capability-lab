@@ -1,0 +1,143 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1739502.jpg",
+  "mime": "image/jpeg",
+  "bytes": 184694,
+  "ok": true,
+  "text": "We need to parse visible content. Title: \"滿足飯包 MANZUFANBAO\". So title = \"滿足飯包 MANZUFANBAO\". Currency TWD.\n\nCategories: The menu has sections: \"招牌主打\", \"獨家口味\", \"素食口味\", \"乾拌烏龍\", \"香濃醬香\", \"台式經典\", \"湯鍋燒\", \"湯品\", \"炸物 Fried food\", \"飲品 Drinks\". Also \"套餐升級 Upgrade\" but that's not a food category. We need categories with items.\n\nWe need to list each item with name, price, unit \"份\" (portion). For items with multiple price (e.g., add-ons), we need to use the more obvious price (likely the main price) and note the other.\n\nLet's go through each visible category.\n\n\"招牌主打\" (Signature main). Items:\n\n- 壹鮪魚 Tuna 70\n- 薑汁燒肉 Roast pork with Ginger Sauce 80\n- 打拋豬肉 Fried pork with holy Basil with soy sauce 80\n- 壽喜牛肉 Beef Sukiyaki 85\n- 鐵路肉排 Fried pork tenderloin 80\n\nCheck if any note needed: none.\n\n\"獨家口味\" (Unique flavor). Items:\n\n- 肉鬆燒肉 Roast pork,Flass 75 (maybe \"Flass\" typo)\n- 花生肉鬆燒肉 Nutella Roast pork,Flass 85 (maybe \"Nutella\"? but it's \"花生肉鬆燒肉\"? Actually \"花生肉鬆燒肉\" maybe \"Peanut meat floss\"? We'll keep as visible text.)\n- 泡菜燒肉 Kimchi Roast Pork 85\n- 泡菜鮪魚 Kimchi Tuna 85\n- 泡菜牛肉 Kimchi Beef 99\n\n\"素食口味\" (Vegetarian). Items:\n\n- 方便素 70 (maybe \"方便素\" meaning \"vegetarian set\"?)\n- 花生香滷豆腐 Nutella braised tofu 70 (again \"Nutella\"? maybe \"花生香滷豆腐\")\n- 椒麻香滷豆腐 braised tofu 70\n\n\"乾拌烏龍\" (Dry noodles). Items:\n\n- 打拋豬肉 Basil pork with holy Basil with soy sauce 90 (maybe \"打拋豬肉\" same as earlier but with basil)\n- 薑汁燒肉 Roast Pork Sauce 90 (maybe \"薑汁燒肉\")\n- 壽喜牛肉 Beef Sukiyaki 95\n\nNote: there is \"加價+$15 / 加價+$15\" for some items; but we will use main price.\n\n\"香濃醬香\" (Rich sauce). Items:\n\n- 咖哩起司豬排 Fried cheese pork chops with curry sauce 85\n- 花生起司豬排 Fried cheese chops with curry sauce 90\n- 咖哩炸雞腿 Fried kara chicken with curry sauce 85\n- 糖醋味啦雞腿 Fried Kala chicken with sweet chili sauce 85\n- 花生味啦雞腿 Fried cheese pork chops with curry sauce 90\n- 焙岩花生牛肉 Beef Sukiyaki with Nutella 95\n\n\"台式經典\" (Taiwanese classic). Items:\n\n- 香脆椒麻雞 Thai spicy fried chicken 90\n- 糖醋炸魚 Fried fish with Sweet chili sauce 85\n- 鳳梨蝦球 Pineapple Shrimp balls 105\n- 塔香三杯雞 3-cup chicken 85\n\n\"湯鍋燒\" (Hot pot / stew). Items:\n\n- 經典柴魚 Bonito 90\n- 古早沙茶 Shacha 90\n- 韓式泡菜 kimchi 105\n\nNote: there is \"加價+$15 / 加價+$15\" for some items; but we use main price.\n\n\"湯品 Soup\" (Soup). Items:\n\n- 豆腐味噌湯 Miso Soup 25\n- 玉米濃湯 Corn Chowder 35\n\n\"炸物 Fried food\" (Fried food). Items:\n\n- 鮮炸餃 Fried dumplings 35\n- 脆薯球 Crispy Potato Balls 35\n- 炸黑輪 Fried fish paste 40\n- 杏鮑菇 King Oyster Mushroom 50\n\n\"飲品 Drinks\" (Drinks). Items:\n\n- 黃金麥茶 無糖 Barley tea (no sugar) 30\n- 古早味紅茶 Black tea 25\n- 手工冬瓜茶 Winter melon tea 25\n- 冬瓜紅茶 Black tea,Winter melon tea 25\n- 冬瓜檸檬 Winter melon tea with lemon 30\n- 紅茶檸檬 Black tea with lemon 30\n- 冬瓜牛乳 Winter melon tea with milk 35\n- 紅茶牛乳 milk tea 35\n\nAlso there are \"套餐升級 Upgrade\" with combos A, B, C. But those are upgrades, not separate categories. The instruction: categories are \"分類名稱\". Likely each main section. Should we include \"套餐升級\"? Probably not, as it's not a food category but an upgrade. But maybe we should include as category \"套餐升級\". However items there are combos with price differences. The rule: price use the more obvious price; for combos maybe price is the base price plus extra. But they are not separate items; they are upgrades. Might be considered separate category. But to be safe, include categories that are clearly food categories. The \"套餐升級\" is a separate section with combos A, B, C. Items:\n\nA: $35炸物 + $25飲品 + $45 (maybe +45?). Actually text: \"A $35炸物 + $25飲品 +$45\". That seems confusing. Let's read: \"A $35炸物 + $25飲品 +$45\". Possibly means add $45 to the combo? Not clear. B: \"酥炸黑輪+$25飲品 +$50\". C: \"炸物 + 飲品 + 湯品 +$69\". These are upgrades, not individual items. Might be too ambiguous. The rule says \"不要猜、不要編造不存在的品項\". Since these combos are ambiguous, maybe we skip them.\n\nAlso there is \"STEP1 選主餐 Staple Food\" and \"STEP2 搭配升級套餐\". But categories likely the food categories.\n\nNow need to ensure each item's price is numeric, unit \"份\". For items with note about add-ons, we need to include note.\n\nLet's compile list.\n\nCategory \"招牌主打\":\n- Tuna 70\n- 薑汁燒肉 80\n- 打拋豬肉 80\n- 壽喜牛肉 85\n- 鐵路肉排 80\n\nCategory \"獨家口味\":\n- 肉鬆燒肉 75\n- 花生肉鬆燒肉 85\n- 泡菜燒肉 85\n- 泡菜鮪魚 85\n- 泡菜牛肉 99\n\nCategory \"素食口味\":\n- 方便素 70\n- 花生香滷豆腐 70\n- 椒麻香滷豆腐 70\n\nCategory \"乾拌烏龍\":\n- 打拋豬肉 90\n- 薑汁燒肉 90\n- 壽喜牛肉 95\n\nCategory \"香濃醬香\":\n- 咖哩起司豬排 85\n- 花生起司豬排 90\n- 咖哩炸雞腿 85\n- 糖醋味啦雞腿 85\n- 花生味啦雞腿 90\n- 焙岩花生牛肉 95\n\nCategory \"台式經典\":\n- 香脆椒麻雞 90\n- 糖醋炸魚 85\n- 鳳梨蝦球 105\n- 塔香三杯雞 85\n\nCategory \"湯鍋燒\":\n- 經典柴魚 90\n- 古早沙茶 90\n- 韓式泡菜 105\n\nCategory \"湯品\":\n- 豆腐味噌湯 25\n- 玉米濃湯 35\n\nCategory \"炸物 Fried food\":\n- 鮮炸餃 35\n- 脆薯球 35\n- 炸黑輪 40\n- 杏鮑菇 50\n\nCategory \"飲品 Drinks\":\n- 黃金麥茶 無糖 Barley tea (no sugar) 30\n- 古早味紅茶 Black tea 25\n- 手工冬瓜茶 Winter melon tea 25\n- 冬瓜紅茶 Black tea,Winter melon tea 25\n- 冬瓜檸檬 Winter melon tea with lemon 30\n- 紅茶檸檬 Black tea with lemon 30\n- 冬瓜牛乳 Winter melon tea with milk 35\n- 紅茶牛乳 milk tea 35\n\nCheck for any other categories: \"套餐升級 Upgrade\" maybe not needed. Also \"STEP1\" and \"STEP2\" headings not categories.\n\nNow ensure each item's price is integer. All are integers.\n\nUnit: \"份\". For drinks maybe \"杯\"? But rule says unit \"份\". So we set unit \"份\" for all.\n\nNote: For items with add-on price note, we need to include note. Let's see which items have note.\n\nIn \"乾拌烏龍\": there is \"加價+$15 / 加價+$15\" maybe for each item? The text: \"乾拌烏龍 加價+$15 / 加價+$15\". Not clear which items. Possibly all items in that section have add-on options. But we can't guess. Since not clear, maybe we ignore note.\n\nIn \"湯鍋燒\": \"加價+$15 / 加價+$15\". Again ambiguous. Might be for each item. Not clear.\n\nIn \"套餐升級\": there are notes like \"+$45\", \"+$50\", \"+$69\". But we might skip.\n\nGiven rule: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". For our items, I don't see dual prices. So note empty.\n\nBut there are items with \"加價+$15\" etc. Since not clear which items, maybe we treat note as \"看不清\". But maybe we can note \"加價+$15\" for those items. However we need to be careful not to guess. The text \"加價+$15 / 加價+$15\" appears under \"乾拌烏龍\" and \"湯鍋燒\". It might indicate that you can add $15 to upgrade to a larger portion? Not sure.\n\nBetter to avoid adding note unless clearly visible. The rule: \"看不清的字不要猜、不要編造不存在的品項\". So if we can't read the note clearly, we should note \"看不清\". But we can see the text \"加價+$15 / 加價+$15\". That's readable. So we can include note \"加價+$15\". But which items? The header maybe indicates that you can add $15 to upgrade? Not per item. Might be a generic note for the section. Since ambiguous, maybe we add note \"加價+$15\" for the whole category, but that may be considered extra info not per item. The rule says note for each item. If the note applies to all items in category, we could add same note to each. But that may be overkill.\n\nSimplify: For categories where there is clear note per item (like \"加價+$15\" next to each item), we can include note. Let's examine \"乾拌烏龍\" line: \"乾拌烏龍 加價+$15 / 加價+$15\". Actually there are two \"+$15\" maybe for two options (maybe large vs small). Not clear.\n\n\"湯鍋燒\" line: \"湯鍋燒 加價+$15 / 加價+$15\". Same.\n\nGiven ambiguity, maybe we skip note for those items, just use price.\n\nNow ensure JSON format: top-level keys: \"title\", \"currency\", \"categories\" (list of objects), \"notes\" (list of strings). The categories list must contain each category with name and items list.\n\nWe need to ensure each item object includes \"name\", \"price\", \"unit\", \"note\". Note can be empty string.\n\nLet's construct categories in order as they appear.\n\n1. \"招牌主打\"\n2. \"獨家口味\"\n3. \"素食口味\"\n4. \"乾拌烏龍\"\n5. \"香濃醬香\"\n6. \"台式經典\"\n7. \"湯鍋燒\"\n8. \"湯品\"\n9. \"炸物 Fried food\"\n10. \"飲品 Drinks\"\n\nCheck if any other categories like \"套餐升級\" maybe not needed.\n\nNow create items.\n\nWe'll need to ensure each item's name exactly as visible (including English). Use the visible text.\n\nLet's list each item with name and price.\n\n\"招牌主打\":\n- name: \"壹鮪魚\", price 70, unit \"份\", note \"\"\n- name: \"薑汁燒肉\", price 80, note \"\"\n- name: \"打拋豬肉\", price 80, note \"\"\n- name: \"壽喜牛肉\", price 85, note \"\"\n- name: \"鐵路肉排\", price 80, note \"\"\n\n\"獨家口味\":\n- \"肉鬆燒肉\", 75\n- \"花生肉鬆燒肉\", 85\n- \"泡菜燒肉\", 85\n- \"泡菜鮪魚\", 85\n- \"泡菜牛肉\", 99\n\n\"素食口味\":\n- \"方便素\", 70\n- \"花生香滷豆腐\", 70\n- \"椒麻香滷豆腐\", 70\n\n\"乾拌烏龍\":\n- \"打拋豬肉\", 90\n- \"薑汁燒肉\", 90\n- \"壽喜牛肉\", 95\n\n\"香濃醬香\":\n- \"咖哩起司豬排\", 85\n- \"花生起司豬排\", 90\n- \"咖哩炸雞腿\", 85\n- \"糖醋味啦雞腿\", 85\n- \"花生味啦雞腿\", 90\n- \"焙岩花生牛肉\", 95\n\n\"台式經典\":\n- \"香脆椒麻雞\", 90\n- \"糖醋炸魚\", 85\n- \"鳳梨蝦球\", 105\n- \"塔香三杯雞\", 85\n\n\"湯鍋燒\":\n- \"經典柴魚\", 90\n- \"古早沙茶\", 90\n- \"韓式泡菜\", 105\n\n\"湯品\":\n- \"豆腐味噌湯\", 25\n- \"玉米濃湯\", 35\n\n\"炸物 Fried food\":\n- \"鮮炸餃\", 35\n- \"脆薯球\", 35\n- \"炸黑輪\", 40\n- \"杏鮑菇\", 50\n\n\"飲品 Drinks\":\n- \"黃金麥茶 無糖 Barley tea (no sugar)\", 30\n- \"古早味紅茶 Black tea\", 25\n- \"手工冬瓜茶 Winter melon tea\", 25\n- \"冬瓜紅茶 Black tea,Winter melon tea\", 25\n- \"冬瓜檸檬 Winter melon tea with lemon\", 30\n- \"紅茶檸檬 Black tea with lemon\", 30\n- \"冬瓜牛乳 Winter melon tea with milk\", 35\n- \"紅茶牛乳 milk tea\", 3",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.367451800004346,
+  "prompt_tokens": 2423,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "manzufanbao",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 12,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "壹鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "薑汁燒肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "打拋豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "壽喜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鐵路肉排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "泡菜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鳳梨蝦球",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "塔香三杯雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮮炸餃",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "黃金麥茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豆腐味噌湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

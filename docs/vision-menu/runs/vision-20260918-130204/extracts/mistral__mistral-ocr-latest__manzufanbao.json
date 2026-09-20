@@ -1,0 +1,143 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1739502.jpg",
+  "mime": "image/jpeg",
+  "bytes": 184694,
+  "ok": true,
+  "text": "滿足飯包\nMANZUFANBAO\n\nSTEP1 選主餐 Staple Food\n\n飯包系列 Riceburger 加飯+\\$5\n\n![img-0.jpeg](img-0.jpeg)\n\n![img-1.jpeg](img-1.jpeg)\n\n![img-2.jpeg](img-2.jpeg)\n\n![img-3.jpeg](img-3.jpeg)\n\n# 招牌主打\n\n- 壹鮪魚 Tuna 70\n- 薑汁燒肉 Roast pork with Ginger Sauce 80\n- 打拋豬肉 Fried pork with holy Basil with soy sauce 80\n- 壽喜牛肉 Beef Sukiyaki 85\n- 鐵路肉排 Fried pork tenderloin 80\n\n# 獨家口味\n\n- 肉鬆燒肉 Roast pork, Floss 75\n- 花生肉鬆燒肉 Nutella Roast pork, Floss 85\n- 泡菜燒肉 Kimchi Roast Pork 85\n- 泡菜鮪魚 Kimchi Tuna 85\n- 泡菜牛肉 Kimchi Beef 99\n\n# 素食口味\n\n- 花生香油豆腐 Nutella braised tofu 70\n- 椒麻香油豆腐 Thai spicy sauce braised tofu 70\n\n# 乾拌烏龍\n\n加飯+\\$15 / 加糖+\\$15\n\n- 打拋豬肉 Fried pork with holy Basil with soy sauce 90\n- 薑汁燒肉 Roast pork with Ginger Sauce 90\n- 壽喜牛肉 Beef Sukiyaki 95\n\n# 香濃醬香\n\n- 咖哩起司豬排 Fried cheese pork Chops with curry sauce 85\n- 花生起司豬排 Fried cheese pork Chops with Nutella 90\n- 咖哩咔啦雞腿 Fried kara chicken with curry sauce 85\n- 糖醋咔啦雞腿 Fried Kala chicken with Sweet chili sauce 85\n- 花生咔啦雞腿 Fried cheese pork Chops with curry sauce 90\n- 熔岩花生牛肉 Beef Sukiyaki with Nutella 95\n\n# 台式經典\n\n- 香脆椒麻雞 Thai spicy fried chicken 90\n- 糖醋炸魚 Fried fish with Sweet chili sauce 85\n- 鳳梨蝦球 Pineapple Shrimp balls 105\n- 塔香三杯雞 3-cup chicken 85\n\n- 鹽酥杏鮑菇 Salty and Crispy King Oyster Mushroom 70\n- 糖醋杏鮑菇 Sweet chili sauce King Oyster Mushroom 80\n- 椒麻杏鮑菇 Thai spicy sauce King Oyster Mushroom 80\n\n# 湯鍋燒\n\n加糖+\\$15 / 升級烏龍+\\$15\n\n- 經典柴魚 Bonito 90\n- 古早沙茶 Shacha 90\n- 韓式泡菜 kimchi 105\n\n# 湯品 Soup\n\n李節湯定\n\n- 豆腐味噌湯 Miso Soup 25\n- 玉米濃湯 Corn Chowder 35\n\nSTEP2\n\n搭配升級套餐\n\n套餐升級 Upgrade\n\n*超額可補差價\nExcess payment difference\n\nA \\$35炸物+\\$25飲品\n\\$35 Fried food+\\$25 Drinks\n\n+.45\n\nB 酥炸黑輪+\\$25飲品\nFried fish paste+\\$25 Drinks\n\n+.50\n\nC 炸物+飲品+湯品\n\n+.69\n\n\\$35 Fried food+\\$25 Drinks+\\$25 Soups\n\n# 炸物 Fried food\n\n- 鮮炸餃 Fried dumplings 35\n- 脆薯球 Crispy Potato Balls 35\n- 炸黑輪 Fried fish paste 40\n- 杏鮑菇 King Oyster Mushroom 50\n\n# 飲品 Drinks\n\n微糖 | 去冰 | M size\nLightly sweet/No ice\n\n- 黃金麥茶 無糖 Barley tea (no sugar) 30\n- 古早味紅茶 Black tea 25\n- 手工冬瓜茶 Winter melon tea 25\n- 冬瓜紅茶 Black tea, Winter melon tea 25\n- 冬瓜檸檬 Winter melon tea with lemon 30\n- 紅茶檸檬 Black tea with lemon 30\n- 冬瓜牛乳 Winter melon tea with milk 35\n- 紅茶牛乳 milk tea 35",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 6.0101292000035755,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "manzufanbao",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 12,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "壹鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "薑汁燒肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "打拋豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "壽喜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鐵路肉排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "泡菜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鳳梨蝦球",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "塔香三杯雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮮炸餃",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "黃金麥茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豆腐味噌湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

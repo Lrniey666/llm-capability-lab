@@ -1,0 +1,395 @@
+{
+  "version": 1,
+  "currency": "TWD",
+  "annotator": "human-visual-2026-09-18",
+  "notes": "錨點（anchor）是高信心品名／價格，不是全量 OCR。gold_complete=true 的圖才把未命中的輸出品項算成幻覺。",
+  "images": [
+    {
+      "id": "sanchiao_qiaofu",
+      "file": "20260916_122303549.jpg",
+      "battery": "core",
+      "difficulty": "hard",
+      "layout": "storefront_photo_glare_multipanel",
+      "gold_complete": false,
+      "title_aliases": ["三商巧福", "三商"],
+      "anchors": [
+        {"name": "半筋半肉牛肉麵", "aliases": ["半筋半肉"], "prices": [239]},
+        {"name": "超大盛牛肉壽喜飯", "aliases": ["牛肉壽喜飯", "超大盛"], "prices": [239]},
+        {"name": "牛三寶牛肉麵", "aliases": ["牛三寶"], "prices": [259]},
+        {"name": "原汁牛肉麵", "aliases": ["原汁牛肉"], "prices": [229, 179]},
+        {"name": "紅燒排骨飯", "aliases": ["紅燒排骨"], "prices": [189, 165]},
+        {"name": "清燉牛肉麵", "aliases": ["清燉牛肉"], "prices": [229]},
+        {"name": "叻沙牛肉麵", "aliases": ["叻沙"], "prices": [239]},
+        {"name": "番茄牛肉麵", "aliases": ["番茄牛肉"], "prices": [239]},
+        {"name": "牛肉炸醬麵", "aliases": ["炸醬麵"], "prices": [165]},
+        {"name": "番茄肉醬乾拌麵", "aliases": ["番茄肉醬"], "prices": [165]},
+        {"name": "紅燒四寶牛肉麵", "aliases": ["四寶牛肉"], "prices": [249]},
+        {"name": "揚州雙寶牛肉拉麵", "aliases": ["揚州雙寶"], "prices": [235]},
+        {"name": "醬滷黑豆干", "aliases": ["黑豆干"], "prices": [55]},
+        {"name": "滷三拼", "aliases": ["滷三拼"], "prices": [65]},
+        {"name": "雪花牛肉乾拌麵", "aliases": ["雪花牛肉"], "prices": [189]}
+      ]
+    },
+    {
+      "id": "sihai_doujiang",
+      "file": "Screenshot_20260916-1235472.jpg",
+      "battery": "core",
+      "difficulty": "hard",
+      "layout": "vertical_chinese_wall_board",
+      "gold_complete": false,
+      "title_aliases": ["四海豆漿大王", "四海豆漿"],
+      "anchors": [
+        {"name": "鮮豆漿", "aliases": ["鮮豆漿"], "prices": [45]},
+        {"name": "鮮奶茶", "aliases": ["鮮奶茶"], "prices": [40]},
+        {"name": "杏仁茶", "aliases": ["杏仁茶"], "prices": [30]},
+        {"name": "鹹豆漿", "aliases": ["鹹豆漿"], "prices": [30]},
+        {"name": "鍋燒冬粉", "aliases": ["鍋燒冬粉"], "prices": [80]},
+        {"name": "鍋燒意麵", "aliases": ["鍋燒意麵"], "prices": [80]},
+        {"name": "漢堡", "aliases": ["漢堡"], "prices": [40]},
+        {"name": "荷包蛋", "aliases": ["荷包蛋"], "prices": [15]}
+      ]
+    },
+    {
+      "id": "yiri_sansan",
+      "file": "Screenshot_20260916-1739072.jpg",
+      "battery": "extended",
+      "difficulty": "hard",
+      "layout": "paper_checklist_tiny_type",
+      "gold_complete": false,
+      "title_aliases": ["宜日三餐", "YIRIH"],
+      "anchors": [
+        {"name": "起司蛋吐司", "aliases": ["起司蛋"], "prices": [30]},
+        {"name": "玉米蛋吐司", "aliases": ["玉米蛋"], "prices": [30]},
+        {"name": "芋泥蛋吐司", "aliases": ["芋泥蛋"], "prices": [40]},
+        {"name": "法國吐司", "aliases": ["法國吐司"], "prices": [35]},
+        {"name": "美國牛五花吐司", "aliases": ["美國牛五花"], "prices": [85]},
+        {"name": "花生吐司", "aliases": ["花生"], "prices": [40]}
+      ]
+    },
+    {
+      "id": "manzufanbao",
+      "file": "Screenshot_20260916-1739502.jpg",
+      "battery": "extended",
+      "difficulty": "medium",
+      "layout": "printed_bilingual_combo",
+      "gold_complete": false,
+      "title_aliases": ["滿足飯包", "MANZUFANBAO", "美味飯包"],
+      "anchors": [
+        {"name": "壹鮪魚", "aliases": ["壹鮪魚", "Tuna"], "prices": [70]},
+        {"name": "薑汁燒肉", "aliases": ["薑汁燒肉"], "prices": [80]},
+        {"name": "打拋豬肉", "aliases": ["打拋豬肉"], "prices": [80]},
+        {"name": "壽喜牛肉", "aliases": ["壽喜牛肉"], "prices": [85, 95]},
+        {"name": "鐵路肉排", "aliases": ["鐵路肉排"], "prices": [80]},
+        {"name": "泡菜牛肉", "aliases": ["泡菜牛肉"], "prices": [99]},
+        {"name": "鳳梨蝦球", "aliases": ["鳳梨蝦球"], "prices": [105]},
+        {"name": "塔香三杯雞", "aliases": ["三杯雞"], "prices": [85]},
+        {"name": "鮮炸餃", "aliases": ["鮮炸餃"], "prices": [35]},
+        {"name": "黃金麥茶", "aliases": ["黃金麥茶", "Barley"], "prices": [30]},
+        {"name": "豆腐味噌湯", "aliases": ["味噌湯", "Miso"], "prices": [25]},
+        {"name": "玉米濃湯", "aliases": ["玉米濃湯"], "prices": [35]}
+      ]
+    },
+    {
+      "id": "mwd_nanzi",
+      "file": "Screenshot_20260916-1740162.jpg",
+      "battery": "extended",
+      "difficulty": "hard",
+      "layout": "social_screenshot_tiny_prices",
+      "gold_complete": false,
+      "title_aliases": ["麥味登", "MWD"],
+      "anchors": [
+        {"name": "香雞", "aliases": ["香雞"], "prices": [35]},
+        {"name": "鮪魚", "aliases": ["鮪魚"], "prices": [45]},
+        {"name": "原塊燻雞起司", "aliases": ["原塊燻雞"], "prices": [70]}
+      ]
+    },
+    {
+      "id": "mwd_nanzi_hires",
+      "file": "Screenshot_20260916-174016.png",
+      "skip": true,
+      "skip_reason": "與 Screenshot_20260916-1740162.jpg 同刺激、檔案過大",
+      "battery": "skip",
+      "difficulty": "hard",
+      "layout": "duplicate_png",
+      "gold_complete": false,
+      "title_aliases": ["麥味登"],
+      "anchors": []
+    },
+    {
+      "id": "bagel_cafe_board",
+      "file": "Screenshot_20260916-1740512.jpg",
+      "battery": "extended",
+      "difficulty": "medium",
+      "layout": "backlit_board_watermark",
+      "gold_complete": false,
+      "title_aliases": ["軟法", "研磨咖啡"],
+      "anchors": [
+        {"name": "薯泥", "aliases": ["薯泥"], "prices": [55]},
+        {"name": "培根", "aliases": ["培根"], "prices": [55]},
+        {"name": "香雞", "aliases": ["香雞"], "prices": [65]},
+        {"name": "德式香腸", "aliases": ["德式香腸"], "prices": [60]},
+        {"name": "原味蛋餅", "aliases": ["原味"], "prices": [30]},
+        {"name": "美式咖啡", "aliases": ["美式咖啡"], "prices": [45]},
+        {"name": "拿鐵咖啡", "aliases": ["拿鐵"], "prices": [55]},
+        {"name": "海鮮鍋燒意麵", "aliases": ["海鮮鍋燒意麵"], "prices": [80]}
+      ]
+    },
+    {
+      "id": "breakfast_whiteboard",
+      "file": "Screenshot_20260916-1741122.jpg",
+      "battery": "extended",
+      "difficulty": "medium",
+      "layout": "column_whiteboard",
+      "gold_complete": false,
+      "title_aliases": ["吐司類", "漢堡類"],
+      "anchors": [
+        {"name": "吐司夾蛋", "aliases": ["吐司夾蛋"], "prices": [25]},
+        {"name": "九層蛋", "aliases": ["九層蛋"], "prices": [30]},
+        {"name": "原味蛋餅", "aliases": ["原味"], "prices": [25]},
+        {"name": "起司蛋堡", "aliases": ["起司蛋堡"], "prices": [35]},
+        {"name": "荷包蛋", "aliases": ["荷包蛋"], "prices": [15]},
+        {"name": "鍋燒意麵", "aliases": ["鍋燒意麵"], "prices": [70]},
+        {"name": "紅茶", "aliases": ["紅茶"], "prices": [25, 15]},
+        {"name": "總匯豬肉", "aliases": ["豬肉"], "prices": [55]}
+      ]
+    },
+    {
+      "id": "combo_sign_1to5",
+      "file": "Screenshot_20260916-1741242.jpg",
+      "battery": "core",
+      "difficulty": "easy",
+      "layout": "large_print_combo_sign",
+      "gold_complete": true,
+      "title_aliases": ["優惠套餐"],
+      "anchors": [
+        {"name": "1號鐵板麵加紅茶", "aliases": ["鐵板麵", "1號"], "prices": [60]},
+        {"name": "2號香雞蛋堡", "aliases": ["香雞蛋堡", "2號"], "prices": [75]},
+        {"name": "3號豬肉蛋堡", "aliases": ["豬肉蛋堡", "3號"], "prices": [75]},
+        {"name": "4號燻雞蛋堡", "aliases": ["燻雞蛋堡", "4號"], "prices": [75]},
+        {"name": "5號起司蛋堡", "aliases": ["起司蛋堡", "5號"], "prices": [75]}
+      ]
+    },
+    {
+      "id": "haowei_vietnamese",
+      "file": "Screenshot_20260916-1741462.jpg",
+      "battery": "extended",
+      "difficulty": "easy",
+      "layout": "paper_order_form_tables",
+      "gold_complete": false,
+      "title_aliases": ["好味", "越式料理"],
+      "anchors": [
+        {"name": "生鮮牛肉", "aliases": ["生鮮牛肉"], "prices": [110]},
+        {"name": "紅燒牛肉", "aliases": ["紅燒牛肉"], "prices": [140]},
+        {"name": "紅燒牛肉飯", "aliases": ["紅燒牛肉飯"], "prices": [140]},
+        {"name": "香茅雞肉飯", "aliases": ["香茅雞肉飯"], "prices": [120]},
+        {"name": "排骨飯", "aliases": ["排骨飯"], "prices": [110]},
+        {"name": "炒青菜", "aliases": ["炒青菜"], "prices": [60]},
+        {"name": "蛋花湯", "aliases": ["蛋花湯"], "prices": [30]},
+        {"name": "虱目魚丸湯", "aliases": ["虱目魚丸湯"], "prices": [35]},
+        {"name": "牛肉炒青菜", "aliases": ["牛肉炒青菜"], "prices": [140]}
+      ]
+    },
+    {
+      "id": "lanzhou_lamian",
+      "file": "Screenshot_20260916-1742312.jpg",
+      "battery": "core",
+      "difficulty": "medium",
+      "layout": "yellow_order_pad_table",
+      "gold_complete": true,
+      "title_aliases": ["蘭州", "拉麵館", "手工現做"],
+      "anchors": [
+        {"name": "金牌牛三寶麵", "aliases": ["牛三寶"], "prices": [180]},
+        {"name": "半筋半肉麵", "aliases": ["半筋半肉"], "prices": [150]},
+        {"name": "牛筋牛肚麵", "aliases": ["牛筋牛肚"], "prices": [150]},
+        {"name": "牛腱牛肉麵", "aliases": ["牛腱牛肉"], "prices": [130]},
+        {"name": "牛肉清湯麵", "aliases": ["牛肉清湯麵"], "prices": [75]},
+        {"name": "豬肋排骨麵", "aliases": ["排骨麵"], "prices": [110]},
+        {"name": "豬腳麵", "aliases": ["豬腳麵"], "prices": [110]},
+        {"name": "龍骨麵", "aliases": ["龍骨麵"], "prices": [90]},
+        {"name": "叉燒麵", "aliases": ["叉燒麵"], "prices": [80]},
+        {"name": "炸醬麵", "aliases": ["炸醬麵"], "prices": [80]},
+        {"name": "榨菜肉絲麵", "aliases": ["榨菜肉絲麵"], "prices": [80]},
+        {"name": "豬肉清湯麵", "aliases": ["豬肉清湯麵"], "prices": [55]},
+        {"name": "水餃", "aliases": ["水餃"], "prices": [6]},
+        {"name": "牛肉湯", "aliases": ["牛肉湯"], "prices": [130]},
+        {"name": "排骨湯", "aliases": ["排骨湯"], "prices": [80]},
+        {"name": "貢丸湯", "aliases": ["貢丸湯"], "prices": [35]},
+        {"name": "榨菜肉絲湯", "aliases": ["榨菜肉絲湯"], "prices": [35]},
+        {"name": "紫菜湯", "aliases": ["紫菜湯"], "prices": [20]},
+        {"name": "燙青菜", "aliases": ["燙青菜"], "prices": [40]},
+        {"name": "牛腱肉切盤", "aliases": ["牛腱肉切盤"], "prices": [130]},
+        {"name": "豬腳切盤", "aliases": ["豬腳切盤"], "prices": [120]}
+      ]
+    },
+    {
+      "id": "owl_nanzi",
+      "file": "Screenshot_20260916-1743562.jpg",
+      "battery": "extended",
+      "difficulty": "hard",
+      "layout": "dense_night_market_grid",
+      "gold_complete": false,
+      "title_aliases": ["夜梟", "楠梓店"],
+      "anchors": [
+        {"name": "果醬吐司", "aliases": ["果醬吐司"], "prices": [20]},
+        {"name": "厚片吐司", "aliases": ["厚片吐司"], "prices": [30]},
+        {"name": "香脆蛋餅原味", "aliases": ["原味"], "prices": [30]},
+        {"name": "巧克力棉花糖", "aliases": ["棉花糖"], "prices": [60]},
+        {"name": "紅茶", "aliases": ["紅茶"], "prices": [20]},
+        {"name": "深海鮪魚潛水堡", "aliases": ["深海鮪魚"], "prices": [60]},
+        {"name": "雙層起司牛", "aliases": ["雙層起司牛"], "prices": [110]},
+        {"name": "鮪魚總匯", "aliases": ["鮪魚總匯"], "prices": [90]},
+        {"name": "玉米濃湯", "aliases": ["玉米濃湯"], "prices": [40]}
+      ]
+    },
+    {
+      "id": "leihe_tofu",
+      "file": "Screenshot_20260916-1744582.jpg",
+      "battery": "extended",
+      "difficulty": "easy",
+      "layout": "illustrated_single_page",
+      "gold_complete": true,
+      "title_aliases": ["雷荷豆腐鍋", "豆腐鍋專賣"],
+      "anchors": [
+        {"name": "豆腐鍋", "aliases": ["豆腐鍋"], "prices": [100]},
+        {"name": "豆漿鍋", "aliases": ["豆漿鍋"], "prices": [100]},
+        {"name": "起司豆腐鍋", "aliases": ["起司"], "prices": [140]},
+        {"name": "烤豬五花", "aliases": ["烤豬五花"], "prices": [150]},
+        {"name": "麻藥雞蛋", "aliases": ["麻藥雞蛋"], "prices": [20]},
+        {"name": "韓式魚板", "aliases": ["魚板"], "prices": [35, 100]},
+        {"name": "雞肉棒子", "aliases": ["雞肉棒子"], "prices": [30]},
+        {"name": "辣炒年糕", "aliases": ["辣炒年糕"], "prices": [100]},
+        {"name": "韓式炸雞", "aliases": ["韓式炸雞"], "prices": [100, 150]},
+        {"name": "地瓜薯條", "aliases": ["地瓜薯條"], "prices": [50]},
+        {"name": "起司蛋捲", "aliases": ["起司蛋捲"], "prices": [100]},
+        {"name": "花生蜂蜜麻糬", "aliases": ["麻糬"], "prices": [25, 70]},
+        {"name": "Q拉麵", "aliases": ["Q拉麵"], "prices": [15]}
+      ]
+    },
+    {
+      "id": "thai_mama",
+      "file": "Screenshot_20260916-1745282.jpg",
+      "battery": "extended",
+      "difficulty": "medium",
+      "layout": "designed_bilingual_cafe",
+      "gold_complete": true,
+      "title_aliases": ["THAI MAMA", "泰媽媽"],
+      "anchors": [
+        {"name": "炸薯條", "aliases": ["炸薯條", "French fries"], "prices": [69]},
+        {"name": "豬肉丸", "aliases": ["豬肉丸"], "prices": [79]},
+        {"name": "雞肉沙爹", "aliases": ["沙爹"], "prices": [89]},
+        {"name": "炸雞翅", "aliases": ["炸雞翅"], "prices": [89]},
+        {"name": "花枝蝦捲", "aliases": ["花枝蝦捲"], "prices": [90]},
+        {"name": "打拋豬肉飯", "aliases": ["打拋豬肉"], "prices": [90, 105]},
+        {"name": "羅勒炸雞飯", "aliases": ["羅勒炸雞"], "prices": [110, 125]},
+        {"name": "綠咖哩飯", "aliases": ["綠咖哩"], "prices": [110, 125]},
+        {"name": "泰式奶茶", "aliases": ["泰式奶茶"], "prices": [60]},
+        {"name": "恐龍美祿", "aliases": ["恐龍美祿", "美祿"], "prices": [70]},
+        {"name": "可口可樂", "aliases": ["COKE", "可樂"], "prices": [20]},
+        {"name": "飯", "aliases": ["RICE"], "prices": [20]},
+        {"name": "蛋", "aliases": ["EGG"], "prices": [15]}
+      ]
+    },
+    {
+      "id": "gt_teppanyaki",
+      "file": "Screenshot_20260916-1746412.jpg",
+      "battery": "extended",
+      "difficulty": "easy",
+      "layout": "short_printed_bilingual",
+      "gold_complete": true,
+      "title_aliases": ["鉄板燒", "Teppanyaki", "G.T"],
+      "anchors": [
+        {"name": "紐西蘭菲力牛排", "aliases": ["菲力"], "prices": [790, 450]},
+        {"name": "宜蘭櫻桃鴨胸", "aliases": ["櫻桃鴨"], "prices": [790, 450]},
+        {"name": "挪威鮭魚排", "aliases": ["鮭魚"], "prices": [590, 380]},
+        {"name": "台灣松阪豬", "aliases": ["松阪豬"], "prices": [560, 350]},
+        {"name": "香煎雞腿排", "aliases": ["雞腿排"], "prices": [560, 350]},
+        {"name": "焗烤草蝦", "aliases": ["草蝦"], "prices": [150]},
+        {"name": "鉄板起司片", "aliases": ["起司片"], "prices": [130]},
+        {"name": "奶油櫛瓜", "aliases": ["櫛瓜"], "prices": [130]},
+        {"name": "荷包蛋", "aliases": ["荷包蛋"], "prices": [20]}
+      ]
+    },
+    {
+      "id": "nana_indonesian",
+      "file": "Screenshot_20260916-1748012.jpg",
+      "battery": "extended",
+      "difficulty": "easy",
+      "layout": "latin_order_pad",
+      "gold_complete": true,
+      "title_aliases": ["SELERA KAMI", "娜娜印尼", "印尼料理"],
+      "anchors": [
+        {"name": "Pecel ayam", "aliases": ["Pecel ayam"], "prices": [110]},
+        {"name": "Pecel bebek", "aliases": ["Pecel bebek"], "prices": [170]},
+        {"name": "Nasi goreng biasa", "aliases": ["Nasi goreng biasa"], "prices": [110]},
+        {"name": "Bakso iga", "aliases": ["Bakso iga"], "prices": [190]},
+        {"name": "bebek bakar", "aliases": ["bebek bakar"], "prices": [200]},
+        {"name": "ES Teh manis", "aliases": ["Teh manis"], "prices": [35]},
+        {"name": "Kopi hitam", "aliases": ["Kopi hitam"], "prices": [35]},
+        {"name": "Kopi susu", "aliases": ["Kopi susu"], "prices": [50]}
+      ]
+    },
+    {
+      "id": "dongdong_hotpot",
+      "file": "Screenshot_20260916-1748442.jpg",
+      "battery": "extended",
+      "difficulty": "hard",
+      "layout": "dense_color_photo_menu",
+      "gold_complete": false,
+      "title_aliases": ["咚咚海鮮鍋燒", "咚咚"],
+      "anchors": [
+        {"name": "海鮮鍋燒", "aliases": ["海鮮鍋燒"], "prices": [138]},
+        {"name": "田園時蔬鍋", "aliases": ["田園"], "prices": [138]},
+        {"name": "蛤蜊滿滿鍋", "aliases": ["蛤蜊滿滿"], "prices": [195]},
+        {"name": "日式炸蝦鍋", "aliases": ["炸蝦鍋"], "prices": [195]},
+        {"name": "金多蝦鍋", "aliases": ["金多蝦"], "prices": [200]},
+        {"name": "肉多多豬", "aliases": ["肉多多豬"], "prices": [138]},
+        {"name": "龍蝦鍋霸", "aliases": ["龍蝦鍋霸"], "prices": [988]},
+        {"name": "雙龍強味鍋", "aliases": ["雙龍"], "prices": [1288]},
+        {"name": "義式烤菇", "aliases": ["義式烤菇"], "prices": [79]}
+      ]
+    },
+    {
+      "id": "quesadilla_app",
+      "file": "Screenshot_20260916-174923.png",
+      "battery": "extended",
+      "difficulty": "easy",
+      "layout": "app_ui_photo_plus_price",
+      "gold_complete": true,
+      "title_aliases": ["起司餡餅", "Quesadilla"],
+      "anchors": [
+        {"name": "起司餡餅", "aliases": ["起司餡餅", "Quesadilla"], "prices": [129]},
+        {"name": "火烤雞胸起司餡餅", "aliases": ["雞胸", "Grilled Chicken"], "prices": [169]},
+        {"name": "墨西哥燉豬起司餡餅", "aliases": ["燉豬", "Carnitas"], "prices": [179]},
+        {"name": "火烤牛排起司餡餅", "aliases": ["牛排", "Steak Quesadilla"], "prices": [209]}
+      ]
+    },
+    {
+      "id": "laoyu_noodles",
+      "file": "Screenshot_20260916-1750082.jpg",
+      "battery": "extended",
+      "difficulty": "medium",
+      "layout": "tearoff_ticket_size_matrix",
+      "gold_complete": true,
+      "title_aliases": ["老余"],
+      "anchors": [
+        {"name": "牛肉麵", "aliases": ["牛肉麵"], "prices": [130, 110]},
+        {"name": "榨菜肉絲麵", "aliases": ["榨菜肉絲麵"], "prices": [75, 60]},
+        {"name": "餛飩麵", "aliases": ["餛飩麵"], "prices": [75, 60]},
+        {"name": "酸辣麵", "aliases": ["酸辣麵"], "prices": [75, 60]},
+        {"name": "鴨肉麵", "aliases": ["鴨肉麵"], "prices": [75, 60]},
+        {"name": "陽春湯麵", "aliases": ["陽春湯麵"], "prices": [55, 45]},
+        {"name": "牛肉拌麵", "aliases": ["牛肉拌麵"], "prices": [130, 110]},
+        {"name": "麻醬乾麵", "aliases": ["麻醬乾麵"], "prices": [60, 50]},
+        {"name": "陽春乾麵", "aliases": ["陽春乾麵"], "prices": [55, 45]},
+        {"name": "牛肉湯", "aliases": ["牛肉湯"], "prices": [180, 100]},
+        {"name": "餛飩湯", "aliases": ["餛飩湯"], "prices": [50, 40]},
+        {"name": "魚丸湯", "aliases": ["魚丸湯"], "prices": [40, 30]},
+        {"name": "貢丸湯", "aliases": ["貢丸湯"], "prices": [40, 30]},
+        {"name": "蛋花湯", "aliases": ["蛋花湯"], "prices": [40, 30]},
+        {"name": "酸辣湯", "aliases": ["酸辣湯"], "prices": [50, 40]},
+        {"name": "榨菜肉絲湯", "aliases": ["榨菜肉絲湯"], "prices": [50, 40]},
+        {"name": "燙青菜", "aliases": ["燙青菜"], "prices": [30]}
+      ]
+    }
+  ]
+}

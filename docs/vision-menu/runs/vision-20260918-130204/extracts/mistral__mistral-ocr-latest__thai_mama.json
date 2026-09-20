@@ -1,0 +1,152 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1745282.jpg",
+  "mime": "image/jpeg",
+  "bytes": 124973,
+  "ok": true,
+  "text": "![img-0.jpeg](img-0.jpeg)\n\n# THAI MAMA\nMENU\n\nDine in 內用\n\nTo go 外帶\n\n桌號\n\n# Our Starter\n\n炸薯條 เฟรนฟราย\n\nFrench fries\n\n豬肉丸 + 泰式蘑菇 ลูกชิ้นหมู (2串)\n\nPork Meatballs\n\n雞肉沙爹 ไก่สเต๊ะ (2串)\n\nSatay Chicken\n\n炸雞翅 ปีกไก่ทอดเกลือ (4支)\n\nChicken Wings\n\n泰式雞肉爆米花 ไก่ป้อม\n\nChickens Popcorn\n\n花枝蝦捲 โรลกุ้งหมึกชุบแป้งทอด (4支)\n\nCuttlefish Shrimp Rolls\n\nAdd-on\n\nRICE 飯\n\n20\n\nEGG 蛋\n\n15\n\n# Main Course\n\n正宗泰式打拗豬肉飯 ข้าวราดกะเพราหมูสับ\n\nThai Basil Minced Pork with Rice\n\n香辣泰式羅勒炸雞飯與煎蛋 ข้าวกะเพราไก่กรอบไข่ดาว\n\nThai Basil Crispy Fried Chicken with Rice\n\n炸雞佐綠咖哩飯 ข้าวราดแกงเขียวหวานไก่กรอบ\n\nCrispy Chicken Rice with Green Curry Sauce (辣度固定)\n\n泰北瀑布炸雞飯 ข้าวน้ำตกไก่กรอบ\n\nThai Fried Chicken Laab Rice\n\n泰式醃雞蒜蓉飯 ข้าวไก่หมักซอสสไตล์ไทย\n\nStir-fried Chicken with Garlic and Soy Sauce\n\n加煎蛋\n\n90\n\n105\n\n110\n\n110\n\n110\n\n90\n\n105\n\n# Noodle\n\n海鮮酸辣MAMA麵 มาม่าต้มยำ รสแซ่บ\n\nMama Tomyum Noodles (内含煮蛋)\n\n泰國鹹蛋 乾拌麵 บะหมี่แห้งรสไข่เค็ม + หมู\n\nSalted Egg Instant Dried Noodles\n\n加煎蛋\n\n110\n\n125\n\n100\n\n115\n\n# Beverage\n\n泰式奶茶 ชานมไทย\n\n(甜度固定) THAI MILK TEA\n\n60\n\n泰式綠奶茶 ชาเขียวนม\n\n(甜度固定) THAI GREEN MILK TEA\n\n60\n\n泰式粉紅奶 นมชมพู\n\n(甜度固定) THAI STYLE PINK MILK\n\n45\n\n恐龍美祿 ไมโลภูเขาไฟ\n\n(甜度固定) MILD DINOSAUR\n\n70\n\nOISHI 玄米綠茶\n\n(甜度固定) OISHI GREEN TEA\n\nGENMAI FLAVOR\n\n40\n\nOISHI 原味綠茶\n\n(甜度固定) OISHI ORIGINAL\n\nGREEN TEA\n\n40\n\nVITA MILK 維他奶(原味)\n\n(甜度固定) ORIGINAL FLAVOR\n\n40\n\nVITAMILK 維他奶(巧克力)\n\n(甜度固定) CHOCOLATE FLAVOR\n\n40\n\n椰子花蜜水 น้ำตาลสด\n\n(甜度固定) SUGAR PLAM JUICE\n\n45\n\nCOKE 可口可樂\n\n20",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 6.103768000000855,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "thai_mama",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 13,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.9230769230769231,
+    "price_recall": 0.38461538461538464,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "炸薯條",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "豬肉丸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "雞肉沙爹",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "炸雞翅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "花枝蝦捲",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "打拋豬肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "羅勒炸雞飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "綠咖哩飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "泰式奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "恐龍美祿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "可口可樂",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

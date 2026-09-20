@@ -1,0 +1,107 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1741122.jpg",
+  "mime": "image/jpeg",
+  "bytes": 108081,
+  "ok": true,
+  "text": "We need to parse the menu. Title not visible, so title empty string. Currency TWD. Categories: need to list categories visible. The menu has sections: \"吐司類\", \"漢堡類\", \"抓餅類\", \"飲料類\", \"蛋餅類\", \"厚片類\", \"點心類\", \"餐食類\", \"總匯三明治\". Also maybe \"飲料類\" includes \"大 小\". Let's list each category name as appears.\n\nWe need items with name, price, unit \"份\" (or maybe \"杯\" etc). But rule: unit \"份\". If there are size differences, use the more obvious price, note other. For example \"紅茶 25 15\" maybe large 25, small 15. So price 25, note \"小杯 15\". But unit is \"份\"? maybe \"杯\". But rule says unit \"份\". We'll set unit \"份\" for all, but note size.\n\nWe must be careful: only items we can see clearly. Some items may be blurry. Let's go through each section.\n\nSection \"吐司類\" (toast). Items list:\n\n- 奶油/奶酥/草莓/藍莓果醬 25\n- 巧克力/花生/抹茶/蘿蔔果醬 20\n- 吐司夾蛋 25\n- 法國吐司 35\n- 九層蛋 30\n- 豬柳蛋 40\n- 火腿蛋 35\n- 薯餅蛋 40\n- 肉鬆蛋 35\n- 花枝蛋 40\n- 玉米蛋 35\n- 黑胡椒豬排蛋 40\n- 熱狗蛋 35\n- 牛肉蛋 45\n- 起司蛋 35\n- 香烤雞腿蛋 45\n- 煙雞蛋 35\n- 日式燒肉蛋 50\n- 培根蛋 35\n- 起司豬排蛋 50\n- 豬肉蛋 35\n- 燒肉蛋 50\n- 香雞蛋 35\n- 卡啦雞蛋 55\n- 鮪魚蛋 35\n- 炙燒雞腿蛋 55\n\nCheck if any other items: maybe \"蛋餅類\" separate.\n\nNow \"蛋餅類\" (egg pancake). Items:\n\n- 原味 25\n- 蔬菜 30\n- 九層塔 30\n- 火腿 35\n- 肉鬆 35\n- 玉米 35\n- 起司 35\n- 熱狗 35\n- 培根 35\n- 鮪魚 35\n- 煙雞 35\n- 豬排 40\n\nBut need to verify each line: The list appears as two columns maybe. Let's read:\n\nFirst column: 原味 25, 蔬菜 30, 九層塔 30, 火腿 35, 肉鬆 35, 玉米 35, 起司 35.\n\nSecond column: 熱狗 35, 培根 35, 鮪魚 35, 煙雞 35, 豬排 40.\n\nSo items: \"原味\", \"蔬菜\", \"九層塔\", \"火腿\", \"肉鬆\", \"玉米\", \"起司\", \"熱狗\", \"培根\", \"鮪魚\", \"煙雞\", \"豬排\". Prices as above.\n\nNow \"漢堡類\" (hamburger). Items:\n\n- 起司薯堡 35\n- 火腿薯堡 40\n- 以下加蛋+10元 (maybe note)\n- 黑胡椒豬排堡 40\n- 培根堡 30\n- 黑胡椒豬柳堡 40\n- 鮪魚堡 35\n- 燒肉堡 35\n- 香雞堡 35\n- 日式雞腿堡 45\n- 豬肉堡 35\n- 起司豬排堡 45\n- 牛肉堡 45\n- 炙燒雞腿堡 55\n\nAlso maybe \"以下加蛋+10元\" is a note, not an item. So items list as above.\n\nNow \"厚片類\" (thick slice). Items:\n\n- 奶酥 30\n- 草莓 30\n- 香蒜 30\n- 藍莓 30\n- 火花 30\n- 焗烤培根 55\n- 巧克力 30\n- 焗烤鮪魚 55\n- 抹茶 30\n- 焗烤雞雞 55\n\nBut need to verify each line: The list appears as two columns maybe. Let's read:\n\nFirst column: 奶酥 30, 草莓 30, 香蒜 30, 火花 30, 巧克力 30, 焗烤鮪魚 55, 抹茶 30.\n\nSecond column: 草莓 30, 藍莓 30, 焗烤培根 55, 焗烤鮪魚 55, 焗烤雞雞 55.\n\nWait there is duplication: \"草莓\" appears twice? maybe first column \"草莓 30\", second column \"草莓 30\" maybe duplicate. Let's parse carefully.\n\nThe section \"厚片類\" appears after \"漢堡類\". The items lines:\n\n\"奶酥 30 草莓 30\" maybe two items side by side: \"奶酥 30\", \"草莓 30\". Then next line \"香蒜 30 藍莓 30\". Next \"火花 30 焗烤培根 55\". Next \"巧克力 30 焗烤鮪魚 55\". Next \"抹茶 30 焗烤雞雞 55\". So items:\n\n- 奶酥 30\n- 草莓 30\n- 香蒜 30\n- 藍莓 30\n- 火花 30\n- 焗烤培根 55\n- 巧克力 30\n- 焗烤鮪魚 55\n- 抹茶 30\n- 焗烤雞雞 55\n\nNow \"抓餅類\" (hand-pulled pancake). Items:\n\n- 原味鹹抓餅 25\n- 抓餅蛋 35\n- 以下加蛋+10元 (note)\n- 黑胡椒豬排堡 40 (maybe mislabel, but it's \"黑胡椒豬排抓餅\"? but text says \"黑胡椒豬排堡 40\". Might be \"黑胡椒豬排抓餅\". We'll treat as \"黑胡椒豬排抓餅\" 40.)\n- 肉鬆抓餅 40\n- 培根抓餅 40\n- 鮪魚抓餅 40\n- 豬柳抓餅 40\n- 起司抓餅 40\n\nAlso maybe \"以下加蛋+10元\" is note.\n\nNow \"飲料類\" (drinks). Items with large and small prices:\n\n- 紅茶 25 15\n- 豆漿 25 20\n- 咖啡牛奶 30 20\n- 鮮奶茶 30 25\n\nBut also maybe other drinks not fully visible. Also \"大 小\" column header indicates two sizes. So we need to capture each item with price for larger size? The rule: use the more obvious price (maybe larger). So for each drink, price is the larger one (first number). Note the smaller size in note.\n\nThus items:\n\n- 紅茶: price 25 (large), note \"小 15\"\n- 豆漿: 25 (large), note \"小 20\"\n- 咖啡牛奶: 30 (large), note \"小 20\"\n- 鮮奶茶: 30 (large), note \"小 25\"\n\nNow \"餐食類\" (meal). Items:\n\n- 鍋燒意麵 70\n- 鍋燒雞絲 70\n- 鍋燒各粒 70\n- 鍋燒烏醬 70\n\nAlso maybe other items: \"以上加麵+15元\" note.\n\nNow \"點心類\" (snacks). Items:\n\n- 荷包蛋 (單點) 15\n- 起司片 (單點) 10\n- 熱狗 20\n- 熱狗蛋卷 30\n- 麥克雞塊 30\n- 煎餃 (7粒) 30\n- 餛飩 (1片) 20\n- 豬肋 (5粒) 30\n- 水餃 (10粒) 35\n- 檸檬雞柳條 45\n\nBut need to verify each line: The list appears as:\n\n\"荷包蛋 (單點) 15\"\n\"起司片 (單點) 10\"\n\"熱狗 20\"\n\"熱狗蛋卷 30\"\n\"麥克雞塊 30\"\n\"煎餃 (7粒) 30\"\n\"餛飩 (1片) 20\"\n\"豬肋 (5粒) 30\"\n\"水餃 (10粒) 35\"\n\"檸檬雞柳條 45\"\n\nNow \"餐食類\" (maybe \"餐食類\" includes noodle dishes). Items:\n\n- 鍋燒意麵 70\n- 鍋燒雞絲 70\n- 鍋燒各粒 70\n- 鍋燒烏醬 70\n\nAlso maybe \"以上加麵+15元\" note.\n\nNow \"總匯三明治\" (combo). Items:\n\n- 豬肉 50\n- 燒肉 55\n- 香雞 50\n- 牛肉 55\n- 鮪魚 50\n- 卡啦 60\n\nBut need to verify: The list appears as two columns:\n\nFirst column: 豬肉 50, 燒肉 55, 香雞 50, 鮪魚 50.\n\nSecond column: 燒肉 55, 牛肉 55, 卡啦 60.\n\nWait there is duplication: \"燒肉\" appears twice (55). Maybe first column \"燒肉 55\", second column \"燒肉 55\" duplicate. Let's parse:\n\nThe lines:\n\n\"總匯三明治\" header.\n\nThen rows:\n\n\"豬肉 50 燒肉 55\"\n\"香雞 50 牛肉 55\"\n\"鮪魚 50 卡啦 60\"\n\nSo items:\n\n- 豬肉 50\n- 燒肉 55\n- 香雞 50\n- 牛肉 55\n- 鮪魚 50\n- 卡啦 60\n\nNow \"飲料類\" also includes \"大 小\" maybe other drinks like \"紅茶\", \"豆漿\", \"咖啡牛奶\", \"鮮奶茶\". Also maybe \"茶\" etc but not visible.\n\nNow \"飲料類\" also includes \"大 小\" column header. So we treat each drink as item with price for large (first) and note small.\n\nNow \"點心類\" maybe also includes \"以上加麵+15元\" note.\n\nNow \"餐食類\" maybe also includes \"以上加麵+15元\" note.\n\nNow \"蛋餅類\" maybe also includes \"以上加麵+15元\"? Not sure.\n\nNow we need to produce JSON with categories and items.\n\nWe must ensure each item's price is numeric, unit \"份\". For items with size differences, note the smaller price.\n\nAlso need to include notes list at end with other text (like \"營業時間：06:00-12:00 週日公休\").\n\nLet's compile categories in order as they appear in menu (top to bottom, left to right). The menu layout: top row categories: \"吐司類\", \"漢堡類\", \"抓餅類\", \"飲料類\". Then second row: \"蛋餅類\", \"厚片類\", \"點心類\", \"餐食類\". Then bottom: \"總匯三明治\". Also maybe \"飲料類\" includes \"大 小\". We'll list categories in order as they appear.\n\nBut the JSON format expects \"categories\": list of objects each with \"name\" and \"items\". The order may not matter but we should follow visible order.\n\nLet's list categories:\n\n1. \"吐司類\"\n2. \"漢堡類\"\n3. \"抓餅類\"\n4. \"飲料類\"\n5. \"蛋餅類\"\n6. \"厚片類\"\n7. \"點心類\"\n8. \"餐食類\"\n9. \"總匯三明治\"\n\nNow for each category, list items.\n\nWe'll need to ensure each item's name is as seen (maybe Chinese characters). We'll need to transcribe exactly as visible, but if unclear we note \"看不清\". Let's examine each item for clarity.\n\n\"吐司類\" items:\n\n- 奶油/奶酥/草莓/藍莓果醬 25 -> name: \"奶油/奶酥/草莓/藍莓果醬\", price 25, unit \"份\", note \"\".\n\n- 巧克力/花生/抹茶/蘿蔔果醬 20 -> name: \"巧克力/花生/抹茶/蘿蔔果醬\", price 20.\n\n- 吐司夾蛋 25 -> name \"吐司夾蛋\", price 25.\n\n- 法國吐司 35 -> \"法國吐司\", 35.\n\n- 九層蛋 30 -> \"九層蛋\", 30.\n\n- 豬柳蛋 40 -> \"豬柳蛋\", 40.\n\n- 火腿蛋 35 -> \"火腿蛋\", 35.\n\n- 薯餅蛋 40 -> \"薯餅蛋\", 40.\n\n- 肉鬆蛋 35 -> \"肉鬆蛋\", 35.\n\n- 花枝蛋 40 -> \"花枝蛋\", 40.\n\n- 玉米蛋 35 -> \"玉米蛋\", 35.\n\n- 黑胡椒豬排蛋 40 -> \"黑胡椒豬排蛋\", 40.\n\n- 熱狗蛋 35 -> \"熱狗蛋\", 35.\n\n- 牛肉蛋 45 -> \"牛肉蛋\", 45.\n\n- 起司蛋 35 -> \"起司蛋\", 35.\n\n- 香烤雞腿蛋 45 -> \"香烤雞腿蛋\", 45.\n\n- 煙雞蛋 35 -> \"煙雞蛋\", 35.\n\n- 日式燒肉蛋 50 -> \"日式燒肉蛋\", 50.\n\n- 培根蛋 35 -> \"培根蛋\", 35.\n\n- 起司豬排蛋 50 -> \"起司豬排蛋\", 50.\n\n- 豬肉蛋 35 -> \"豬肉蛋\", 35.\n\n- 燒肉蛋 50 -> \"燒肉蛋\", 50.\n\n- 香雞蛋 35 -> \"香雞蛋\", 35.\n\n- 卡啦雞蛋 55 -> \"卡啦雞蛋\", 55.\n\n- 鮪魚蛋 35 -> \"鮪魚蛋\", 35.\n\n- 炙燒雞腿蛋 55 -> \"炙燒雞腿蛋\", 55.\n\nCheck if any other items: maybe \"蛋餅類\" separate.\n\nNow \"蛋餅",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.497933499980718,
+  "prompt_tokens": 2183,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "breakfast_whiteboard",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.875,
+    "price_recall": 0.875,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "吐司夾蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "九層蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "總匯豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

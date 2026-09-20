@@ -1,0 +1,657 @@
+{
+  "provider": "iai",
+  "model": "Furen-std",
+  "file": "Screenshot_20260916-1748442.jpg",
+  "mime": "image/jpeg",
+  "bytes": 247277,
+  "ok": true,
+  "text": "{\n  \"title\": \"咚咚 新鮮單品鍋燒\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"經典海鮮鍋燒\",\n      \"items\": [\n        {\"name\": \"海鮮綜合鍋\", \"price\": 138, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日田鯛綜合鍋\", \"price\": 138, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛤蜊海鮮鍋\", \"price\": 195, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸海鮮鍋\", \"price\": 195, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"金多海鮮鍋\", \"price\": 239, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"肉多多鍋燒系列\",\n      \"items\": [\n        {\"name\": \"肉多多烤肉\", \"price\": 135, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉多多牛肉\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"椰香厚 sliced 拼盤\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"日料小品系列\",\n      \"items\": [\n        {\"name\": \"紫蘇梅生菜\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"和風洋蔥沙拉\", \"price\": 79, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"濃湯大白菜\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"濃湯澎澎沙波鍋\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"和風鱈魚碎片沙波鍋\", \"price\": 200, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日本大蠔\", \"price\": 299, \"unit\": \"份\", \"note\": \"(2入)\"},\n        {\"name\": \"日本大生蠔\", \"price\": 520, \"unit\": \"份\", \"note\": \"(6入)\"}\n      ]\n    },\n    {\n      \"name\": \"海鮮刷刷刷系列\",\n      \"items\": [\n        {\"name\": \"無瑕風情風鍋\", \"price\": 260, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"三鼎鍋\", \"price\": 260, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸牡蠣鍋\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"帆立貝刷刷刷\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"金龍帝刷刷刷\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"捲卷刷刷刷\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"澎澎小貝刷刷刷\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"澎澎沙波小鍋\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸件海鮮設備\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"心拼海貨設備\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"精品海鮮設備\", \"price\": 289, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"懶人大海鮮\", \"price\": 399, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豐富有你鍋\", \"price\": 399, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"龍蝦刷刷刷\", \"price\": 988, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蓋飯系列\",\n      \"items\": [\n        {\"name\": \"日式炸雞飯\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"泰式炸雞飯\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式厚切炸豬排飯\", \"price\": 205, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"椰香豬排蓋飯\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅燒醬glazed 飯 (葷素)\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"濃湯海膽蓋飯\", \"price\": 280, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式蒲燒鰻魚飯\", \"price\": 280, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卵心牛丼蓋飯\", \"price\": 280, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"炸物\",\n      \"items\": [\n        {\"name\": \"極厚揚揚設備\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蓮塊\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"洋蔥圈\", \"price\": 107, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黃金雞塊\", \"price\": 108, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"台灣在地塗蛋\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸雞塊\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸蝦\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式厚切炸豬排\", \"price\": 210, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸洋芋\", \"price\": 135, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"稻殼小球\", \"price\": 150, \"unit\": \"份\", \"note\": \"小份 150 / 大份 280\"},\n        {\"name\": \"炸件海設備\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸串拼盤\", \"price\": 250, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸件大設備\", \"price\": 250, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"烤物\",\n      \"items\": [\n        {\"name\": \"義式烤菇\", \"price\": 79, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"模樣設備\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"明太子王子設備\", \"price\": 119, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海盜設備\", \"price\": 140, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"明太子牛設備\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卷卷設備\", \"price\": 190, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"塊肉刷刷刷\", \"price\": 200, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"設備\", \"price\": 220, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"龍蝦海大設備\", \"price\": 880, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤大設備\", \"price\": 988, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"超頂級鍋系列\",\n      \"items\": [\n        {\"name\": \"雙龍雜錦鍋\", \"price\": 1288, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海王的日常\", \"price\": 1880, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"加區\",\n      \"items\": [\n        {\"name\": \"高麗菜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"舒葉白\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花椰菜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"王子麵\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"意麵\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"寬粉\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"寬粉龍龍麵\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"白飯\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛤\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蝦\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鯛魚片\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牡蠣\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"干貝\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"魷魚圈\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"澎澎小波\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"每鍋附：高麗菜、金針菇、香菇、春筍、小白菜、雜菇\",\n    \"07-3520379\",\n    \"高雄市苓雅區明陽路115號\",\n    \"湯頭任選一：昆布(+0)、番茄(+10)、沙波(+10)\",\n    \"副食任選一：泡飯、白飯、意麵、烏龍麵、王子麵、龍龍麵、寬粉、雞麵、雞塊龍龍麵(+20)\",\n    \"※用餐最低消費每人$130元(孩童$100元)\",\n    \"※禁止外帶\",\n    \"※客告知不 consumes 需酌收$100元清潔費\",\n    \"※餐時巔峰時段，用餐時間為60分鐘\"\n  ]\n}",
+  "parsed": {
+    "title": "咚咚 新鮮單品鍋燒",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "經典海鮮鍋燒",
+        "items": [
+          {
+            "name": "海鮮綜合鍋",
+            "price": 138,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日田鯛綜合鍋",
+            "price": 138,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蛤蜊海鮮鍋",
+            "price": 195,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式炸海鮮鍋",
+            "price": 195,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "金多海鮮鍋",
+            "price": 239,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "肉多多鍋燒系列",
+        "items": [
+          {
+            "name": "肉多多烤肉",
+            "price": 135,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉多多牛肉",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "椰香厚 sliced 拼盤",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "日料小品系列",
+        "items": [
+          {
+            "name": "紫蘇梅生菜",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "和風洋蔥沙拉",
+            "price": 79,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "濃湯大白菜",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "濃湯澎澎沙波鍋",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "和風鱈魚碎片沙波鍋",
+            "price": 200,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日本大蠔",
+            "price": 299,
+            "unit": "份",
+            "note": "(2入)"
+          },
+          {
+            "name": "日本大生蠔",
+            "price": 520,
+            "unit": "份",
+            "note": "(6入)"
+          }
+        ]
+      },
+      {
+        "name": "海鮮刷刷刷系列",
+        "items": [
+          {
+            "name": "無瑕風情風鍋",
+            "price": 260,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "三鼎鍋",
+            "price": 260,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸牡蠣鍋",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "帆立貝刷刷刷",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "金龍帝刷刷刷",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "捲卷刷刷刷",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "澎澎小貝刷刷刷",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "澎澎沙波小鍋",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸件海鮮設備",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "心拼海貨設備",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "精品海鮮設備",
+            "price": 289,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "懶人大海鮮",
+            "price": 399,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豐富有你鍋",
+            "price": 399,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "龍蝦刷刷刷",
+            "price": 988,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "蓋飯系列",
+        "items": [
+          {
+            "name": "日式炸雞飯",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "泰式炸雞飯",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式厚切炸豬排飯",
+            "price": 205,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "椰香豬排蓋飯",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅燒醬glazed 飯 (葷素)",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "濃湯海膽蓋飯",
+            "price": 280,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式蒲燒鰻魚飯",
+            "price": 280,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卵心牛丼蓋飯",
+            "price": 280,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "炸物",
+        "items": [
+          {
+            "name": "極厚揚揚設備",
+            "price": 130,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蓮塊",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "洋蔥圈",
+            "price": 107,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黃金雞塊",
+            "price": 108,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "台灣在地塗蛋",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式炸雞塊",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式炸蝦",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式厚切炸豬排",
+            "price": 210,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸洋芋",
+            "price": 135,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "稻殼小球",
+            "price": 150,
+            "unit": "份",
+            "note": "小份 150 / 大份 280"
+          },
+          {
+            "name": "炸件海設備",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸串拼盤",
+            "price": 250,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸件大設備",
+            "price": 250,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "烤物",
+        "items": [
+          {
+            "name": "義式烤菇",
+            "price": 79,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "模樣設備",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "明太子王子設備",
+            "price": 119,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海盜設備",
+            "price": 140,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "明太子牛設備",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卷卷設備",
+            "price": 190,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "塊肉刷刷刷",
+            "price": 200,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "設備",
+            "price": 220,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "龍蝦海大設備",
+            "price": 880,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "烤大設備",
+            "price": 988,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "超頂級鍋系列",
+        "items": [
+          {
+            "name": "雙龍雜錦鍋",
+            "price": 1288,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海王的日常",
+            "price": 1880,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "加區",
+        "items": [
+          {
+            "name": "高麗菜",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "舒葉白",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花椰菜",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "王子麵",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "意麵",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "寬粉",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "寬粉龍龍麵",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "白飯",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蛤",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蝦",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鯛魚片",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牡蠣",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "干貝",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "魷魚圈",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "澎澎小波",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "每鍋附：高麗菜、金針菇、香菇、春筍、小白菜、雜菇",
+      "07-3520379",
+      "高雄市苓雅區明陽路115號",
+      "湯頭任選一：昆布(+0)、番茄(+10)、沙波(+10)",
+      "副食任選一：泡飯、白飯、意麵、烏龍麵、王子麵、龍龍麵、寬粉、雞麵、雞塊龍龍麵(+20)",
+      "※用餐最低消費每人$130元(孩童$100元)",
+      "※禁止外帶",
+      "※客告知不 consumes 需酌收$100元清潔費",
+      "※餐時巔峰時段，用餐時間為60分鐘"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 90.87849269999424,
+  "prompt_tokens": 1507,
+  "completion_tokens": 2886,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "dongdong_hotpot",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "咚咚 新鮮單品鍋燒",
+    "title_hit": true,
+    "item_count": 80,
+    "anchor_n": 9,
+    "name_json_recall": 0.6666666666666666,
+    "price_json_recall": 0.2222222222222222,
+    "name_recall": 0.7777777777777778,
+    "price_recall": 0.2222222222222222,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "海鮮鍋燒",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "田園時蔬鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "蛤蜊滿滿鍋",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "日式炸蝦鍋",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "金多蝦鍋",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "肉多多豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "龍蝦鍋霸",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "雙龍強味鍋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "義式烤菇",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

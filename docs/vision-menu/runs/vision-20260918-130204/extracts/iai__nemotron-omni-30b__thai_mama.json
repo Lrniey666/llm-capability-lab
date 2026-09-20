@@ -1,0 +1,152 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1745282.jpg",
+  "mime": "image/jpeg",
+  "bytes": 124973,
+  "ok": true,
+  "text": "\n{\n  \"title\": \"泰媽媽\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"Our Starter\",\n      \"items\": [\n        {\"name\": \"炸薯條\", \"price\": 69, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉丸 + 泰式蘸醬\", \"price\": 79, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞肉沙麥\", \"price\": 89, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞翅\", \"price\": 89, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"泰式雞肉爆米花\", \"price\": 89, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花枝蝦捲\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Add-on\",\n      \"items\": [\n        {\"name\": \"RICE 飯\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"EGG 蛋\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Main Course\",\n      \"items\": [\n        {\"name\": \"正宗泰式打拋豬肉飯\", \"price\": 105, \"unit\": \"份\", \"note\": \"加煎蛋 90\"},\n        {\"name\": \"香辣泰式羅勒炸雞飯與煎蛋\", \"price\": 125, \"unit\": \"份\", \"note\": \"加煎蛋\"},\n        {\"name\": \"炸雞佐綠咖哩飯\", \"price\": 125, \"unit\": \"份\", \"note\": \"加煎蛋\"},\n        {\"name\": \"泰北瀑布炸雞飯\", \"price\": 125, \"unit\": \"份\", \"note\": \"加煎蛋\"},\n        {\"name\": \"泰式雞龍蒜蓉飯\", \"price\": 105, \"unit\": \"份\", \"note\": \"加煎蛋\"}\n      ]\n",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 30 column 70 (char 1123)",
+  "latency_s": 13.441539499995997,
+  "prompt_tokens": 2423,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "thai_mama",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 13,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6923076923076923,
+    "price_recall": 0.6923076923076923,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "炸薯條",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肉丸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "雞肉沙爹",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "炸雞翅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "花枝蝦捲",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "打拋豬肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "羅勒炸雞飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "綠咖哩飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "泰式奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "恐龍美祿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "可口可樂",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

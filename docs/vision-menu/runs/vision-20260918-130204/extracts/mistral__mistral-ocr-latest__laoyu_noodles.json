@@ -1,0 +1,188 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1750082.jpg",
+  "mime": "image/jpeg",
+  "bytes": 159804,
+  "ok": true,
+  "text": "# 老余\n\n☐\n\n# 外帶\n請打✓\n\n006325\n\n高雄市楠梓區建楠路84巷62號/電話：(07)3515086\n\n|  湯類 | 類 | 細麵 | 粗麵 | 冬粉 | 米粉  |\n| --- | --- | --- | --- | --- | --- |\n|  牛肉麥 | 大 130 |  |  |  |   |\n|   |  小 110 |  |  |  |   |\n|  榨菜 肉絲麥 | 大 75 |  |  |  |   |\n|   |  小 60 |  |  |  |   |\n|  餛飩麥 | 大 75 |  |  |  |   |\n|   |  小 60 |  |  |  |   |\n|  酸辣麥 | 大 75 |  |  |  |   |\n|   |  小 60 |  |  |  |   |\n|  鴨肉麥 | 大 75 |  |  |  |   |\n|   |  小 60 |  |  |  |   |\n|  陽春湯麵 | 大 55 |  |  |  |   |\n|   |  小 45 |  |  |  |   |\n\n|  乾麵類(不附清湯) |   | 細麵 | 粗麵 | 冬粉 | 米粉  |\n| --- | --- | --- | --- | --- | --- |\n|  牛肉拌麵 | 大 130 |  |  |  |   |\n|   |  小 110 |  |  |   |   |\n|  麻醬乾麵 | 大 60 |  |  |  |   |\n|   |  小 50 |  |  |   |   |\n|  陽春乾麵 | 大 55 |  |  |  |   |\n|   |  小 45 |  |  |   |   |\n\n|  湯類 | 大 | 小 | 燙青菜 | 30  |\n| --- | --- | --- | --- | --- |\n|  牛肉湯 | 180 | 100 | 滷菜  |   |\n|  餛飩湯 | 50 | 40  |   |   |\n|  魚丸湯 | 40 | 30  |   |   |\n|  貴丸湯 | 40 | 30  |   |   |\n|  香花湯 | 40 | 30  |   |   |\n|  酸辣湯 | 50 | 40  |   |   |\n|  榨菜肉絲湯 | 50 | 40  |   |   |\n\n□醬油\n□醬油膏\n□蒜泥\n\n006325\n\n號碼單請撕下\n\n006325",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 4.263580900005763,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "laoyu_noodles",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 17,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.5882352941176471,
+    "price_recall": 0.5882352941176471,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "餛飩麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "酸辣麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鴨肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "陽春湯麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "麻醬乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "陽春乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "餛飩湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "酸辣湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "燙青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "provider": "iai",
+  "model": "gemma-4-31b",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "{\n  \"title\": \"優惠套餐\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"套餐\",\n      \"items\": [\n        {\n          \"name\": \"1號：鐵板麵+紅茶\",\n          \"price\": 60,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"2號：香雞蛋堡+紅茶+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"3號：豬肉蛋堡+紅茶+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"4號：燻雞蛋堡+起司+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"5號：起司蛋堡+紅茶+雞塊\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    }\n  ],\n  \"notes\": []\n}",
+  "parsed": {
+    "title": "優惠套餐",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "套餐",
+        "items": [
+          {
+            "name": "1號：鐵板麵+紅茶",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "2號：香雞蛋堡+紅茶+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "3號：豬肉蛋堡+紅茶+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "4號：燻雞蛋堡+起司+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "5號：起司蛋堡+紅茶+雞塊",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  "parse_error": null,
+  "latency_s": 7.81198550001136,
+  "prompt_tokens": 1507,
+  "completion_tokens": 297,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "優惠套餐",
+    "title_hit": true,
+    "item_count": 5,
+    "anchor_n": 5,
+    "name_json_recall": 1.0,
+    "price_json_recall": 1.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

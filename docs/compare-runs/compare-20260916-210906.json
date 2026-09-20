@@ -1,0 +1,437 @@
+{
+  "started_at": "2026-09-16T13:07:52.143901+00:00",
+  "providers": [
+    {
+      "provider": "groq",
+      "label": "Groq",
+      "model": "openai/gpt-oss-20b",
+      "conversation": [
+        0,
+        3
+      ],
+      "logic": [
+        0,
+        5
+      ],
+      "total": [
+        0,
+        8
+      ],
+      "mean_latency_s": 0.9011697499995535,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": false,
+          "note": "漢字太少（0）",
+          "text": "",
+          "latency_s": 1.496606900000188,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": false,
+          "note": "缺少 ['林小華', '台南']",
+          "text": "",
+          "latency_s": 1.6982330999999249,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "",
+          "latency_s": 0.6238126999996894,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": false,
+          "note": "沒有 408（看到 無數字）",
+          "text": "",
+          "latency_s": 0.6012971999989531,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": false,
+          "note": "沒有會／不會",
+          "text": "",
+          "latency_s": 0.6118610999983503,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": false,
+          "note": "未出現 3/5",
+          "text": "",
+          "latency_s": 0.926878599999327,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 無數字）",
+          "text": "",
+          "latency_s": 0.5309906000002229,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": false,
+          "note": "沒有 3（看到 無數字）",
+          "text": "",
+          "latency_s": 0.7196777999997721,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "gemini",
+      "label": "Gemini (AI Studio)",
+      "model": "gemini-3.6-flash",
+      "conversation": [
+        0,
+        3
+      ],
+      "logic": [
+        0,
+        5
+      ],
+      "total": [
+        0,
+        8
+      ],
+      "mean_latency_s": 1.5115000142868666,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": false,
+          "note": "漢字太少（0）",
+          "text": "Be brief, no",
+          "latency_s": 1.5770959000001312,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": false,
+          "note": "缺少 ['林小華', '台南']",
+          "text": ": Be as brief",
+          "latency_s": 3.044254100001126,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "",
+          "latency_s": 1.2070226000032562,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": false,
+          "note": "沒有 408（看到 [40]）",
+          "text": "40",
+          "latency_s": 1.3083989000006113,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": false,
+          "note": "沒有會／不會",
+          "text": "",
+          "latency_s": 1.2052366000025359,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": false,
+          "note": "未出現 3/5",
+          "text": "",
+          "latency_s": 1.046227099999669,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 無數字）",
+          "text": "",
+          "latency_s": 1.1922649000007368,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "gemini-3.6-flash",
+          "error": "Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: htt"
+        }
+      ]
+    },
+    {
+      "provider": "mistral",
+      "label": "Mistral (Experiment)",
+      "model": "ministral-3b-latest",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        4,
+        5
+      ],
+      "total": [
+        6,
+        8
+      ],
+      "mean_latency_s": 0.7032117374992595,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "25 個漢字",
+          "text": "我是專注數據評測的 AI，能快速精準判斷產品、服務與技術表現。",
+          "latency_s": 0.8018661999994947,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南。",
+          "latency_s": 1.7705539999988105,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "河愛高雄",
+          "latency_s": 0.4498578999991878,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.505114899999171,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.5136281000013696,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.5967853000001924,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 [15]）",
+          "text": "15",
+          "latency_s": 0.535923699997511,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.4519637999983388,
+          "model": "ministral-3b-latest",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI (NKUST)",
+      "model": "Nkust",
+      "conversation": [
+        0,
+        3
+      ],
+      "logic": [
+        0,
+        5
+      ],
+      "total": [
+        0,
+        8
+      ],
+      "mean_latency_s": 1.1099489750004068,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": false,
+          "note": "漢字太少（0）",
+          "text": "",
+          "latency_s": 1.4860654000003706,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": false,
+          "note": "缺少 ['林小華', '台南']",
+          "text": "",
+          "latency_s": 2.7340470000017376,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "",
+          "latency_s": 0.8394666999993206,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": false,
+          "note": "沒有 408（看到 無數字）",
+          "text": "",
+          "latency_s": 0.7292271000005712,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": false,
+          "note": "沒有會／不會",
+          "text": "",
+          "latency_s": 1.1125178000002052,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": false,
+          "note": "未出現 3/5",
+          "text": "",
+          "latency_s": 0.7401542999978119,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 無數字）",
+          "text": "",
+          "latency_s": 0.592334100001608,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": false,
+          "note": "沒有 3（看到 無數字）",
+          "text": "",
+          "latency_s": 0.6457794000016293,
+          "model": "Nkust",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

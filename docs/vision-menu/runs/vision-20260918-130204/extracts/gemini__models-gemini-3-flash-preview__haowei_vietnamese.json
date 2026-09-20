@@ -1,0 +1,116 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1741462.jpg",
+  "mime": "image/jpeg",
+  "bytes": 234232,
+  "ok": true,
+  "text": "{\n  \"title\": \"好味 越式料理\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"※湯類\",\n      \"items\": [\n        {\"name\": \"生鮮牛肉\", \"price\": 110, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞蛋麵、泡飯\"},\n        {\"name\": \"海鮮\", \"price\": 110, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞蛋麵、泡飯\"},\n        {\"name\": \"豬肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞蛋麵、泡飯\"},\n        {\"name\": \"雞肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞蛋麵、泡飯\"},\n        {\"name\": \"紅燒牛肉\", \"price\": 140, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞蛋麵、泡飯\"},\n        {\"name\": \"酸辣牛肉\", \"price\": 110, \"unit\": \"份\", \"note\": \"可選河粉、米粉、雞",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 12 column 78 (char 494)",
+  "latency_s": 16.008956799982116,
+  "prompt_tokens": 1318,
+  "completion_tokens": 297,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "haowei_vietnamese",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.2222222222222222,
+    "price_recall": 0.2222222222222222,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "生鮮牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "香茅雞肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "排骨飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "虱目魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛肉炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

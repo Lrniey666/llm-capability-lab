@@ -1,0 +1,882 @@
+{
+  "provider": "iai",
+  "model": "gemma-4-31b",
+  "file": "Screenshot_20260916-1740512.jpg",
+  "mime": "image/jpeg",
+  "bytes": 228531,
+  "ok": true,
+  "text": "{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"軟法類\",\n      \"items\": [\n        {\"name\": \"香菇\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"s蘑菇\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡路梅基\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海味海苔嫩鮮菇\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咖啡蘑菇\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蛋餅類\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉餅\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"招牌\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙起司\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根起司\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香腸起司\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"嫩鮮菇起司\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇起司\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡路梅基\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉起司\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"嫩鮮菇起司\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙起司起司\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"厚片卡\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛋沙拉\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香腸起司\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根起司\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡路梅基\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咖啡蘑菇\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"湯品\",\n      \"items\": [\n        {\"name\": \"玉米濃湯\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜湯\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇湯\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"番茄沙拉\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜沙拉\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"招牌濃湯\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱壓吐司\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱壓吐司\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜沙拉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"新鮮蔬菜沙拉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小豆腐\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小豆腐加蛋\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"小豆腐加培根\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇Pancake\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇Pancake\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"南瓜乳酪玉米濃湯\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"濃湯沙拉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"濃湯沙拉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇酥皮\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇花(7吋)\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇花(7吋)\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黃金雞塊\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黃金雞塊\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸鮪魚餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸培根(2塊)\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜沙拉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜沙拉\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"匈牙利蘑菇(s)\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"義式蘑菇(s)\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"義式蘑菇(s)\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞塊\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞塊\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冰心薯塊\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香香薯塊(每份4吋)\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"飲料類\",\n      \"items\": [\n        {\"name\": \"紅茶\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"伯爵紅茶\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆漿(有糖/無糖)\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咖啡\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"可可\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奶酪牛奶\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冬瓜茶\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆奶紅茶\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冬瓜檸檬茶\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冬瓜檸檬茶\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冬瓜奶茶\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"可口可樂\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"可口可樂\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"抹茶拿鐵\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"研磨咖啡\",\n      \"items\": [\n        {\"name\": \"美式咖啡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"拿鐵咖啡\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"摩卡拿鐵\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"焦糖拿鐵\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"飯/麵類餐\",\n      \"items\": [\n        {\"name\": \"海鮮蔬菜燉飯\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮蘑菇燉飯\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮蘑菇濃湯麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮蔬菜麵\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮蘑菇麵\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根洋蔥燉飯\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"組合套餐\",\n      \"items\": [\n        {\"name\": \"1. 經典早晨-早安溫暖\", \"price\": 85, \"unit\": \"份\", \"note\": \"含咖啡/奶茶/紅茶/豆漿, 蔬菜沙拉, 歐姆蛋, 蘋果\"},\n        {\"name\": \"2. 活力早晨-活力早餐\", \"price\": 130, \"unit\": \"份\", \"note\": \"含炸物(可選炸雞塊/炸培根/炸蘑菇), 蔬菜沙拉, 歐姆蛋, 可選飲料\"},\n        {\"name\": \"3. 豐富早晨-豐富早餐\", \"price\": 135, \"unit\": \"份\", \"note\": \"含炸物(可選炸雞塊/炸培根/炸蘑菇2塊1選1, 德式香腸, 蔬菜沙拉\"},\n        {\"name\": \"4. 炸物拼盤\", \"price\": 135, \"unit\": \"份\", \"note\": \"含炸雞塊, 炸培根, 雞米花, 嫩肉小丸\"},\n        {\"name\": \"5. 飽足早晨-飽足早餐\", \"price\": 165, \"unit\": \"份\", \"note\": \"含炸物(可選炸雞塊/炸培根/炸蘑菇/德式香腸2塊1選2), 蔬菜沙拉\"},\n        {\"name\": \"6. 豪華風味-豪華早餐\", \"price\": 160, \"unit\": \"份\", \"note\": \"含炸雞塊, 炸培根, 炸蘑菇, 香腸拼盤, 蔬菜沙拉, 心跳三口-冰心薯塊\"},\n        {\"name\": \"7. 海陸肉肉套餐\", \"price\": 175, \"unit\": \"份\", \"note\": \"含歐姆蛋, 炸雞塊, 炸培根, 香腸小丸子, 蔬菜沙拉, 歐姆蛋2塊1選1, 大火腿\"}\n      ]\n    },\n    {\n      \"name\": \"其他\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奶酥 l 蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙蛋蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香腸蛋酥\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香腸蛋酥\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘑菇蛋酥\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅豆牛奶酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇牛奶酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇牛奶酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅豆牛奶酥\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"加購+15元, 加倍+10元\",\n    \"以上套餐可選擇紅紅茶, 更換飲料品需補差價\",\n    \"標示星號為季節限定商品\"\n  ]\n}",
+  "parsed": {
+    "title": "",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "軟法類",
+        "items": [
+          {
+            "name": "香菇",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "德式香腸",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "s蘑菇",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡路梅基",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海味海苔嫩鮮菇",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "咖啡蘑菇",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "蛋餅類",
+        "items": [
+          {
+            "name": "原味",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉餅",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "招牌",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雙起司",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根起司",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香腸起司",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "嫩鮮菇起司",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇起司",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡路梅基",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉起司",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "嫩鮮菇起司",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雙起司起司",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "厚片卡",
+        "items": [
+          {
+            "name": "原味",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蛋沙拉",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香腸起司",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根起司",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡路梅基",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "咖啡蘑菇",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "湯品",
+        "items": [
+          {
+            "name": "玉米濃湯",
+            "price": 15,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜湯",
+            "price": 15,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇湯",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "番茄沙拉",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜沙拉",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "招牌濃湯",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱壓吐司",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱壓吐司",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜沙拉",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "新鮮蔬菜沙拉",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小豆腐",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小豆腐加蛋",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "小豆腐加培根",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇Pancake",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇Pancake",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "南瓜乳酪玉米濃湯",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "濃湯沙拉",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "濃湯沙拉",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇酥皮",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇花(7吋)",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇花(7吋)",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "德式香腸",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "德式香腸",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黃金雞塊",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黃金雞塊",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸鮪魚餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸培根(2塊)",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜沙拉",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜沙拉",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "匈牙利蘑菇(s)",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "義式蘑菇(s)",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "義式蘑菇(s)",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸雞塊",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸雞塊",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冰心薯塊",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香香薯塊(每份4吋)",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "飲料類",
+        "items": [
+          {
+            "name": "紅茶",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "伯爵紅茶",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豆漿(有糖/無糖)",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "咖啡",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "可可",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "奶酪牛奶",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冬瓜茶",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豆奶紅茶",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冬瓜檸檬茶",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冬瓜檸檬茶",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冬瓜奶茶",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "可口可樂",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "可口可樂",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "抹茶拿鐵",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "研磨咖啡",
+        "items": [
+          {
+            "name": "美式咖啡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "拿鐵咖啡",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "摩卡拿鐵",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "焦糖拿鐵",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "飯/麵類餐",
+        "items": [
+          {
+            "name": "海鮮蔬菜燉飯",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮蘑菇燉飯",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮蘑菇濃湯麵",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮蔬菜麵",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮蘑菇麵",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根洋蔥燉飯",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "組合套餐",
+        "items": [
+          {
+            "name": "1. 經典早晨-早安溫暖",
+            "price": 85,
+            "unit": "份",
+            "note": "含咖啡/奶茶/紅茶/豆漿, 蔬菜沙拉, 歐姆蛋, 蘋果"
+          },
+          {
+            "name": "2. 活力早晨-活力早餐",
+            "price": 130,
+            "unit": "份",
+            "note": "含炸物(可選炸雞塊/炸培根/炸蘑菇), 蔬菜沙拉, 歐姆蛋, 可選飲料"
+          },
+          {
+            "name": "3. 豐富早晨-豐富早餐",
+            "price": 135,
+            "unit": "份",
+            "note": "含炸物(可選炸雞塊/炸培根/炸蘑菇2塊1選1, 德式香腸, 蔬菜沙拉"
+          },
+          {
+            "name": "4. 炸物拼盤",
+            "price": 135,
+            "unit": "份",
+            "note": "含炸雞塊, 炸培根, 雞米花, 嫩肉小丸"
+          },
+          {
+            "name": "5. 飽足早晨-飽足早餐",
+            "price": 165,
+            "unit": "份",
+            "note": "含炸物(可選炸雞塊/炸培根/炸蘑菇/德式香腸2塊1選2), 蔬菜沙拉"
+          },
+          {
+            "name": "6. 豪華風味-豪華早餐",
+            "price": 160,
+            "unit": "份",
+            "note": "含炸雞塊, 炸培根, 炸蘑菇, 香腸拼盤, 蔬菜沙拉, 心跳三口-冰心薯塊"
+          },
+          {
+            "name": "7. 海陸肉肉套餐",
+            "price": 175,
+            "unit": "份",
+            "note": "含歐姆蛋, 炸雞塊, 炸培根, 香腸小丸子, 蔬菜沙拉, 歐姆蛋2塊1選1, 大火腿"
+          }
+        ]
+      },
+      {
+        "name": "其他",
+        "items": [
+          {
+            "name": "原味",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "奶酥 l 蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雙蛋蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香腸蛋酥",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香腸蛋酥",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘑菇蛋酥",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅豆牛奶酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇牛奶酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香菇牛奶酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅豆牛奶酥",
+            "price": 105,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "加購+15元, 加倍+10元",
+      "以上套餐可選擇紅紅茶, 更換飲料品需補差價",
+      "標示星號為季節限定商品"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 112.4876553999784,
+  "prompt_tokens": 1513,
+  "completion_tokens": 4007,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "bagel_cafe_board",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "",
+    "title_hit": true,
+    "item_count": 120,
+    "anchor_n": 8,
+    "name_json_recall": 0.625,
+    "price_json_recall": 0.375,
+    "name_recall": 0.625,
+    "price_recall": 0.625,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "薯泥",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "培根",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "德式香腸",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "美式咖啡",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "拿鐵咖啡",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "海鮮鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

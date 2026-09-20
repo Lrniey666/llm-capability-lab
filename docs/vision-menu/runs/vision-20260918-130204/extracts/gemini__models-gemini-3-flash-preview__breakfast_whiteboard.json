@@ -1,0 +1,793 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1741122.jpg",
+  "mime": "image/jpeg",
+  "bytes": 108081,
+  "ok": true,
+  "text": "{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"吐司類\",\n      \"items\": [\n        {\"name\": \"奶油/奶酥/草莓/藍莓果醬\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"巧克力/花生/抹茶/蒜香果醬\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"吐司夾蛋\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層蛋\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燻雞蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香雞蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"法國吐司\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬柳蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花枝蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬排蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉蛋\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香烤雞腿蛋\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式燒肉蛋\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司豬排蛋\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉蛋\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡啦雞蛋\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炙燒雞腿排蛋\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蛋餅類\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燻雞\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬柳\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬排\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"漢堡類\",\n      \"items\": [\n        {\"name\": \"起司蛋堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根堡\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燻雞堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香雞堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉堡\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花枝堡\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋堡\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬排堡\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬柳堡\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香烤雞腿堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式燒肉堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司豬排堡\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡啦雞腿堡\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炙燒雞腿排堡\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"厚片類\",\n      \"items\": [\n        {\"name\": \"奶酥\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香蒜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"巧克力\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"抹茶\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"焗烤培根\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"焗烤鮪魚\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"焗烤燻雞\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"總匯三明治\",\n      \"items\": [\n        {\"name\": \"豬肉\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香雞\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡啦\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"抓餅類\",\n      \"items\": [\n        {\"name\": \"原味蔥抓餅\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"抓餅蛋\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆抓餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根抓餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚抓餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬柳抓餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司抓餅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"點心類\",\n      \"items\": [\n        {\"name\": \"荷包蛋 (單點)\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司片 (單點)\", \"price\": 10, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗滾蛋\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"麥克雞塊\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"煎餃 (7粒)\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅 (1片)\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘿蔔糕\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋貼 (5粒)\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"水餃 (10粒)\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"檸檬雞柳條\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"飲料類\",\n      \"items\": [\n        {\"name\": \"紅茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"小杯 15\"},\n        {\"name\": \"豆漿\", \"price\": 25, \"unit\": \"杯\", \"note\": \"小杯 20\"},\n        {\"name\": \"咖啡牛奶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小杯 25\"},\n        {\"name\": \"鮮奶茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"小杯 25\"}\n      ]\n    },\n    {\n      \"name\": \"麵食類\",\n      \"items\": [\n        {\"name\": \"鍋燒意麵\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋燒雞絲\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋燒冬粉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鍋燒烏龍\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根義大利麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"口味：青醬/白醬\"},\n        {\"name\": \"燻雞義大利麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"口味：青醬/白醬\"},\n        {\"name\": \"鐵板麵\", \"price\": 50, \"unit\": \"份\", \"note\": \"口味：蘑菇、黑胡椒、綜合\"},\n        {\"name\": \"豬排鐵板麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"口味：蘑菇、黑胡椒、綜合\"},\n        {\"name\": \"檸檬雞柳鐵板麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"此口味不含蛋；口味：蘑菇、黑胡椒、綜合\"},\n        {\"name\": \"雞腿排鐵板麵\", \"price\": 85, \"unit\": \"份\", \"note\": \"口味：蘑菇、黑胡椒、綜合\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"以下加蛋+10元\",\n    \"以上加麵+15元\",\n    \"以上加麵+10元\",\n    \"營業時間：06:00-12:00 週日公休\"\n  ]\n}",
+  "parsed": {
+    "title": "",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "吐司類",
+        "items": [
+          {
+            "name": "奶油/奶酥/草莓/藍莓果醬",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "巧克力/花生/抹茶/蒜香果醬",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "吐司夾蛋",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "九層蛋",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燻雞蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香雞蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "法國吐司",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬柳蛋",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅蛋",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花枝蛋",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬排蛋",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉蛋",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香烤雞腿蛋",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式燒肉蛋",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司豬排蛋",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燒肉蛋",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡啦雞蛋",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炙燒雞腿排蛋",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "蛋餅類",
+        "items": [
+          {
+            "name": "原味",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蔬菜",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "九層塔",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "玉米",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燻雞",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬柳",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬排",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "漢堡類",
+        "items": [
+          {
+            "name": "起司蛋堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根堡",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燻雞堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香雞堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉堡",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花枝堡",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "火腿蛋堡",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬排堡",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑胡椒豬柳堡",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燒肉堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香烤雞腿堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "日式燒肉堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司豬排堡",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡啦雞腿堡",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炙燒雞腿排堡",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "厚片類",
+        "items": [
+          {
+            "name": "奶酥",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香蒜",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "花生",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "巧克力",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "抹茶",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "草莓",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "藍莓",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "焗烤培根",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "焗烤鮪魚",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "焗烤燻雞",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "總匯三明治",
+        "items": [
+          {
+            "name": "豬肉",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香雞",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燒肉",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "卡啦",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "抓餅類",
+        "items": [
+          {
+            "name": "原味蔥抓餅",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "抓餅蛋",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉鬆抓餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根抓餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鮪魚抓餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬柳抓餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司抓餅",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "點心類",
+        "items": [
+          {
+            "name": "荷包蛋 (單點)",
+            "price": 15,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "起司片 (單點)",
+            "price": 10,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "熱狗滾蛋",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "麥克雞塊",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "煎餃 (7粒)",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "薯餅 (1片)",
+            "price": 20,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "蘿蔔糕",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋貼 (5粒)",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "水餃 (10粒)",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "檸檬雞柳條",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "飲料類",
+        "items": [
+          {
+            "name": "紅茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "小杯 15"
+          },
+          {
+            "name": "豆漿",
+            "price": 25,
+            "unit": "杯",
+            "note": "小杯 20"
+          },
+          {
+            "name": "咖啡牛奶",
+            "price": 30,
+            "unit": "杯",
+            "note": "小杯 25"
+          },
+          {
+            "name": "鮮奶茶",
+            "price": 30,
+            "unit": "杯",
+            "note": "小杯 25"
+          }
+        ]
+      },
+      {
+        "name": "麵食類",
+        "items": [
+          {
+            "name": "鍋燒意麵",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋燒雞絲",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋燒冬粉",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "鍋燒烏龍",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "培根義大利麵",
+            "price": 80,
+            "unit": "份",
+            "note": "口味：青醬/白醬"
+          },
+          {
+            "name": "燻雞義大利麵",
+            "price": 80,
+            "unit": "份",
+            "note": "口味：青醬/白醬"
+          },
+          {
+            "name": "鐵板麵",
+            "price": 50,
+            "unit": "份",
+            "note": "口味：蘑菇、黑胡椒、綜合"
+          },
+          {
+            "name": "豬排鐵板麵",
+            "price": 80,
+            "unit": "份",
+            "note": "口味：蘑菇、黑胡椒、綜合"
+          },
+          {
+            "name": "檸檬雞柳鐵板麵",
+            "price": 80,
+            "unit": "份",
+            "note": "此口味不含蛋；口味：蘑菇、黑胡椒、綜合"
+          },
+          {
+            "name": "雞腿排鐵板麵",
+            "price": 85,
+            "unit": "份",
+            "note": "口味：蘑菇、黑胡椒、綜合"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "以下加蛋+10元",
+      "以上加麵+15元",
+      "以上加麵+10元",
+      "營業時間：06:00-12:00 週日公休"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 11.255236900004093,
+  "prompt_tokens": 1274,
+  "completion_tokens": 3384,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "breakfast_whiteboard",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "",
+    "title_hit": true,
+    "item_count": 105,
+    "anchor_n": 8,
+    "name_json_recall": 1.0,
+    "price_json_recall": 0.875,
+    "name_recall": 1.0,
+    "price_recall": 0.875,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "吐司夾蛋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "九層蛋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅茶",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "總匯豬肉",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

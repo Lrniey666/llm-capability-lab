@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"四海豆浆大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"豆漿類\",\n      \"items\": [\n        {\"name\": \"鮮鮮豆漿\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"香香豆漿\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"芋香豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"紅豆豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"紅糖豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"芋頭豆漿\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"芋香紅豆豆漿\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"芋頭紅豆豆漿\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香豆漿\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香紅豆豆漿\", \"price\": 35, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香紅豆牛奶豆漿\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香紅豆米紅豆豆漿\", \"price\": 45, \"unit\": \"杯\"}\n      ]\n    },\n    {\n      \"name\": \"牛奶類\",\n      \"items\": [\n        {\"name\": \"牛奶\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"仁丹牛奶\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"紅豆牛奶\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"芋頭牛奶\", \"price\": 25, \"unit\": \"杯\"},\n        {\"name\": \"芋頭紅豆牛奶\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香牛奶\", \"price\": 30, \"unit\": \"杯\"},\n        {\"name\": \"芋頭芋香紅豆牛奶\", \"price\": 35, \"unit\": \"杯\"}\n      ]\n    },\n    {\n      \"name\": \"茶類\",\n      \"items\": [\n        {\"name\": \"綠茶\", \"price\": 15, \"unit\": \"杯\"},\n        {\"name\": \"紅茶\", \"price\": 15, \"unit\": \"杯\"},\n        {\"name\": \"奶茶\", \"price\": 20, \"unit\": \"杯\"},\n        {\"name\": \"綠茶加糖\", \"price\": 20, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"紅茶加糖\", \"price\": 20, \"unit\": \"杯\", \"note\": \"看不清\"},\n        {\"name\": \"奶茶加糖\", \"price\": 25, \"unit\": \"杯\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"麵線類\",\n      \"items\": [\n        {\"name\": \"麵線\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"麵線加肉絲\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵線加虾仁\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵線加火腿\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵線加蛋\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"麵線加火腿蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵線加虾仁蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵線加肉絲蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵線加火腿虾仁蛋\", \"price\": 65, \"unit\": \"碗\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"麵\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"麵加肉絲\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵加虾仁\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵加火腿\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"麵加蛋\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"麵加火腿蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵加虾仁蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵加肉絲蛋\", \"price\": 55, \"unit\": \"碗\", \"note\": \"看不清\"},\n        {\"name\": \"麵加火腿虾仁蛋\", \"price\": 65, \"unit\": \"碗\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"其他\",\n      \"items\": [\n        {\"name\": \"豬腸麵\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"小加\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"內臟粉\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"熱粉\", \"price\": 30, \"unit\": \"碗\"},\n        {\"name\": \"燒賣\", \"price\": 30, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋\", \"price\": 35, \"unit\": \"個\"},\n        {\"name\": \"燒賣加火腿\", \"price\": 40, \"unit\": \"個\"},\n        {\"name\": \"燒賣加虾仁\", \"price\": 40, \"unit\": \"個\"},\n        {\"name\": \"燒賣加肉絲\", \"price\": 40, \"unit\": \"個\"},\n        {\"name\": \"燒賣加火腿虾仁\", \"price\": 50, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋火腿\", \"price\": 45, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋虾仁\", \"price\": 45, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋肉絲\", \"price\": 45, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋火腿虾仁\", \"price\": 55, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋火腿肉絲\", \"price\": 55, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋虾仁肉絲\", \"price\": 55, \"unit\": \"個\"},\n        {\"name\": \"燒賣加蛋火腿虾仁肉絲\", \"price\": 65, \"unit\": \"個\"},\n        {\"name\": \"粉絲\", \"price\": 20, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋\", \"price\": 25, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加火腿\", \"price\": 30, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加虾仁\", \"price\": 30, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加肉絲\", \"price\": 30, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋火腿\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋虾仁\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋肉絲\", \"price\": 35, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋火腿虾仁\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋火腿肉絲\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋虾仁肉絲\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"粉絲加蛋火腿虾仁肉絲\", \"price\": 55, \"unit\": \"碗\"}\n      ]\n    },\n    {\n      \"name\": \"餃子類\",\n      \"items\": [\n        {\"name\": \"餃子\", \"price\": 40, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋\", \"price\": 45, \"unit\": \"碗\"},\n        {\"name\": \"餃子加火腿\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"餃子加虾仁\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"餃子加肉絲\", \"price\": 50, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋火腿\", \"price\": 55, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋虾仁\", \"price\": 55, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋肉絲\", \"price\": 55, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋火腿虾仁\", \"price\": 65, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋火腿肉絲\", \"price\": 65, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋虾仁肉絲\", \"price\": 65, \"unit\": \"碗\"},\n        {\"name\": \"餃子加蛋火腿虾仁肉絲\", \"price\": 75, \"unit\": \"碗\"}\n      ]\n    },\n    {\n      \"name\": \"其他小吃\",\n      \"items\": [\n        {\"name\": \"油豆腐\", \"price\": 20, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋\", \"price\": 25, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加火腿\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加虾仁\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加肉絲\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋火腿\", \"price\": 35, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋虾仁\", \"price\": 35, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋肉絲\", \"price\": 35, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋火腿虾仁\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋火腿肉絲\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋虾仁肉絲\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"油豆腐加蛋火腿虾仁肉絲\", \"price\": 55, \"unit\": \"份\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"原味原鄉風味\",\n    \"麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條\",\n    \"麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條麵線麵條",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 140 column 6 (char 5824)",
+  "latency_s": 66.80759839998791,
+  "prompt_tokens": 929,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.125,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1743562.jpg",
+  "mime": "image/jpeg",
+  "bytes": 295776,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"鬼鬼辣味\",\n  \"currency\": \"TWD\",\n  \"notes\": [\n    \"內用折扣50元/人\",\n    \"最低消費時間為當日營業時間1:30\",\n    \"+10 營業時間延長至23:00\",\n    \"+15 營業時間延長至24:00\",\n    \"取消訂位請提前15分鐘通知\"\n  ],\n  \"categories\": [\n    {\n      \"name\": \"香辣蛋餅類\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"五味雞起司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔起司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米火腿\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇蔥油\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"辣味\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"無酵母\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"胡椒\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"打拳\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"無酵母蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"胡椒蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉蔬菜\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"打拳蔬菜\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"厚片吐司\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"牛奶\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香蕉\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"生菜\", \"price\": 35, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"玉米火腿\", \"price\": 55, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香菇蔬菜\", \"price\": 55, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 60, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"包菜火腿\", \"price\": 65, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香菇火腿\", \"price\": 65, \"unit\": \"片\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蛋餅吐司\",\n      \"items\": [\n        {\"name\": \"火腿\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞蛋\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香菇蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔬菜蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司火腿\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司香菇\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司蔬菜\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司雞蛋\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司火腿蛋\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司香菇蛋\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司蔬菜蛋\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蛋皮吐司\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"牛奶\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香蕉\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"生菜\", \"price\": 40, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"玉米火腿\", \"price\": 55, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香菇蔬菜\", \"price\": 55, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"德式香腸\", \"price\": 60, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"包菜火腿\", \"price\": 65, \"unit\": \"片\", \"note\": \"\"},\n        {\"name\": \"香菇火腿\", \"price\": 65, \"unit\": \"片\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"滷水堡\",\n      \"items\": [\n        {\"name\": \"深海鮭魚\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包菜肉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑椒排骨\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬排\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司鮭魚\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司包菜肉\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司豬排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司雞排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司牛排\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"漢堡\",\n      \"items\": [\n        {\"name\": \"雞肉漢堡\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"深海鮭魚\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包菜肉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑椒排骨\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬排\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司鮭魚\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司包菜肉\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司豬排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司雞排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司牛排\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"總匯三明治\",\n      \"items\": [\n        {\"name\": \"鮭魚三明治\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排三明治\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬排三明治\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛排三明治\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"烤烤厚片\",\n      \"items\": [\n        {\"name\": \"烤烤披薩\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"義大利肉醬\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮭魚披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑椒排骨披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"白蘑菇披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"XO火腿披薩\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬排披薩\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛排披薩\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司鮭魚\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司火腿\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司雞排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司豬排\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雙層起司牛排\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"想吃麵食\",\n      \"items\": [\n        {\"name\": \"紅茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"無糖綠茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"綠茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"鮮奶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"蜂蜜柠檬\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"可可\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"可可粉必須25\", \"price\": 25, \"unit\": \"杯\", \"note\": \"可可粉另加25元\"},\n        {\"name\": \"想喝湯\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米濃湯\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛋花湯\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿圓\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"芝麻\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"綜合麵\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥抓餅\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥油餅\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香餅\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥茶餅\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香茶餅\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線粉\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線湯\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線粉湯\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線粉湯(看不清)\", \"price\": \"看不清\", \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蔥香麵線粉湯(看不清)\", \"price\": \"看不清\", \"",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 179 column 73 (char 8712)",
+  "latency_s": 50.05053360000602,
+  "prompt_tokens": 1409,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "owl_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.5555555555555556,
+    "price_recall": 0.4444444444444444,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "果醬吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "厚片吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "香脆蛋餅原味",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "巧克力棉花糖",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "深海鮪魚潛水堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙層起司牛",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮪魚總匯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

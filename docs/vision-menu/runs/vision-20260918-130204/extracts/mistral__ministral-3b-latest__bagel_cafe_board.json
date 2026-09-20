@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1740512.jpg",
+  "mime": "image/jpeg",
+  "bytes": 228531,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"看不見\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"飲料法則\",\n      \"items\": [\n        {\"name\": \"蒸泡\", \"price\": 55},\n        {\"name\": \"培根\", \"price\": 55},\n        {\"name\": \"鮭魚\", \"price\": 55},\n        {\"name\": \"德式香腸\", \"price\": 60},\n        {\"name\": \"椒鹽雞蛋\", \"price\": 65},\n        {\"name\": \"卡拉難煞\", \"price\": 80},\n        {\"name\": \"海味花枝餅\", \"price\": 85},\n        {\"name\": \"燒雞雞腿\", \"price\": 80}\n      ]\n    },\n    {\n      \"name\": \"咖啡類\",\n      \"items\": [\n        {\"name\": \"研磨咖啡（全熟/半熟）\", \"price\": 15, \"note\": \"可加奶\"},\n        {\"name\": \"熱咖啡\", \"price\": 15},\n        {\"name\": \"薄荷咖啡\", \"price\": 20},\n        {\"name\": \"薄荷沙拉\", \"price\": 25},\n        {\"name\": \"蕎麥沙拉\", \"price\": 25},\n        {\"name\": \"招牌燉肉\", \"price\": 25},\n        {\"name\": \"燉豬骨\", \"price\": 35},\n        {\"name\": \"蕎麥餅\", \"price\": 30},\n        {\"name\": \"小肉豆腐\", \"price\": 30},\n        {\"name\": \"小肉豆腐加蛋\", \"price\": 45},\n        {\"name\": \"燉雞蛋\", \"price\": 45},\n        {\"name\": \"南瓜粥加豆浆\", \"price\": 35},\n        {\"name\": \"濃湯包蛋\", \"price\": 45},\n        {\"name\": \"雞蛋包\", \"price\": 35},\n        {\"name\": \"香草蛋包\", \"price\": 35},\n        {\"name\": \"瑞士黑鍋片\", \"price\": 45},\n        {\"name\": \"德式香腸\", \"price\": 40},\n        {\"name\": \"黃金餡蛋\", \"price\": 45},\n        {\"name\": \"蘇打魚烘\", \"price\": 50},\n        {\"name\": \"炸排骨(2碗)\", \"price\": 65},\n        {\"name\": \"雞排骨\", \"price\": 70},\n        {\"name\": \"瑞士雞排\", \"price\": 75},\n        {\"name\": \"咖啡牛奶\", \"price\": 25},\n        {\"name\": \"冰心暖暖\", \"price\": 45},\n        {\"name\": \"美式咖啡\", \"price\": 45},\n        {\"name\": \"拿鐵咖啡\", \"price\": 55},\n        {\"name\": \"櫻桃拿鐵\", \"price\": 60},\n        {\"name\": \"焦糖拿鐵\", \"price\": 60}\n      ]\n    },\n    {\n      \"name\": \"主菜食單\",\n      \"items\": [\n        {\"name\": \"起司\", \"price\": 30},\n        {\"name\": \"玉米\", \"price\": 40},\n        {\"name\": \"火腿\", \"price\": 40},\n        {\"name\": \"肉菜\", \"price\": 35},\n        {\"name\": \"燉狗\", \"price\": 40},\n        {\"name\": \"鯖魚\", \"price\": 40},\n        {\"name\": \"招牌\", \"price\": 50},\n        {\"name\": \"燉雞起司\", \"price\": 45},\n        {\"name\": \"燉雞排\", \"price\": 55},\n        {\"name\": \"燉排骨\", \"price\": 55},\n        {\"name\": \"里脊雞排\", \"price\": 55},\n        {\"name\": \"德式香腸起司\", \"price\": 55},\n        {\"name\": \"卡拉難煞\", \"price\": 75},\n        {\"name\": \"牛肉起司\", \"price\": 80},\n        {\"name\": \"碳酸雞腿\", \"price\": 75}\n      ]\n    },\n    {\n      \"name\": \"加餐\",\n      \"items\": [\n        {\"name\": \"薄荷沙拉\", \"price\": 50},\n        {\"name\": \"培根\", \"price\": 50},\n        {\"name\": \"雞排\", \"price\": 55},\n        {\"name\": \"里脊雞排\", \"price\": 65},\n        {\"name\": \"卡拉難煞\", \"price\": 75},\n        {\"name\": \"碳酸雞腿\", \"price\": 75}\n      ]\n    },\n    {\n      \"name\": \"咖啡飲料\",\n      \"items\": [\n        {\"name\": \"冰咖啡\", \"price\": 40},\n        {\"name\": \"美式咖啡\", \"price\": 45},\n        {\"name\": \"拿鐵咖啡\", \"price\": 55},\n        {\"name\": \"櫻桃拿鐵\", \"price\": 60},\n        {\"name\": \"焦糖拿鐵\", \"price\": 60}\n      ]\n    },\n    {\n      \"name\": \"海鮮類\",\n      \"items\": [\n        {\"name\": \"海鮮鍋燉雞蛋\", \"price\": 80},\n        {\"name\": \"海鮮鍋燉蛋線\", \"price\": 80},\n        {\"name\": \"海鮮鍋燉冬粉\", \"price\": 80},\n        {\"name\": \"海鮮鍋燉湯\", \"price\": 80},\n        {\"name\": \"海鮮鍋燉魚腸\", \"price\": 85},\n        {\"name\": \"燉燒牛肉\", \"price\": 105},\n        {\"name\": \"燉排骨飯餅\", \"price\": 105}\n      ]\n    },\n    {\n      \"name\": \"特餐\",\n      \"items\": [\n        {\"name\": \"肉蛋炒飯\", \"price\": 85, \"note\": \"可加奶\"},\n        {\"name\": \"雞蛋炒飯\", \"price\": 85},\n        {\"name\": \"雞蛋炒飯(加雞蛋)\", \"price\": 85, \"note\": \"增加雞蛋\"},\n        {\"name\": \"培根雞蛋炒飯\", \"price\": 85},\n        {\"name\": \"德式香腸炒飯\", \"price\": 90},\n        {\"name\": \"黑鍋雞排飯\", \"price\": 85},\n        {\"name\": \"排骨飯\", \"price\": 85},\n        {\"name\": \"雞排飯\", \"price\": 105},\n        {\"name\": \"雞排炒飯\", \"price\": 105},\n        {\"name\": \"紅烏牛排餅\", \"price\": 105},\n        {\"name\": \"香草排骨飯\", \"price\": 95},\n        {\"name\": \"燉雞雞腿飯\", \"price\": 85},\n        {\"name\": \"碳酸雞腿飯\", \"price\": 105}\n      ]\n    },\n    {\n      \"name\": \"健康餐\",\n      \"items\": [\n        {\"name\": \"2.海鮮健康餐\", \"price\": 130, \"note\": \"海鮮鍋燉雞蛋、海鮮鍋燉蛋線、海鮮鍋燉湯\"}\n      ]\n    },\n    {\n      \"name\": \"特定套餐\",\n      \"items\": [\n        {\"name\": \"3.普洱茶風味餐\", \"price\": 135, \"note\": \"普洱茶、薄荷沙拉、蕎麥沙拉、雞蛋炒飯、排骨飯\"}\n      ]\n    },\n    {\n      \"name\": \"特定套餐\",\n      \"items\": [\n        {\"name\": \"4.炸排骨套餐\", \"price\": 135, \"note\": \"雞排、薄荷、雞蛋花、燉豆腐\"}\n      ]\n    },\n    {\n      \"name\": \"特定套餐\",\n      \"items\": [\n        {\"name\": \"5.瑞士雞排餐\", \"price\": 165, \"note\": \"瑞士雞排、薄荷沙拉、可可糖、瑞士黑鍋片、瑞士雞排炒飯\"}\n    ],\n    {\n      \"name\": \"特定套餐\",\n      \"items\": [\n        {\"name\": \"6.義式風味雞排餐\", \"price\": 160, \"note\": \"義式雞排、薄荷沙拉、香草包、蕎麥沙拉、雞蛋沙拉、冰心地瓜3碗\"}\n    ],\n    {\n      \"name\": \"特定套餐\",\n      \"items\": [\n        {\"name\": \"7.海鮮肉餐套餐\", \"price\": 175, \"note\": \"(牛肉、燉雞排、香草包、蕎麥沙拉、雞蛋沙拉、冰心地瓜3碗) 加餐+15元，加起司+10元\"}\n    ]\n  },\n  \"notes\": [\n    \"咖啡可加奶、可加糖\",\n    \"雞蛋包可加雞蛋\",\n    \"牛肉可加起司\",\n    \"牛肉雞蛋可加雞蛋\",\n    \"牛肉雞蛋可加起司\",\n    \"牛肉雞蛋可加糖\",\n    \"牛肉雞蛋可加奶\",\n    \"牛肉雞蛋可加雞蛋\",\n    \"牛肉雞蛋可加起司（增加起司費用5元）\",\n    \"牛肉雞蛋飯可加雞蛋（增加雞蛋費用5元）\",\n    \"牛肉雞蛋飯可加奶\",\n    \"牛肉雞蛋飯可加糖\",\n    \"牛肉雞蛋飯可加起司（增加起司費用5元）\",\n    \"★ 請注意大部分海鮮菜品，如海鮮鍋燉雞蛋等不建議食用\",\n    \"★ 牛肉雞蛋可加雞蛋、牛肉雞蛋可加起司（增加起司費用5元）\",\n    \"冰心地瓜3碗\",\n    \"可可糖、蜂蜜、雞蛋沙拉、牛奶、大米飯\",\n    \"合計：\"\n  ]\n}\n```",
+  "parsed": null,
+  "parse_error": "Expecting property name enclosed in double quotes: line 145 column 5 (char 4255)",
+  "latency_s": 15.959058600012213,
+  "prompt_tokens": 2277,
+  "completion_tokens": 2701,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "bagel_cafe_board",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.5,
+    "price_recall": 0.5,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "薯泥",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "培根",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "德式香腸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美式咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "拿鐵咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "海鮮鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

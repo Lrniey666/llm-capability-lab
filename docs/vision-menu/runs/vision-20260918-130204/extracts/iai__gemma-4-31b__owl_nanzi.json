@@ -1,0 +1,116 @@
+{
+  "provider": "iai",
+  "model": "gemma-4-31b",
+  "file": "Screenshot_20260916-1743562.jpg",
+  "mime": "image/jpeg",
+  "bytes": 295776,
+  "ok": true,
+  "text": "{\n  \"title\": \"Night Tasty\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"果醬吐司 10\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"草莓\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"藍莓\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"咖啡\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"花生\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"香蕉\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"香 custard\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"},\n        {\"name\": \"乳酪\", \"price\": 0, \"unit\": \"份\", \"note\": \"價格未標示\"}\n      ]\n    },\n    {\n      \"name\": \"厚片吐司 30\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咖啡\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"乳酪\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香蕉\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香 custard\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"巧克力椰花糖\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"燒烤吐司 20\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"咖啡\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"乳酪\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香蕉\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香 custard\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"生燕麥\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑糖\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"魚片\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米花米\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香草糖芋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 156 column 63 (char 9134)",
+  "latency_s": 116.59563620001427,
+  "prompt_tokens": 1513,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "owl_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.2222222222222222,
+    "price_recall": 0.1111111111111111,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "果醬吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "厚片吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香脆蛋餅原味",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "巧克力棉花糖",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "深海鮪魚潛水堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙層起司牛",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚總匯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

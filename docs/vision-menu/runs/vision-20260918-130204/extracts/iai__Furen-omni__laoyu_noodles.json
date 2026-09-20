@@ -1,0 +1,188 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1750082.jpg",
+  "mime": "image/jpeg",
+  "bytes": 159804,
+  "ok": true,
+  "text": "The user wants me to extract information from the provided image of a menu and format it as JSON.\nI need to follow specific rules:\n1.  **Output only JSON.** No markdown, no explanations.\n2.  **Title/Store Name:** Look for the main title or store name. If not visible, use an empty string.\n3.  **Currency:** TWD (New Taiwan Dollar).\n4.  **Categories:** I need to identify the main categories (soups, noodles, dry noodles, etc.) and list the items within them.\n5.  **Items:** For each item, I need \"name\", \"price\", \"unit\" (份), and \"note\".\n6.  **Price Rules:** If there are multiple prices (e.g., large/small), use the \"more obvious\" one (usually the large price or the main price listed) and put the other in the note. Wait, the rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". Looking at the menu, prices are listed as \"大\" (Large) and \"小\" (Small). I should probably list the main price (Large) or perhaps combine them? Let's look at the example structure: `{\"name\": \"品名\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}`. This implies a single price per item entry. The rule says \"use the more obvious one\". In this menu, prices are clearly split into \"大\" (Large) and \"小\" (Small). I will list the item name. I need to decide how to handle the size difference.\n    *   Let's look at the first item: \"牛肉麵\" (Beef Noodles). Large: 130, Small: 110.\n    *   The rule says \"use the more obvious one\". Usually, the larger price is the primary one, or I should list the price that represents the standard portion. However, looking at the layout, \"大\" and \"小\" are distinct rows.\n    *   Let's re-read the rule carefully: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". This is slightly ambiguous. Does it mean if there are two prices for the *same* item (like a combo vs single), pick the obvious one? Or does it mean for \"Large\" vs \"Small\"?\n    *   Let's look at the structure. The menu lists \"大\" and \"小\" next to the item name.\n    *   Let's assume I should list the item with the price that is most prominent or perhaps list both if possible? No, the JSON structure is flat: `{\"name\": \"...\", \"price\": ...}`. It doesn't have a size field.\n    *   Let's look at the \"note\" field. \"若有大小... 就用較明顯的那個，另一個寫進 note\". This suggests I should pick one price. Which one is \"more obvious\"? Usually, the top one (Large) is the main price. Or maybe I should just pick the price that corresponds to the standard serving.\n    *   Actually, let's look at the \"categories\" part. The menu has sections: \"湯麵類\" (Soup Noodles), \"乾麵類\" (Dry Noodles), \"湯類\" (Soups).\n    *   Let's break down the items.\n    *   **Category 1: 湯麵類 (Soup Noodles)**\n        *   牛肉麵 (Beef Noodles): Large 130, Small 110. -> I will pick 130 (Large) as the main price, note \"Small 110\". Or maybe I should just list the price that is most central? Let's look at the visual hierarchy. \"大\" is on the left, \"小\" is indented below. It looks like \"大 130\" and \"小 110\".\n        *   Let's try to interpret \"more obvious\". The \"大\" (Large) price is usually the default unless specified. I will use the Large price (130) and put \"Small 110\" in the note. Wait, looking at the layout, \"大\" is aligned with the item name, \"小\" is below it.\n        *   Let's look at \"陽春湯麵\" (Spring Onion Soup Noodles). Large 55, Small 45.\n    *   **Category 2: 乾麵類 (Dry Noodles) - (不附清湯) (No soup included)**\n        *   牛肉拌麵 (Beef Mixed Noodles): Large 130, Small 110.\n        *   麻醬乾麵 (Sesame Dry Noodles): Large 60, Small 50.\n        *   陽春乾麵 (Spring Onion Dry Noodles): Large 55, Small 45.\n    *   **Category 3: 湯類 (Soups)**\n        *   牛肉湯 (Beef Soup): Large 180, Small 100.\n        *   餛飩湯 (Wonton Soup): Large 50, Small 40.\n        *   魚丸湯 (Fish Ball Soup): Large 40, Small 30.\n        *   貢丸湯 (Contribution Ball Soup / Pork Ball Soup?): Large 40, Small 30.\n        *   蛋花湯 (Egg Drop Soup): Large 40, Small 30.\n        *   酸辣湯 (Hot and Sour Soup): Large 50, Small 40.\n        *   榨菜肉絲湯 (Pickled Vegetable Pork Soup): Large 50, Small 40.\n\n    *   **Notes/Other text:**\n        *   \"外帶請打\" (Takeout please call/check)\n        *   \"006325\" (Phone number part?)\n        *   Address: \"高雄市楠梓區建楠路84巷62號/電話：(07) 3515086\"\n        *   Checkboxes: 醬油 (Soy Sauce), 醬油膏 (Soy Sauce Paste), 蒜泥 (Minced Garlic).\n        *   \"號碼單請撕下\" (Please tear off the order number slip).\n\n    *   **Refining the \"Price\" rule:** \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\".\n        *   Example: \"牛肉麵\". Prices are 130 (Large) and 110 (Small). \"More obvious\" likely means the larger price or the one that isn't a modifier. I will use the Large price (130) as the primary price. The note will say \"Small 110\".\n        *   Wait, is it possible the \"note\" is for things like \"Takeout\"? No, the rule specifically mentions \"大小\" (Large/Small) or \"套餐與單點\" (Combo vs Single).\n        *   Let's look at the \"Dry Noodles\" section header: \"乾麵類(不附清湯)\". This is a category note.\n        *   Let's look at the \"Soup\" section at the bottom. \"邊青菜 30\" (Side Vegetable 30). This looks like an add-on.\n\n    *   **Let's construct the Categories:**\n        1.  **湯麵類** (Soup Noodles):\n            *   牛肉麵: Price 130 (Large). Note: Small 110.\n            *   榨肉絲麵 (Pork Shred Noodles): Large 75, Small 60. -> Note: Small 60.\n            *   餛飩麵 (Wonton Noodles): Large 75, Small 60. -> Note: Small 60.\n            *   酸辣麵 (Hot & Sour Noodles): Large 75, Small 60. -> Note: Small 60.\n            *   鴨肉麵 (Duck Noodles): Large 75, Small 60. -> Note: Small 60.\n            *   陽春湯麵 (Spring Onion Soup Noodles): Large 55, Small 45. -> Note: Small 45.\n        2.  **乾麵類** (Dry Noodles - No Soup):\n            *   牛肉拌麵 (Beef Mixed Noodles): Large 130, Small 110. -> Note: Small 110.\n            *   麻醬乾麵 (Sesame Dry Noodles): Large 60, Small 50. -> Note: Small 50.\n            *   陽春乾麵 (Spring Onion Dry Noodles): Large 55, Small 45. -> Note: Small 45.\n        3.  **湯類** (Soups):\n            *   牛肉湯 (Beef Soup): Large 180, Small 100. -> Note: Small 100.\n            *   餛飩湯 (Wonton Soup): Large 50, Small 40. -> Note: Small 40.\n            *   魚丸湯 (Fish Ball Soup): Large 40, Small 30. -> Note: Small 30.\n            *   貢丸湯 (Pork Ball Soup): Large 40, Small 30. -> Note: Small 30.\n            *   蛋花湯 (Egg Drop Soup): Large 40, Small 30. -> Note: Small 30.\n            *   酸辣湯 (Hot & Sour Soup): Large 50, Small 40. -> Note: Small 40.\n            *   榨菜肉絲湯 (Pickled Veg Pork Soup): Large 50, Small 40. -> Note: Small 40.\n\n    *   **Wait, let's look at the \"notes\" field in the JSON structure.** It's a list of strings like `[\"...\"]`.\n    *   The rule says: \"notes\": [\"菜單上的其他文字\"]. This implies I should list other text found on the menu.\n    *   Let's check the items again.\n    *   \"陽春湯麵\" -> Large 55, Small 45.\n    *   \"陽春乾麵\" -> Large 55, Small 45.\n\n    *   **Let's refine the \"Price\" selection.** The prompt says \"use the more obvious one\". In the visual layout, \"大\" (Large) is the first line of price for each item. \"小\" (Small) is the second line. So I will use the \"Large\" price as the main price.\n    *   Wait, looking closely at \"牛肉麵\", \"大 130\" is on one line, \"小 110\" is on the next line indented.\n    *   So for \"牛肉麵\", price = 130. Note = \"Small 110\".\n    *   For \"榨肉絲麵\", price = 75. Note = \"Small 60\".\n    *   ...and so on.\n\n    *   **Let's check the \"categories\" list.**\n        *   The menu has headers like \"湯麵類\", \"乾麵類\", \"湯類\".\n        *   I should create these as category names.\n        *   Wait, the JSON structure is `{\"categories\": [ { \"name\": \"...\", \"items\": [ ... ] } ]}`.\n        *   So I need to group items by category.\n        *   Category 1: \"湯麵類\" (Soup Noodles).\n            *   Items: 牛肉麵, 榨肉絲麵, 餛飩麵, 酸辣麵, 鴨肉麵, 陽春湯麵.\n        *   Category 2: \"乾麵類\" (Dry Noodles).\n            *   Items: 牛肉拌麵, 麻醬乾麵, 陽春乾麵.\n        *   Category 3: \"湯類\" (Soups).\n            *   Items: 牛肉湯, 餛飩湯, 魚丸湯, 貢丸湯, 蛋花湯, 酸辣湯, 榨菜肉絲湯.\n\n    *   **Let's verify the text.**\n        *   Top left: \"老余\" (Lao Yu - likely the name).\n        *   Top right: \"006325\" (Phone extension?).\n        *   Address: \"高雄市楠梓區建楠路84巷62號/電話：(07) 3515086\".\n        *   Checkboxes at bottom: \"醬油\", \"醬油膏\", \"蒜泥\".\n        *   Bottom text: \"號碼單請撕下\".\n\n    *   **Constructing the JSON:**\n        *   `title`: \"老余\" (The big characters at the top left).\n        *   `currency`: \"TWD\".\n        *   `categories`:\n            *   Category: \"湯麵類\" (Soup Noodles).\n                *   Item: \"牛肉麵\", Price: 130, Unit: \"份\", Note: \"Small 110\".\n                *   Item: \"榨肉絲麵\", Price: 75, Unit: \"份\", Note: \"Small 60\".\n                *   Item: \"餛飩麵\", Price: 75, Unit: \"份\", Note: \"Small 60\".\n                *   Item: \"酸辣麵\", Price: 75, Unit: \"份\", Note: \"Small 60\".\n                *   Item: \"鴨肉麵\", Price: 75, Unit: \"份\", Note: \"Small 60\".\n                *   Item: \"陽春湯麵\", Price: 55, Unit: \"份\", Note: \"Small 45\".\n            *   Category: \"乾麵類\" (Dry Noodles).\n                *   Item: \"牛肉拌麵\", Price: 130, Unit: \"份\", Note: \"Small 110\".\n                *   Item: \"麻醬乾麵\", Price: 60, Unit: \"份\", Note: \"Small 50\".\n                *   Item: \"陽春乾麵\", Price: 55, Unit: \"份\", Note: \"Small 45\".\n            *   Category: \"湯類\" (Soups).\n                *   Item: \"牛肉湯\", Price: 180, Unit: \"份\", Note: \"Small 100\".\n                *   Item: \"餛飩湯\", Price: 50, Unit: \"份\", Note: \"Small 40\".\n                *   Item: \"魚丸湯\", Price: 40, Unit: \"份\", Note: \"Small 30\".\n                *   Item: \"貢丸湯\", Price: 40, Unit: \"份\", Note: \"Small 30\".\n                *   Item: \"蛋花湯\", Price: 40, Unit: \"份\", Note: \"Small 30\".\n                *   Item: \"酸辣湯\", Price: 50, Unit: \"份\", Note: \"Small 40\".\n                *   Item: \"榨菜肉絲湯\", Price: 50, Unit: \"份\", Note: \"Small 40\".\n\n    *   **Wait, let's look at the \"notes\" field again.** \"notes\": [\"菜單上的其他文字\"].\n        *   This implies I should list text that isn't an item price.\n        *   Text found:\n            *   \"外帶請打\" (Takeout please mark/check)\n            *   \"006325\" (Top right number)\n            *   \"高雄市楠梓區建楠路84巷62號/電話：(07) 3515086\" (Address/Phone)\n            *   \"醬油\", \"醬油膏\", \"蒜泥\" (Checkboxes)\n            *   \"號碼單請撕下\" (Tear off order number)\n            *   \"006325\" (Bottom right)\n\n    *   **Refining the \"Price\" rule interpretation:**\n        *   \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\"\n        *   This implies if there are two prices (e.g. Large and Small), I pick the \"more obvious\" one. In a list like this, \"Large\" is usually the standard/obvious choice for the main entry. I will use the Large price.\n        *   Wait, is it possible the \"note\" should contain the small price? Yes.\n        *   Let's check if there are any other interpretations. \"較明顯的那個\" (the more obvious one). In a list where \"Large\" is on top and \"Small\" is below, \"Large\" is visually more prominent/first. So I will use the Large price.\n        *   Let's",
+  "parsed": null,
+  "parse_error": "Extra data: line 1 column 53 (char 52)",
+  "latency_s": 12.305363599996781,
+  "prompt_tokens": 3011,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "laoyu_noodles",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 17,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.8823529411764706,
+    "price_recall": 0.8823529411764706,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "餛飩麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "酸辣麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鴨肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "陽春湯麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "麻醬乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "陽春乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "餛飩湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "酸辣湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "燙青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1748012.jpg",
+  "mime": "image/jpeg",
+  "bytes": 202500,
+  "ok": true,
+  "text": "# RM.SELERA KAMI\n\n娜娜印尼料理(楠梓)\n\nT E L\n\n: 0966955832\n\nLINE ID\n\n|  MENU | Harga | Jumlah | MENU | Harga | Jumlah  |\n| --- | --- | --- | --- | --- | --- |\n|  Pecel ayam(nasi) | 110 |  | Bakso kecil | 100 |   |\n|  Pecel bebek(nasi) | 170 |  | Bakso branak | 160 |   |\n|  Pecel burung(nasi) | 150 |  | Bakso urat | 160 |   |\n|  Pecel lele (nasi) | 150 |  | Bakso iga | 190 |   |\n|  Ayam penyet (nasi) | 120 |  | Bakso mercon | 160 |   |\n|  Bebek penyet (nasi) | 180 |  |  |  |   |\n|  Tempe penyet (nasi) | 100 |  | Soto babat(nasi) | 150 |   |\n|  Nasi goreng biasa | 110 |  | Soto ayam (nasi) | 120 |   |\n|  Nasi goreng ati ampela | 130 |  | Soto Lamongan(nasi) | 120 |   |\n|  Nasi goreng pete | 130 |  | Mie ayam | 110 |   |\n|  Nasi goreng special | 150 |  | Mie ayam BAKSO | 130 |   |\n|  Mie goreng | 110 |  | sate ayam(nasi) | 160 |   |\n|  Kwetiau goreng | 110 |  | sate kambing(nasi) | 180 |   |\n|  **Hari libur tersedia** |   |   | ayam bakar(nasi) | 160 |   |\n|  Gado gado sayur | 100 |  | bebek bakar(nasi) | 200 |   |\n|  Lontong sayur | 100 |  |  |  |   |\n|   | **BKS** |  | **Meja** | **A** | **001**  |\n|  |   |   |   |   |   |\n|  ES Teh manis | 35 |  | Es campur | 50 |   |\n|  Teh manis Panas | 35 |  | Es jeruk | 50 |   |\n|  Kopi hitam | 35 |  | Soda susu | 50 |   |\n|  Kopi susu | 50 |  | Susu Jahe | 50 |   |\n|   |  |  | SUSU COKLAT | 50 |   |\n|   | **BKS** |  | **Meja** | **A** | **001**  |",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 4.450225599983241,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "nana_indonesian",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "Pecel ayam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Pecel bebek",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Nasi goreng biasa",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Bakso iga",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "bebek bakar",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "ES Teh manis",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Kopi hitam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Kopi susu",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

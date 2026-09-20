@@ -1,0 +1,376 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "Screenshot_20260916-1742312.jpg",
+  "mime": "image/jpeg",
+  "bytes": 242159,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"蘭州牛工拉麵館\",\n  \"currency\": \"TWD\",\n  \"business_hours\": \"11:00~14:00, 16:30~20:30 (週五公休)\",\n  \"takeout\": true,\n  \"categories\": [\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"金牌牛三實麵牛腱\", \"price\": 180, \"note\": \"\"},\n        {\"name\": \"半節半肉麵\", \"price\": 150, \"note\": \"\"},\n        {\"name\": \"牛筋牛肚麵\", \"price\": 150, \"note\": \"\"},\n        {\"name\": \"牛腱牛肉麵\", \"price\": 130, \"note\": \"\"},\n        {\"name\": \"牛肉清湯麵\", \"price\": 75, \"note\": \"加麵10元\"},\n        {\"name\": \"豬肋排骨麵\", \"price\": 110, \"note\": \"\"},\n        {\"name\": \"豬腳麵\", \"price\": 110, \"note\": \"\"},\n        {\"name\": \"龍骨麵\", \"price\": 90, \"note\": \"\"},\n        {\"name\": \"又燒麵\", \"price\": 80, \"note\": \"\"},\n        {\"name\": \"炸鹽酥麵\", \"price\": 80, \"note\": \"\"},\n        {\"name\": \"榨菜肉絲麵\", \"price\": 80, \"note\": \"\"},\n        {\"name\": \"豬肉清湯麵\", \"price\": 55, \"note\": \"\"},\n        {\"name\": \"水飯粒\", \"price\": 6, \"note\": \"最少10粒\"}\n      ]\n    },\n    {\n      \"name\": \"湯類\",\n      \"items\": [\n        {\"name\": \"牛肉湯\", \"price\": 130, \"note\": \"\"},\n        {\"name\": \"排骨湯\", \"price\": 80, \"note\": \"\"},\n        {\"name\": \"貢丸湯\", \"price\": 35, \"note\": \"\"},\n        {\"name\": \"榨菜肉絲湯\", \"price\": 35, \"note\": \"\"},\n        {\"name\": \"紫菜湯\", \"price\": 20, \"note\": \"\"},\n        {\"name\": \"燙青菜\", \"price\": 40, \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"濃味類\",\n      \"items\": [\n        {\"name\": \"牛腱肉切盤\", \"price\": 130, \"note\": \"\"},\n        {\"name\": \"牛肚切盤\", \"price\": 130, \"note\": \"\"},\n        {\"name\": \"牛筋切盤\", \"price\": 130, \"note\": \"\"},\n        {\"name\": \"豬腳切盤\", \"price\": 120, \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"營業時間: 11:00~14:00, 16:30~20:30 (每週五公休)\",\n    \"外帶\",\n    \"本店不附清湯\",\n    \"拉麵、刀削麵加麵10元\",\n    \"電話: 3532713\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "蘭州牛工拉麵館",
+    "currency": "TWD",
+    "business_hours": "11:00~14:00, 16:30~20:30 (週五公休)",
+    "takeout": true,
+    "categories": [
+      {
+        "name": "麵類",
+        "items": [
+          {
+            "name": "金牌牛三實麵牛腱",
+            "price": 180,
+            "note": ""
+          },
+          {
+            "name": "半節半肉麵",
+            "price": 150,
+            "note": ""
+          },
+          {
+            "name": "牛筋牛肚麵",
+            "price": 150,
+            "note": ""
+          },
+          {
+            "name": "牛腱牛肉麵",
+            "price": 130,
+            "note": ""
+          },
+          {
+            "name": "牛肉清湯麵",
+            "price": 75,
+            "note": "加麵10元"
+          },
+          {
+            "name": "豬肋排骨麵",
+            "price": 110,
+            "note": ""
+          },
+          {
+            "name": "豬腳麵",
+            "price": 110,
+            "note": ""
+          },
+          {
+            "name": "龍骨麵",
+            "price": 90,
+            "note": ""
+          },
+          {
+            "name": "又燒麵",
+            "price": 80,
+            "note": ""
+          },
+          {
+            "name": "炸鹽酥麵",
+            "price": 80,
+            "note": ""
+          },
+          {
+            "name": "榨菜肉絲麵",
+            "price": 80,
+            "note": ""
+          },
+          {
+            "name": "豬肉清湯麵",
+            "price": 55,
+            "note": ""
+          },
+          {
+            "name": "水飯粒",
+            "price": 6,
+            "note": "最少10粒"
+          }
+        ]
+      },
+      {
+        "name": "湯類",
+        "items": [
+          {
+            "name": "牛肉湯",
+            "price": 130,
+            "note": ""
+          },
+          {
+            "name": "排骨湯",
+            "price": 80,
+            "note": ""
+          },
+          {
+            "name": "貢丸湯",
+            "price": 35,
+            "note": ""
+          },
+          {
+            "name": "榨菜肉絲湯",
+            "price": 35,
+            "note": ""
+          },
+          {
+            "name": "紫菜湯",
+            "price": 20,
+            "note": ""
+          },
+          {
+            "name": "燙青菜",
+            "price": 40,
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "濃味類",
+        "items": [
+          {
+            "name": "牛腱肉切盤",
+            "price": 130,
+            "note": ""
+          },
+          {
+            "name": "牛肚切盤",
+            "price": 130,
+            "note": ""
+          },
+          {
+            "name": "牛筋切盤",
+            "price": 130,
+            "note": ""
+          },
+          {
+            "name": "豬腳切盤",
+            "price": 120,
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "營業時間: 11:00~14:00, 16:30~20:30 (每週五公休)",
+      "外帶",
+      "本店不附清湯",
+      "拉麵、刀削麵加麵10元",
+      "電話: 3532713"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 14.692247900005896,
+  "prompt_tokens": 2249,
+  "completion_tokens": 817,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "lanzhou_lamian",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "蘭州牛工拉麵館",
+    "title_hit": true,
+    "item_count": 23,
+    "anchor_n": 21,
+    "name_json_recall": 0.7619047619047619,
+    "price_json_recall": 0.7619047619047619,
+    "name_recall": 0.7619047619047619,
+    "price_recall": 0.7619047619047619,
+    "extra_names": [
+      "金牌牛三實麵牛腱",
+      "半節半肉麵",
+      "又燒麵",
+      "炸鹽酥麵",
+      "水飯粒",
+      "牛肚切盤",
+      "牛筋切盤"
+    ],
+    "hallucination_n": 7,
+    "anchors": [
+      {
+        "name": "金牌牛三寶麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "半筋半肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛筋牛肚麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛腱牛肉麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉清湯麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肋排骨麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬腳麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "龍骨麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "叉燒麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "炸醬麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肉清湯麵",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "水餃",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "排骨湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紫菜湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "燙青菜",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛腱肉切盤",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬腳切盤",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

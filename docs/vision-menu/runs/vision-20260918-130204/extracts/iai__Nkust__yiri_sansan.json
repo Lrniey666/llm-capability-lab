@@ -1,0 +1,89 @@
+{
+  "provider": "iai",
+  "model": "Nkust",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "\n\n此問題不在本服務提供的範圍",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 1.7547444000083487,
+  "prompt_tokens": 937,
+  "completion_tokens": 205,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 6,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

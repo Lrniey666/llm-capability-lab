@@ -1,0 +1,135 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1741462.jpg",
+  "mime": "image/jpeg",
+  "bytes": 234232,
+  "ok": true,
+  "text": "Okay, let's tackle this problem. So, I need to convert the visible content of the menu into a JSON structure as specified. First, I'll look at the image to identify the title, currency, categories, and notes.\n\nThe title at the top is \"好味 越式料理\", so the title should be \"好味 越式料理\". The currency is TWD as it's a Taiwanese restaurant.\n\nNow, the categories. Let's check the sections. The first category is \"※湯類\" (Soup). Under that, there are items like \"生鮮牛肉\" with price 110, \"海鮮\" 110, etc. Wait, but the user said not to guess if something is unclear. Let me check each item.\n\nLooking at the first table under \"※湯類\", the items are:\n\n- 生鮮牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n- 紅燒牛肉: 140\n- 酸辣牛肉: 110\n- 酸辣海鮮: 110\n- 酸辣豬肉: 100\n- 酸辣雞肉: 100\n\nWait, but the user mentioned not to make up items. Let me confirm each. The first column is \"※湯類\", so all these are soup items. The price is in the \"單價\" column. So each of these is a soup item with the given price.\n\nNext category: \"※炒類\" (Stir-fry). Items here are:\n\n- 牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n\nThen \"※涼拌類\" (Cold dishes):\n\n- 牛肉涼拌米粉: 120\n- 炸春捲涼拌米粉: 120\n- 燒肉涼拌米粉: 120\n- 涼拌洋蔥海鮮: 80\n- 涼拌洋蔥雞絲: 80\n- 涼拌木瓜雞絲: 80\n\nNext, \"※飯類\" (Rice dishes):\n\n- 紅燒牛肉飯: 140\n- 香茅雞肉飯: 120\n- 排骨飯: 110\n- 牛肉燴飯: 110\n- 海鮮燴飯: 110\n- 豬肉燴飯: 100\n- 牛肉炒飯: 100\n- 海鮮炒飯: 100\n- 肉絲炒飯: 90\n- 雞肉炒飯: 90\n\n\"※炒菜類\" (Stir-fried vegetables):\n\n- 炒青菜: 60\n- 豬肉炒青菜: 120\n- 牛肉炒青菜: 140\n\n\"※點心類\" (Snacks):\n\n- 養生春捲(2 捲): 80\n- 芋香炸春捲: 80\n- 香茅雞肉: 80\n- 白飯/荷包蛋(一顆): 15/15 (but the note says 15/15, so maybe the price is 15 for each, but the note says \"15/15\" so perhaps the unit is \"顆\" for the egg, but the price is 15. Wait, the note says \"15/15\" so maybe the price is 15 for white rice and 15 for the egg, but the item is \"白飯/荷包蛋(一顆)\", so the price is 15 for each, but the note says \"15/15\" so maybe the price is 15, and the note is \"15/15\" as in two options. But according to the rules, if there's a set meal, use the clearer price. Here, it's written as 15/15, so maybe the price is 15, and the note is \"15/15\" meaning two items. But the user says to use the clearer price. Since it's written as 15/15, perhaps the price is 15, and the note is \"15/15\" as the note. Wait, the rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So if it's 15/15, maybe it's two different prices, but since they are the same, maybe it's 15. But the note says \"15/15\" so the note should be \"15/15\".\n\nThen \"※湯類\" again? Wait, there's another \"※湯類\" section at the bottom. Let's check:\n\n- 蛋花湯: 30\n- 虱目魚丸湯: 35\n- 原味/酸辣牛肉湯: 80\n- 原味/酸辣海鮮湯: 80\n- 原味/酸辣豬肉湯: 70\n- 原味/酸辣雞肉湯: 70\n\nWait, the first \"※湯類\" is the top one, and then there's another \"※湯類\" at the bottom. So two soup categories? Wait, looking at the image:\n\nThe first \"※湯類\" is the top section, then \"※炒類\", \"※涼拌類\", \"※飯類\", \"※炒菜類\", \"※點心類\", and then another \"※湯類\" at the bottom. Wait, no, let's check the structure.\n\nWait, the image has multiple tables. Let's list all the categories as per the visible content.\n\nFirst, the top section is \"※湯類\" (Soup), then \"※炒類\" (Stir-fry), \"※涼拌類\" (Cold dishes), \"※飯類\" (Rice), \"※炒菜類\" (Stir-fried veggies), \"※點心類\" (Snacks), and then another \"※湯類\" (Soup) at the bottom. Wait, but the bottom \"※湯類\" is a separate section. Let's check:\n\nThe bottom part has \"※湯類\" with items like 蛋花湯, 虱目魚丸湯, etc. So that's another soup category. So the categories are:\n\n1. ※湯類 (top)\n2. ※炒類\n3. ※涼拌類\n4. ※飯類\n5. ※炒菜類\n6. ※點心類\n7. ※湯類 (bottom)\n\nWait, but the user says \"categories\" as per the visible content. Let's check each section.\n\nWait, the first \"※湯類\" is the first table. Then \"※炒類\" is the next. Then \"※涼拌類\", \"※飯類\", \"※炒菜類\", \"※點心類\", and then \"※湯類\" again. Wait, but the bottom \"※湯類\" is a separate section. So the categories are:\n\n- ※湯類 (top)\n- ※炒類\n- ※涼拌類\n- ※飯類\n- ※炒菜類\n- ※點心類\n- ※湯類 (bottom)\n\nWait, but the bottom \"※湯類\" is a different section. Let's confirm.\n\nLooking at the image:\n\nThe first table is \"※湯類\" (top), then \"※炒類\", \"※涼拌類\", \"※飯類\", \"※炒菜類\", \"※點心類\", and then the last section is \"※湯類\" again. Wait, no, the last section is \"※湯類\" with items like 蛋花湯, etc. So that's another soup category. So there are two \"※湯類\" sections? Or maybe it's a typo, but the image shows two separate \"※湯類\" sections.\n\nWait, the first \"※湯類\" is the first table, then after \"※炒菜類\", there's another \"※湯類\" at the bottom. So the categories are:\n\n1. ※湯類 (top)\n2. ※炒類\n3. ※涼拌類\n4. ※飯類\n5. ※炒菜類\n6. ※點心類\n7. ※湯類 (bottom)\n\nBut the user says \"categories\" as per the visible content. So each of these is a category. However, the problem is that the bottom \"※湯類\" might be a duplicate, but since it's a separate section, we need to include it.\n\nNow, for each category, we need to list the items. Let's go through each.\n\nFirst category: \"※湯類\" (top). Items:\n\n- 生鮮牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n- 紅燒牛肉: 140\n- 酸辣牛肉: 110\n- 酸辣海鮮: 110\n- 酸辣豬肉: 100\n- 酸辣雞肉: 100\n\nEach of these is a soup item. The price is in \"單價\", so price is 110, 100, etc. The unit is \"份\" as per the example.\n\nSecond category: \"※炒類\" (Stir-fry):\n\n- 牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n\nThird: \"※涼拌類\" (Cold dishes):\n\n- 牛肉涼拌米粉: 120\n- 炸春捲涼拌米粉: 120\n- 燒肉涼拌米粉: 120\n- 涼拌洋蔥海鮮: 80\n- 涼拌洋蔥雞絲: 80\n- 涼拌木瓜雞絲: 80\n\nFourth: \"※飯類\" (Rice):\n\n- 紅燒牛肉飯: 140\n- 香茅雞肉飯: 120\n- 排骨飯: 110\n- 牛肉燴飯: 110\n- 海鮮燴飯: 110\n- 豬肉燴飯: 100\n- 牛肉炒飯: 100\n- 海鮮炒飯: 100\n- 肉絲炒飯: 90\n- 雞肉炒飯: 90\n\nFifth: \"※炒菜類\" (Stir-fried veggies):\n\n- 炒青菜: 60\n- 豬肉炒青菜: 120\n- 牛肉炒青菜: 140\n\nSixth: \"※點心類\" (Snacks):\n\n- 養生春捲(2 捲): 80\n- 芋香炸春捲: 80\n- 香茅雞肉: 80\n- 白飯/荷包蛋(一顆): 15/15 (note: 15/15)\n\nNow, check if any items have two prices. For example, \"白飯/荷包蛋(一顆)\" has 15/15, so the price is 15, and the note is \"15/15\".\n\nNow, the notes: the menu has \"訂購專線: (07)352-0588 0973-732296 高雄市楠梓區創新路 11 號\" which should be in the notes.\n\nAlso, the title is \"好味 越式料理\", so title is \"好味 越式料理\".\n\nCurrency is TWD.\n\nNow, check if any items are unclear. The prices are all visible, so no \"看不清\" needed.\n\nNow, the JSON structure:\n\n- title: \"好味 越式料理\"\n- currency: \"TWD\"\n- categories: list of categories, each with name and items.\n\nWait, the example given in the rules is:\n\n{\n  \"title\": \"菜單標題或店名，看不見就空字串\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"分類名稱\",\n      \"items\": [\n        {\"name\": \"品名\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\"菜單上的其他文字\"]\n}\n\nSo each category has a name, and items with name, price, unit, note.\n\nLet's process each category.\n\nFirst category: \"※湯類\" (top). The items here are all soups. The unit for these items is \"份\" as per the example. So for each item in this category, unit is \"份\".\n\nSecond category: \"※炒類\" (Stir-fry). The items here: 牛肉, 海鮮, etc. The unit here is also \"份\" as per the example (since the first category uses \"份\", and the example uses \"份\" for unit).\n\nWait, the example says \"unit\": \"份\", so all items should have unit \"份\" unless specified otherwise. Let's check the menu.\n\nIn the \"※湯類\" section, the unit is \"單價\", which is price per portion, so unit is \"份\".\n\nSimilarly, \"※炒類\" has \"單價\", so unit is \"份\".\n\n\"※涼拌類\" has \"單價\" and \"數量\", but the unit for price is \"份\" (since it's per item, not per quantity). Wait, the \"※涼拌類\" has \"單價\" and \"數量\", so the price is per item, so unit is \"份\".\n\n\"※飯類\" has \"單價\" and \"數量\", so unit is \"份\".\n\n\"※炒菜類\" has \"單價\" and \"數量\", so unit \"份\".\n\n\"※點心類\" has \"單價\" and \"數量\", so unit \"份\".\n\nThe only exception is \"白飯/荷包蛋(一顆)\" which has \"15/15\" in the price column, but the note says \"15/15\", so the price is 15, and the note is \"15/15\". Wait, the price column for that item is \"15/15\", so the price is 15, and the note is \"15/15\". Wait, the rule says \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". So if it's 15/15, maybe it's two different prices, but since they are the same, perhaps it's 15, and the note is \"15/15\" as in two options. But the example in the rules says \"15/15\" as the note. So for \"白飯/荷包蛋(一顆)\", price is 15, note is \"15/15\".\n\nNow, let's list all categories.\n\nFirst category: \"※湯類\" (top). Let's list all items here.\n\nItems:\n\n- 生鮮牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n- 紅燒牛肉: 140\n- 酸辣牛肉: 110\n- 酸辣海鮮: 110\n- 酸辣豬肉: 100\n- 酸辣雞肉: 100\n\nEach of these has price as per the \"單價\" column. So price is 110, 100, etc. Unit is \"份\".\n\nSecond category: \"※炒類\" (Stir-fry):\n\n- 牛肉: 110\n- 海鮮: 110\n- 豬肉: 100\n- 雞肉: 100\n\nUnit: \"份\".\n\nThird category: \"※涼拌類\" (Cold dishes):\n\n- 牛肉涼拌米粉: 120\n- 炸春捲涼拌米粉: 120\n- 燒肉涼拌米粉: 120\n- 涼拌洋蔥海鮮: 80\n- 涼拌洋蔥雞絲: 80\n- 涼拌木瓜雞絲: 80\n\nUnit: \"份\".\n\nFourth category: \"※飯類\" (Rice):\n\n- 紅燒牛肉飯: 140\n- 香",
+  "parsed": {
+    "title": "菜單標題或店名，看不見就空字串",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "分類名稱",
+        "items": [
+          {
+            "name": "品名",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "菜單上的其他文字"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 13.84835590000148,
+  "prompt_tokens": 3647,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "haowei_vietnamese",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "菜單標題或店名，看不見就空字串",
+    "title_hit": true,
+    "item_count": 1,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "生鮮牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香茅雞肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "排骨飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "虱目魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

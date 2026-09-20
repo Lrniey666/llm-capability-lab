@@ -1,0 +1,89 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "We need to parse visible content. The image is a menu with many categories. Hard to read all items. We need to output JSON with title, currency, categories (list of dicts), and notes (list of strings). Title: maybe \"宜日三餐\" (visible at top). Let's see: top left shows \"宜日三餐\". Also \"Breakfast - Lunch - Dinner\". So title likely \"宜日三餐\". Currency TWD.\n\nCategories: The menu seems to have sections like \"今日宜經典吃司\" (maybe \"今日宜 經典吃司\"?). Hard to read. Let's try to identify categories:\n\nFrom top left column: \"今日宜 經典吃司\" (maybe \"今日宜 經典吃司\" meaning \"Today's Classic Sushi\"?). Items listed: \"香煎壽司\", \"火腿吐司\", \"火腿吐司\", \"肉鬆吐司\", \"玉米壽司\", \"玉米壽司\", \"薯餅吐司\", \"薯餅吐司\", \"鯛魚吐司\", \"鯛魚吐司\", \"濱堡肉吐司\", \"濱堡肉吐司\", \"薯香雞肉吐司\", \"薯香雞肉吐司\", \"活力鮮蔬壽司\", \"黑胡椒雞排吐司\", \"馬鈴薯泥壽司\", \"馬鈴薯泥壽司\", \"黑鯛味菇泥壽司\", \"黑鯛味菇泥壽司\", \"經典味菇泥壽司\", \"經典味菇泥壽司\", \"櫻桃酥炸雞排吐司\", \"櫻桃酥炸雞排吐司\". Prices next to each: e.g., 35, 30, 30, 45, 40, 40, 40, 40, 40, 40, 45, 45, 55, 60, 60, 70, 70, 70, 70. Also there is \"加價\" column maybe for extra. Also note \"加價 +18元 +12元\". So some items have note.\n\nSecond column (top middle): \"今日宜 吃好料吐司\" (maybe \"今日宜 吃好料吐司\" meaning \"Today's Good Ingredient Toast\"?). Items: \"美國五花吐司\", \"日本炸魚吐司\", \"炸牛肉餅吐司\", \"韭菜安格斯牛肉堡吐司\", \"花生溶岩牛肉堡吐司\", \"厚切日本和牛燒肉排吐司\", \"日式炸豬排吐司\", \"花生溶岩日本和牛燒肉排吐司\". Prices: 55, 65, 75, 79, 89, 109, 109, 119. Also note \"加價 +18元 +12元\". So note.\n\nThird column (top right): \"今日宜 經典吃司\" again? Actually there is \"今日宜 經典吃司\" maybe same as first but different items: \"奶油\", \"草莓\", \"巧克力\", \"顆粒花生\", \"椰香奶酥\", \"蒜香\", \"櫻乳\", \"換雙色抹醬\", \"焗烤火腿玉米\", \"焗烤火腿玉米\", \"焗烤鮪魚洋蔥\", \"焗烤鮪魚洋蔥\". Prices: 20, 20, 25, 25, 25, 25, 25, 25, 5, 5, 75, 80, 80. Also note \"加價 +18元 +12元\". Also \"加價 +18元 +12元\" maybe for some.\n\nFourth column (middle left): \"今日宜 經典蛋餅\" (maybe \"今日宜 經典蛋餅\" meaning \"Today's Classic Pancake\"?). Items: \"原味蛋餅\", \"玉米蛋餅\", \"蔬菜蛋餅\", \"起司蛋餅\", \"火腿蛋餅\", \"肉鬆蛋餅\", \"熱狗蛋餅\", \"薯條蛋餅\", \"薯條蛋餅\", \"培根蛋餅\", \"培根蛋餅\", \"鮪魚蛋餅\", \"黑鯛薯泥蛋餅\", \"黑胡椒豬排蛋餅\", \"麥香雞蛋餅\", \"皮蛋肉鬆蛋餅\", \"原味味菇泡麵蛋餅\", \"辣味味菇泡麵蛋餅\", \"紐奧良雞腿蛋餅\". Prices: 30, 40, 40, 40, 40, 40, 55, 55, 55, 50, 50, 50, 55, 55, 60, 65, 70, 70, 75, 75. Also note \"加價 +18元 +12元\". Also \"加價 +18元 +12元\" maybe for some.\n\nFifth column (middle): \"今日宜 吃經典漢堡\" (maybe \"今日宜 吃經典漢堡\" meaning \"Today's Classic Burger\"?). Items: \"美國五花漢堡\", \"日本炸魚漢堡\", \"花生豬肉培根漢堡\", \"重磅安格斯牛肉漢堡\", \"星磅安格斯牛肉漢堡\", \"日式炸豬排漢堡\", \"厚切日本和牛燒肉排漢堡\", \"厚切日本和牛燒肉排漢堡\", \"厚切日本和牛燒肉排漢堡\", \"雙層重磅安格斯牛肉漢堡\". Prices: 70, 75, 80, 85, 89, 99, 115, 119, 119, 125, 139, 169. Also note \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\". Also \"加價 +18元 +12元 +20元\".",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.571003900025971,
+  "prompt_tokens": 2951,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 6,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.5,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

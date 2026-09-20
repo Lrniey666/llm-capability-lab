@@ -1,0 +1,5 @@
+{
+  "ok": true,
+  "model": "gemini-3.6-flash",
+  "text": "{\n  \"title\": \"福氣來\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"水餃\",\n      \"items\": [\n        {\"name\": \"高麗菜\", \"price\": 7, \"unit\": \"粒\", \"note\": \"\"},\n        {\"name\": \"韭菜\", \"price\": 7, \"unit\": \"粒\", \"note\": \"\"},\n        {\"name\": \"玉米\", \"price\": 7.5, \"unit\": \"粒\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蒸餃\",\n      \"items\": [\n        {\"name\": \"高麗菜"
+}

@@ -1,0 +1,116 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1748442.jpg",
+  "mime": "image/jpeg",
+  "bytes": 247277,
+  "ok": true,
+  "text": "{\n  \"title\": \"咚咚海鮮鍋燒\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"經典海鮮鍋燒\",\n      \"items\": [\n        {\"name\": \"海鮮鍋\", \"price\": 138, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"田園時蔬鍋\", \"price\": 138, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蛤蜊滿滿鍋\", \"price\": 195, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"日式炸蝦鍋\", \"price\": 195, \"unit",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 10 column 65 (char 303)",
+  "latency_s": 15.44838630000595,
+  "prompt_tokens": 1298,
+  "completion_tokens": 163,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "dongdong_hotpot",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.4444444444444444,
+    "price_recall": 0.3333333333333333,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "海鮮鍋燒",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "田園時蔬鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛤蜊滿滿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "日式炸蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "金多蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "肉多多豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "龍蝦鍋霸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙龍強味鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "義式烤菇",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

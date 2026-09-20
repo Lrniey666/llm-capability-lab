@@ -1,0 +1,170 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "20260916_122303549.jpg",
+  "mime": "image/jpeg",
+  "bytes": 511822,
+  "ok": true,
+  "text": "Okay, let's tackle this problem. So, I need to convert the visible content of the menu image into a JSON structure as specified. Let me first understand the requirements.\n\nThe user says it's a Taiwanese restaurant menu/pricelist photo. The JSON should have a title (restaurant name or empty if not visible), currency as TWD, categories with items (name, price, unit, note), and notes for other text.\n\nFirst, check the title. The main title on the menu is \"三商巧福\" which is the restaurant name. So title should be \"三商巧福\".\n\nCurrency is TWD, so that's straightforward.\n\nNow, categories. The menu has several sections. Let's look at the main categories. The top part has \"精選套餐\" (Selected Sets). Then there's \"小菜系列\" (Side Dishes), \"熱滷系列\" (Braised Dishes), \"特選飲品\" (Special Drinks), and \"好呷好價\" (Good Value) on the right.\n\nWait, the \"好呷好價\" is a separate section on the right, maybe a special offer. Let's check each category.\n\nStarting with \"精選套餐\" (Selected Sets). The items here are numbered 1 to 12. Let's list them:\n\n1. 半筋半牛肉麵 / 細粉: $239 (original $275)\n   - Note: 原價$275, 現價$239. So price is 239, note: (原價$275)\n\n2. 超大盤牛肉壽喜飯 / 糖: $239 (original $275)\n   - Note: 原價$275, 現價$239. So price 239, note: (原價$275)\n\n3. 牛三寶牛肉麵 / 細粉: $259 (original $290)\n   - Note: 原價$290, 現價$259. Price 259, note: (原價$290)\n\n4. 原汁牛肉麵 / 細粉: $229 (original $265)\n   - Note: 原價$265, 現價$229. Price 229, note: (原價$265)\n\n5. 紅燒排骨飯 / 糖 / 細粉: $189 (original $225)\n   - Note: 原價$225, 現價$189. Price 189, note: (原價$225)\n\n6. 清燉牛肉麵 / 細粉: $229 (original $265)\n   - Note: 原價$265, 現價$229. Price 229, note: (原價$265)\n\n7. 叻沙牛肉麵: $239 (original $275)\n   - Note: 原價$275, 現價$239. Price 239, note: (原價$275)\n\n8. 番茄牛肉麵: $239 (original $275)\n   - Note: 原價$275, 現價$239. Price 239, note: (原價$275)\n\n9. 牛肉炸醬麵: $165 (original $179)\n   - Note: 原價$179, 現價$165. Price 165, note: (原價$179)\n\n10. 番茄肉醬乾拌麵: $165 (original $179)\n    - Note: 原價$179, 現價$165. Price 165, note: (原價$179)\n\n11. 紅燒四喜牛肉麵: $249 (original $275)\n    - Note: 原價$275, 現價$249. Price 249, note: (原價$275)\n\n12. 蘭州雙寶牛肉拉麵: $235 (original $265)\n    - Note: 原價$265, 現價$235. Price 235, note: (原價$265)\n\nWait, but the problem says to use the more obvious price. For example, if there's a set meal and a single order, use the set price. But in this case, all these items seem to be set meals (套餐), so the price listed is the set price. The note mentions the original price, so the main price is the current one.\n\nNext category: \"小菜系列\" (Side Dishes). Let's check the items here.\n\n- 滷蛋: $18 (原價$25)\n- 芝麻牛蒡絲: $45 (原價$50)\n- 韓國泡菜: $45 (原價$50)\n- 現燙青菜(肉): $45 (原價$50)\n- 皮蛋豆腐: $45 (原價$50)\n- 滷味豬耳朵: $45 (原價$50)\n- 原滷豆干: $45 (原價$50)\n- 鹹蛋: $18 (原價$25) [Wait, the image shows \"鹹蛋\" as $18? Let me check again.]\n\nWait, looking at the \"小菜系列\" section:\n\nFirst row:\n- 滷蛋: $18 (原價$25)\n- 芝麻牛蒡絲: $45 (原價$50)\n- 韓國泡菜: $45 (原價$50)\n- 現燙青菜(肉): $45 (原價$50)\n\nSecond row:\n- 皮蛋豆腐: $45 (原價$50)\n- 滷味豬耳朵: $45 (原價$50)\n- 原滷豆干: $45 (原價$50)\n- 鹹蛋: $18 (原價$25) [Wait, the image shows \"鹹蛋\" as $18? Let me check the image description.]\n\nWait, the user's image description says:\n\n\"小菜系列\" has:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" has:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the actual image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" has:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" has:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" has:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n- 滷味豬耳朵 $45 (原價$50)\n- 原滷豆干 $45 (原價$50)\n- 鹹蛋 $18 (原價$25) [Wait, maybe the last item is \"鹹蛋\" with $18?]\n\nWait, the user's image description says:\n\n\"小菜系列\" includes:\n\n- 滷蛋 $18 (原價$25)\n- 芝麻牛蒡絲 $45 (原價$50)\n- 韓國泡菜 $45 (原價$50)\n- 現燙青菜(肉) $45 (原價$50)\n- 皮蛋豆腐 $45 (原價$50)\n-",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.294089800008805,
+  "prompt_tokens": 4918,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sanchiao_qiaofu",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 15,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6,
+    "price_recall": 0.6,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "半筋半肉牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "超大盛牛肉壽喜飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛三寶牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原汁牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒排骨飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "清燉牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "叻沙牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "番茄牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉炸醬麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "番茄肉醬乾拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒四寶牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "揚州雙寶牛肉拉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "醬滷黑豆干",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "滷三拼",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雪花牛肉乾拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

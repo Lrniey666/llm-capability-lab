@@ -1,0 +1,415 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1739502.jpg",
+  "mime": "image/jpeg",
+  "bytes": 184694,
+  "ok": true,
+  "text": "{\n  \"title\": \"滿足飯包 MANZUFANBAO\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"Staple Food (飯包系列 Riceburger)\",\n      \"items\": [\n        {\"name\": \"招牌主打 - 豅鰲魚\", \"price\": 70},\n        {\"name\": \"豬肉燜烤\", \"price\": 80},\n        {\"name\": \"打烤豬肉\", \"price\": 80},\n        {\"name\": \"壽司牛肉\", \"price\": 85},\n        {\"name\": \"鐵路烤排\", \"price\": 80},\n        {\"name\": \"香濃醬香蹄排\", \"price\": 85},\n        {\"name\": \"花生醬蹄排\", \"price\": 90},\n        {\"name\": \"咖哩烤蛋雞\", \"price\": 85},\n        {\"name\": \"糖醋咖哩雞\", \"price\": 85},\n        {\"name\": \"炸卡拉雞\", \"price\": 85},\n        {\"name\": \"炸卡拉雞 (Kala chicken) with Sweet Chili Sauce\", \"price\": 85, \"note\": \"原價85，加$5\"},\n        {\"name\": \"炸花生牛肉\", \"price\": 90},\n        {\"name\": \"台式經典 - 香脆麻雞\", \"price\": 90},\n        {\"name\": \"獨家口味 - 肉燜烤\", \"price\": 75},\n        {\"name\": \"花生燜烤\", \"price\": 85},\n        {\"name\": \"泡菜烤豬\", \"price\": 85},\n        {\"name\": \"泡菜烤牛\", \"price\": 99},\n        {\"name\": \"素食口味 - 花生醬豆腐\", \"price\": 70},\n        {\"name\": \"植物醬豆腐\", \"price\": 70}\n      ]\n    },\n    {\n      \"name\": \"Upgrades (加餐)\",\n      \"items\": [\n        {\"name\": \"即刻線上點餐\", \"price\": \"\", \"note\": \"Scan to order via LINE\"}\n      ]\n    },\n    {\n      \"name\": \"Staple Food (加$15)\",\n      \"items\": [\n        {\"name\": \"打烤豬肉\", \"price\": 90, \"note\": \"原價80\"},\n        {\"name\": \"豬肉燜烤\", \"price\": 90, \"note\": \"原價80\"},\n        {\"name\": \"壽司牛肉\", \"price\": 95, \"note\": \"原價85\"}\n      ]\n    },\n    {\n      \"name\": \"Staple Food (加$15/加外賣$15)\",\n      \"items\": [\n        {\"name\": \"經典烤魚\", \"price\": 90, \"note\": \"外賣加$15\"}\n      ]\n    },\n    {\n      \"name\": \"Soup (湯品)\",\n      \"items\": [\n        {\"name\": \"豆腐醬味湯\", \"price\": 25},\n        {\"name\": \"玉米湯\", \"price\": 35},\n        {\"name\": \"膾鰲魚\", \"price\": 90, \"note\": \"經典烤魚\"}\n      ]\n    },\n    {\n      \"name\": \"STEP2 Upgrade (套餐升級)\",\n      \"items\": [\n        {\"name\": \"A套餐\", \"price\": 35, \"note\": \"$35主食+$25飲品+$45總計\"},\n        {\"name\": \"B套餐\", \"price\": 35, \"note\": \"$35主食+$50飲品+$50總計\"},\n        {\"name\": \"C套餐\", \"price\": 35, \"note\": \"$35主食+$25飲品+$25湯品+$69總計\"}\n      ]\n    },\n    {\n      \"name\": \"Fried Food (炸物)\",\n      \"items\": [\n        {\"name\": \"鮮炸餃子\", \"price\": 35},\n        {\"name\": \"脆餅球\", \"price\": 35},\n        {\"name\": \"炸黑魚\", \"price\": 40},\n        {\"name\": \"炸三杯雞\", \"price\": 85},\n        {\"name\": \"烤蝦球\", \"price\": 105},\n        {\"name\": \"烤蝦球 (Pineapple Shrimp balls)\", \"price\": 105},\n        {\"name\": \"烤牛腩三杯雞\", \"price\": 85},\n        {\"name\": \"鹹酥炸雞\", \"price\": 70},\n        {\"name\": \"鹹酥炸雞 (Salty and Crispy King Oyster Mushroom)\", \"price\": 70, \"note\": \"原品名不同\"},\n        {\"name\": \"King Oyster Mushroom\", \"price\": 80, \"note\": \"Sweet Chili Sauce\"},\n        {\"name\": \"King Oyster Mushroom (Thai spicy)\", \"price\": 80},\n        {\"name\": \"King Oyster Mushroom\", \"price\": 50, \"note\": \"King Oyster Mushroom\"}\n      ]\n    },\n    {\n      \"name\": \"Drinks (飲品)\",\n      \"items\": [\n        {\"name\": \"微咖啡/去冰\", \"price\": 30, \"note\": \"Lightly sweet, No ice\"},\n        {\"name\": \"黃金茶 (無糖)\", \"price\": 30},\n        {\"name\": \"古早味紅茶\", \"price\": 25},\n        {\"name\": \"手工冬瓜茶\", \"price\": 25},\n        {\"name\": \"冬瓜紅茶\", \"price\": 25},\n        {\"name\": \"冬瓜紅茶糖\", \"price\": 30},\n        {\"name\": \"紅茶糖\", \"price\": 30},\n        {\"name\": \"冬瓜牛奶\", \"price\": 35},\n        {\"name\": \"紅茶牛奶\", \"price\": 35}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"加餐+$5\",\n    \"Upgrades: A $35 food + $25 drinks + $45 total\",\n    \"*超額可搭配增價\",\n    \"M size: Lightly sweet, No ice\",\n    \"經典烤魚 (Bonito)\",\n    \"膾鰲魚 (Shacha)\",\n    \"湯品限量\"\n  ]\n}",
+  "parsed": {
+    "title": "滿足飯包 MANZUFANBAO",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "Staple Food (飯包系列 Riceburger)",
+        "items": [
+          {
+            "name": "招牌主打 - 豅鰲魚",
+            "price": 70
+          },
+          {
+            "name": "豬肉燜烤",
+            "price": 80
+          },
+          {
+            "name": "打烤豬肉",
+            "price": 80
+          },
+          {
+            "name": "壽司牛肉",
+            "price": 85
+          },
+          {
+            "name": "鐵路烤排",
+            "price": 80
+          },
+          {
+            "name": "香濃醬香蹄排",
+            "price": 85
+          },
+          {
+            "name": "花生醬蹄排",
+            "price": 90
+          },
+          {
+            "name": "咖哩烤蛋雞",
+            "price": 85
+          },
+          {
+            "name": "糖醋咖哩雞",
+            "price": 85
+          },
+          {
+            "name": "炸卡拉雞",
+            "price": 85
+          },
+          {
+            "name": "炸卡拉雞 (Kala chicken) with Sweet Chili Sauce",
+            "price": 85,
+            "note": "原價85，加$5"
+          },
+          {
+            "name": "炸花生牛肉",
+            "price": 90
+          },
+          {
+            "name": "台式經典 - 香脆麻雞",
+            "price": 90
+          },
+          {
+            "name": "獨家口味 - 肉燜烤",
+            "price": 75
+          },
+          {
+            "name": "花生燜烤",
+            "price": 85
+          },
+          {
+            "name": "泡菜烤豬",
+            "price": 85
+          },
+          {
+            "name": "泡菜烤牛",
+            "price": 99
+          },
+          {
+            "name": "素食口味 - 花生醬豆腐",
+            "price": 70
+          },
+          {
+            "name": "植物醬豆腐",
+            "price": 70
+          }
+        ]
+      },
+      {
+        "name": "Upgrades (加餐)",
+        "items": [
+          {
+            "name": "即刻線上點餐",
+            "price": "",
+            "note": "Scan to order via LINE"
+          }
+        ]
+      },
+      {
+        "name": "Staple Food (加$15)",
+        "items": [
+          {
+            "name": "打烤豬肉",
+            "price": 90,
+            "note": "原價80"
+          },
+          {
+            "name": "豬肉燜烤",
+            "price": 90,
+            "note": "原價80"
+          },
+          {
+            "name": "壽司牛肉",
+            "price": 95,
+            "note": "原價85"
+          }
+        ]
+      },
+      {
+        "name": "Staple Food (加$15/加外賣$15)",
+        "items": [
+          {
+            "name": "經典烤魚",
+            "price": 90,
+            "note": "外賣加$15"
+          }
+        ]
+      },
+      {
+        "name": "Soup (湯品)",
+        "items": [
+          {
+            "name": "豆腐醬味湯",
+            "price": 25
+          },
+          {
+            "name": "玉米湯",
+            "price": 35
+          },
+          {
+            "name": "膾鰲魚",
+            "price": 90,
+            "note": "經典烤魚"
+          }
+        ]
+      },
+      {
+        "name": "STEP2 Upgrade (套餐升級)",
+        "items": [
+          {
+            "name": "A套餐",
+            "price": 35,
+            "note": "$35主食+$25飲品+$45總計"
+          },
+          {
+            "name": "B套餐",
+            "price": 35,
+            "note": "$35主食+$50飲品+$50總計"
+          },
+          {
+            "name": "C套餐",
+            "price": 35,
+            "note": "$35主食+$25飲品+$25湯品+$69總計"
+          }
+        ]
+      },
+      {
+        "name": "Fried Food (炸物)",
+        "items": [
+          {
+            "name": "鮮炸餃子",
+            "price": 35
+          },
+          {
+            "name": "脆餅球",
+            "price": 35
+          },
+          {
+            "name": "炸黑魚",
+            "price": 40
+          },
+          {
+            "name": "炸三杯雞",
+            "price": 85
+          },
+          {
+            "name": "烤蝦球",
+            "price": 105
+          },
+          {
+            "name": "烤蝦球 (Pineapple Shrimp balls)",
+            "price": 105
+          },
+          {
+            "name": "烤牛腩三杯雞",
+            "price": 85
+          },
+          {
+            "name": "鹹酥炸雞",
+            "price": 70
+          },
+          {
+            "name": "鹹酥炸雞 (Salty and Crispy King Oyster Mushroom)",
+            "price": 70,
+            "note": "原品名不同"
+          },
+          {
+            "name": "King Oyster Mushroom",
+            "price": 80,
+            "note": "Sweet Chili Sauce"
+          },
+          {
+            "name": "King Oyster Mushroom (Thai spicy)",
+            "price": 80
+          },
+          {
+            "name": "King Oyster Mushroom",
+            "price": 50,
+            "note": "King Oyster Mushroom"
+          }
+        ]
+      },
+      {
+        "name": "Drinks (飲品)",
+        "items": [
+          {
+            "name": "微咖啡/去冰",
+            "price": 30,
+            "note": "Lightly sweet, No ice"
+          },
+          {
+            "name": "黃金茶 (無糖)",
+            "price": 30
+          },
+          {
+            "name": "古早味紅茶",
+            "price": 25
+          },
+          {
+            "name": "手工冬瓜茶",
+            "price": 25
+          },
+          {
+            "name": "冬瓜紅茶",
+            "price": 25
+          },
+          {
+            "name": "冬瓜紅茶糖",
+            "price": 30
+          },
+          {
+            "name": "紅茶糖",
+            "price": 30
+          },
+          {
+            "name": "冬瓜牛奶",
+            "price": 35
+          },
+          {
+            "name": "紅茶牛奶",
+            "price": 35
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "加餐+$5",
+      "Upgrades: A $35 food + $25 drinks + $45 total",
+      "*超額可搭配增價",
+      "M size: Lightly sweet, No ice",
+      "經典烤魚 (Bonito)",
+      "膾鰲魚 (Shacha)",
+      "湯品限量"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 10.180415399983758,
+  "prompt_tokens": 1329,
+  "completion_tokens": 1594,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "manzufanbao",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "滿足飯包 MANZUFANBAO",
+    "title_hit": true,
+    "item_count": 51,
+    "anchor_n": 12,
+    "name_json_recall": 0.16666666666666666,
+    "price_json_recall": 0.16666666666666666,
+    "name_recall": 0.16666666666666666,
+    "price_recall": 0.16666666666666666,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "壹鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "薑汁燒肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "打拋豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "壽喜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鐵路肉排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "泡菜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鳳梨蝦球",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "塔香三杯雞",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮮炸餃",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "黃金麥茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "豆腐味噌湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

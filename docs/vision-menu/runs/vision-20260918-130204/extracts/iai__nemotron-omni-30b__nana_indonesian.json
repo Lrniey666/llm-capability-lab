@@ -1,0 +1,107 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1748012.jpg",
+  "mime": "image/jpeg",
+  "bytes": 202500,
+  "ok": true,
+  "text": "We need to parse the menu. Title: \"RM.SELERA KAMI\" and Chinese \"娜娜印尼料理(楠梓)\". So title should be \"RM.SELERA KAMI\". Currency TWD.\n\nCategories: The menu seems to have sections: first two columns are main dishes (nasi, goreng, etc). Then \"Hari libur tersedia\" (Holiday specials) with Gado gado sayur, Lontong sayur. Then \"BKS\" maybe \"Bakso\"? Actually \"BKS\" appears as a category label. Then \"Meja\" maybe \"Meja\" meaning table? Not sure. Then \"A 001\" maybe table number.\n\nWe need categories with name and items. Let's identify categories:\n\n- Main category maybe \"Menu\" (the first two columns). But there is no explicit category name; maybe \"Menu\" is the category name? The header row shows \"MENU\", \"Harga\", \"Jumlah\". So category name could be \"Menu\". Items are the dishes listed.\n\n- Then there is \"Hari libur tersedia\" which is a note, not a category. But maybe it's a category for special items. Items: Gado gado sayur, Lontong sayur.\n\n- Then \"BKS\" appears as a category label (maybe \"Bakso\"?). Items under BKS: \"ayam bakar(nasi)\", \"bebek bakar(nasi)\". Also earlier there are \"Bakso kecil\", \"Bakso branak\", etc. Those are in the right column under \"MENU\". So maybe \"BKS\" is a category for \"Bakso\" items. Let's see: The right column includes \"Bakso kecil\", \"Bakso branak\", \"Bakso urat\", \"Bakso iga\", \"Bakso mercon\", \"Soto babat(nasi)\", \"Soto ayam (nasi)\", \"Soto Lamongan(nasi)\", \"Mie ayam\", \"Mie ayam BAKSO\", \"sate ayam(nasi)\", \"sate kambing(nasi)\", \"ayam bakar(nasi)\", \"bebek bakar(nasi)\". So \"BKS\" likely stands for \"Bakso\" (maybe \"Bakso\" category). But there is also \"Meja\" category maybe for drinks? Actually \"Meja\" appears under \"Meja\" and \"A 001\". The bottom part includes drinks: \"ES Teh manis\", \"Teh manis Panas\", \"Kopi hitam\", \"Kopi susu\", \"Es campur\", \"Es jeruk\", \"Soda susu\", \"Susu Jahe\", \"SUSU COKLAT\". So category name maybe \"Meja\" (maybe \"Meja\" means \"Table\" but could be \"Beverages\"?). The items are drinks.\n\nAlso there is \"BKS\" again at bottom left, maybe same as earlier.\n\nWe need to produce categories list. Let's decide categories:\n\n1. \"Menu\" (main dishes) - includes all items in the first two columns (the left side and right side before the \"Hari libur\" note). But the right column also includes many items; maybe they belong to same \"Menu\" category. However there is a separate \"BKS\" category that includes some items (maybe \"Bakso\" and \"Soto\"?). The layout: The first two columns (left and right) are under \"MENU\". Then there is a horizontal line, then \"Hari libur tersedia\" with two items. Then a line, then \"BKS\" (maybe a category) with \"Meja\" and \"A 001\". Then another line, then \"BKS\" again and \"Meja\" again with drinks.\n\nThus categories:\n\n- \"Menu\" (maybe \"MENU\" header). Items: all dishes listed in the first two columns (the big list). Also maybe the items after \"Hari libur\" are separate.\n\nBut the \"Hari libur tersedia\" is a note indicating holiday specials, not a category. Items: Gado gado sayur, Lontong sayur. Could be considered a category \"Hari libur tersedia\". But the rule says categories are \"分類名稱\". So we need to create categories based on visible headings. The headings are \"MENU\", \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"A 001\" is not a category but a table number.\n\nLet's examine the structure:\n\nTop header: RM.SELERA KAMI, TEL, LINE ID.\n\nThen a table with columns: MENU, Harga, Jumlah (left side) and MENU, Harga, Jumlah (right side). So the first two columns are the main menu items.\n\nThen a row \"Hari libur tersedia\" spanning maybe both columns? It shows two items: Gado gado sayur 100, Lontong sayur 100. So that's a subcategory of specials.\n\nThen a row with \"BKS\" (maybe a category) and \"Meja\" and \"A 001\". This seems like a separator.\n\nThen a new table with drinks: left side: ES Teh manis 35, Teh manis Panas 35, Kopi hitam 35, Kopi susu 50. Right side: Es campur 50, Es jeruk 50, Soda susu 50, Susu Jahe 50, SUSU COKLAT 50. This likely belongs to \"Meja\" category (maybe \"Meja\" means \"Table\" but could be \"Beverages\").\n\nAlso there is \"BKS\" again at bottom left, maybe indicating \"Bakso\" category again? But the items under \"BKS\" earlier (ayam bakar, bebek bakar) are already listed in the right column under \"MENU\". So maybe \"BKS\" is a category for \"Bakso\" and \"Soto\"? Not sure.\n\nLet's parse more systematically.\n\nThe menu appears to have two main sections: left side (first two columns) and right side (next two columns). The left side includes:\n\n- Pecel ayam(nasi) 110\n- Pecel bebek(nasi) 170\n- Pecel burung(nasi) 150\n- Pecel lele (nasi) 150\n- Ayam penyet (nasi) 120\n- Bebek penyet (nasi) 180\n- Tempe penyet (nasi) 100\n- Nasi goreng biasa 110\n- Nasi goreng ati ampela 130\n- Nasi goreng pete 130\n- Nasi goreng special 150\n- Mie goreng 110\n- Kwetiau goreng 110\n\nThen \"Hari libur tersedia\" (Holiday specials) with:\n\n- Gado gado sayur 100\n- Lontong sayur 100\n\nThen a row \"BKS\" (maybe \"Bakso\" category) and \"Meja\" and \"A 001\". Not sure.\n\nThen a new table (maybe separate) with drinks:\n\n- ES Teh manis 35\n- Teh manis Panas 35\n- Kopi hitam 35\n- Kopi susu 50\n- Es campur 50\n- Es jeruk 50\n- Soda susu 50\n- Susu Jahe 50\n- SUSU COKLAT 50\n\nAlso there is \"BKS\" again at bottom left, maybe same as earlier.\n\nThe right column items (under \"MENU\") include:\n\n- Bakso kecil 100\n- Bakso branak 160\n- Bakso urat 160\n- Bakso iga 190\n- Bakso mercon 160\n- Soto babat(nasi) 150\n- Soto ayam (nasi) 120\n- Soto Lamongan(nasi) 120\n- Mie ayam 110\n- Mie ayam BAKSO 130\n- sate ayam(nasi) 160\n- sate kambing(nasi) 180\n- ayam bakar(nasi) 160\n- bebek bakar(nasi) 200\n\nThus \"BKS\" likely refers to \"Bakso\" and \"Soto\" and \"Sate\" items. But the items are already listed under \"MENU\". However there is a separate \"BKS\" label maybe indicating a category for those items. The \"Meja\" label maybe for drinks.\n\nThus categories:\n\n- \"Menu\" (main dishes) - includes all items in the first two columns (the big list) plus maybe the right column items? But the right column also has \"MENU\" header, so maybe it's also part of \"Menu\". However the \"BKS\" label appears after the first two columns and before the drinks, maybe indicating a subcategory for \"Bakso\" and \"Soto\" etc. But the items under \"BKS\" are already in the right column; maybe the \"BKS\" label is just a separator, not a category.\n\nThe instruction: \"categories\" are \"分類名稱\". So we need to identify categories. The visible headings that could serve as categories: \"MENU\", \"Hari libur tersedia\", \"BKS\", \"Meja\". Also maybe \"A 001\" is not a category.\n\nLet's decide:\n\nCategory 1: \"Menu\" - includes all items in the first two columns (the main menu). But also the right column items are also under \"MENU\". So maybe we treat the whole first big table (both left and right columns) as one category \"Menu\". However the \"Hari libur tersedia\" items are separate, maybe considered a subcategory \"Hari libur tersedia\". And \"BKS\" maybe a category for \"Bakso\" items (but they are already in the menu). But we can treat \"BKS\" as a category containing the items that are listed under that label (maybe the items after the \"BKS\" row). Let's see: After \"BKS\" row, there is a line, then the drinks table. So \"BKS\" might be a category for \"Bakso\" items (the right column items). But the items are already listed before the \"BKS\" row. Actually the \"BKS\" row appears after the \"Hari libur\" row, then a line, then \"Meja\" and \"A 001\". Then the drinks table. So maybe \"BKS\" is a category for \"Bakso\" items (the right column items). But the right column items are listed before the \"BKS\" row, not after. Let's examine order:\n\n- Top table (two columns) includes items: Pecel..., Bakso..., Soto..., Mie..., sate..., ayam bakar, bebek bakar. So these are all in the same table.\n\n- Then a row \"Hari libur tersedia\" with two items.\n\n- Then a row with \"BKS\" (maybe a category label) and \"Meja\" and \"A 001\". This row seems to separate sections.\n\n- Then a new table with drinks (ES, Teh, Kopi, etc.) and also \"BKS\" again at bottom left, \"Meja\" again, \"A 001\" again.\n\nThus maybe the categories are:\n\n- \"Menu\" (the first big table) includes all items except the holiday specials and drinks.\n\n- \"Hari libur tersedia\" (Holiday specials) includes Gado gado sayur and Lontong sayur.\n\n- \"BKS\" (maybe \"Bakso\" category) includes items: ayam bakar(nasi), bebek bakar(nasi). But also maybe includes the bakso items? Not sure.\n\n- \"Meja\" (maybe \"Meja\" means \"Beverages\") includes drinks.\n\nBut the instruction says \"categories\" are \"分類名稱\". So we need to produce categories based on visible headings. Let's list them:\n\n1. \"Menu\" (the main menu items). Items: all dishes listed in the first two columns (the big list). But also the right column items are also part of menu. So we need to include all items under \"MENU\" heading. However there are two \"MENU\" headings (left and right). Maybe they are separate categories? The header row shows \"MENU\" twice (once for left side, once for right side). So maybe each side is a separate category: \"MENU\" (left) and \"MENU\" (right). But they have same name; we could combine them into one category \"Menu\". But to avoid duplication, maybe we treat each side as separate categories: \"Menu (left)\" and \"Menu (right)\". However the rule says category name is the name; if same name appears multiple times, maybe we need separate entries? Not clear.\n\nSimplify: We'll create categories:\n\n- \"Menu\" (the main menu) includes all items in the first two columns (the big list). But also includes the right column items (since they are also under \"MENU\"). However to avoid duplication, we can treat the whole first table (both sides) as one category \"Menu\". Then \"Hari libur tersedia\" as another category. Then \"BKS\" as another category (maybe for \"Bakso\" items). Then \"Meja\" as category for drinks.\n\nBut we need to ensure each item appears exactly once. Let's map items to categories:\n\n- Pecel ayam(nasi) 110 -> Menu\n- Pecel bebek(nasi) 170 -> Menu\n- Pecel burung(nasi) 150 -> Menu\n- Pecel lele (nasi) 150 -> Menu\n- Ayam penyet (nasi) 120 -> Menu\n- Bebek penyet (nasi) 180 -> Menu\n- Tempe penyet (nasi) 100 -> Menu\n- Nasi goreng biasa 110 -> Menu\n- Nasi goreng ati ampela 130 -> Menu\n- Nasi goreng pete 130 -> Menu\n- Nasi goreng special 150 -> Menu\n- Mie goreng 110 -> Menu\n- Kwetiau goreng 110 -> Menu\n\n- Gado gado sayur 100 -> Hari libur tersedia\n- Lontong sayur 100 -> Hari libur tersedia\n\n- Bakso kecil 100 -> maybe BKS (if we treat BKS as category)\n- Bakso branak 160 -> BKS\n- Bakso urat 160 -> BKS\n- Bakso iga 190 -> BKS\n- Bakso mercon 160 -> BKS\n- Soto babat(nasi) 150 -> maybe BKS? Or still Menu? Could be \"Soto\" category, but not labeled. Maybe still Menu.\n\n- Soto ayam (nasi) 120 -> Menu\n- Soto Lamongan(nasi) 120 -> Menu\n- Mie ayam 110 -> Menu\n- Mie ayam BAKSO 130 -> maybe BKS (since includes BAKSO)\n- sate ayam(nasi) 160 -> maybe BKS (since sate)\n- sate kambing(nasi) 180 -> BKS\n- ayam bakar(nasi) 160 -> maybe BKS (since \"bakar\")\n- bebek bakar(nasi) 200 -> BKS\n\nThus \"BKS\" likely includes all items with \"bakar\", \"bakso\", \"sate\". So we can treat \"BKS\" as category for those items.\n\n- Drinks: ES Teh manis 35, Teh manis Panas 35, Kopi hitam 35, Kopi susu 50, Es campur 50, Es jeruk 50, Soda susu 50, Susu Jahe 50, SUSU COKLAT 50 -> Meja (maybe \"Meja\" means \"Table\" but could be \"Beverages\").\n\nThus categories:\n\n- \"Menu\" (maybe \"MENU\") includes the first set of items (the left side and maybe also the right side before BKS). But to be safe, we can include all items that are not in \"Hari libur tersedia\", \"BKS\", \"Meja\". That includes:\n\nPecel ayam(nasi) 110\nPecel bebek(nasi) 170\nPecel burung(nasi) 150\nPecel lele (nasi) 150\nAyam penyet (nasi) 120\nBebek penyet (nasi) 180\nTempe penyet (nasi) 100\nNasi goreng biasa 110\nNasi goreng ati ampela 130\nNasi goreng pete 130\nNasi goreng special 150\nMie goreng 110\nKwetiau goreng 110\n\nAlso maybe \"Soto babat(nasi)\", \"Soto ayam (nasi)\", \"Soto Lamongan(nasi)\", \"Mie ayam\", \"Mie ayam BAKSO\", \"sate ayam(nasi)\", \"sate kambing(nasi)\"? These are also menu items but could be considered part of \"Menu\". However they might be considered part of \"BKS\" category. The \"BKS\" label appears after the \"Hari libur\" row, but the items before that include \"Bakso kecil\", \"Bakso branak\", etc. So maybe \"BKS\" is a subcategory for \"Bakso\" and \"Soto\" and \"Sate\". But the items are already listed; maybe the \"BKS\" row is just a label for the next section (drinks). Hmm.\n\nLet's examine the layout more concretely.\n\nThe image likely is a printed menu with two columns. The left column includes items from \"Pecel ayam(nasi)\" down to \"Kwetiau goreng\". The right column includes \"Bakso kecil\" down to \"bebek bakar(nasi)\". So the right column also contains many items, not just \"Bakso\".",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 14.233028099988587,
+  "prompt_tokens": 3069,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "nana_indonesian",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.375,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "Pecel ayam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Pecel bebek",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Nasi goreng biasa",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Bakso iga",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "bebek bakar",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "ES Teh manis",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "Kopi hitam",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "Kopi susu",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

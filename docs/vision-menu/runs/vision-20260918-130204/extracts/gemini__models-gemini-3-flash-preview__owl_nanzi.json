@@ -1,0 +1,116 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1743562.jpg",
+  "mime": "image/jpeg",
+  "bytes": 295776,
+  "ok": true,
+  "text": "{\n  \"title\": \"夜梟 Nightingale 楠梓店\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"香脆蛋餅\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉鬆\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"玉米蔬菜\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"熱狗\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薯餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"蘿蔔糕\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"無敵豬\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"胡麻豬\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"打拋豬\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"九層塔燒肉\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"泡菜燒肉\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"皮蛋肉鬆\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"無敵牛\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"胡麻牛\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司豬\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"勁辣雞\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"果醬吐司\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"煉乳\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奶酥\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香蒜\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"厚片吐司\",\n      \"items\": [\n        {\"name\": \"巧克力\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"草莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"煉乳\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奶酥\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"花生\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香蒜\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"藍莓\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"巧克力棉花糖\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"蛋蛋吐司\",\n      \"items\": [\n        {\"name\": \"夾蛋\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火腿蛋\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋\", \"price\":",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 62 column 62 (char 2799)",
+  "latency_s": 16.270673099992564,
+  "prompt_tokens": 1310,
+  "completion_tokens": 1232,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "owl_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.4444444444444444,
+    "price_recall": 0.2222222222222222,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "果醬吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "厚片吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "香脆蛋餅原味",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "巧克力棉花糖",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "深海鮪魚潛水堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙層起司牛",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚總匯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

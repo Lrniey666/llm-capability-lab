@@ -1,0 +1,152 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1745282.jpg",
+  "mime": "image/jpeg",
+  "bytes": 124973,
+  "ok": true,
+  "text": "\n{\n  \"title\": \"泰媽媽\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"Our Starter\",\n      \"items\": [\n        {\n          \"name\": \"炸薯條\",\n          \"price\": 69,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"豬肉丸 + 泰式蘸醬 (2 串)\",\n          \"price\": 79,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"雞肉沙爹 1 串\",\n          \"price\": 89,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"炸雞翅 4 支\",\n          \"price\": 8",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 25 column 10 (char 466)",
+  "latency_s": 12.71420789998956,
+  "prompt_tokens": 2423,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "thai_mama",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 13,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.38461538461538464,
+    "price_recall": 0.23076923076923078,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "炸薯條",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肉丸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "雞肉沙爹",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "炸雞翅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "花枝蝦捲",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "打拋豬肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "羅勒炸雞飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "綠咖哩飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "泰式奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "恐龍美祿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "可口可樂",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

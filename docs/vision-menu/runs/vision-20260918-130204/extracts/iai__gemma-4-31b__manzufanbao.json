@@ -1,0 +1,458 @@
+{
+  "provider": "iai",
+  "model": "gemma-4-31b",
+  "file": "Screenshot_20260916-1739502.jpg",
+  "mime": "image/jpeg",
+  "bytes": 184694,
+  "ok": true,
+  "text": "{\n  \"title\": \"滿足飽飽 滿足飯包 MANZUFANBAO\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"招牌主打\",\n      \"items\": [\n        {\"name\": \"薑寧魚\", \"price\": 70, \"unit\": \"份\", \"note\": \"Tuna\"},\n        {\"name\": \"薑薑燴肉\", \"price\": 80, \"unit\": \"份\", \"note\": \"Roast pork with Ginger Sauce\"},\n        {\"name\": \"打拋豬肉\", \"price\": 80, \"unit\": \"份\", \"note\": \"Fried pork with holy Basil with soy sauce\"},\n        {\"name\": \"壽喜燒牛\", \"price\": 80, \"unit\": \"份\", \"note\": \"Beef Sukiyaki\"},\n        {\"name\": \"鐵路雞排\", \"price\": 80, \"unit\": \"份\", \"note\": \"Fried pork tenderloin\"}\n      ]\n    },\n    {\n      \"name\": \"獨家口味\",\n      \"items\": [\n        {\"name\": \"肉鬆燒肉\", \"price\": 75, \"unit\": \"份\", \"note\": \"Roast pork, Floss\"},\n        {\"name\": \"花生燒肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"Roast pork, Floss Nutella\"},\n        {\"name\": \"泡菜燒肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"Kimchi Roast Pork\"},\n        {\"name\": \"泡菜燒肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"Kimchi Tuna\"},\n        {\"name\": \"泡菜牛肉\", \"price\": 99, \"unit\": \"份\", \"note\": \"Kimchi Beef\"}\n      ]\n    },\n    {\n      \"name\": \"素食口味\",\n      \"items\": [\n        {\"name\": \"花生香油豆腐\", \"price\": 70, \"unit\": \"份\", \"note\": \"Nutella braised tofu\"},\n        {\"name\": \"椒麻香油豆腐\", \"price\": 70, \"unit\": \"份\", \"note\": \"Braicy sauce tofu\"}\n      ]\n    },\n    {\n      \"name\": \"香濃醬香\",\n      \"items\": [\n        {\"name\": \"咖哩起司豬排\", \"price\": 85, \"unit\": \"份\", \"note\": \"Fried cheese pork Chop with curry sauce\"},\n        {\"name\": \"花生起司豬排\", \"price\": 90, \"unit\": \"份\", \"note\": \"Fried cheese pork Chops with Nutella\"},\n        {\"name\": \"咖哩打拋豬排\", \"price\": 85, \"unit\": \"份\", \"note\": \"Fried kara chicken with curry sauce\"},\n        {\"name\": \"咖哩打拋雞排\", \"price\": 85, \"unit\": \"份\", \"note\": \"Fried Kala chicken with Sweet chili sauce\"},\n        {\"name\": \"花生花生豬排\", \"price\": 90, \"unit\": \"份\", \"note\": \"Fried cheese pork Chop with curry sauce\"},\n        {\"name\": \"熔岩花生牛肉\", \"price\": 95, \"unit\": \"份\", \"note\": \"Beef Sukiyaki with Nutella\"}\n      ]\n    },\n    {\n      \"name\": \"台式經典\",\n      \"items\": [\n        {\"name\": \"香辣椒麻雞排\", \"price\": 90, \"unit\": \"份\", \"note\": \"Thai spicy fried chicken\"},\n        {\"name\": \"糖醋雞排\", \"price\": 85, \"unit\": \"份\", \"note\": \"Fried fish with Sweet chili sauce\"},\n        {\"name\": \"鳳梨蝦球\", \"price\": 115, \"unit\": \"份\", \"note\": \"Pineapple shrimp Balls\"},\n        {\"name\": \"塔香三杯雞\", \"price\": 85, \"unit\": \"份\", \"note\": \"3-cup chicken\"}\n      ]\n    },\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"鹹辣苔州麵\", \"price\": 70, \"unit\": \"份\", \"note\": \"Salty and Crispy King Oyster Mushroom\"},\n        {\"name\": \"糖醋苔州麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"Sweet chili sauce King Oyster Mushroom\"},\n        {\"name\": \"椒麻苔州麵\", \"price\": 80, \"unit\": \"份\", \"note\": \"Thai spicy sauce King Oyster Mushroom\"}\n      ]\n    },\n    {\n      \"name\": \"湯鍋\",\n      \"items\": [\n        {\"name\": \"經典雜煮\", \"price\": 90, \"unit\": \"份\", \"note\": \"Bonito\"},\n        {\"name\": \"古早沙茶\", \"price\": 90, \"unit\": \"份\", \"note\": \"Shacha\"},\n        {\"name\": \"韓式泡菜\", \"price\": 105, \"unit\": \"份\", \"note\": \"Kimchi\"}\n      ]\n    },\n    {\n      \"name\": \"湯品 Soup\",\n      \"items\": [\n        {\"name\": \"豆腐味噌湯\", \"price\": 25, \"unit\": \"份\", \"note\": \"Miso Soup\"},\n        {\"name\": \"玉米濃湯\", \"price\": 30, \"unit\": \"份\", \"note\": \"Corn Chowder\"}\n      ]\n    },\n    {\n      \"name\": \"炸物 Fried food\",\n      \"items\": [\n        {\"name\": \"鮮炸餃\", \"price\": 35, \"unit\": \"份\", \"note\": \"Fried dumplings\"},\n        {\"name\": \"脆爆球\", \"price\": 35, \"unit\": \"份\", \"note\": \"Crispy Potato Balls\"},\n        {\"name\": \"炸黑龍\", \"price\": 40, \"unit\": \"份\", \"note\": \"Fried fish paste\"},\n        {\"name\": \"杏鮑菇\", \"price\": 35, \"unit\": \"份\", \"note\": \"King Oyster Mushroom\"}\n      ]\n    },\n    {\n      \"name\": \"飲品 Drinks\",\n      \"items\": [\n        {\"name\": \"黃金麥茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"Barley tea (no sugar)\"},\n        {\"name\": \"古早味紅茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"Black tea\"},\n        {\"name\": \"手工冬瓜茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"Winter melon tea\"},\n        {\"name\": \"冬瓜紅茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"Black tea, Winter melon tea\"},\n        {\"name\": \"冬瓜檸檬茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"Winter melon tea with lemon\"},\n        {\"name\": \"紅茶檸檬\", \"price\": 30, \"unit\": \"杯\", \"note\": \"Black tea with lemon\"},\n        {\"name\": \"冬瓜牛乳\", \"price\": 35, \"unit\": \"杯\", \"note\": \"Winter melon tea with milk\"},\n        {\"name\": \"紅茶牛乳\", \"price\": 35, \"unit\": \"杯\", \"note\": \"milk tea\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"STEP1 選主餐 Staple Food\",\n    \"STEP2 搭配升級套餐\",\n    \"飯包系列 Riceburger 加咖 +=5\",\n    \"乾炸拌飯 加咖 +=5 / 加醬 +=15\",\n    \"湯鍋類 加醬 +=15 / 外ņem 麵線 +=15\",\n    \"套餐升級 Upgrade: A $35炸物 + $25飲品 +45, B 炸酥乳雞 + $25飲品 +50, C 炸物 + 飲品 + 湯品 +69\"\n  ]\n}",
+  "parsed": {
+    "title": "滿足飽飽 滿足飯包 MANZUFANBAO",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "招牌主打",
+        "items": [
+          {
+            "name": "薑寧魚",
+            "price": 70,
+            "unit": "份",
+            "note": "Tuna"
+          },
+          {
+            "name": "薑薑燴肉",
+            "price": 80,
+            "unit": "份",
+            "note": "Roast pork with Ginger Sauce"
+          },
+          {
+            "name": "打拋豬肉",
+            "price": 80,
+            "unit": "份",
+            "note": "Fried pork with holy Basil with soy sauce"
+          },
+          {
+            "name": "壽喜燒牛",
+            "price": 80,
+            "unit": "份",
+            "note": "Beef Sukiyaki"
+          },
+          {
+            "name": "鐵路雞排",
+            "price": 80,
+            "unit": "份",
+            "note": "Fried pork tenderloin"
+          }
+        ]
+      },
+      {
+        "name": "獨家口味",
+        "items": [
+          {
+            "name": "肉鬆燒肉",
+            "price": 75,
+            "unit": "份",
+            "note": "Roast pork, Floss"
+          },
+          {
+            "name": "花生燒肉",
+            "price": 85,
+            "unit": "份",
+            "note": "Roast pork, Floss Nutella"
+          },
+          {
+            "name": "泡菜燒肉",
+            "price": 85,
+            "unit": "份",
+            "note": "Kimchi Roast Pork"
+          },
+          {
+            "name": "泡菜燒肉",
+            "price": 85,
+            "unit": "份",
+            "note": "Kimchi Tuna"
+          },
+          {
+            "name": "泡菜牛肉",
+            "price": 99,
+            "unit": "份",
+            "note": "Kimchi Beef"
+          }
+        ]
+      },
+      {
+        "name": "素食口味",
+        "items": [
+          {
+            "name": "花生香油豆腐",
+            "price": 70,
+            "unit": "份",
+            "note": "Nutella braised tofu"
+          },
+          {
+            "name": "椒麻香油豆腐",
+            "price": 70,
+            "unit": "份",
+            "note": "Braicy sauce tofu"
+          }
+        ]
+      },
+      {
+        "name": "香濃醬香",
+        "items": [
+          {
+            "name": "咖哩起司豬排",
+            "price": 85,
+            "unit": "份",
+            "note": "Fried cheese pork Chop with curry sauce"
+          },
+          {
+            "name": "花生起司豬排",
+            "price": 90,
+            "unit": "份",
+            "note": "Fried cheese pork Chops with Nutella"
+          },
+          {
+            "name": "咖哩打拋豬排",
+            "price": 85,
+            "unit": "份",
+            "note": "Fried kara chicken with curry sauce"
+          },
+          {
+            "name": "咖哩打拋雞排",
+            "price": 85,
+            "unit": "份",
+            "note": "Fried Kala chicken with Sweet chili sauce"
+          },
+          {
+            "name": "花生花生豬排",
+            "price": 90,
+            "unit": "份",
+            "note": "Fried cheese pork Chop with curry sauce"
+          },
+          {
+            "name": "熔岩花生牛肉",
+            "price": 95,
+            "unit": "份",
+            "note": "Beef Sukiyaki with Nutella"
+          }
+        ]
+      },
+      {
+        "name": "台式經典",
+        "items": [
+          {
+            "name": "香辣椒麻雞排",
+            "price": 90,
+            "unit": "份",
+            "note": "Thai spicy fried chicken"
+          },
+          {
+            "name": "糖醋雞排",
+            "price": 85,
+            "unit": "份",
+            "note": "Fried fish with Sweet chili sauce"
+          },
+          {
+            "name": "鳳梨蝦球",
+            "price": 115,
+            "unit": "份",
+            "note": "Pineapple shrimp Balls"
+          },
+          {
+            "name": "塔香三杯雞",
+            "price": 85,
+            "unit": "份",
+            "note": "3-cup chicken"
+          }
+        ]
+      },
+      {
+        "name": "麵類",
+        "items": [
+          {
+            "name": "鹹辣苔州麵",
+            "price": 70,
+            "unit": "份",
+            "note": "Salty and Crispy King Oyster Mushroom"
+          },
+          {
+            "name": "糖醋苔州麵",
+            "price": 80,
+            "unit": "份",
+            "note": "Sweet chili sauce King Oyster Mushroom"
+          },
+          {
+            "name": "椒麻苔州麵",
+            "price": 80,
+            "unit": "份",
+            "note": "Thai spicy sauce King Oyster Mushroom"
+          }
+        ]
+      },
+      {
+        "name": "湯鍋",
+        "items": [
+          {
+            "name": "經典雜煮",
+            "price": 90,
+            "unit": "份",
+            "note": "Bonito"
+          },
+          {
+            "name": "古早沙茶",
+            "price": 90,
+            "unit": "份",
+            "note": "Shacha"
+          },
+          {
+            "name": "韓式泡菜",
+            "price": 105,
+            "unit": "份",
+            "note": "Kimchi"
+          }
+        ]
+      },
+      {
+        "name": "湯品 Soup",
+        "items": [
+          {
+            "name": "豆腐味噌湯",
+            "price": 25,
+            "unit": "份",
+            "note": "Miso Soup"
+          },
+          {
+            "name": "玉米濃湯",
+            "price": 30,
+            "unit": "份",
+            "note": "Corn Chowder"
+          }
+        ]
+      },
+      {
+        "name": "炸物 Fried food",
+        "items": [
+          {
+            "name": "鮮炸餃",
+            "price": 35,
+            "unit": "份",
+            "note": "Fried dumplings"
+          },
+          {
+            "name": "脆爆球",
+            "price": 35,
+            "unit": "份",
+            "note": "Crispy Potato Balls"
+          },
+          {
+            "name": "炸黑龍",
+            "price": 40,
+            "unit": "份",
+            "note": "Fried fish paste"
+          },
+          {
+            "name": "杏鮑菇",
+            "price": 35,
+            "unit": "份",
+            "note": "King Oyster Mushroom"
+          }
+        ]
+      },
+      {
+        "name": "飲品 Drinks",
+        "items": [
+          {
+            "name": "黃金麥茶",
+            "price": 30,
+            "unit": "杯",
+            "note": "Barley tea (no sugar)"
+          },
+          {
+            "name": "古早味紅茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "Black tea"
+          },
+          {
+            "name": "手工冬瓜茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "Winter melon tea"
+          },
+          {
+            "name": "冬瓜紅茶",
+            "price": 25,
+            "unit": "杯",
+            "note": "Black tea, Winter melon tea"
+          },
+          {
+            "name": "冬瓜檸檬茶",
+            "price": 30,
+            "unit": "杯",
+            "note": "Winter melon tea with lemon"
+          },
+          {
+            "name": "紅茶檸檬",
+            "price": 30,
+            "unit": "杯",
+            "note": "Black tea with lemon"
+          },
+          {
+            "name": "冬瓜牛乳",
+            "price": 35,
+            "unit": "杯",
+            "note": "Winter melon tea with milk"
+          },
+          {
+            "name": "紅茶牛乳",
+            "price": 35,
+            "unit": "杯",
+            "note": "milk tea"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "STEP1 選主餐 Staple Food",
+      "STEP2 搭配升級套餐",
+      "飯包系列 Riceburger 加咖 +=5",
+      "乾炸拌飯 加咖 +=5 / 加醬 +=15",
+      "湯鍋類 加醬 +=15 / 外ņem 麵線 +=15",
+      "套餐升級 Upgrade: A $35炸物 + $25飲品 +45, B 炸酥乳雞 + $25飲品 +50, C 炸物 + 飲品 + 湯品 +69"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 56.28308290001587,
+  "prompt_tokens": 1507,
+  "completion_tokens": 1849,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "manzufanbao",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "滿足飽飽 滿足飯包 MANZUFANBAO",
+    "title_hit": true,
+    "item_count": 42,
+    "anchor_n": 12,
+    "name_json_recall": 0.6666666666666666,
+    "price_json_recall": 0.5,
+    "name_recall": 0.75,
+    "price_recall": 0.5,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "壹鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "薑汁燒肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "打拋豬肉",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "壽喜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鐵路肉排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "泡菜牛肉",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鳳梨蝦球",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "塔香三杯雞",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮮炸餃",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "黃金麥茶",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豆腐味噌湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1748442.jpg",
+  "mime": "image/jpeg",
+  "bytes": 247277,
+  "ok": true,
+  "text": "The user wants me to extract information from a menu image and format it as JSON.\nI need to follow specific rules:\n1.  **Output format**: JSON only, no markdown, no explanations.\n2.  **Structure**:\n    *   `title`: Menu title or store name (empty string if not visible).\n    *   `currency`: \"TWD\".\n    *   `categories`: List of category objects. Each has `name` and `items`.\n    *   `items`: Each item has `name`, `price` (number), `unit` (e.g., \"份\"), and `note` (string).\n3.  **Rules for items**:\n    *   Use numbers for price.\n    *   If there are two prices (e.g., single vs set), use the clearer one and put the other in `note`.\n    *   If text is unclear, write \"看不清\" in the note, don't guess price.\n4.  **Language**: Traditional Chinese for text fields.\n\n**Step 1: Identify Title/Store Name**\nLooking at the top center: \"咚咚海鮮鍋燒\". This is the title.\n\n**Step 2: Identify Currency**\nThe prices are numbers like 138, 60, etc. The context is clearly a Taiwanese restaurant (address in Kaohsiung). So currency is TWD.\n\n**Step 3: Identify Categories and Items**\nI need to scan the menu from left to right, top to bottom.\n\n*   **Category 1: 經典海鮮鍋燒** (Classic Seafood Hot Pot)\n    *   海鮮鍋 (Seafood Pot): 138\n    *   田園時鍋 (Garden Time Pot): 138\n    *   蛤蜊滿滿鍋 (Clam Full Pot): 195\n    *   日式炸蝦鍋 (Japanese Fried Shrimp Pot): 195\n    *   金多蝦鍋 (Golden Shrimp Pot): 200\n\n*   **Category 2: 肉多多鍋燒系列** (Meat & More Hot Pot Series)\n    *   肉多多豬 (Pork): 138\n    *   肉多多牛 (Beef): 150\n    *   秘制唐揚雞 (Secret Fried Chicken): 180\n    *   *Note: There is a \"湯頭任選\" (Soup choice) section below this, but it's an add-on, not a main item. I will focus on the main dishes.*\n\n*   **Category 3: 日料小品系列** (Japanese Small Dishes)\n    *   紫蘇梅生菜 (Perilla Plum Lettuce): 60\n    *   和風洋蔥沙拉 (Japanese Onion Salad): 79\n    *   永愛大白蝦 (Eternal Large White Shrimp): 150\n    *   永愛澎湖小沙拉 (Eternal Penghu Salad): 180\n    *   日本大生蠔 (Japanese Large Oyster): 200\n    *   和風鱈魚肝沙拉 (Japanese Cod Liver Salad): 200\n\n*   **Category 4: 海鮮制霸系列** (Seafood Dominance Series)\n    *   無敵痛風鍋 (Invincible Gout Pot): 260\n    *   三蟲鍋 (Three Insects Pot): 260\n    *   香炸牡蠣鍋 (Fried Oyster Pot): 265\n    *   帆事順立鍋 (Fan Shi Shun Clam Pot): 280\n    *   金虎龍蝦鍋 (Golden Tiger Lobster Pot): 280\n    *   烤卷魷魚鍋 (Grilled Squid Pot): 280\n    *   蛤尼鮮貝鍋 (Clam Fresh Clam Pot): 280\n    *   澎湖小卷鍋 (Penghu Small Squid Pot): 280\n    *   酥炸軟殼蟹 (Fried Soft Shell Crab): 290\n    *   心肝貫貫鍋 (Heart Liver Pot): 299\n    *   精品鮑魚鍋 (Premium Abalone Pot): 299\n    *   懶人大蝦鍋 (Lazy Big Shrimp Pot): 299\n    *   蟹蟹三寶 (Crab Three Treasures - likely a set): 399\n    *   龍蝦割霸鍋 (Lobster Cut Dominance Pot): 988\n\n*   **Category 5: 蘆飯系列** (Rice Series)\n    *   日式炸蝦飯 (Japanese Fried Shrimp Rice): 150\n    *   泰式炸魚飯 (Thai Fried Fish Rice): 260\n    *   日式厚切炸豬排飯 (Japanese Thick Cut Pork Chop Rice): 170\n    *   秘制唐揚雞腿飯 (Secret Fried Chicken Leg Rice): 180\n    *   紅棗燉鮮菇燴飯 (Red Date Braised Mushroom Rice): 180\n    *   鹽烤海盜鯖魚飯 (Salt Grilled Seaweed Mackerel Rice): 190\n    *   日式蒲燒鰻魚飯 (Japanese Unagi Rice): 280\n    *   卵心干貝丼飯 (Egg Heart Clam Rice Bowl): 299\n\n*   **Category 6: 超前填系列** (Superior Fill Series - likely \"Superior\" or similar, maybe \"Super\" something, looks like \"超前填系列\" but context suggests rice/bowl dishes. Wait, looking closer at the header, it says \"超前填系列\" which is weird. Let's look at the items. \"雙龍強珠鍋\", \"海王的日常\", \"泡菜+10\", \"麻辣+30\". Ah, the header is actually \"超前填系列\" - wait, let me re-read. It looks like \"超前填系列\" but the items are \"雙龍強珠鍋 1288\", \"海王的日常 1680\". This looks like a specific section. Let's look at the items again.\n    *   雙龍強珠鍋 (Double Dragon Strong Pearl Pot): 1288\n    *   海王的日常 (Sea King's Daily): 1680\n    *   *Note: The header is a bit blurry. It might be \"超前填系列\" or \"超前填...\". Let's assume the header text is what it is. Actually, looking very closely at crop 5, the header is \"超前填系列\". Wait, no, looking at the full image, it's \"超前填系列\" - actually it looks like \"超前填系列\" is a typo in my reading. Let's look at the items. \"雙龍強珠鍋\" and \"海王的日常\". These look like big pots. Let's look at the header again. It says \"超前填系列\". Wait, maybe \"超前填\" is \"Super Fill\"? No, let's look at the items. \"雙龍強珠鍋\" (1288), \"海王的日常\" (1680). Then below \"湯頭任選...\". This section seems to be about big pots or specific dishes. Let's treat the header as \"超前填系列\" based on visual inspection, or maybe \"超前填\" is \"Super...\". Let's look really closely. It looks like \"超前填系列\". Wait, looking at crop 5, the header is \"超前填系列\". Let's assume that's the category name. Wait, looking at the full image again. The header is \"超前填系列\". No, that doesn't make sense. Let's look at the items. \"雙龍強珠鍋\" (1288), \"海王的日常\" (1680). Then \"湯頭任選...\". This implies these are main dishes. Let's call the category \"超前填系列\" (or whatever it looks like). Actually, looking at the spacing, it might be \"超前填系列\" -> \"Super...\". Let's look at the characters. \"超\" (Chao) \"前\" (Qian) \"填\" (Tian) \"系\" (Xi) \"列\" (Lie). It's weird. Let's look at the items again. \"雙龍強珠鍋\" (1288), \"海王的日常\" (1680). Then \"湯頭任選...\". This section seems to be distinct. Let's look at the header again. It is \"超前填系列\". Okay, I will use that. Wait, let me look at the items again. \"雙龍強珠鍋\" 1288. \"海王的日常\" 1680. Then \"湯頭任選...\". This looks like a section for big pots. Let's call the category \"超前填系列\" (Super Fill Series? Maybe \"Super...\"). Let's look at the characters again. \"超\" \"前\" \"填\" \"系\" \"列\". It's possible it's \"超前填\" -> \"Super...\". Let's just transcribe the visible text. \"超前填系列\".\n    *   Wait, let's look at the items under \"超前填系列\".\n        *   雙龍強珠鍋 1288\n        *   海王的日常 1680\n        *   湯頭任選一番：番茄+10 (Soup choice: Tomato +10)\n        *   湯頭任選一番：麻辣+30 (Soup choice: Spicy +30)\n        *   湯頭任選一番：泡菜+10 (Soup choice: Kimchi +10)\n        *   湯頭任選一番：鴛鴦+20 (Soup choice: Mandarin Duck +20)\n        *   泡飯 (Braised Rice): 10 (Wait, looking at the bottom left of this section). \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left corner of the menu, there is \"泡飯\" 10? No, that's \"泡飯\" 10? Let's look at the bottom left. \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, there is \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡飯\" 10? No, looking at the bottom left of the \"超前填系列\" block. \"泡飯\" 10? No, looking at the bottom left of the menu, \"泡",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 12.66715930000646,
+  "prompt_tokens": 2389,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "dongdong_hotpot",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.7777777777777778,
+    "price_recall": 0.5555555555555556,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "海鮮鍋燒",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "田園時蔬鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛤蜊滿滿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "日式炸蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "金多蝦鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "肉多多豬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "龍蝦鍋霸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雙龍強味鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "義式烤菇",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

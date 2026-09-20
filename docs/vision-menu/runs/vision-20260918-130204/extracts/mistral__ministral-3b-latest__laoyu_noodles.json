@@ -1,0 +1,387 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1750082.jpg",
+  "mime": "image/jpeg",
+  "bytes": 159804,
+  "ok": true,
+  "text": "{\n  \"title\": \"老余\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"湯飯類\",\n      \"items\": [\n        {\"name\": \"牛肉飯 大\", \"price\": 130, \"unit\": \"\"},\n        {\"name\": \"牛肉飯 小\", \"price\": 110, \"unit\": \"\", \"note\": \"下 110\"},\n        {\"name\": \"椒菜肉絲飯 大\", \"price\": 75, \"unit\": \"\"},\n        {\"name\": \"椒菜肉絲飯 小\", \"price\": 60, \"unit\": \"\", \"note\": \"下 60\"},\n        {\"name\": \"鯖鮭飯 大\", \"price\": 75, \"unit\": \"\"},\n        {\"name\": \"鯖鮭飯 小\", \"price\": 60, \"unit\": \"\"},\n        {\"name\": \"酸辣飯 大\", \"price\": 75, \"unit\": \"\"},\n        {\"name\": \"酸辣飯 小\", \"price\": 60, \"unit\": \"\"},\n        {\"name\": \"鴨肉飯 大\", \"price\": 75, \"unit\": \"\"},\n        {\"name\": \"鴨肉飯 小\", \"price\": 60, \"unit\": \"\"},\n        {\"name\": \"陽春湯飯 大\", \"price\": 55, \"unit\": \"\"},\n        {\"name\": \"陽春湯飯 小\", \"price\": 45, \"unit\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"乾飯類(不附清湯)\",\n      \"items\": [\n        {\"name\": \"牛肉拌飯 大\", \"price\": 130, \"unit\": \"\", \"note\": \"細飯\"},\n        {\"name\": \"牛肉拌飯 小\", \"price\": 110, \"unit\": \"\", \"note\": \"細飯\"},\n        {\"name\": \"麻醬乾飯 大\", \"price\": 60, \"unit\": \"\", \"note\": \"細飯\"},\n        {\"name\": \"麻醬乾飯 小\", \"price\": 50, \"unit\": \"\", \"note\": \"細飯\"},\n        {\"name\": \"陽春乾飯 大\", \"price\": 55, \"unit\": \"\", \"note\": \"細飯\"}\n      ]\n    },\n    {\n      \"name\": \"湯類\",\n      \"items\": [\n        {\"name\": \"牛肉湯 大\", \"price\": 180, \"unit\": \"\"},\n        {\"name\": \"牛肉湯 小\", \"price\": 100, \"unit\": \"\"},\n        {\"name\": \"鯖鮭湯 大\", \"price\": 50, \"unit\": \"\"},\n        {\"name\": \"鯖鮭湯 小\", \"price\": 40, \"unit\": \"\"},\n        {\"name\": \"魚丸湯\", \"price\": 40, \"unit\": \"\", \"note\": \"30\"},\n        {\"name\": \"莧丸湯\", \"price\": 40, \"unit\": \"\", \"note\": \"30\"},\n        {\"name\": \"蛋花湯\", \"price\": 40, \"unit\": \"\", \"note\": \"30\"},\n        {\"name\": \"酸辣湯\", \"price\": 50, \"unit\": \"\", \"note\": \"40\"},\n        {\"name\": \"椒菜肉絲湯\", \"price\": 50, \"unit\": \"\", \"note\": \"40\"},\n        {\"name\": \"燙青菜\", \"price\": 30, \"unit\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"高雄市枋寮區建榮路84巷62號/電話：(07)3515086\",\n    \"外帶請打勾\",\n    \"乾飯類細飯/粗飯/冬糧/米飯欄位部分可選\",\n    \"☑️醬油\",\n    \"☑️醬油膏\",\n    \"☑️蒜泥\",\n    \"請勿遺漏填寫順序單號\",\n    \"006325\"\n  ]\n}",
+  "parsed": {
+    "title": "老余",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "湯飯類",
+        "items": [
+          {
+            "name": "牛肉飯 大",
+            "price": 130,
+            "unit": ""
+          },
+          {
+            "name": "牛肉飯 小",
+            "price": 110,
+            "unit": "",
+            "note": "下 110"
+          },
+          {
+            "name": "椒菜肉絲飯 大",
+            "price": 75,
+            "unit": ""
+          },
+          {
+            "name": "椒菜肉絲飯 小",
+            "price": 60,
+            "unit": "",
+            "note": "下 60"
+          },
+          {
+            "name": "鯖鮭飯 大",
+            "price": 75,
+            "unit": ""
+          },
+          {
+            "name": "鯖鮭飯 小",
+            "price": 60,
+            "unit": ""
+          },
+          {
+            "name": "酸辣飯 大",
+            "price": 75,
+            "unit": ""
+          },
+          {
+            "name": "酸辣飯 小",
+            "price": 60,
+            "unit": ""
+          },
+          {
+            "name": "鴨肉飯 大",
+            "price": 75,
+            "unit": ""
+          },
+          {
+            "name": "鴨肉飯 小",
+            "price": 60,
+            "unit": ""
+          },
+          {
+            "name": "陽春湯飯 大",
+            "price": 55,
+            "unit": ""
+          },
+          {
+            "name": "陽春湯飯 小",
+            "price": 45,
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "name": "乾飯類(不附清湯)",
+        "items": [
+          {
+            "name": "牛肉拌飯 大",
+            "price": 130,
+            "unit": "",
+            "note": "細飯"
+          },
+          {
+            "name": "牛肉拌飯 小",
+            "price": 110,
+            "unit": "",
+            "note": "細飯"
+          },
+          {
+            "name": "麻醬乾飯 大",
+            "price": 60,
+            "unit": "",
+            "note": "細飯"
+          },
+          {
+            "name": "麻醬乾飯 小",
+            "price": 50,
+            "unit": "",
+            "note": "細飯"
+          },
+          {
+            "name": "陽春乾飯 大",
+            "price": 55,
+            "unit": "",
+            "note": "細飯"
+          }
+        ]
+      },
+      {
+        "name": "湯類",
+        "items": [
+          {
+            "name": "牛肉湯 大",
+            "price": 180,
+            "unit": ""
+          },
+          {
+            "name": "牛肉湯 小",
+            "price": 100,
+            "unit": ""
+          },
+          {
+            "name": "鯖鮭湯 大",
+            "price": 50,
+            "unit": ""
+          },
+          {
+            "name": "鯖鮭湯 小",
+            "price": 40,
+            "unit": ""
+          },
+          {
+            "name": "魚丸湯",
+            "price": 40,
+            "unit": "",
+            "note": "30"
+          },
+          {
+            "name": "莧丸湯",
+            "price": 40,
+            "unit": "",
+            "note": "30"
+          },
+          {
+            "name": "蛋花湯",
+            "price": 40,
+            "unit": "",
+            "note": "30"
+          },
+          {
+            "name": "酸辣湯",
+            "price": 50,
+            "unit": "",
+            "note": "40"
+          },
+          {
+            "name": "椒菜肉絲湯",
+            "price": 50,
+            "unit": "",
+            "note": "40"
+          },
+          {
+            "name": "燙青菜",
+            "price": 30,
+            "unit": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "高雄市枋寮區建榮路84巷62號/電話：(07)3515086",
+      "外帶請打勾",
+      "乾飯類細飯/粗飯/冬糧/米飯欄位部分可選",
+      "☑️醬油",
+      "☑️醬油膏",
+      "☑️蒜泥",
+      "請勿遺漏填寫順序單號",
+      "006325"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 6.9604778999928385,
+  "prompt_tokens": 1789,
+  "completion_tokens": 1004,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "laoyu_noodles",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "老余",
+    "title_hit": true,
+    "item_count": 27,
+    "anchor_n": 17,
+    "name_json_recall": 0.29411764705882354,
+    "price_json_recall": 0.29411764705882354,
+    "name_recall": 0.29411764705882354,
+    "price_recall": 0.29411764705882354,
+    "extra_names": [
+      "牛肉飯 大",
+      "牛肉飯 小",
+      "椒菜肉絲飯 大",
+      "椒菜肉絲飯 小",
+      "鯖鮭飯 大",
+      "鯖鮭飯 小",
+      "酸辣飯 大",
+      "酸辣飯 小",
+      "鴨肉飯 大",
+      "鴨肉飯 小",
+      "陽春湯飯 大",
+      "陽春湯飯 小",
+      "牛肉拌飯 大",
+      "牛肉拌飯 小",
+      "麻醬乾飯 大",
+      "麻醬乾飯 小",
+      "陽春乾飯 大",
+      "鯖鮭湯 大",
+      "鯖鮭湯 小",
+      "莧丸湯",
+      "椒菜肉絲湯"
+    ],
+    "hallucination_n": 21,
+    "anchors": [
+      {
+        "name": "牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "餛飩麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "酸辣麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鴨肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "陽春湯麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛肉拌麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "麻醬乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "陽春乾麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "餛飩湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "魚丸湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "酸辣湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "燙青菜",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "{\n  \"title\": \"四海豆粕大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"牛奶豆乳相關\",\n      \"items\": [\n        {\"name\": \"鮮鮮杏杏杏杏紅牛奶豆米紅\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛奶仁仁豆茶乳\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆乳\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆乳\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆乳\", \"price\": 15, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"茶類\",\n      \"items\": [\n        {\"name\": \"茶\", \"price\": 45, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"原料及配菜\",\n      \"items\": [\n        {\"name\": \"原原原原惡荷莧莧飯\", \"price\": 40, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"烏米飯\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 25, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 15, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 15, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 45, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 50, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 35, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子\", \"price\": 25, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"包餃子頭頭頭\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"其他配菜\",\n      \"items\": [\n        {\"name\": \"加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加加",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 44 column 6 (char 1819)",
+  "latency_s": 5.805733000015607,
+  "prompt_tokens": 929,
+  "completion_tokens": 1040,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

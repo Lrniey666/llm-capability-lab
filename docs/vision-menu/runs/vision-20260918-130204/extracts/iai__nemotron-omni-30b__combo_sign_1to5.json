@@ -1,0 +1,167 @@
+{
+  "provider": "iai",
+  "model": "nemotron-omni-30b",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "\n{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"5號\",\n      \"items\": [\n        {\n          \"name\": \"紅茶+雞塊\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"4號\",\n      \"items\": [\n        {\n          \"name\": \"起司+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"燻雞蛋堡+\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"3號\",\n      \"items\": [\n        {\n          \"name\": \"紅茶+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"豬肉蛋堡+\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"2號\",\n      \"items\": [\n        {\n          \"name\": \"紅茶+熱狗\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        },\n        {\n          \"name\": \"香雞蛋堡+\",\n          \"price\": 75,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"1號\",\n      \"items\": [\n        {\n          \"name\": \"鐵板麵+紅茶\",\n          \"price\": 60,\n          \"unit\": \"份\",\n          \"note\": \"\"\n        }\n      ]\n    }\n  ],\n  \"notes\": [\n    \"起司蛋堡+\",\n    \"優惠套餐\"\n  ]\n}",
+  "parsed": {
+    "title": "",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "5號",
+        "items": [
+          {
+            "name": "紅茶+雞塊",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "4號",
+        "items": [
+          {
+            "name": "起司+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燻雞蛋堡+",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "3號",
+        "items": [
+          {
+            "name": "紅茶+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉蛋堡+",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "2號",
+        "items": [
+          {
+            "name": "紅茶+熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香雞蛋堡+",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "1號",
+        "items": [
+          {
+            "name": "鐵板麵+紅茶",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "起司蛋堡+",
+      "優惠套餐"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 9.850339199998416,
+  "prompt_tokens": 2069,
+  "completion_tokens": 3359,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "",
+    "title_hit": true,
+    "item_count": 8,
+    "anchor_n": 5,
+    "name_json_recall": 0.8,
+    "price_json_recall": 0.8,
+    "name_recall": 1.0,
+    "price_recall": 0.8,
+    "extra_names": [
+      "紅茶+雞塊",
+      "起司+熱狗",
+      "紅茶+熱狗",
+      "紅茶+熱狗"
+    ],
+    "hallucination_n": 4,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

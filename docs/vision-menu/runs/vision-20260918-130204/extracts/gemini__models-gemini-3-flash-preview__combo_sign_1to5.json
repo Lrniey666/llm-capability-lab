@@ -1,0 +1,80 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "{\n  \"title\": \"優惠套餐\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"優惠套餐\",\n      \"items\": [\n        {\"name\": \"1號 鐵板麵 + 紅茶\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"2號 香雞蛋堡 + 紅茶 + 熱狗\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"3號 豬肉蛋堡 + 紅茶 + 熱狗\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"4號 ",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 10 column 76 (char 328)",
+  "latency_s": 17.356555899983505,
+  "prompt_tokens": 1310,
+  "completion_tokens": 161,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 5,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.8,
+    "price_recall": 0.6,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"MWD Coffee & Brand\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"BURGER 漢堡\",\n      \"items\": [\n        {\"name\": \"香腸 Chicken\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿沙拉 Chicken Salad\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奧姆蛋 Omelette\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奧姆蛋加香腸 Omelette + Chicken\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排 Chicken\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加香腸 Chicken + Chicken\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞腿 Chicken + Chicken Leg\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞腿加香腸 Chicken + Chicken Leg + Chicken\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑椒雞排 Black Pepper Chicken\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚雞排 Thick Chicken\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅 Chicken + Chicken Leg + Wings\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅加香腸 Chicken + Chicken Leg + Wings + Chicken\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"TOAST 燜餅\",\n      \"items\": [\n        {\"name\": \"看不清\", \"price\": 40, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"看不清\", \"price\": 45, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"看不清\", \"price\": 50, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"DANISH 丹麥餅\",\n      \"items\": [\n        {\"name\": \"香腸 Chicken\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿 Chicken Leg\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"奧姆蛋 Omelette\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排 Chicken\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞腿 Chicken + Chicken Leg\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞翅 Chicken + Wings\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚雞排 Thick Chicken\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅 Chicken + Chicken Leg + Wings\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"CROISSANT 可麗餅\",\n      \"items\": [\n        {\"name\": \"看不清\", \"price\": 45, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"看不清\", \"price\": 50, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"看不清\", \"price\": 55, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"MUFFIN 蛋糕\",\n      \"items\": [\n        {\"name\": \"黑椒雞排 Black Pepper Chicken\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚雞排 Thick Chicken\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞腿 Chicken + Chicken Leg\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排加雞翅 Chicken + Wings\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅 Chicken + Chicken Leg + Wings\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅加香腸 Chicken + Chicken Leg + Wings + Chicken\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"中式系列 CHINESE MEAL\",\n      \"items\": [\n        {\"name\": \"原味雞蛋餅\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞蛋沙拉\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞蛋雞腿餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅加雞翅\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅加雞翅加香腸\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅加雞翅加雞排\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅加雞翅加雞排加香腸\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"煎蛋餅系列 PANCAKE ROLL WITH EGG\",\n      \"items\": [\n        {\"name\": \"雞蛋雞腿餅\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋餅\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"拼盤系列 SPREADS\",\n      \"items\": [\n        {\"name\": \"看不清\", \"price\": 40, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"看不清\", \"price\": 45, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"熱麵系列 HOT PLATE NOODLES\",\n      \"items\": [\n        {\"name\": \"黑椒雞排麵\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞蛋麵\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿雞翅麵\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿麵\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿雞翅麵\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"沙拉系列 SALAD\",\n      \"items\": [\n        {\"name\": \"雞蛋沙拉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞翅沙拉\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"地瓜沙拉\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排雞腿沙拉\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"零食系列 SNACKS\",\n      \"items\": [\n        {\"name\": \"法式薯條\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞翅條\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞腿條\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞排條\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞翅雞腿條\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞翅雞腿雞排條\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"麵包餅乾 BREAD & CRACKERS\",\n      \"items\": [\n        {\"name\": \"看不清\", \"price\": 20, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"飲料 COFFEE\",\n      \"items\": [\n        {\"name\": \"美式咖啡\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"拿鐵\", \"price\": 55, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"摩卡\", \"price\": 55, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"飲料 DRINKS\",\n      \"items\": [\n        {\"name\": \"綠茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰綠茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰紅茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"柠檬紅茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰柠檬紅茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"豆漿\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰豆漿\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"熱牛奶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰牛奶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"可可牛奶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"金拱包茶\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"升級套餐 UPGRADE\",\n      \"items\": [\n        {\"name\": \"A. 升級紅茶\", \"price\": 40, \"unit\": \"套\", \"note\": \"加雞排\"},\n        {\"name\": \"B. 升級紅茶\", \"price\": 55, \"unit\": \"套\", \"note\": \"加雞排雞腿\"},\n        {\"name\": \"C. 升級紅茶\", \"price\": 55, \"unit\": \"套\", \"note\": \"加雞排雞腿雞翅\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"MWD Coffee & Brand 內外套餐\",\n    \"「日日均衡 EASY LIFE」美味餐\",\n    \"HOTEL 10折優惠\",\n    \"MON 10折優惠\",\n    \"TUE 10折優惠\",\n    \"WED 10折優惠\",\n    \"THU 10折優惠\",\n    \"FRI 10折優惠\",\n    \"全館飲料加工費的飲料\",\n    \"LINE 會員優惠\",\n    \"2023 年新店開張\",\n    \"2022 人氣餐廳\",\n    \"全館可用 APP 付款\",\n    \"升級套餐價格包含飲料\",\n    \"STEP 1 選主餐\",\n    \"STEP 2 搭配升級套餐\",\n    \"5G LTE 可用\",\n    \"全新創新店\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "MWD Coffee & Brand",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "BURGER 漢堡",
+        "items": [
+          {
+            "name": "香腸 Chicken",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿沙拉 Chicken Salad",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "奧姆蛋 Omelette",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "奧姆蛋加香腸 Omelette + Chicken",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排 Chicken",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加香腸 Chicken + Chicken",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞腿 Chicken + Chicken Leg",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞腿加香腸 Chicken + Chicken Leg + Chicken",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "黑椒雞排 Black Pepper Chicken",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "超厚雞排 Thick Chicken",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅 Chicken + Chicken Leg + Wings",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅加香腸 Chicken + Chicken Leg + Wings + Chicken",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "TOAST 燜餅",
+        "items": [
+          {
+            "name": "看不清",
+            "price": 40,
+            "unit": "份",
+            "note": "看不清"
+          },
+          {
+            "name": "看不清",
+            "price": 45,
+            "unit": "份",
+            "note": "看不清"
+          },
+          {
+            "name": "看不清",
+            "price": 50,
+            "unit": "份",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "DANISH 丹麥餅",
+        "items": [
+          {
+            "name": "香腸 Chicken",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿 Chicken Leg",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "奧姆蛋 Omelette",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排 Chicken",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞腿 Chicken + Chicken Leg",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞翅 Chicken + Wings",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "超厚雞排 Thick Chicken",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅 Chicken + Chicken Leg + Wings",
+            "price": 85,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "CROISSANT 可麗餅",
+        "items": [
+          {
+            "name": "看不清",
+            "price": 45,
+            "unit": "份",
+            "note": "看不清"
+          },
+          {
+            "name": "看不清",
+            "price": 50,
+            "unit": "份",
+            "note": "看不清"
+          },
+          {
+            "name": "看不清",
+            "price": 55,
+            "unit": "份",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "MUFFIN 蛋糕",
+        "items": [
+          {
+            "name": "黑椒雞排 Black Pepper Chicken",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "超厚雞排 Thick Chicken",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞腿 Chicken + Chicken Leg",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排加雞翅 Chicken + Wings",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅 Chicken + Chicken Leg + Wings",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅加香腸 Chicken + Chicken Leg + Wings + Chicken",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "中式系列 CHINESE MEAL",
+        "items": [
+          {
+            "name": "原味雞蛋餅",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞蛋沙拉",
+            "price": 45,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞蛋雞腿餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅加雞翅",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅加雞翅加香腸",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅加雞翅加雞排",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅加雞翅加雞排加香腸",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "煎蛋餅系列 PANCAKE ROLL WITH EGG",
+        "items": [
+          {
+            "name": "雞蛋雞腿餅",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋餅",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "拼盤系列 SPREADS",
+        "items": [
+          {
+            "name": "看不清",
+            "price": 40,
+            "unit": "份",
+            "note": "看不清"
+          },
+          {
+            "name": "看不清",
+            "price": 45,
+            "unit": "份",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "熱麵系列 HOT PLATE NOODLES",
+        "items": [
+          {
+            "name": "黑椒雞排麵",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞蛋麵",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿雞翅麵",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿麵",
+            "price": 55,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿雞翅麵",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "沙拉系列 SALAD",
+        "items": [
+          {
+            "name": "雞蛋沙拉",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞翅沙拉",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "地瓜沙拉",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排雞腿沙拉",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "零食系列 SNACKS",
+        "items": [
+          {
+            "name": "法式薯條",
+            "price": 25,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞翅條",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞腿條",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞排條",
+            "price": 40,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞翅雞腿條",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞翅雞腿雞排條",
+            "price": 65,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "麵包餅乾 BREAD & CRACKERS",
+        "items": [
+          {
+            "name": "看不清",
+            "price": 20,
+            "unit": "份",
+            "note": "看不清"
+          }
+        ]
+      },
+      {
+        "name": "飲料 COFFEE",
+        "items": [
+          {
+            "name": "美式咖啡",
+            "price": 40,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "拿鐵",
+            "price": 55,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "摩卡",
+            "price": 55,
+            "unit": "杯",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "飲料 DRINKS",
+        "items": [
+          {
+            "name": "綠茶",
+            "price": 20,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "冰綠茶",
+            "price": 25,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "紅茶",
+            "price": 20,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "冰紅茶",
+            "price": 25,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "柠檬紅茶",
+            "price": 30,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "冰柠檬紅茶",
+            "price": 35,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "豆漿",
+            "price": 25,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "冰豆漿",
+            "price": 30,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "熱牛奶",
+            "price": 35,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "冰牛奶",
+            "price": 40,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "可可牛奶",
+            "price": 40,
+            "unit": "杯",
+            "note": ""
+          },
+          {
+            "name": "金拱包茶",
+            "price": 35,
+            "unit": "杯",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "升級套餐 UPGRADE",
+        "items": [
+          {
+            "name": "A. 升級紅茶",
+            "price": 40,
+            "unit": "套",
+            "note": "加雞排"
+          },
+          {
+            "name": "B. 升級紅茶",
+            "price": 55,
+            "unit": "套",
+            "note": "加雞排雞腿"
+          },
+          {
+            "name": "C. 升級紅茶",
+            "price": 55,
+            "unit": "套",
+            "note": "加雞排雞腿雞翅"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "MWD Coffee & Brand 內外套餐",
+      "「日日均衡 EASY LIFE」美味餐",
+      "HOTEL 10折優惠",
+      "MON 10折優惠",
+      "TUE 10折優惠",
+      "WED 10折優惠",
+      "THU 10折優惠",
+      "FRI 10折優惠",
+      "全館飲料加工費的飲料",
+      "LINE 會員優惠",
+      "2023 年新店開張",
+      "2022 人氣餐廳",
+      "全館可用 APP 付款",
+      "升級套餐價格包含飲料",
+      "STEP 1 選主餐",
+      "STEP 2 搭配升級套餐",
+      "5G LTE 可用",
+      "全新創新店"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 33.41320959999575,
+  "prompt_tokens": 2041,
+  "completion_tokens": 3237,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "MWD Coffee & Brand",
+    "title_hit": true,
+    "item_count": 78,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

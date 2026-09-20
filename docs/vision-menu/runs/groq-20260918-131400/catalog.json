@@ -1,0 +1,15 @@
+[
+  {"provider": "groq", "model": "allam-2-7b", "kind": "chat"},
+  {"provider": "groq", "model": "canopylabs/orpheus-arabic-saudi", "kind": "chat"},
+  {"provider": "groq", "model": "canopylabs/orpheus-v1-english", "kind": "chat"},
+  {"provider": "groq", "model": "groq/compound", "kind": "chat"},
+  {"provider": "groq", "model": "groq/compound-mini", "kind": "chat"},
+  {"provider": "groq", "model": "meta-llama/llama-prompt-guard-2-22m", "kind": "chat"},
+  {"provider": "groq", "model": "meta-llama/llama-prompt-guard-2-86m", "kind": "chat"},
+  {"provider": "groq", "model": "openai/gpt-oss-120b", "kind": "chat"},
+  {"provider": "groq", "model": "openai/gpt-oss-20b", "kind": "chat"},
+  {"provider": "groq", "model": "openai/gpt-oss-safeguard-20b", "kind": "chat"},
+  {"provider": "groq", "model": "qwen/qwen3.8-27b", "kind": "chat"},
+  {"provider": "groq", "model": "whisper-large-v3", "kind": "wrong_endpoint"},
+  {"provider": "groq", "model": "whisper-large-v3-turbo", "kind": "wrong_endpoint"}
+]

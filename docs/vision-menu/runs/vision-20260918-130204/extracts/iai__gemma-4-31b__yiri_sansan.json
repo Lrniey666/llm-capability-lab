@@ -1,0 +1,89 @@
+{
+  "provider": "iai",
+  "model": "gemma-4-31b",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "{\n  \"title\": \"旨日三餐\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"今日 🍱  tasty 丼飯\",\n      \"items\": [\n        {\"name\": \"旬味 壽司丼\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 鮭魚壽司丼\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 玉子壽司丼\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 鰻魚壽司丼\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒鮭魚壽司丼\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒鰻魚壽司丼\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒牛壽司丼\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司丼 (特級)\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"旬味 炙燒和牛壽司",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 114 column 74 (char 8087)",
+  "latency_s": 115.49970960000064,
+  "prompt_tokens": 1513,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 6,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

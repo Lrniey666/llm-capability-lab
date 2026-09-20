@@ -1,0 +1,62 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "We need to parse the menu image. It's a Taiwanese restaurant menu. Title? Not clearly visible. There's \"MWD Cafe & Brunch\" maybe store name. Title maybe \"日日均衡餐餐美味\"? That's a slogan. The title field: \"菜單標題或店名，看不見就空字串\". The store name appears top left: \"MWD Cafe & Brunch\". Also there is \"日日均衡 餐餐美味\". Which is likely the title. Let's see: At top left, there is a blue banner with a woman, text: \"日日均衡 餐餐美味\". That's likely the title. So title = \"日日均衡 餐餐美味\". Or maybe \"MWD Cafe & Brunch\". The instruction: \"菜單標題或店名，看不見就空字串\". The title likely the main heading. The top left shows \"MWD Cafe & Brunch\" as logo. The big text \"日日均衡 餐餐美味\" is a tagline. I'd choose \"日日均衡 餐餐美味\" as title. If uncertain, maybe empty. But we see it. So title = \"日日均衡 餐餐美味\". Currency TWD.\n\nNow categories. The menu is divided into sections: \"STEP 1 選主餐\" (choose main). Under that there are categories: BURGER, TOAST, DANISH, CROISSANT, MUFFIN, 中式系列 CHINESE MEAL, 鐵板麵系列 HOT PLATE NOODLES, 擺盤捲餅 PANCAKE ROLL WITH EGG, 沙拉系列 SALAD, etc. Also \"STEP 2 搭配升級套餐\" includes upgrades, snacks, soup, coffee, drinks.\n\nWe need to list categories with items. For each item, name, price, unit \"份\" (portion). If there are multiple price options (e.g., small/large), choose the more obvious one (maybe the larger price). Note other price in note.\n\nWe must be careful: many items have prices like $35, $40 etc. The unit is \"份\" (portion). For sandwiches maybe \"份\". We'll treat each line as an item.\n\nBut there are many items; we need to include all visible items. That's a lot. However we must not guess. If a price is unclear, note \"看不清\". Let's scan.\n\nFirst, BURGER section:\n\nList items:\n\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 培根 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nCheck each: The list seems to have price after each name. Let's verify:\n\n\"香雞 $35\" => name 香雞, price 35.\n\n\"豬肉 $40\" => name 豬肉, price 40.\n\n\"鮮蟹沙拉 $40\" => name 鮮蟹沙拉, price 40.\n\n\"鮮蔬 $40\" => name 鮮蔬, price 40.\n\n\"鮪魚 $45\" => name 鮪魚, price 45.\n\n\"軟炒蛋 $45\" => name 軟炒蛋, price 45.\n\n\"培根 $45\" => name 培根, price 45.\n\n\"檸檬雞 $45\" => name 檸檬雞, price 45.\n\n\"燻雞 $45\" => name 燻雞, price 45.\n\n\"黑胡椒豬里肌 $60\" => name 黑胡椒豬里肌, price 60.\n\n\"卡滋雞 $65\" => name 卡滋雞, price 65.\n\n\"超厚雞肉起司 $65\" => name 超厚雞肉起司, price 65.\n\n\"超厚牛肉起司 $70\" => name 超厚牛肉起司, price 70.\n\n\"超厚豬肉 $70\" => name 超厚豬肉, price 70.\n\n\"原燒嫩雞起司 $85\" => name 原燒嫩雞起司, price 85.\n\nNote: Some items may have \"加$10\" etc. Not needed.\n\nTOAST section:\n\n- 香雞 $35? Wait there is \"香雞 $35\" under TOAST? Actually the first column after BURGER maybe \"TOAST 湯種\". Let's read:\n\nUnder TOAST, items:\n\n\"香雞 $35\"? Let's see: The column header \"TOAST 湯種\". Items:\n\n\"香雞 $35\"? Actually the first line under TOAST is \"香雞 $35\"? Let's examine the image: The BURGER column is first, then TOAST, then DANISH, etc.\n\nThe BURGER column items start with \"香雞 $35\". Wait that's also under BURGER? Let's re-evaluate.\n\nThe layout: The top row shows categories: BURGER, TOAST, DANISH, CROISSANT, MUFFIN. Under each, there are items.\n\nBut the first column after \"BURGER\" maybe \"TOAST\". Let's parse:\n\nThe first column after BURGER header: \"TOAST 湯種\". Items:\n\n- 香雞 $35? Actually the first line under TOAST appears to be \"香雞 $35\"? Let's look at the image: Under BURGER, the first item is \"香雞 $35\". Then \"豬肉 $40\". Then \"鮮蟹沙拉 $40\". Then \"鮮蔬 $40\". Then \"鮪魚 $45\". Then \"軟炒蛋 $45\". Then \"培根 $45\". Then \"檸檬雞 $45\". Then \"燻雞 $45\". Then \"黑胡椒豬里肌 $60\". Then \"卡滋雞 $65\". Then \"超厚雞肉起司 $65\". Then \"超厚牛肉起司 $70\". Then \"超厚豬肉 $70\". Then \"原燒嫩雞起司 $85\". So these are all under BURGER? Wait the header \"BURGER 滿漢\" maybe indicates the column is BURGER. The header \"BURGER 滿漢\" is above the first column. So the items listed under BURGER are those. Then next column header \"TOAST 湯種\". Items under TOAST:\n\nLet's read the second column:\n\n\"香雞 $35\"? Actually the first line under TOAST appears to be \"香雞 $35\"? Let's see: The second column after BURGER maybe \"TOAST\". The items:\n\n- 香雞 $35? Wait there is \"香雞 $35\" earlier under BURGER. Let's examine the image more carefully.\n\nThe image shows columns:\n\nColumn 1: BURGER 滿漢 (maybe \"BURGER\" with subcategory \"滿漢\"?). Items listed: 香雞 $35, 豬肉 $40, 鮮蟹沙拉 $40, 鮮蔬 $40, 鮪魚 $45, 軟炒蛋 $45, 培根 $45, 檸檬雞 $45, 燻雞 $45, 黑胡椒豬里肌 $60, 卡滋雞 $65, 超厚雞肉起司 $65, 超厚牛肉起司 $70, 超厚豬肉 $70, 原燒嫩雞起司 $85.\n\nColumn 2: TOAST 湯種. Items:\n\n- 香雞 $35? Actually the first line under TOAST is \"香雞 $35\"? Let's see: The second column items: \"香雞 $35\"? Wait there is \"香雞 $35\" earlier under BURGER. Let's read the second column:\n\nIt shows:\n\n\"香雞 $35\"? Not sure. Let's read the second column text:\n\n\"香雞 $35\"? Actually the second column items:\n\n- 香雞 $35? Let's read: \"香雞 $35\"? The text maybe \"香雞 $35\"? Let's examine the second column:\n\nIt shows:\n\n\"香雞 $35\"? Not sure. Let's list the second column items as visible:\n\n\"香雞 $35\"? Actually the second column appears to have:\n\n\"香雞 $35\"? Let's read the second column lines:\n\n\"香雞 $35\"? Hmm.\n\nLet's look at the second column (TOAST) lines:\n\n- 香雞 $35? maybe \"香雞 $35\"? But there is also \"香雞 $35\" under BURGER. Could be duplicate.\n\nLet's read the second column more systematically:\n\nThe second column header: \"TOAST 湯種\". Under that:\n\n- 香雞 $35? Actually the first line maybe \"香雞 $35\"? Let's see: The second column items:\n\n\"香雞 $35\"? Not sure.\n\nLet's read the second column lines from the image:\n\nIt appears:\n\n\"香雞 $35\"? Wait there is \"香雞 $35\" under BURGER. Under TOAST maybe \"香雞 $35\"? Let's see the actual text:\n\nThe second column lines:\n\n\"香雞 $35\"? Not sure.\n\nLet's try to transcribe the second column:\n\n\"香雞 $35\"? Actually maybe \"香雞 $35\" is under BURGER, not TOAST.\n\nLet's examine the second column more carefully:\n\nThe second column items (TOAST) appear to be:\n\n- 香雞 $35? (maybe \"香雞 $35\"?)\n\n- 豬肉 $40?\n\n- 鮮蟹沙拉 $40?\n\n- 鮮蔬 $40?\n\n- 鮪魚 $45?\n\n- 軟炒蛋 $45?\n\n- 培根 $45?\n\n- 檸檬雞 $45?\n\n- 燻雞 $45?\n\n- 黑胡椒豬里肌 $60?\n\n- 卡滋雞 $65?\n\n- 超厚雞肉起司 $65?\n\n- 超厚牛肉起司 $70?\n\n- 超厚豬肉 $70?\n\n- 原燒嫩雞起司 $85?\n\nBut that's exactly the same as BURGER column. That seems unlikely; maybe the columns are misaligned.\n\nLet's re-evaluate the layout. The image is a menu with multiple columns. Let's identify each column header:\n\n- BURGER 滿漢 (maybe \"BURGER\" with \"滿漢\" meaning \"full\"?). Under that column, there are items.\n\n- TOAST 湯種 (maybe \"TOAST\" with \"湯種\" meaning \"soup\"?). Under that column, items.\n\n- DANISH 丹麥堡 (Danish burger). Items.\n\n- CROISSANT 可頌 (Croissant). Items.\n\n- MUFFIN 滿分堡 (Muffin). Items.\n\nThen there are other sections: \"中式系列 CHINESE MEAL\", \"鐵板麵系列 HOT PLATE NOODLES\", \"擺盤捲餅 PANCAKE ROLL WITH EGG\", \"沙拉系列 SALAD\", \"抹醬系列 SPREADS\", \"風味飲品 DRINKS\", \"研磨咖啡 COFFEE\", \"點心系列 SNACKS\", \"湯品系列 SOUP\", \"升級套餐 UPGRADE\".\n\nWe need to extract items from each category.\n\nGiven the complexity, maybe we can limit to main categories visible. But the instruction: \"categories\" list all categories we see. So we need to parse all categories.\n\nLet's attempt to parse each column.\n\nFirst, BURGER column (first column after \"STEP 1 選主餐\").\n\nHeader: \"BURGER 滿漢\". Items:\n\n- 香雞 $35\n- 豬肉 $40\n- 鮮蟹沙拉 $40\n- 鮮蔬 $40\n- 鮪魚 $45\n- 軟炒蛋 $45\n- 培根 $45\n- 檸檬雞 $45\n- 燻雞 $45\n- 黑胡椒豬里肌 $60\n- 卡滋雞 $65\n- 超厚雞肉起司 $65\n- 超厚牛肉起司 $70\n- 超厚豬肉 $70\n- 原燒嫩雞起司 $85\n\nCheck if any other items: maybe \"黑胡椒豬里肌\" etc.\n\nNow TOAST column (second column). Header: \"TOAST 湯種\". Items:\n\nLet's read the second column items:\n\n- 香雞 $35? Wait maybe the first line is \"香雞 $35\"? Let's see: The second column items appear to be:\n\n\"香雞 $35\"? Actually maybe the first line is \"香雞 $35\"? Let's look at the image: Under TOAST, the first line is \"香雞 $35\"? But there is also \"香雞 $35\" under BURGER. Could be duplication.\n\nLet's read the second column lines:\n\n\"香雞 $35\"? Not sure.\n\nLet's examine the second column text:\n\nIt shows:\n\n\"香雞 $35\"? Actually maybe the first line is \"香雞 $35\"? Let's see the actual text:\n\nThe second column lines:\n\n\"香雞 $35\"? Not sure.\n\nLet's try to read the second column from the image:\n\nThe second column (TOAST) items:\n\n- 香雞 $35? (maybe \"香雞 $35\"?)\n\n- 豬肉 $40?\n\n- 鮮蟹沙拉 $40?\n\n- 鮮蔬 $40?\n\n- 鮪魚 $45?\n\n- 軟炒蛋 $45?\n\n- 培根 $45?\n\n- 檸檬雞 $45?\n\n- 燻雞 $45?\n\n- 黑胡椒豬里肌 $60?\n\n- 卡滋雞 $65?\n\n- 超厚雞肉起司 $65?\n\n- 超厚牛肉起司 $70?\n\n- 超厚豬肉 $70?\n\n- 原燒嫩雞起司 $85?\n\nBut that's exactly same as BURGER column. That seems improbable; maybe the columns are misaligned due to formatting.\n\nLet's look at the actual image: The first column after \"BURGER\" maybe \"TOAST\". The items under TOAST might be:\n\n- 香雞 $35? Actually maybe \"香雞 $35\" is under BURGER, not TOAST.\n\nLet's examine the second column more carefully: The header \"TOAST 湯種\". Under that, the items are:\n\n\"香雞 $35\"? Wait maybe the first line is \"香雞 $35\"? Let's see the actual text:\n\nThe second column items (TOAST) appear to be:\n\n\"香雞 $35\"? Not sure.\n\nLet's try to read the second column from the image:\n\nThe second column items (TOAST) are:\n\n- 香雞 $35? (maybe \"香雞 $35\"?)\n\n- 豬肉 $40?\n\n- 鮮蟹沙拉 $40?\n\n- 鮮蔬 $40?\n\n- 鮪魚 $45?\n\n- 軟炒蛋 $45?\n\n- 培根 $45?\n\n- 檸檬雞 $45?\n\n- 燻雞 $45?\n\n- 黑胡椒豬里肌 $60?\n\n- 卡滋雞 $65?\n\n- 超厚雞肉起司 $65?\n\n- 超厚牛肉起司 $70?\n\n- 超厚豬肉 $70?\n\n- 原燒嫩雞起司 $85?\n\nBut that's exactly the same as BURGER column. That can't be correct; maybe the columns are misordered.\n\nLet's look at the image again: The first column after \"BURGER\" maybe \"TOAST\". The items under TOAST might be:\n\n- 香雞 $35? Actually maybe \"香雞 $35\" is under BURGER, not TOAST.\n\nLet's examine the second column header: \"TOAST 湯種\". Under that, the items are:\n\n- 香雞 $35? Not sure.\n\nLet's read the second column lines:\n\n\"香雞 $35\"? Actually maybe the first line is \"香雞 $",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 13.842758299986599,
+  "prompt_tokens": 3613,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6666666666666666,
+    "price_recall": 0.6666666666666666,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1741122.jpg",
+  "mime": "image/jpeg",
+  "bytes": 108081,
+  "ok": true,
+  "text": "## 吐司類\n\n|  奶油/奶酪/草莓/藍莓果醬 | 25  |\n| --- | --- |\n|  巧克力/花生/抹茶/藿香果醬 | 20  |\n|  吐司夾蛋 | 25 法國吐司 35  |\n|  九層蛋 | 30 豬柳蛋 40  |\n|  火腿蛋 | 35 薯餅蛋 40  |\n|  肉鬆蛋 | 35 花枝蛋 40  |\n|  玉米蛋 | 35 黑胡椒豬排蛋 40  |\n|  熱狗蛋 | 35 牛肉蛋 45  |\n|  起司蛋 | 35 香雞雞腿蛋 45  |\n|  燻雞蛋 | 35 日式燻肉蛋 50  |\n|  培根蛋 | 35 起司豬排蛋 50  |\n|  豬肉蛋 | 35 燻肉蛋 50  |\n|  香雞蛋 | 35 卡啦雞蛋 55  |\n|  鯖魚蛋 | 35 奕燻雞腿排蛋 55  |\n\n## 蛋餅類\n\n|  原味 | 25 熱狗 35  |\n| --- | --- |\n|  蔬菜 | 30 培根 35  |\n|  九層塔 | 30 鯖魚 35  |\n|  火腿 | 35 燻雞 35  |\n|  肉鬆 | 35 薯餅 40  |\n|  玉米 | 35 豬柳 40  |\n|  起司 | 35 豬排 40  |\n\n## 漢堡類\n\n|  起司蛋堡 | 35 火腿蛋堡 40  |\n| --- | --- |\n|  以下加蛋+10元 | 黑胡椒豬排蛋 40  |\n|  培根堡 | 30 黑胡椒豬柳堡 40  |\n|  鯖魚堡 | 35 燻肉堡 45  |\n|  燻雞堡 | 35 香雞雞腿堡 45  |\n|  香雞堡 | 35 日式燻肉堡 45  |\n|  豬肉堡 | 35 起司豬排蛋 45  |\n|  花枝堡 | 40 卡啦雞腿堡 55  |\n|  牛肉堡 | 45 奕燻雞腿排蛋 55  |\n\n## 厚片類\n\n|  奶酪 | 30 草莓 30  |\n| --- | --- |\n|  香菇 | 30 藍莓 30  |\n|  花生 | 30 燃烤培根 55  |\n|  巧克力 | 30 燃烤鯖魚 55  |\n|  抹茶 | 30 燃烤燻雞 55  |\n\n## 抽麗三明治\n\n|  豬肉 | 50 燻肉 55  |\n| --- | --- |\n|  香雞 | 50 牛肉 55  |\n|  鯖魚 | 50 卡啦 60  |\n\n## 抵餅類\n\n|  原味蔬抓餅 | 25  |\n| --- | --- |\n|  抓餅蛋 | 35  |\n|  以下加蛋+10元 |   |\n|  肉鬆抓餅 | 40  |\n|  培根抓餅 | 40  |\n|  鯖魚抓餅 | 40  |\n|  豬柳抓餅 | 40  |\n|  起司抓餅 | 40  |\n\n## 點心類\n\n|  荷包蛋 (單點) | 15  |\n| --- | --- |\n|  起司片 (單點) | 10  |\n|  熱狗 | 20  |\n|  熱狗滾蛋 | 30  |\n|  麥克雞塊 | 30  |\n|  煎餃 (7粒) | 30  |\n|  薯餅 (1片) | 20  |\n|  雞節糕 | 30  |\n|  鑲匙 (5粒) | 30  |\n|  水餃 (10粒) | 35  |\n|  檸檬雞檸檬 | 45  |\n\n## 飲料類\n\n|  紅茶 | 25 15  |\n| --- | --- |\n|  豆漿 | 25 20  |\n|  鵝啡牛奶 | 30 25  |\n|  鮮奶茶 | 30 25  |\n\n## 麵食類\n\n|  鑲頭蔥麵 | 70  |\n| --- | --- |\n|  鑲頭雞絲 | 70  |\n|  鑲頭各餡 | 70  |\n|  鑲頭烏龍 | 70  |\n\n## 以上加麵+15元\n\n|  培根義大利麵 | 80  |\n| --- | --- |\n|  燻雞義大利麵 | 80  |\n\n## (口味：青醬/白醬)\n\n|  鑲匙麵 | 50  |\n| --- | --- |\n|  豬排鑲匙麵 | 80  |\n|  檸檬雞檸鑲匙麵 | 80  |\n|  (此口味不含蛋) |   |\n|  雞腿排鑲匙麵 | 85  |\n\n## (口味：鱈麵、黑胡椒、鑲匙)\n\n## 以上加麵+10元\n\n營業時間：06:00-12:00 週日公休",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 5.085907900007442,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "breakfast_whiteboard",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.875,
+    "price_recall": 0.875,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "吐司夾蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "九層蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "總匯豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-latest",
+  "file": "Screenshot_20260916-1745282.jpg",
+  "mime": "image/jpeg",
+  "bytes": 124973,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"THAI MAMA\",\n  \"currency\": \"新台幣\",\n  \"categories\": [\n    {\n      \"name\": \"Our Starter\",\n      \"items\": [\n        {\"name\": \"French fries\", \"price\": 69, \"unit\": \"份\"},\n        {\"name\": \"Pork Meatballs\", \"price\": 79, \"unit\": \"2丸\"},\n        {\"name\": \"Savory Chicken\", \"price\": 89, \"unit\": \"2丸\"},\n        {\"name\": \"Chicken Wings\", \"price\": 89, \"unit\": \"4根\"},\n        {\"name\": \"Chickens Popcorn\", \"price\": 89, \"unit\": \"份\"},\n        {\"name\": \"Cuttlefish Shrimp Rolls\", \"price\": 90, \"unit\": \"4丸\"}\n      ]\n    },\n    {\n      \"name\": \"Add-on\",\n      \"items\": [\n        {\"name\": \"RICE\", \"price\": 20, \"unit\": \"份\"},\n        {\"name\": \"EGG\", \"price\": 15, \"unit\": \"個\"}\n      ]\n    },\n    {\n      \"name\": \"Main Course\",\n      \"items\": [\n        {\"name\": \"Thai Basil Minced Pork with Rice\", \"price\": 90, \"unit\": \"份\", \"note\": \"加蛋 105\"},\n        {\"name\": \"Thai Basil Fried Chicken with Rice\", \"price\": 110, \"unit\": \"份\", \"note\": \"加蛋 125\"},\n        {\"name\": \"Crispy Chicken with Green Curry Sauce\", \"price\": 110, \"unit\": \"份\", \"note\": \"加蛋 125\"},\n        {\"name\": \"Thai Fried Chicken Laab Rice\", \"price\": 110, \"unit\": \"份\", \"note\": \"加蛋 125\"},\n        {\"name\": \"Stir-fried Chicken with Garlic and Soy Sauce\", \"price\": 90, \"unit\": \"份\", \"note\": \"加蛋 105\"}\n      ]\n    },\n    {\n      \"name\": \"Noodle\",\n      \"items\": [\n        {\"name\": \"Mama Tomyum Noodles\", \"price\": 110, \"unit\": \"份\", \"note\": \"加蛋 125\"},\n        {\"name\": \"Salted Egg Instant Dried Noodles\", \"price\": 100, \"unit\": \"份\", \"note\": \"加蛋 115\"}\n      ]\n    },\n    {\n      \"name\": \"Beverage\",\n      \"items\": [\n        {\"name\": \"Thai Milk Tea\", \"price\": 60, \"unit\": \"杯\"},\n        {\"name\": \"Thai Green Milk Tea\", \"price\": 60, \"unit\": \"杯\"},\n        {\"name\": \"Thai Style Pink Milk\", \"price\": 45, \"unit\": \"杯\"},\n        {\"name\": \"Milo Dinosaur\", \"price\": 70, \"unit\": \"杯\"},\n        {\"name\": \"Oishi 玫瑰綠茶\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"Oishi 原味綠茶\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"VITA MILK 維他妹(原味)\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"VITAMILK 維他妹(芒果味)\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"VITAMILK 維他妹(巧克力味)\", \"price\": 40, \"unit\": \"杯\"},\n        {\"name\": \"柚子花茶 SUGAR PLUM JUICE\", \"price\": 45, \"unit\": \"杯\"},\n        {\"name\": \"COKE 可口可樂\", \"price\": 20, \"unit\": \"杯\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"Dine in / To go 選擇\",\n    \"表中加蛋項目可選加蛋\",\n    \"菜單圖片中部分價格和描述以圖示和文字顯示，僅顯示明顯數值\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "THAI MAMA",
+    "currency": "新台幣",
+    "categories": [
+      {
+        "name": "Our Starter",
+        "items": [
+          {
+            "name": "French fries",
+            "price": 69,
+            "unit": "份"
+          },
+          {
+            "name": "Pork Meatballs",
+            "price": 79,
+            "unit": "2丸"
+          },
+          {
+            "name": "Savory Chicken",
+            "price": 89,
+            "unit": "2丸"
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 89,
+            "unit": "4根"
+          },
+          {
+            "name": "Chickens Popcorn",
+            "price": 89,
+            "unit": "份"
+          },
+          {
+            "name": "Cuttlefish Shrimp Rolls",
+            "price": 90,
+            "unit": "4丸"
+          }
+        ]
+      },
+      {
+        "name": "Add-on",
+        "items": [
+          {
+            "name": "RICE",
+            "price": 20,
+            "unit": "份"
+          },
+          {
+            "name": "EGG",
+            "price": 15,
+            "unit": "個"
+          }
+        ]
+      },
+      {
+        "name": "Main Course",
+        "items": [
+          {
+            "name": "Thai Basil Minced Pork with Rice",
+            "price": 90,
+            "unit": "份",
+            "note": "加蛋 105"
+          },
+          {
+            "name": "Thai Basil Fried Chicken with Rice",
+            "price": 110,
+            "unit": "份",
+            "note": "加蛋 125"
+          },
+          {
+            "name": "Crispy Chicken with Green Curry Sauce",
+            "price": 110,
+            "unit": "份",
+            "note": "加蛋 125"
+          },
+          {
+            "name": "Thai Fried Chicken Laab Rice",
+            "price": 110,
+            "unit": "份",
+            "note": "加蛋 125"
+          },
+          {
+            "name": "Stir-fried Chicken with Garlic and Soy Sauce",
+            "price": 90,
+            "unit": "份",
+            "note": "加蛋 105"
+          }
+        ]
+      },
+      {
+        "name": "Noodle",
+        "items": [
+          {
+            "name": "Mama Tomyum Noodles",
+            "price": 110,
+            "unit": "份",
+            "note": "加蛋 125"
+          },
+          {
+            "name": "Salted Egg Instant Dried Noodles",
+            "price": 100,
+            "unit": "份",
+            "note": "加蛋 115"
+          }
+        ]
+      },
+      {
+        "name": "Beverage",
+        "items": [
+          {
+            "name": "Thai Milk Tea",
+            "price": 60,
+            "unit": "杯"
+          },
+          {
+            "name": "Thai Green Milk Tea",
+            "price": 60,
+            "unit": "杯"
+          },
+          {
+            "name": "Thai Style Pink Milk",
+            "price": 45,
+            "unit": "杯"
+          },
+          {
+            "name": "Milo Dinosaur",
+            "price": 70,
+            "unit": "杯"
+          },
+          {
+            "name": "Oishi 玫瑰綠茶",
+            "price": 40,
+            "unit": "杯"
+          },
+          {
+            "name": "Oishi 原味綠茶",
+            "price": 40,
+            "unit": "杯"
+          },
+          {
+            "name": "VITA MILK 維他妹(原味)",
+            "price": 40,
+            "unit": "杯"
+          },
+          {
+            "name": "VITAMILK 維他妹(芒果味)",
+            "price": 40,
+            "unit": "杯"
+          },
+          {
+            "name": "VITAMILK 維他妹(巧克力味)",
+            "price": 40,
+            "unit": "杯"
+          },
+          {
+            "name": "柚子花茶 SUGAR PLUM JUICE",
+            "price": 45,
+            "unit": "杯"
+          },
+          {
+            "name": "COKE 可口可樂",
+            "price": 20,
+            "unit": "杯"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Dine in / To go 選擇",
+      "表中加蛋項目可選加蛋",
+      "菜單圖片中部分價格和描述以圖示和文字顯示，僅顯示明顯數值"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 6.465905600023689,
+  "prompt_tokens": 1369,
+  "completion_tokens": 987,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "thai_mama",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "THAI MAMA",
+    "title_hit": true,
+    "item_count": 26,
+    "anchor_n": 13,
+    "name_json_recall": 0.3076923076923077,
+    "price_json_recall": 0.3076923076923077,
+    "name_recall": 0.3076923076923077,
+    "price_recall": 0.3076923076923077,
+    "extra_names": [
+      "Pork Meatballs",
+      "Savory Chicken",
+      "Chicken Wings",
+      "Chickens Popcorn",
+      "Cuttlefish Shrimp Rolls",
+      "Crispy Chicken with Green Curry Sauce",
+      "Stir-fried Chicken with Garlic and Soy Sauce",
+      "Mama Tomyum Noodles",
+      "Thai Milk Tea",
+      "Thai Green Milk Tea",
+      "Thai Style Pink Milk",
+      "Milo Dinosaur",
+      "Oishi 玫瑰綠茶",
+      "Oishi 原味綠茶",
+      "VITA MILK 維他妹(原味)",
+      "VITAMILK 維他妹(芒果味)",
+      "VITAMILK 維他妹(巧克力味)",
+      "柚子花茶 SUGAR PLUM JUICE"
+    ],
+    "hallucination_n": 18,
+    "anchors": [
+      {
+        "name": "炸薯條",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肉丸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "雞肉沙爹",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "炸雞翅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花枝蝦捲",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "打拋豬肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "羅勒炸雞飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "綠咖哩飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "泰式奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "恐龍美祿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "可口可樂",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "飯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# 金鑰
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虛擬環境（.venv-py310 這類帶後綴的也要擋）
+.venv*/
+venv*/
+
+# 測試與快取
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 執行產物
+bench-*.json

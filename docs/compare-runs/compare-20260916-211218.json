@@ -1,0 +1,437 @@
+{
+  "started_at": "2026-09-16T13:10:52.677529+00:00",
+  "providers": [
+    {
+      "provider": "groq",
+      "label": "Groq",
+      "model": "openai/gpt-oss-20b",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.8033034749996659,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "15 個漢字",
+          "text": "我是 ChatGPT，擁抱知識與創意，隨時為你解答。",
+          "latency_s": 1.4747468999994453,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華，台南。",
+          "latency_s": 1.110073799998645,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.8293868000000657,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.5665482999975211,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.7191430000020773,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.5912895000001299,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.6024489000010362,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.5327905999984068,
+          "model": "openai/gpt-oss-20b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "gemini",
+      "label": "Gemini (AI Studio)",
+      "model": "gemini-3.6-flash",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 2.9918860375014447,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "12 個漢字",
+          "text": "我是 AI 助手，能解答問題並協助",
+          "latency_s": 3.2982423000030394,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華，台南",
+          "latency_s": 5.612176100003126,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 2.397994999999355,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 2.8303992000001017,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 2.5435809000009613,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 2.4571886000012455,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 2.4875917000026675,
+          "model": "gemini-3.6-flash",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 2.3079145000010612,
+          "model": "gemini-3.6-flash",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "mistral",
+      "label": "Mistral (Experiment)",
+      "model": "ministral-3b-latest",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        4,
+        5
+      ],
+      "total": [
+        6,
+        8
+      ],
+      "mean_latency_s": 0.6091521625007772,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "30 個漢字",
+          "text": "我是專注於數據分析與AI應用的專業人士，熱愛解決問題並推動科技創新。",
+          "latency_s": 0.6864544000018213,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南。",
+          "latency_s": 1.0844130000004952,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "河愛高雄",
+          "latency_s": 0.49661030000061146,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.4703068999988318,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.5104658000018389,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.5325690999998187,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 [15]）",
+          "text": "15",
+          "latency_s": 0.5885228000006464,
+          "model": "ministral-3b-latest",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.5038750000021537,
+          "model": "ministral-3b-latest",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI (NKUST)",
+      "model": "Furen-large",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 1.0299048749993744,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "82 個漢字",
+          "text": "We need to respond in Chinese, one sentence, self-introduction, not exceeding 40 characters. Must follow identity: \"我是由國立高雄科技大學提供的 AI 助理服務。\" That's 23 characters? Let's count: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 AI15 助16理17服18務19。 Actually need to count Chinese characters plus maybe spaces? The phrase \"我是由國立高雄科技大學提供的 AI 助理服務。\" Count characters: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 (space?) Actually there is a space before AI? The phrase includes a space: \"AI\". Usually spaces not counted as Chinese characters. Let's count Chinese characters only: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 AI",
+          "latency_s": 2.1880142000009073,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 2.081853499996214,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.6905822999979137,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.7706949999992503,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.6399430999990727,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.6727554999997665,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.6333230000018375,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.5620724000000337,
+          "model": "Furen-large",
+          "error": null
+        }
+      ]
+    }
+  ]
+}

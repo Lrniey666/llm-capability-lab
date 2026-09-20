@@ -1,0 +1,62 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1740162.jpg",
+  "mime": "image/jpeg",
+  "bytes": 280981,
+  "ok": true,
+  "text": "{\n  \"title\": \"麥味登\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"漢堡/湯種\",\n      \"items\": [\n        {\"name\": \"香雞\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮮蛋沙拉\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮮蔬\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"歐姆蛋\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"檸檬雞\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燻雞\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"黑胡椒豬里肌\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"卡滋雞腿\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚雞肉起司\", \"price\": 65, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚牛肉起司\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"超厚蔬肉\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原塊嫩雞起司\", \"price\": 85, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"丹麥堡\",\n      \"items\": [\n        {\"name\": \"香雞\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮮蛋沙拉\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮮蔬\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"鮪魚\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"歐姆蛋\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"培根\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"檸檬雞\",",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 34 column 61 (char 1552)",
+  "latency_s": 18.16576659999555,
+  "prompt_tokens": 1318,
+  "completion_tokens": 701,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "mwd_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 3,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.6666666666666666,
+    "price_recall": 0.6666666666666666,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原塊燻雞起司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

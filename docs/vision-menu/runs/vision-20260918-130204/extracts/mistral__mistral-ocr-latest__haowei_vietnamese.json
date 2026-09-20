@@ -1,0 +1,116 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1741462.jpg",
+  "mime": "image/jpeg",
+  "bytes": 234232,
+  "ok": true,
+  "text": "# 好味\n\n越式料理\n\n外帶\n\n內用/桌號\n\n訂購專線：(07)352-0588\n\n高雄市楠梓區創新路 11 號\n\n0973-732296\n\n|  ※湯類 | 單價 | 河粉 | 米粉 | 雞蛋麵 | 泡飯  |\n| --- | --- | --- | --- | --- | --- |\n|  生鮮牛肉 | 110 |  |  |  |   |\n|  海鮮 | 110 |  |  |  |   |\n|  豬肉 | 100 |  |  |  |   |\n|  雞肉 | 100 |  |  |  |   |\n|  紅燒牛肉 | 140 |  |  |  |   |\n|  酸辣牛肉 | 110 |  |  |  |   |\n|  酸辣海鮮 | 110 |  |  |  |   |\n|  酸辣豬肉 | 100 |  |  |  |   |\n|  酸辣雞肉 | 100 |  |  |  |   |\n\n|  ※炒類 | 單價 | 河粉 | 雞蛋麵  |\n| --- | --- | --- | --- |\n|  牛肉 | 110 |  |   |\n|  海鮮 | 110 |  |   |\n|  豬肉 | 100 |  |   |\n|  雞肉 | 100 |  |   |\n\n|  ※涼拌類 | 單價 | 數量  |\n| --- | --- | --- |\n|  牛肉涼拌米粉 | 120 |   |\n|  炸春捲涼拌米粉 | 120 |   |\n|  燒肉涼拌米粉 | 120 |   |\n|  涼拌洋蔥海鮮 | 80 |   |\n|  涼拌洋蔥雞絲 | 80 |   |\n|  涼拌木瓜雞絲 | 80 |   |\n\n|  ※飯類 | 單價 | 數量  |\n| --- | --- | --- |\n|  紅燒牛肉飯 | 140 |   |\n|  香茅雞肉飯 | 120 |   |\n|  排骨飯 | 110 |   |\n|  牛肉燴飯 | 110 |   |\n|  海鮮燴飯 | 110 |   |\n|  豬肉燴飯 | 100 |   |\n|  牛肉炒飯 | 100 |   |\n|  海鮮炒飯 | 100 |   |\n|  肉絲炒飯 | 90 |   |\n|  雞肉炒飯 | 90 |   |\n\n|  ※炒菜類 | 單價 | 數量  |\n| --- | --- | --- |\n|  炒青菜 | 60 |   |\n|  豬肉炒青菜 | 120 |   |\n|  牛肉炒青菜 | 140 |   |\n\n|  ※湯類 | 單價 | 數量  |\n| --- | --- | --- |\n|  蛋花湯 | 30 |   |\n|  虱目魚丸湯 | 35 |   |\n|  原味/酸辣牛肉湯 | 80 |   |\n|  原味/酸辣海鮮湯 | 80 |   |\n|  原味/酸辣豬肉湯 | 70 |   |\n|  原味/酸辣雞肉湯 | 70 |   |\n\n|  ※點心類 | 單價 | 數量  |\n| --- | --- | --- |\n|  養生春捲(2捲) | 80 |   |\n|  芋香炸春捲 | 80 |   |\n|  香茅雞肉 | 80 |   |\n|  白飯/荷包蛋(一雞) | 15/15 | /  |\n\n第 1",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 5.632089199993061,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "haowei_vietnamese",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "生鮮牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香茅雞肉飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "排骨飯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "虱目魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉炒青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

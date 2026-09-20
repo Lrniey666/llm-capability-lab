@@ -1,0 +1,71 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-174923.png",
+  "mime": "image/png",
+  "bytes": 1977290,
+  "ok": true,
+  "text": "5:49 11:40\n\n56 75%\n\n| 人氣單點 |\n\n| 精選炸物 |\n\n| 現煮研\n\nNT$99\n\n![img-0.jpeg](img-0.jpeg)\n\n起司餡餅 Quesadilla\nNT$129\n\n![img-1.jpeg](img-1.jpeg)\n\n火烤雞胸起司餡餅\nGrilled Chicken\nQuesadilla\nNT$169\n\n![img-2.jpeg](img-2.jpeg)\n\n墨西哥燉豬起司餡餅\nCarnitas Quesadilla\nNT$179\n\n![img-3.jpeg](img-3.jpeg)\n\n火烤牛排起司餡餅\nSteak Quesadilla\nNT$209\n\n| 精選炸物 |\n\n![img-4.jpeg](img-4.jpeg)\n\n![img-5.jpeg](img-5.jpeg)",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 26.45880930000567,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "quesadilla_app",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 4,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤雞胸起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "墨西哥燉豬起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤牛排起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

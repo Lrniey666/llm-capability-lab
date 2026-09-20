@@ -1,0 +1,229 @@
+API基本資訊
+Base URL: https://www.iai.nkust.edu.tw/aihub
+API_KEY請至 https://www.iai.nkust.edu.tw/apply 申請
+
+使用資訊
+1. 查看所有模型
+端點
+POST v1/models
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/models
+參數說明
+model (必填)
+要使用的模型
+可用模型請透過查看所有模型API查看
+curl範例
+curl -X GET
+  '<https://www.iai.nkust.edu.tw/aihub/v1/models>'
+  -H 'accept: application/json'
+  -H 'Authorization: Bearer <API_KEY>'
+
+Response
+會回傳傳入的API_KEY可用的模型列表
+範例
+{
+    "data": [
+        {
+            "id": "Furen-max",
+            "object": "model",
+            "created": 1677610602,
+            "owned_by": "openai"
+        },
+        {
+            "id": "Furen-large",
+            "object": "model",
+            "created": 1677610602,
+            "owned_by": "openai"
+        },
+        "object": "list"
+}
+
+2. LLM 對話 (Chat Completions)
+端點
+POST /v1/chat/completions
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/chat/completions
+參數說明（JSON Body）
+model（必填）
+要使用的 LLM 模型名稱
+可用模型請透過 1. 查看所有模型 API 查看可用模型
+messages（必填）
+對話訊息陣列（由多個 message 組成）
+每個 message 至少包含：
+role：訊息角色（常見：user、assistant、system）
+content：文字內容
+JSON 範例格式
+{
+  "model": "Furen-large",
+  "messages": [
+    { "role": "user", "content": "你好" }
+  ]
+}
+
+curl 範例
+curl -X POST 'https://www.iai.nkust.edu.tw/aihub/v1/chat/completions' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "model": "Furen-large",
+    "messages": [
+      { "role": "user", "content": "你好" }
+    ]
+  }'
+
+3. ASR 語音轉文字 (Speech-to-Text)
+端點
+POST /v1/audio/transcriptions
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/audio/transcriptions
+參數說明（Form Data）
+file（必填）
+音檔上傳欄位
+範例：file=@{你的音檔名稱}.mp3
+model（必填）
+ASR 模型名稱
+範例：Asr
+language（選填，但建議填）
+音檔語言代碼
+範例：zh（中文）、en（英文）
+response_format（選填）
+回傳格式
+常見：json
+curl 範例
+curl '<https://www.iai.nkust.edu.tw/aihub/v1/audio/transcriptions>' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -F 'file=@{你的音檔名稱}.mp3' \
+  -F 'model=Asr' \
+  -F 'language=zh' \
+  -F 'response_format=json'
+
+4. TTS 文字轉語音 (Text-to-Speech)
+端點
+POST /v1/audio/speech
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/audio/speech
+參數說明（JSON Body）
+model（必填）
+TTS 模型名稱
+範例：Speaker
+input（必填）
+要轉成語音的文字內容
+範例：你好
+response_format（選填）
+輸出音檔格式
+常見：mp3、wav（依服務支援為準）
+curl 範例（輸出成檔案）
+curl -X POST '<https://www.iai.nkust.edu.tw/aihub/v1/audio/speech>' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "model": "Speaker",
+    "input": "你好",
+    "voice": "taiwan_girl",
+    "response_format": "mp3"
+  }' \
+  --output output.mp3
+
+5. Embedding 向量化 (Embeddings)
+端點
+POST /v1/embeddings
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/embeddings
+參數說明（JSON Body）
+model（必填）
+Embedding 模型名稱
+範例：Embedding
+input（必填）
+要轉成向量的文字（也可依服務支援傳入多筆文字）
+範例：你好
+encoding_format（必填）
+指定要回傳的格式編碼（可選：float, base64, bytes or bytes_only）
+範例：float
+curl 範例
+curl -X POST '<https://www.iai.nkust.edu.tw/aihub/v1/embeddings>' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "model": "Embedding",
+    "input": "你好",
+    "encoding_format": "float"
+  }'
+
+6. 繪圖 / 影像生成 (Image Generation)
+兩種方式都可以生成圖片，但回傳通常是 base64，需要自行解碼轉成圖片檔。
+方式 A：Images API（Generations）
+端點
+POST /v1/images/generations
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/images/generations
+參數說明（JSON Body）
+model（必填）
+繪圖模型名稱
+範例：Pic-small
+prompt（必填）
+繪圖提示詞
+n（選填）
+生成張數
+範例：1
+size（選填）
+圖片尺寸
+範例：1024x1024
+curl 範例
+curl -X POST '<https://www.iai.nkust.edu.tw/aihub/v1/images/generations>' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -d '{
+    "model": "z-image",
+    "prompt": "A beautiful sunset over the ocean, digital art",
+    "n": 1,
+    "size": "1024x1024"
+  }'
+
+方式 B：Chat Completions（用對話形式出圖）
+端點
+POST /v1/chat/completions
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/chat/completions
+curl 範例
+curl -X POST '<https://www.iai.nkust.edu.tw/aihub/v1/chat/completions>' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <API_KEY>' \
+  -d '{
+    "model": "Pic-small",
+    "messages": [
+      { "role": "user", "content": "A beautiful sunset over the ocean, digital art" }
+    ]
+  }'
+
+7. Reranker 模型
+端點
+POST v1/rerank
+完整網址：https://www.iai.nkust.edu.tw/aihub/v1/rerank
+參數說明（JSON Body）
+model（必填）
+Reranker模型名稱
+範例：Furen-reranker
+query（必填）
+使用者的原始搜尋字串。也就是你想要用來檢索、比對目標文本的關鍵字或問 題描述（例如： 「如何處理貓咪挑食」 ） 。
+documents（必填）
+待排序的候選文件清單。通常是一個字串陣列（字串清單） ，裡面包含初步檢
+ 索（如向量搜尋）出來、需要被重新排列優先順序的文本片段。
+top_n（選填）
+指定返回的最高關聯度文件數量。例如設定為 3，系統就只會挑選並返回經過
+ 重排後得分最高的前 3 筆結果，用來節省後續 LLM 處理的 To
+ ken 數量。
+範例：3
+curl 範例
+curl -X POST '<https://www.iai.nkust.edu.tw/aihub/v1/rerank>' \
+  -H 'Content-Type: application/json' \
+  -H 'x-litellm-api-key: Bearer <API key>' \
+  -d '{
+		"model": "Furen-reranker",
+		"query": "什麼是機器學習?",
+		"documents": [
+			"機器學習是人工智慧的一個分支",
+			"今天天氣很好",
+			"深度學習使用神經網路"
+		],
+    "top_n": 2
+  }'
+
+常見注意事項
+請勿把 API Key 寫死在公開文件或前端程式碼；建議放在環境變數（例如：IAI_API_KEY）。
+Windows PowerShell 的 curl 行為可能和 Linux/macOS 不同；若遇到引號或換行問題，建議改用單行指令或用 Postman 測試。
+

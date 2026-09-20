@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "Screenshot_20260916-1740512.jpg",
+  "mime": "image/jpeg",
+  "bytes": 228531,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"飲法類\",\n      \"items\": [\n        {\"name\": \"普泡\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"堆根\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"酪魚\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"德式香腸\", \"price\": 60, \"unit\": \"份\"},\n        {\"name\": \"柳橙雞腿\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"卡拉雞腿\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"海苔花枝煎餅\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"燒烤雞腿\", \"price\": 80, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"茶飲類\",\n      \"items\": [\n        {\"name\": \"原味\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"玉米\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"火腿\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"肉片\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"鹹狗\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"鯉魚\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"招牌\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"堆根\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"雞排\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"起司\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"燒雞\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"雞腿起司\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"炸雞排\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"里肌雞排\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"德式香腸起司\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"卡拉雞腿\", \"price\": 75, \"unit\": \"份\"},\n        {\"name\": \"牛肉起司\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"燒烤雞排\", \"price\": 75, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"加餐\",\n      \"items\": [\n        {\"name\": \"雞泥\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"堆根\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"雞排\", \"price\": 50, \"unit\": \"份\"},\n        {\"name\": \"里肌雞排\", \"price\": 65, \"unit\": \"份\"},\n        {\"name\": \"卡拉雞腿\", \"price\": 75, \"unit\": \"份\"},\n        {\"name\": \"燒烤雞腿\", \"price\": 75, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"奶茶類\",\n      \"items\": [\n        {\"name\": \"奶油\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"香草\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"可可\", \"price\": 35, \"unit\": \"份\"},\n        {\"name\": \"咖啡牛奶\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"奶油紅茶\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"奶油綠茶\", \"price\": 30, \"unit\": \"份\"},\n        {\"name\": \"純鮮奶茶\", \"price\": 40, \"unit\": \"份\"},\n        {\"name\": \"蘇打米花\", \"price\": 25, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"研磨咖啡\",\n      \"items\": [\n        {\"name\": \"美式咖啡\", \"price\": 45, \"unit\": \"份\"},\n        {\"name\": \"拿鐵咖啡\", \"price\": 55, \"unit\": \"份\"},\n        {\"name\": \"摩卡\", \"price\": 60, \"unit\": \"份\"},\n        {\"name\": \"焙煉拿鐵\", \"price\": 60, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"飯/麵/食物類\",\n      \"items\": [\n        {\"name\": \"海鮮燒麵意麵\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"海鮮燒麵雞絲\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"海鮮燒麵冬粉\", \"price\": 80, \"unit\": \"份\"},\n        {\"name\": \"海鮮燒麵龍蝦\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"燒烤牛肉麵\", \"price\": 105, \"unit\": \"份\"},\n        {\"name\": \"燒烤排骨麵\", \"price\": 105, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"排骨\",\n      \"items\": [\n        {\"name\": \"排骨\", \"price\": 95, \"unit\": \"盤\"},\n        {\"name\": \"雞排\", \"price\": 105, \"unit\": \"盤\"},\n        {\"name\": \"雞腿\", \"price\": 105, \"unit\": \"盤\"},\n        {\"name\": \"紅燒牛肉\", \"price\": 105, \"unit\": \"盤\"},\n        {\"name\": \"香腸排骨\", \"price\": 95, \"unit\": \"盤\"},\n        {\"name\": \"燒烤雞腿\", \"price\": 105, \"unit\": \"盤\"},\n        {\"name\": \"碳烤雞腿\", \"price\": 105, \"unit\": \"盤\"}\n      ]\n    },\n    {\n      \"name\": \"套餐\",\n      \"items\": [\n        {\"name\": \"雞蛋套餐\", \"price\": 40, \"unit\": \"份\", \"note\": \"含雞蛋\"},\n        {\"name\": \"肉蛋套餐\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"雙雞蛋套餐\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"堆根雞蛋套餐\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"德式香腸套餐\", \"price\": 90, \"unit\": \"份\"},\n        {\"name\": \"黑椒排骨套餐\", \"price\": 85, \"unit\": \"份\"},\n        {\"name\": \"排骨套餐\", \"price\": 95, \"unit\": \"份\"},\n        {\"name\": \"雞排套餐\", \"price\": 105, \"unit\": \"份\"},\n        {\"name\": \"雞腿套餐\", \"price\": 105, \"unit\": \"份\"},\n        {\"name\": \"紅燒牛肉套餐\", \"price\": 105, \"unit\": \"份\"},\n        {\"name\": \"香腸排骨套餐\", \"price\": 95, \"unit\": \"份\"},\n        {\"name\": \"碳烤雞腿套餐\", \"price\": 105, \"unit\": \"份\"}\n      ]\n    },\n    {\n      \"name\": \"海鮮健康餐\",\n      \"items\": [\n        {\"name\": \"海鮮燒麵\", \"price\": 130, \"unit\": \"份\", \"note\": \"加海鮮燒麵或其他海鮮\"}\n      ]\n    },\n    {\n      \"name\": \"套餐組合\",\n      \"items\": [\n        {\"name\": \"1.海鮮燒麵\", \"price\": 135, \"unit\": \"份\", \"note\": \"加海鮮燒麵、雞蛋沙拉、香腸或德式香腸\"},\n        {\"name\": \"2.燒烤排骨\", \"price\": 135, \"unit\": \"份\", \"note\": \"加雞蛋、香腸、小肉豆\"},\n        {\"name\": \"3.奶油焗蛋\", \"price\": 165, \"unit\": \"份\", \"note\": \"加雞蛋利維麵包、雞蛋沙拉、香腸或德式香腸\"},\n        {\"name\": \"4.燒烤排骨\", \"price\": 160, \"unit\": \"份\", \"note\": \"加雞蛋、香腸、小肉豆\"},\n        {\"name\": \"5.海鮮肉餐\", \"price\": 175, \"unit\": \"份\", \"note\": \"加雞蛋、香腸、里肌雞排、炸雞腿或雞翅\"}\n      ]\n    }\n  ]\n  },\n  \"notes\": [\n    \"海鮮大部分採用海鮮燒麵，如有海鮮過敏者請勿食用\",\n    \"雞蛋可加煎或炸，雞蛋內可加雞肉或其他配料（牛肉、香腸等）\",\n    \"海鮮燒麵價格包含海鮮，如需加其他海鮮需額外收費\",\n    \"奶油焗蛋價格包含1個雞蛋，如需加雞蛋需額外收費\",\n    \"10月1日至5月31日（雞蛋價格調整）\",\n    \"奶油焗蛋價格包含1個雞蛋，如需加雞蛋需額外收費\",\n    \"以上套餐均可加茶/飲料，更換飲品需額外收費\",\n    \"建議此處顯示過敏原提示\",\n    \"加餐+15元，加起司+10元\"\n  ]\n}\n```",
+  "parsed": null,
+  "parse_error": "Extra data: line 131 column 4 (char 4725)",
+  "latency_s": 24.332163499988383,
+  "prompt_tokens": 2277,
+  "completion_tokens": 2591,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "bagel_cafe_board",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.5,
+    "price_recall": 0.5,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "薯泥",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "培根",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "香雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "德式香腸",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "原味蛋餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "美式咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "拿鐵咖啡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "海鮮鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

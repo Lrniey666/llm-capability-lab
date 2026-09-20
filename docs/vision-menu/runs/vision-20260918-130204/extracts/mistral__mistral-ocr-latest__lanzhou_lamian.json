@@ -1,0 +1,224 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1742312.jpg",
+  "mime": "image/jpeg",
+  "bytes": 242159,
+  "ok": true,
+  "text": "# 蘭州電郵拉麵館\n\n電話:3532713\n\n營業時間\n\n11:00~14:00\n\n16:30~20:30\n\n(每週五公休)\n\n## 點菜單\n\n外帶 ☑\n\n餐具 ☐\n\n碗 ☐\n\n內用 ☐\n\n桌號 ☐\n\n|  麵類 | 單價 | 數量 | 拉麵 | 刀削麵 | 加麵10元  |\n| --- | --- | --- | --- | --- | --- |\n|  金牌牛三寶麵 | 180 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  半筋半肉麵 | 150 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  牛筋牛肚麵 | 150 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  牛腱牛肉麵 | 130 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  牛肉清湯麵 | 75 |  | 湯 ☐ | 湯 ☐ |   |\n|  豬肋排骨麵 | 110 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  豬腳麵 | 110 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  龍骨麵 | 90 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  叉燒麵 | 80 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  炸醬麵 | 80 |  | 乾 ☐ | 乾 ☐ |   |\n|  榨菜肉絲麵 | 80 |  | 乾 ☐ 湯 ☐ | 乾 ☐ 湯 ☐ |   |\n|  豬肉清湯麵 | 55 |  | 湯 ☐ | 湯 ☐ |   |\n|  水餃粒 | 6 |  | 最少10粒 |   |   |\n|  **湯類**  |   |   |   |   |   |\n|  牛肉湯 | 130 |  |  |  |   |\n|  排骨湯 | 80 |  |  |  |   |\n|  貢丸湯 | 35 |  |  |  |   |\n|  榨菜肉絲湯 | 35 |  |  |  |   |\n|  紫菜湯 | 20 |  |  |  |   |\n|  燙青菜 | 40 |  |  |  |   |\n|  **湯味類**  |   |   |   |   |   |\n|  牛腱肉切盤 | 130 |  |  |  |   |\n|  牛肚切盤 | 130 |  |  |  |   |\n|  牛筋切盤 | 130 |  |  |  |   |\n|  豬腳切盤 | 120 |  |  |  |   |\n\n※本店不附清湯",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 1.146839799999725,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "lanzhou_lamian",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 21,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "金牌牛三寶麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "半筋半肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛筋牛肚麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛腱牛肉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉清湯麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肋排骨麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬腳麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "龍骨麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "叉燒麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "炸醬麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬肉清湯麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "水餃",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛肉湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "排骨湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "貢丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "榨菜肉絲湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紫菜湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "燙青菜",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "牛腱肉切盤",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "豬腳切盤",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

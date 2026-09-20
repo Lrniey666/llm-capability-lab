@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "provider": "gemini",
+  "model": "gemini-3.6-flash",
+  "text": "不要解釋。\"\nWait! \"不要 markdown 圍欄\" -> Do NOT use ```json ... ``` codeblocks! Just raw JSON text!\n\nLet's double check the rules:\n- no markdown fences (` ```json ` must NOT be used!)\n- no explanations.\n- JSON schema:\n{\n  \"title\": \"...\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"...\",",
+  "parse_error": "Expecting value: line 1 column 1 (char 0)"
+}

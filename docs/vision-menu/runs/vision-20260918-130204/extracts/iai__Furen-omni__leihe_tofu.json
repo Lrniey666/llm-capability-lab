@@ -1,0 +1,152 @@
+{
+  "provider": "iai",
+  "model": "Furen-omni",
+  "file": "Screenshot_20260916-1744582.jpg",
+  "mime": "image/jpeg",
+  "bytes": 185047,
+  "ok": true,
+  "text": "We need to parse the menu. Title: \"雷荷豆腐鍋專賣店\". So title = \"雷荷豆腐鍋專賣店\". Currency TWD.\n\nCategories: The menu has sections: \"內用\" (dining in) and \"外帶\" (takeout). Under \"內用\", there is \"韓式鍋物 (以下無副餐)\". Then list items. Also \"特色小吃\", \"人氣附餐\". Also \"總計\". Also notes at bottom.\n\nWe need to create categories list. Each category name is the classification name (like \"韓式鍋物\", \"特色小吃\", \"人氣附餐\"). Items within each category.\n\nWe need to extract items with name, price, unit, note. Unit: likely \"份\" (portion) but not always. For dishes, unit maybe \"份\" or \"個\". We'll set unit as \"份\" unless note indicates otherwise (e.g., \"3支\", \"3個\").\n\nWe need to be careful: For items with multiple price options (e.g., \"韓式炸雞 (小/大) (洋釀/粉紅/蜂蜜) 100 / 150\". The note says use the more obvious price. The more obvious likely the larger price? Or maybe the first? The rule: \"同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". For \"韓式炸雞 (小/大) (洋釀/粉紅/蜂蜜) 100 / 150\". The more obvious price maybe 150 (larger). So price 150, note \"小/大 (洋釀/粉紅/蜂蜜)\". Or maybe 100 is for small, 150 for large. The more obvious maybe 150. We'll set price 150, note \"小/大 (洋釀/粉紅/蜂蜜)\". Also there is a slash indicating options.\n\nAlso \"起司蛋捲 100\" etc.\n\nAlso there are notes like \"#加肉片 35\", \"加豬五花 60\", \"起司片 10\", \"升級泡菜鍋+20\". These are notes, not items. Should we include them as items? They are not menu items but notes. The rule: \"notes\" list includes other text. So we can add notes list with those notes.\n\nBut categories: We need to include categories. Let's list categories:\n\n- \"韓式鍋物\" (under 內用)\n- \"特色小吃\"\n- \"人氣附餐\"\n\nAlso maybe \"白飯/冬粉/王子麵\" and \"Q拉麵\" are under \"人氣附餐\"? Actually \"人氣附餐\" includes \"白飯/冬粉/王子麵\" and \"Q拉麵\". So category \"人氣附餐\".\n\nAlso \"外帶\" maybe separate category? The menu has \"外帶\" column but items are same as \"內用\"? The layout shows two columns: \"內用\" left, \"外帶\" right. Items are listed under \"內用\" column, but there are also \"加辣\" checkboxes on right side. The \"外帶\" column maybe for takeout options (maybe same items). But the items are listed under \"內用\". The \"外帶\" header maybe indicates that those items can be taken out. However the items themselves are same. So maybe we treat \"內用\" as category, and \"外帶\" as another category? The spec: categories are classification names. The menu has \"內用\" and \"外帶\" as top-level headings. Under \"內用\", there is \"韓式鍋物\". Under \"外帶\", maybe there are no separate items, just the same items but with \"加辣\" options. The \"外帶\" column seems to align with the same items but with checkboxes for \"加辣\". So maybe we treat \"內用\" as category and \"外帶\" as another category with same items? But the items are same; maybe we need to include both categories with same items? The spec: categories list. If we include both, we duplicate items. Might be okay but maybe not needed. The \"內用\" heading is a category; \"外帶\" maybe another category but items are same. However the items under \"內用\" are listed; there is no separate list under \"外帶\". So maybe \"外帶\" is not a category of items but a service type. The spec expects categories like \"分類名稱\". I'd include \"內用\" as category, and maybe \"外帶\" as separate category with same items? But that would duplicate. Let's examine the structure:\n\nThe top line: \"內用\" (left) and \"外帶\" (right). Under \"內用\", there is \"韓式鍋物 (以下無副餐)\". Then list items. Under \"外帶\", there are checkboxes for \"加辣\" next to each item. So likely the items are same for both dine-in and takeout; the \"外帶\" column just indicates that you can add spicy for takeout. So maybe we treat \"內用\" as category, and \"外帶\" as another category but with same items (maybe no price). However the items are listed under \"內用\". The \"外帶\" column is just a side column for options, not separate items. So maybe we only have categories: \"韓式鍋物\", \"特色小吃\", \"人氣附餐\". Also maybe \"白飯/冬粉/王子麵\" and \"Q拉麵\" are separate items under \"人氣附餐\". So category \"人氣附餐\" includes those two.\n\nAlso there is \"總計\" which is not an item.\n\nNow we need to parse each item.\n\nLet's list items under \"韓式鍋物\":\n\n- 豆腐鍋: price 100. Note: none. Unit: \"份\"? It's a pot dish; likely per person. We'll set unit \"份\". note \"\".\n\n- 牛/豬/雞/蛤蠣(擇一) 豆腐鍋: price 120. note \"\".\n\n- 豆漿鍋: price 100. note \"\".\n\n- 牛/豬/雞/蛤蠣 豆漿鍋: price 120. note \"\".\n\n- 牛/豬/雞/蛤蠣 泡麵鍋: price 120. note \"\".\n\n- 起司牛/豬/雞/蛤蠣 豆腐鍋: price 140. note \"\".\n\n- 烤豬五花 (附白飯): price 150. note \"\".\n\nAlso there is note line: \"#加肉片 35\", \"加豬五花 60\", \"起司片 10\", \"升級泡菜鍋+20\". These are notes, not items. We'll add them to notes list.\n\nNow \"特色小吃\" items:\n\n- 麻藥雞蛋: price 20. note \"\".\n\n- 韓式魚板: price 35. note \"3支100\". Wait there is \"3支100\" next to it. That seems like a combo: 3 pieces for 100? The price column shows 35, then to the right \"3支100\". Possibly the price is 35 for single, and 3 pieces for 100. The more obvious price maybe 100 for 3 pieces. But the rule: use the more obvious price. Which is more obvious? The \"3支100\" indicates a set price. So we could treat the item as \"韓式魚板\" with price 100, note \"3支\". Or we could treat as two items: one single 35, and a set 3支100. The spec says if same item has two prices (size/ set), use the more obvious. The more obvious likely the set price 100. So we set price 100, note \"3支\". But the price column shows 35, then \"3支100\". The \"3支100\" maybe indicates that 3 pieces cost 100. So we could set price 100, note \"3支\". However the \"35\" is also a price. Which is more obvious? The \"3支100\" is more specific. I'd choose price 100, note \"3支\". But the note also includes \"3支100\". Let's think: The item name is \"韓式魚板\". The price column shows \"35\". Then there is \"3支100\". That could be a combo: 3 pieces for 100. So the more obvious price is 100 (for 3 pieces). So we set price 100, note \"3支\". But then the unit maybe \"支\". However we need unit \"份\". The rule: unit \"份\" unless note indicates otherwise. The note \"3支\" indicates unit \"支\". So we could set unit \"支\". But the spec says unit \"份\". It says \"unit\": \"份\". But if note indicates other unit, maybe we still set unit \"份\"? The spec: \"price 用數字；同一品項有大小／套餐與單點兩個價就用較明顯的那個，另一個寫進 note\". It doesn't specify unit changes. It says unit: \"份\". So we keep unit \"份\" for all items, unless note says something else? The example: \"3支100\" maybe note includes \"3支\". But unit remains \"份\"? Not sure. The spec says \"unit\": \"份\". So we will set unit \"份\" for all items, and put note for extra info like \"3支\". So for \"韓式魚板\", price 100, note \"3支\". But the price 35 is also there; maybe we need to include both? The rule: use the more obvious price. So we choose 100. So item: name \"韓式魚板\", price 100, unit \"份\", note \"3支\". However the \"3支100\" maybe indicates that 3 pieces cost 100, but the base price is 35 per piece? Not sure. Let's interpret: The menu shows \"35\" then a checkbox, then \"3支100\" with a checkbox. So maybe you can order 1 piece for 35, or 3 pieces for 100. The more obvious price is 100 (for 3 pieces). So we set price 100, note \"3支\". That seems okay.\n\n- 雞肉棒子 (青蔥/米香): price 30. note \"\".\n\n- 辣炒年糕: price 100. note \"\".\n\n- 韓式炸雞 (小/大) (洋釀/粉紅/蜂蜜): price 100 / 150. The more obvious price is 150 (large). So price 150, note \"小/大 (洋釀/粉紅/蜂蜜)\". Unit \"份\".\n\n- 地瓜薯條: price 50. note \"\".\n\n- 起司蛋捲: price 100. note \"\".\n\n- 花生蜂蜜麻糬: price 25. note \"3個70\". So price 70, note \"3個\". Unit \"份\"? We'll set unit \"份\". note \"3個\".\n\nNow \"人氣附餐\" items:\n\n- 白飯/冬粉/王子麵: price 10. note \"\".\n\n- Q拉麵: price 15. note \"\".\n\nAlso there is \"總計\" but not an item.\n\nNow \"外帶\" maybe not a category; but we could include \"外帶\" as category with same items? The spec: categories are classification names. The top-level headings \"內用\" and \"外帶\" are categories of service type. But the items are under \"內用\". The \"外帶\" column just indicates that you can take out. I'd include \"內用\" as category, and maybe \"外帶\" as another category with same items but note \"外帶\". However the items under \"內用\" already have \"加辣\" options; maybe the \"外帶\" column is just for takeout, but the items are same. So maybe we should create a category \"外帶\" with same items but note \"外帶\". But that duplicates. The spec: \"categories\" list. It doesn't forbid duplicate names, but likely expects distinct categories. I'd include \"內用\" as category, and maybe \"外帶\" as separate category with same items? Let's see if there are any items exclusive to \"外帶\". The menu shows \"外帶\" column but no separate items; just the same items with \"加辣\" checkboxes. So maybe \"外帶\" is not a category of items but a service type. So we might not need to create a category for it. The spec says \"categories\" are classification names. The menu has \"內用\" and \"外帶\" as headings. But \"內用\" is a category of dining location; \"外帶\" is takeout. Items are listed under \"內用\". So maybe we treat \"內用\" as the category name. The \"外帶\" maybe not a category of items but a column. I'd include \"內用\" as category name. Also \"特色小吃\" and \"人氣附餐\" are subcategories under \"內用\"? Actually they are separate sections under \"內用\". So categories: \"內用\" maybe overall, but then subcategories? The spec expects each category name. Could be \"內用\" as category, and items are all items under it, including \"韓式鍋物\", \"特色小吃\", \"人氣附餐\". But then we would have one category with many items. However the example shows categories as separate like \"分類名稱\". In the example they likely have multiple categories. So we should break down by the subheadings: \"韓式鍋物\", \"特色小吃\", \"人氣附餐\". Also maybe \"白飯/冬粉/王子麵\" and \"Q拉麵\" are separate categories? They are under \"人氣附餐\". So we keep them as items within that category.\n\nThus categories list:\n\n1. \"韓式鍋物\"\n2. \"特色小吃\"\n3. \"人氣附餐\"\n\nNow we need to list items for each.\n\nLet's compile items:\n\nCategory \"韓式鍋物\":\n- 豆腐鍋: price 100, unit \"份\", note \"\"\n- 牛/豬/雞/蛤蠣(擇一) 豆腐鍋: price 120, note \"\"\n- 豆漿鍋: price 100, note \"\"\n- 牛/豬/雞/蛤蠣 豆漿鍋: price 120, note \"\"\n- 牛/豬/雞/蛤蠣 泡麵鍋: price 120, note \"\"\n- 起司牛/豬/雞/蛤蠣 豆腐鍋: price 140, note \"\"\n- 烤豬五花 (附白飯): price 150, note \"\"\n\nNote list includes: \"加肉片 35\", \"加豬五花 60\", \"起司片 10\", \"升級泡菜鍋+20\". Also maybe \"以下無副餐\" is note but that's part of category header. We'll add notes list with those strings.\n\nCategory \"特色小吃\":\n- 麻藥雞蛋: price 20, unit \"份\", note \"\"\n- 韓式魚板: price 100, unit \"份\", note \"3支\"\n- 雞肉棒子 (青蔥/米香): price 30, unit \"份\", note \"\"\n- 辣炒年糕: price 100, unit \"份\", note \"\"\n- 韓式炸雞 (小/大) (洋釀/粉紅/蜂蜜): price 150, unit \"份\", note \"小/大 (洋釀/粉紅/蜂蜜)\"\n- 地瓜薯條: price 50, unit \"份\", note \"\"\n- 起司蛋捲: price 100, unit \"份\", note \"\"\n- 花生蜂蜜麻糬: price 70, unit \"份\", note \"3個\"\n\nCategory \"人氣附餐\":\n- 白飯/冬粉/王子麵: price 10, unit \"份\", note \"\"\n- Q拉麵: price 15, unit \"份\", note \"\"\n\nNow notes list: include the note line \"#加肉片 35 □、加豬五花 60 □、起司片 10 □、升級泡菜鍋+20 □\". Also maybe \"以下無副餐\". Also \"營業時間：下午 17 點 ~ 半夜 2 點 週日公休 電話：0926067151\". Also maybe \"雷荷豆腐鍋專賣店\" is title, not note. But we can include other text as notes.\n\nBut the spec: \"notes\": [\"菜單上的其他文字\"] So we need to list other textual info not captured as categories or",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 12.54266639999696,
+  "prompt_tokens": 3239,
+  "completion_tokens": 4096,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "leihe_tofu",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 13,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.7692307692307693,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "豆腐鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "豆漿鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司豆腐鍋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "烤豬五花",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "麻藥雞蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "韓式魚板",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "雞肉棒子",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "辣炒年糕",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "韓式炸雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "地瓜薯條",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "起司蛋捲",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "花生蜂蜜麻糬",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Q拉麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

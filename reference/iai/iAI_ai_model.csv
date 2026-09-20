@@ -1,0 +1,8 @@
+model_name,Prompt,Completion
+Furen-coder,0.2/1M,0.4/1M
+Nkust,0.09/1M,0.34/1M
+bge-m3-embedding,0.003/1M,0.01/1M
+nemotron-omni-30b,0.1/1M,0.2/1M
+nvidia-ultra-550b,0.5/1M,1/1M
+gemma-4-31b,0.15/1M,0.3/1M
+nemotron-3-super-120b,0.2/1M,0.4/1M

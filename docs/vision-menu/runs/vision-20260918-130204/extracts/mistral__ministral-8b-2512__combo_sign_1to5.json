@@ -1,0 +1,148 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-2512",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"5號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 雞蛋堡\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"4號\",\n      \"items\": [\n        {\"name\": \"起司雞蛋堡 + 熱狗\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"3號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 豬肉雞蛋堡\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"2號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 香腸雞蛋堡\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"1號\",\n      \"items\": [\n        {\"name\": \"鐵板麵 + 紅茶\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\"優惠套餐\"]\n}\n```",
+  "parsed": {
+    "title": "",
+    "currency": "TWD",
+    "categories": [
+      {
+        "name": "5號",
+        "items": [
+          {
+            "name": "紅茶 + 雞蛋堡",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "4號",
+        "items": [
+          {
+            "name": "起司雞蛋堡 + 熱狗",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "3號",
+        "items": [
+          {
+            "name": "紅茶 + 豬肉雞蛋堡",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "2號",
+        "items": [
+          {
+            "name": "紅茶 + 香腸雞蛋堡",
+            "price": 75,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "1號",
+        "items": [
+          {
+            "name": "鐵板麵 + 紅茶",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "優惠套餐"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 5.725113899999997,
+  "prompt_tokens": 873,
+  "completion_tokens": 309,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "",
+    "title_hit": true,
+    "item_count": 5,
+    "anchor_n": 5,
+    "name_json_recall": 0.2,
+    "price_json_recall": 0.2,
+    "name_recall": 1.0,
+    "price_recall": 0.2,
+    "extra_names": [
+      "紅茶 + 雞蛋堡",
+      "起司雞蛋堡 + 熱狗",
+      "紅茶 + 豬肉雞蛋堡",
+      "紅茶 + 香腸雞蛋堡"
+    ],
+    "hallucination_n": 4,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}

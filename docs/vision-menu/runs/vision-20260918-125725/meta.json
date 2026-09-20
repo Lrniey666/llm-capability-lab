@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-09-18T04:57:25.299464+00:00",
+  "providers": [
+    "gemini",
+    "mistral",
+    "iai"
+  ],
+  "phase": "catalog",
+  "menu_dir": "C:\\Users\\admin\\dev\\AIPAR-ordering-system-sesearch\\free-llm-api-test\\menu_example",
+  "gold": "C:\\Users\\admin\\dev\\AIPAR-ordering-system-sesearch\\free-llm-api-test\\llm-free-tier-lab\\docs\\vision-menu\\gold.json"
+}

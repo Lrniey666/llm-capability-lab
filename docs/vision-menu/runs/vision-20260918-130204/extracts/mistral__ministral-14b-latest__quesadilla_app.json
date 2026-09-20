@@ -1,0 +1,71 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-174923.png",
+  "mime": "image/png",
+  "bytes": 1977290,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"人氣單點\",\n      \"items\": [\n        {\"name\": \"起司餅 Quesadilla\", \"price\": 129, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火烤雞胸起司餅 Grilled Chicken Quesadilla\", \"price\": 169, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"墨西哥燒豬起司餅 Carnitas Quesadilla\", \"price\": 179, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"火烤牛排起司餅 Steak Quesadilla\", \"price\": 209, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"精選炸物\",\n      \"items\": [\n        {\"name\": \"看不清\", \"price\": 99, \"unit\": \"份\", \"note\": \"圖片上方價格\"},\n        {\"name\": \"看不清\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"圖片下方文字為 C3H6N6 Lee · 10 個月前 shop.ichefpos.com\"}\n      ]\n    }\n  ],\n  \"notes\": [\"現煮研發\"]\n}\n```",
+  "parsed": null,
+  "parse_error": "Expecting value: line 18 column 34 (char 606)",
+  "latency_s": 32.7478121999884,
+  "prompt_tokens": 1734,
+  "completion_tokens": 330,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "quesadilla_app",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 4,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤雞胸起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "墨西哥燉豬起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "火烤牛排起司餡餅",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

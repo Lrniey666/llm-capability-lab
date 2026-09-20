@@ -1,0 +1,107 @@
+{
+  "provider": "mistral",
+  "model": "ministral-3b-2512",
+  "file": "Screenshot_20260916-1235472.jpg",
+  "mime": "image/jpeg",
+  "bytes": 123485,
+  "ok": true,
+  "text": "{\n  \"title\": \"四海豆粕大王\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"牛奶豆浆相關\",\n      \"items\": [\n        {\"name\": \"鮮鮮杏杏香杏酪紅牛奶豆米紅\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原原原原豆\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包包\", \"price\": 15, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"茶類\",\n      \"items\": [\n        {\"name\": \"茶\", \"price\": 20, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"茶\", \"price\": 45, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"豆製品及配菜\",\n      \"items\": [\n        {\"name\": \"豆仁仁豆茶豆牛\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"加加\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"包包\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"頭頭\", \"price\": 25, \"份\", \"note\": \"看不清\"},\n        {\"name\": \"頭頭\", \"price\": 20, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豆包\", \"price\": 40, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"豆包\", \"price\": 35, \"unit\": \"個\", \"note\": \"套餐價格\"},\n        {\"name\": \"豆包\", \"price\": 30, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"豆包\", \"price\": 25, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"豆包\", \"price\": 20, \"unit\": \"個\", \"note\": \"\"},\n        {\"name\": \"豆包\", \"price\": 45, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"其他配菜\",\n      \"items\": [\n        {\"name\": \"豆腐小加\", \"price\": 10, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉肉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤豬頭\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤豬頭\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤肉\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤肉\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤肉\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"烤肉\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"原料豆粕、豆浆、牛奶、豆腐、豆包等\",\n    \"包含頭頭、頭頭頭、豆包頭、豆包頭頭、豆包頭頭頭\",\n    \"加加包包頭頭頭頭\",\n    \"豆包頭頭頭頭頭\",\n    \"豆包頭頭頭頭頭頭\",\n    \"豆包頭頭頭頭頭頭頭\",\n    \"豆包頭頭頭頭頭頭頭頭\",\n    \"烹飪方法如火法、油炸、蒸等\",\n    \"豆包、豆包頭、豆包頭頭、豆包頭頭頭、豆包頭頭頭頭\",\n    \"米粉：35 30 25 元\",\n    \"80 80 80\",\n    \"45 40 40 40 25\",\n    \"45 40 45 40 35 40 35 40 30\",\n    \"看不清的部分：頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭頭",
+  "parsed": null,
+  "parse_error": "Expecting ':' delimiter: line 29 column 40 (char 962)",
+  "latency_s": 5.239830499980599,
+  "prompt_tokens": 929,
+  "completion_tokens": 1339,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "sihai_doujiang",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 8,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "鮮豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鮮奶茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "杏仁茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鹹豆漿",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒冬粉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "鍋燒意麵",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "漢堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "荷包蛋",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

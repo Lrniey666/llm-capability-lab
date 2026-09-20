@@ -1,0 +1,436 @@
+{
+  "provider": "mistral",
+  "model": "ministral-8b-latest",
+  "file": "Screenshot_20260916-1748012.jpg",
+  "mime": "image/jpeg",
+  "bytes": 202500,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"RM. SELERA KAMI\",\n  \"currency\": \"IDR\",\n  \"categories\": [\n    {\n      \"name\": \"Pecel\",\n      \"items\": [\n        {\"name\": \"Pecel ayam (nasi)\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Pecel bebek (nasi)\", \"price\": 170, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Pecel burung (nasi)\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Pecel lele (nasi)\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Avam dan Bebek\",\n      \"items\": [\n        {\"name\": \"Avam penyet (nasi)\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bebek penyet (nasi)\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Tempe dan Nasi Goreng\",\n      \"items\": [\n        {\"name\": \"Tempe penyet (nasi)\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Nasi goreng biasa\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Nasi goreng ati ampela\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Nasi goreng pete\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Nasi goreng special\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Mie Goreng\",\n      \"items\": [\n        {\"name\": \"Mie goreng\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Kwetiau goreng\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Bakso\",\n      \"items\": [\n        {\"name\": \"Bakso kecil\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bakso branak\", \"price\": 160, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bakso urat\", \"price\": 160, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bakso iga\", \"price\": 190, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bakso mercon\", \"price\": 160, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Soto\",\n      \"items\": [\n        {\"name\": \"Soto babat (nasi)\", \"price\": 150, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Soto ayam (nasi)\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Soto Lamongan (nasi)\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Mie Ayam\",\n      \"items\": [\n        {\"name\": \"Mie ayam\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Mie ayam BAKSO\", \"price\": 130, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Sate\",\n      \"items\": [\n        {\"name\": \"Sate ayam (nasi)\", \"price\": 160, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Sate kambing (nasi)\", \"price\": 180, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Ayam Bakar dan Bebek Bakar\",\n      \"items\": [\n        {\"name\": \"Ayam bakar (nasi)\", \"price\": 160, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Bebek bakar (nasi)\", \"price\": 200, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Hari Libur Tersedia\",\n      \"items\": [\n        {\"name\": \"Gado-gado sayur\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Lontong sayur\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Minuman ES\",\n      \"items\": [\n        {\"name\": \"ES Teh manis\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Teh manis Panas\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Kopi hitam\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Kopi susu\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"Minuman Campur\",\n      \"items\": [\n        {\"name\": \"Es campur\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Es jeruk\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Soda susu\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"Susu Jahe\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"SUSU COKLAT\", \"price\": 50, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"TEL: 0966955832\",\n    \"LINE ID: 看不清\",\n    \"BKS Meja A 001\",\n    \"Hari libur tersedia\"\n  ]\n}\n```",
+  "parsed": {
+    "title": "RM. SELERA KAMI",
+    "currency": "IDR",
+    "categories": [
+      {
+        "name": "Pecel",
+        "items": [
+          {
+            "name": "Pecel ayam (nasi)",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Pecel bebek (nasi)",
+            "price": 170,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Pecel burung (nasi)",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Pecel lele (nasi)",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Avam dan Bebek",
+        "items": [
+          {
+            "name": "Avam penyet (nasi)",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bebek penyet (nasi)",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Tempe dan Nasi Goreng",
+        "items": [
+          {
+            "name": "Tempe penyet (nasi)",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Nasi goreng biasa",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Nasi goreng ati ampela",
+            "price": 130,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Nasi goreng pete",
+            "price": 130,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Nasi goreng special",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Mie Goreng",
+        "items": [
+          {
+            "name": "Mie goreng",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Kwetiau goreng",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Bakso",
+        "items": [
+          {
+            "name": "Bakso kecil",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bakso branak",
+            "price": 160,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bakso urat",
+            "price": 160,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bakso iga",
+            "price": 190,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bakso mercon",
+            "price": 160,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Soto",
+        "items": [
+          {
+            "name": "Soto babat (nasi)",
+            "price": 150,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Soto ayam (nasi)",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Soto Lamongan (nasi)",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Mie Ayam",
+        "items": [
+          {
+            "name": "Mie ayam",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Mie ayam BAKSO",
+            "price": 130,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Sate",
+        "items": [
+          {
+            "name": "Sate ayam (nasi)",
+            "price": 160,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Sate kambing (nasi)",
+            "price": 180,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Ayam Bakar dan Bebek Bakar",
+        "items": [
+          {
+            "name": "Ayam bakar (nasi)",
+            "price": 160,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Bebek bakar (nasi)",
+            "price": 200,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Hari Libur Tersedia",
+        "items": [
+          {
+            "name": "Gado-gado sayur",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Lontong sayur",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Minuman ES",
+        "items": [
+          {
+            "name": "ES Teh manis",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Teh manis Panas",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Kopi hitam",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Kopi susu",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "Minuman Campur",
+        "items": [
+          {
+            "name": "Es campur",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Es jeruk",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Soda susu",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "Susu Jahe",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "SUSU COKLAT",
+            "price": 50,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "TEL: 0966955832",
+      "LINE ID: 看不清",
+      "BKS Meja A 001",
+      "Hari libur tersedia"
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 19.665802500006976,
+  "prompt_tokens": 2249,
+  "completion_tokens": 1513,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "nana_indonesian",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "RM. SELERA KAMI",
+    "title_hit": true,
+    "item_count": 38,
+    "anchor_n": 8,
+    "name_json_recall": 1.0,
+    "price_json_recall": 1.0,
+    "name_recall": 1.0,
+    "price_recall": 1.0,
+    "extra_names": [
+      "Pecel burung (nasi)",
+      "Pecel lele (nasi)",
+      "Avam penyet (nasi)",
+      "Bebek penyet (nasi)",
+      "Tempe penyet (nasi)",
+      "Nasi goreng ati ampela",
+      "Nasi goreng pete",
+      "Nasi goreng special",
+      "Mie goreng",
+      "Kwetiau goreng",
+      "Bakso kecil",
+      "Bakso branak",
+      "Bakso urat",
+      "Bakso mercon",
+      "Soto babat (nasi)",
+      "Soto ayam (nasi)",
+      "Soto Lamongan (nasi)",
+      "Mie ayam",
+      "Mie ayam BAKSO",
+      "Sate ayam (nasi)",
+      "Sate kambing (nasi)",
+      "Ayam bakar (nasi)",
+      "Gado-gado sayur",
+      "Lontong sayur",
+      "Es campur",
+      "Es jeruk",
+      "Soda susu",
+      "Susu Jahe",
+      "SUSU COKLAT"
+    ],
+    "hallucination_n": 29,
+    "anchors": [
+      {
+        "name": "Pecel ayam",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Pecel bebek",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Nasi goreng biasa",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Bakso iga",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "bebek bakar",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "ES Teh manis",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Kopi hitam",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "Kopi susu",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

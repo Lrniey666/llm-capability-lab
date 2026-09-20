@@ -1,0 +1,89 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1739072.jpg",
+  "mime": "image/jpeg",
+  "bytes": 178774,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"看不見\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"熱門小吃\",\n      \"items\": [\n        {\"name\": \"看不見\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炸雞排\", \"price\": 45, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞腿\", \"price\": 55, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞翅\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸雞排(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炸雞腿(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炸雞翅(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"飯類\",\n      \"items\": [\n        {\"name\": \"白飯\", \"price\": 25, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"米飯\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐(小)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"麵類\",\n      \"items\": [\n        {\"name\": \"麵線\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"麵線(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"麵線(小)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炒麵\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炒麵(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"炒麵(小)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"湯類\",\n      \"items\": [\n        {\"name\": \"雞湯\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"雞湯(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"雞湯(小)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"牛肉湯\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"牛肉湯(大)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"牛肉湯(小)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"飯餐套餐\",\n      \"items\": [\n        {\"name\": \"飯餐套餐(1)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(2)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(3)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(4)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(5)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(6)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(7)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(8)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(9)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(10)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(11)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(12)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(13)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(14)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(15)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(16)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(17)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(18)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(19)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"},\n        {\"name\": \"飯餐套餐(20)\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    },\n    {\n      \"name\": \"飲料\",\n      \"items\": [\n        {\"name\": \"可樂\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"雪碧\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"紅茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"綠茶\", \"price\": 25, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"熱咖啡\", \"price\": 30, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"冰咖啡\", \"price\": 35, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"奶茶\", \"price\": 40, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"珍珠奶茶\", \"price\": 45, \"unit\": \"杯\", \"note\": \"\"},\n        {\"name\": \"水\", \"price\": 15, \"unit\": \"杯\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"其他\",\n      \"items\": [\n        {\"name\": \"餐盒\", \"price\": 看不清, \"unit\": \"個\", \"note\": \"看不清\"},\n        {\"name\": \"餐具\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"歡迎光臨\",\n    \"營業時間：06:00-23:00\",\n    \"地址：看不見\",\n    \"電話：0939-135098\",\n    \"QR Code：可見但無法解析內容\",\n    \"午餐時間：11:30-14:00\",\n    \"晚餐時間：17:00-22:00\",\n    \"部分價格看不清楚，請詢問店員\"\n  ]\n}\n```",
+  "parsed": null,
+  "parse_error": "Expecting value: line 8 column 34 (char 137)",
+  "latency_s": 24.131474900001194,
+  "prompt_tokens": 2073,
+  "completion_tokens": 2177,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "yiri_sansan",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": false,
+    "item_count": 0,
+    "anchor_n": 6,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "起司蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "玉米蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "芋泥蛋吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "法國吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "美國牛五花吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "花生吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      }
+    ]
+  }
+}

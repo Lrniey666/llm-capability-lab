@@ -1,0 +1,116 @@
+{
+  "provider": "mistral",
+  "model": "mistral-ocr-latest",
+  "file": "Screenshot_20260916-1743562.jpg",
+  "mime": "image/jpeg",
+  "bytes": 295776,
+  "ok": true,
+  "text": "![img-0.jpeg](img-0.jpeg)\n\n楠梓店 MENU\n\n## 香脆蛋餅\n\n- 原味30\n- 肉鬆40\n- 起司40\n- 玉米40\n- 九層塔40\n- 玉米蔬菜45\n- 火腿50\n- 培根50\n- 熱狗50\n- 薯餅50\n- 蕃茄55\n- 鮪魚60\n- 無敵豬60\n- 胡麻豬60\n- 燒肉65\n- 打拋豬65\n- 九層塔燒肉65\n- 泡菜燒肉65\n- 皮蛋肉鬆65\n- 無敵牛65\n- 胡麻牛65\n- 起司豬75\n- 勁辣雞75\n\n★ 內用低消50元/人\n★ 最後點餐時間為當日凌晨1:30\n\n+10 簡單/煉乳/起司\n+15 粗麵/蔬菜/乳酪烤\n+15 粗麵/蔬菜/乳酪烤\n+15 粗麵/蔬菜/乳酪烤\n\n## 果醬吐司 20 熱壓吐司\n\n- 巧克力\n- 草莓\n- 煉乳\n- 奶酥\n- 花生\n- 香蒜\n- 藍莓\n- 花生\n- 藍莓\n\n## 厚片吐司 30\n\n- 巧克力\n- 草莓\n- 煉乳\n- 奶酥\n- 花生\n- 香蒜\n- 藍莓\n- 花生\n- 藍莓\n\n## 蛋蛋吐司\n\n- 炎蛋30\n- 火腿30\n- 起司40\n- 肉鬆40\n- 玉米40\n- 培根50\n- 鮪魚55\n- 薯餅55\n- 燒肉60\n- 雙層起司65\n- 豬排蛋65\n- 氧死你豬排75\n- 紐澳良蛋75\n- 勁辣雞75\n- 宇宙牛蛋75\n\n- 巧克力35\n- 草莓35\n- 煉乳35\n- 奶酥35\n- 花生35\n- 藍莓35\n- 香蒜35\n- 起司45\n- 培根55\n- 鮪魚55\n- 玉米火腿55\n- 壽喜燒55\n- 壽喜燒牛60\n- 德式香腸60\n- 泡菜燒肉65\n- 蜂蜜芥末/雞雞65\n\n## 酥皮吐司\n\n- 巧克力40\n- 草莓40\n- 煉乳40\n- 奶酥40\n- 花生40\n- 藍莓40\n- 香蒜40\n- 起司50\n- 火腿50\n- 肉鬆50\n- 培根55\n- 鮪魚60\n- 鮪魚60\n- 燒肉60\n\n外帶\n\n內用/桌號\n\n## 潛水堡\n\n- 深海鮪魚60\n- 培育潛水堡65\n- 胡麻豬70\n- 泡菜燒肉70\n- 壽喜燒牛70\n- 黑帶豬排75\n- 勁辣雞排75\n- 宇宙牛75\n- 紐澳良雞排75\n- 雙層起司75\n- 雙層起司牛110\n\n## 漢堡\n\n- 豬肉堡50\n- 深海鮪魚60\n- 泡菜燒肉70\n- 壽喜燒牛70\n- 黑帶豬排75\n- 勁辣雞排75\n- 宇宙牛75\n- 紐澳良雞排75\n- 雙層起司75\n- 雙層起司牛110\n\n## 總匯三明治\n\n- 鮪魚總匯90\n- 豬排總匯90\n- 宇宙牛總匯95\n- 勁辣雞總匯95\n\n## 煎烤厚片 想吃麵食\n\n- 培根披薩65\n- 鮪魚披薩75\n- 爆雞披薩75\n\n- 義大利肉醬麵65\n- 蘑菇醬義大利麵65\n- 黑胡椒醬義大利麵65\n- 青醬蛤蜊義大利麵85\n- 白醬蛤蜊義大利麵85\n- 九層塔炒意麵75\n- XO醬炒泡麵90\n- 炒冬粉70\n- 炒泡麵75\n- 炒烤龍75\n- 秘湯醬燒炒烤龍牛五花100\n- 豬樽花95\n- 鍋燒意麵85\n- 鍋燒冬粉85\n- 鍋燒雞絲85\n- 鍋燒烤龍85\n- 公仔麵95\n- 薯茄意麵95\n- 麻辣鍋燒意麵95\n- 剝皮辣椒麵95\n- 九層塔蛤仔烤龍100\n- 紅燒牛肉麵125\n\n## 炸物小食\n\n- 半熟蛋15\n- 全熟蛋15\n- 蔥蛋20\n- 熱狗20\n- 起司蛋25\n- 薯餅25\n- 薯條35\n- 洋蔥圓35\n- 甜不辣35\n- 小豆仔30\n- 小銀絲卷35\n- 培根可樂餅30\n- 熱狗吃蛋40\n- 起司QQ條45\n\n- 脆薯45\n- 炸蝦55\n- 炸豬排40\n- 炸冰淇淋30\n- 波波薯40\n- 花痴丸40\n- 蕃茄糕40\n- 雞塊40\n- 雞米球40\n- 雞柳條40\n- 勁辣雞排50\n- 太陽薯餅50\n- 紐澳良雞排50\n- 小豆仔吃蛋45\n- 蕃茄糕炒蛋55\n\n## 桃飲料\n\n- 紅茶20\n- 無糖綠茶20\n- 豆漿30\n- 鮮奶茶35\n- 蜂蜜奶40\n- 冬瓜茶30\n- 冬瓜綠30\n- 冬瓜鮮奶35\n- 冬瓜豆漿35\n- 冬瓜檸檬40\n- 可爾必思25\n- 雪碧25\n- 可樂25\n- 檸檬雪碧40\n- 紫色狂想60\n- (內有酒精成份)\n\n## 想喝湯\n\n- 玉米濃湯40\n- 蛋花湯35\n\n## 甜點\n\n- 烤牛奶40\n- 炸湯圓\n- 花生40\n- 芝麻40\n- 綜合40\n- 薯麵漿\n- 花生65\n- 乳酪65\n- 素華120\n- 炸物拼盤\n- (內有酒精成份)",
+  "parsed": null,
+  "parse_error": "no JSON object",
+  "latency_s": 8.325110100005986,
+  "prompt_tokens": null,
+  "completion_tokens": null,
+  "error": null,
+  "status": null,
+  "endpoint": "ocr",
+  "image_id": "owl_nanzi",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 9,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.8888888888888888,
+    "price_recall": 0.8888888888888888,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "果醬吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "厚片吐司",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香脆蛋餅原味",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "巧克力棉花糖",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "深海鮪魚潛水堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "雙層起司牛",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮪魚總匯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

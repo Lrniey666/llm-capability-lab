@@ -1,0 +1,1428 @@
+{
+  "started_at": "2026-09-16T13:35:04.086687+00:00",
+  "providers": [
+    {
+      "provider": "iai",
+      "label": "iAI Furen-coder",
+      "model": "Furen-coder",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.9636868375009726,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "18 個漢字",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 1.9125950000016019,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 1.9070571000047494,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.7377913000018452,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.5777068999996118,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.6575833999995666,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.6510418000034406,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.6777020999979868,
+          "model": "Furen-coder",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.5880170999989787,
+          "model": "Furen-coder",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Furen-large",
+      "model": "Furen-large",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.0791160250005305,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "82 個漢字",
+          "text": "We need to respond in Chinese, one sentence, self-introduction, not exceeding 40 characters. Must follow identity: \"我是由國立高雄科技大學提供的 AI 助理服務。\" That's 23 characters? Let's count: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 AI15 助16理17服18務19。 Actually need to count Chinese characters plus maybe spaces? The phrase \"我是由國立高雄科技大學提供的 AI 助理服務。\" Count characters: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 (space?) Actually there is a space before AI? The phrase includes a space: \"AI\". Usually spaces not counted as Chinese characters. Let's count Chinese characters only: 我(1)是2由3國4立5高6雄7科8技9大10學11提12供13的14 AI",
+          "latency_s": 0.06213260000004084,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 0.1178433999994013,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.05748870000024908,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.07019969999964815,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.07534320000195294,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.06653900000310387,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.11289359999864246,
+          "model": "Furen-large",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.07048800000120536,
+          "model": "Furen-large",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Furen-max",
+      "model": "Furen-max",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 8.244487299999037,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "17 個漢字",
+          "text": "我是國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 1.7421715999989829,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 6.722215199999482,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 1.3150810000006459,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 2.2103478999997606,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 2.618764299997565,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 2.0172796999977436,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 7.668354299999919,
+          "model": "Furen-max",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 41.661684399998194,
+          "model": "Furen-max",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Furen-omni",
+      "model": "Furen-omni",
+      "kind": "chat",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        7,
+        8
+      ],
+      "mean_latency_s": 0.8774543624999751,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "18 個漢字",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 1.3321109999997134,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "We need to parse the conversation.\n\nSystem message: identity rule: must answer identity questions with \"我是由台灣國立高雄科技大學提供的 AI 助理服務。\" etc. But user is asking: \"我叫什麼名字？最喜歡哪個城市？只回答：名字、城市。\" So they ask what is my name? Actually they ask \"我叫什麼名字？\" meaning \"What is my name?\" Wait they ask \"我叫什麼名字？\" which is \"What is my name?\" But they are asking about themselves, not about the assistant. The user says \"我叫什麼名字？最喜歡哪個城市？只回答：名字、城市。\" So they want the assistant to answer: name (the user's name) and city (the user's favorite city). The user previously said: \"請記住：我叫林小華，最喜歡的城市是台南。\" So the user's name is 林小華, city is 台南. The instruction: \"只回答：名字、城市。\" So we must answer in one line? It says",
+          "latency_s": 1.8411612999989302,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "我是由國立高雄科",
+          "latency_s": 0.9255401999980677,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.2727295000004233,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.36797329999899375,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.6221155999992334,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.7540432000023429,
+          "model": "Furen-omni",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "We need to follow the identity rule: answer \"我是由國立高雄科技大學提供的 AI 助理服務。\" The user asks: \"Python 執行 a=[1,2,3]; print(a[-1]) 的輸出是什麼？只輸出結果。\" They want only the result, not extra text. But the identity rule says we must answer with the identity statement. However the instruction says \"只輸出結果\" meaning only output the result. But the higher-level instruction (system) says we must follow identity rule: we must answer with the identity statement, not just the result. The system instruction overrides user request. So we must respond with the identity statement, not just \"3\". The identity rule says: \"我是由台灣國立高雄科技大學提供的 AI 助理服務。\" Actually the standard answer: \"我是由台灣國立高雄科技大學提供的 AI 助理服務。\" The example says \"我是由國立高雄科技大學提供的 AI 助理服務。\" Slight variation. Let's use the exact phrase: \"我是由國立",
+          "latency_s": 0.9039608000020962,
+          "model": "Furen-omni",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Furen-std",
+      "model": "Furen-std",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.383042812498843,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "18 個漢字",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 0.519220199999836,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 1.0844857000010961,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.28009019999808515,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.27296669999850565,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.21663409999746364,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.24619600000005448,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.23376309999730438,
+          "model": "Furen-std",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.21098649999839836,
+          "model": "Furen-std",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI gemma-4-31b",
+      "model": "gemma-4-31b",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.44711027500034106,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "18 個漢字",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 0.5211096999992151,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 1.0801287000031152,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.29355109999960405,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.708495099999709,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.22535079999943264,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.2551305000015418,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.2691254999990633,
+          "model": "gemma-4-31b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.22399080000104732,
+          "model": "gemma-4-31b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI nemotron-3-super-120b",
+      "model": "nemotron-3-super-120b",
+      "kind": "chat",
+      "conversation": [
+        3,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        8,
+        8
+      ],
+      "mean_latency_s": 0.9615799374987546,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "18 個漢字",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 1.8204937999980757,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 1.934248599998682,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 0.7234118999986094,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.5685387999983504,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.6412984999988112,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.6835138999995252,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.6687172999991162,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.6524166999988665,
+          "model": "nemotron-3-super-120b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI nemotron-omni-30b",
+      "model": "nemotron-omni-30b",
+      "kind": "chat",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        7,
+        8
+      ],
+      "mean_latency_s": 0.7406753999998728,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "68 個漢字",
+          "text": "We need to follow identity rule: respond with \"我是由國立高雄科技大學提供的 AI 助理服務。\" That's within 40 Chinese characters? Let's count: \"我是由國立高雄科技大學提供的 AI 助理服務。\" Characters: 我(1) 是2 由3 國4 立5 高6 雄7 科8 技9 大10 學11 提12 供13 的14 空? Actually \"的\" counts as a character, then \"A\" maybe counts as a character? Chinese characters count includes Latin letters? Usually each Latin letter counts as a character. Let's count precisely: \"我\"1 \"是\"2 \"由\"3 \"國\"4 \"立\"5 \"高\"6 \"雄\"7 \"科\"8 \"技\"9 \"大\"10 \"學\"11 \"提\"12 \"供\"13 \"的\"14 \" \" (space?) Not count? Probably spaces not count. \"A\"15 \"I\"16 \" \" maybe not count. \"助\"17 \"理\"18 \"",
+          "latency_s": 0.9165214999993623,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 1.4206598000018857,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "我是由國立高雄科技大學提供的 AI 助理服務。",
+          "latency_s": 1.370073300000513,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.2602642999991076,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.38177230000292184,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.6483696999966924,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 0.351551699997799,
+          "model": "nemotron-omni-30b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.5761906000007002,
+          "model": "nemotron-omni-30b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Nkust",
+      "model": "Nkust",
+      "kind": "chat",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        5,
+        5
+      ],
+      "total": [
+        7,
+        8
+      ],
+      "mean_latency_s": 1.2563413249995392,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "13 個漢字",
+          "text": "此問題不在本服務提供的範圍",
+          "latency_s": 1.003113900002063,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": false,
+          "note": "缺少 ['林小華', '台南']",
+          "text": "此問題不在本服務提供的範圍",
+          "latency_s": 0.3110469000021112,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "河愛雄高",
+          "latency_s": 3.075634299999365,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 1.084346399999049,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.8158182999977726,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 1.4584188999979233,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": true,
+          "note": "找到 22",
+          "text": "22",
+          "latency_s": 1.1991258999987622,
+          "model": "Nkust",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 1.1032259999992675,
+          "model": "Nkust",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI nvidia-ultra-550b",
+      "model": "nvidia-ultra-550b",
+      "kind": "chat",
+      "conversation": [
+        0,
+        3
+      ],
+      "logic": [
+        0,
+        5
+      ],
+      "total": [
+        0,
+        8
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": false,
+          "note": "呼叫失敗",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "nvidia-ultra-550b",
+          "error": "Error code: 400 - {'error': {'message': '/chat/completions: Invalid model name passed in model=nvidia-ultra-550b. Call `/v1/models` to view available models for your key.', 'type':"
+        }
+      ]
+    },
+    {
+      "provider": "local",
+      "label": "Local (Qwen3.5-4B)",
+      "model": "qwen3.5:4b",
+      "kind": "chat",
+      "conversation": [
+        2,
+        3
+      ],
+      "logic": [
+        4,
+        5
+      ],
+      "total": [
+        6,
+        8
+      ],
+      "mean_latency_s": 0.3838562749997436,
+      "runs": [
+        {
+          "case_id": "greet",
+          "category": "conversation",
+          "title": "中文自我介紹",
+          "ok": true,
+          "note": "17 個漢字",
+          "text": "我是 AI 助手，隨時準備為您提供資訊與協助。",
+          "latency_s": 0.7129414000010001,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "memory",
+          "category": "conversation",
+          "title": "多輪記住名字與城市",
+          "ok": true,
+          "note": "命中關鍵字",
+          "text": "林小華、台南",
+          "latency_s": 0.6347548000012466,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "instruction",
+          "category": "conversation",
+          "title": "指令遵循（倒排四字）",
+          "ok": false,
+          "note": "缺少 ['河愛雄高']",
+          "text": "河高雄愛",
+          "latency_s": 0.3412724999980128,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "math",
+          "category": "logic",
+          "title": "乘法 17×24",
+          "ok": true,
+          "note": "找到 408",
+          "text": "408",
+          "latency_s": 0.2760497999988729,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "syllogism",
+          "category": "logic",
+          "title": "三段論（貓會喵）",
+          "ok": true,
+          "note": "回答會",
+          "text": "會",
+          "latency_s": 0.2264517999974487,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "probability",
+          "category": "logic",
+          "title": "紅球機率",
+          "ok": true,
+          "note": "分數命中",
+          "text": "3/5",
+          "latency_s": 0.33986559999902966,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "farm",
+          "category": "logic",
+          "title": "雞牛腿數",
+          "ok": false,
+          "note": "沒有 22（看到 [46]）",
+          "text": "46",
+          "latency_s": 0.330277400000341,
+          "model": "qwen3.5:4b",
+          "error": null
+        },
+        {
+          "case_id": "python",
+          "category": "logic",
+          "title": "Python 負索引",
+          "ok": true,
+          "note": "找到 3",
+          "text": "3",
+          "latency_s": 0.20923690000199713,
+          "model": "qwen3.5:4b",
+          "error": null
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Asr",
+      "model": "Asr",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Asr",
+          "error": "Error code: 404 - {'error': {'message': \"litellm.NotFoundError: NotFoundError: OpenAIException - Error code: 404 - {'detail': 'Not Found'}. Received Model Group=Asr\\nAvailable Mode"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI bge-m3-embedding",
+      "model": "bge-m3-embedding",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "bge-m3-embedding",
+          "error": "Error code: 404 - {'error': {'message': \"litellm.NotFoundError: NotFoundError: OpenAIException - Error code: 404 - {'detail': 'Not Found'}. Received Model Group=bge-m3-embedding\\nA"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Embedding",
+      "model": "Embedding",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Embedding",
+          "error": "Error code: 429 - {'error': {'message': \"No deployments available for selected model, Try again in 5 seconds. Passed model=Embedding. pre-call-checks=False, cooldown_list=['6263997"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Furen-reranker",
+      "model": "Furen-reranker",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Furen-reranker",
+          "error": "Error code: 404 - {'error': {'message': 'litellm.NotFoundError: NotFoundError: Hosted_vllmException - {\"detail\":\"Not Found\"}. Received Model Group=Furen-reranker\\nAvailable Model G"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Pic-large",
+      "model": "Pic-large",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Pic-large",
+          "error": "Error code: 500 - {'error': {'message': 'litellm.InternalServerError: InternalServerError: OpenAIException - Invalid response object Traceback (most recent call last):\\n File \"/app"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Pic-small",
+      "model": "Pic-small",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Pic-small",
+          "error": "Error code: 500 - {'error': {'message': 'litellm.InternalServerError: InternalServerError: OpenAIException - Invalid response object Traceback (most recent call last):\\n File \"/app"
+        }
+      ]
+    },
+    {
+      "provider": "iai",
+      "label": "iAI Speaker",
+      "model": "Speaker",
+      "kind": "non_chat",
+      "conversation": [
+        0,
+        0
+      ],
+      "logic": [
+        0,
+        0
+      ],
+      "total": [
+        0,
+        1
+      ],
+      "mean_latency_s": null,
+      "runs": [
+        {
+          "case_id": "probe",
+          "category": "non_chat",
+          "title": "非對話探針",
+          "ok": false,
+          "note": "非對話模型（預期失敗）",
+          "text": "",
+          "latency_s": 0.0,
+          "model": "Speaker",
+          "error": "Error code: 404 - {'error': {'message': \"litellm.NotFoundError: NotFoundError: OpenAIException - Error code: 404 - {'detail': 'Not Found'}. Received Model Group=Speaker\\nAvailable "
+        }
+      ]
+    }
+  ]
+}

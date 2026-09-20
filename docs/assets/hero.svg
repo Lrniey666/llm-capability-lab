@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">llm-capability-lab</title>
+  <desc id="desc">Cross-provider LLM capability verification and failover routing: a request falls through Groq, Gemini, Mistral and iAI to a local model, alongside probe outcomes showing pass, silent failure and rejection.</desc>
+  <style>
+    .bg { fill: #f6f5fd; }
+    .frame { fill: none; stroke: #ded9f4; stroke-width: 1; }
+    .ink { fill: #1d1a3d; }
+    .muted { fill: #625d85; }
+    .chip { fill: #ffffff; stroke: #ded9f4; stroke-width: 1; }
+    .title { font: 700 50px "Segoe UI", "Noto Sans TC", sans-serif; fill: #1d1a3d; }
+    .tag { font: 400 19px "Segoe UI", "Noto Sans TC", sans-serif; fill: #625d85; }
+    .chip-text { font: 600 15px "Segoe UI", "Noto Sans TC", sans-serif; fill: #1d1a3d; }
+    .stat-n { font: 700 34px "Segoe UI", "Noto Sans TC", sans-serif; }
+    .stat-l { font: 400 13px "Segoe UI", "Noto Sans TC", sans-serif; fill: #625d85; }
+    .rule { stroke: #5b4bd6; stroke-width: 4; stroke-linecap: round; }
+    .flow { stroke: #b3abe8; stroke-width: 2; fill: none; stroke-linecap: round; }
+    .flow-dash { stroke: #b3abe8; stroke-width: 2; fill: none; stroke-dasharray: 5 5; stroke-linecap: round; }
+    .pass { fill: #0f9d8f; }
+    .warn { fill: #d98324; }
+    .fail { fill: #c4464b; }
+    .indigo { fill: #5b4bd6; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #141326; }
+      .frame { stroke: #322d55; }
+      .ink, .title, .chip-text { fill: #ece9fb; }
+      .muted, .tag, .stat-l { fill: #a49dc9; }
+      .chip { fill: #1e1b38; stroke: #322d55; }
+      .flow, .flow-dash { stroke: #4c4483; }
+    }
+  </style>
+
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <!-- 左：標題 -->
+  <g transform="translate(64,74)">
+    <g transform="translate(0,4)">
+      <rect class="indigo" x="0" y="0" width="13" height="13" rx="3"/>
+      <rect class="pass" x="19" y="0" width="13" height="13" rx="3"/>
+      <rect class="warn" x="38" y="0" width="13" height="13" rx="3"/>
+      <rect class="fail" x="57" y="0" width="13" height="13" rx="3"/>
+    </g>
+    <text class="title" x="0" y="76">llm-capability-lab</text>
+    <line class="rule" x1="2" y1="98" x2="104" y2="98"/>
+    <text class="tag" x="0" y="132">規格上有，實際情形？</text>
+    <text class="tag" x="0" y="160">跨供應商的 LLM 能力驗證與故障轉移路由</text>
+    <text class="tag" x="0" y="196">Capability verification and failover routing</text>
+    <text class="tag" x="0" y="222">across LLM providers</text>
+  </g>
+
+  <!-- 右上：轉移鏈 -->
+  <g transform="translate(690,66)">
+    <text class="stat-l" x="0" y="0">FAILOVER</text>
+    <g transform="translate(0,14)">
+      <rect class="chip" x="0" y="0" width="86" height="34" rx="9"/>
+      <text class="chip-text" x="14" y="22">groq</text>
+      <circle class="fail" cx="72" cy="17" r="5"/>
+
+      <path class="flow" d="M93 17 H108"/>
+
+      <rect class="chip" x="114" y="0" width="98" height="34" rx="9"/>
+      <text class="chip-text" x="128" y="22">gemini</text>
+      <circle class="warn" cx="196" cy="17" r="5"/>
+
+      <path class="flow" d="M219 17 H234"/>
+
+      <rect class="chip" x="240" y="0" width="100" height="34" rx="9"/>
+      <text class="chip-text" x="254" y="22">mistral</text>
+      <circle class="pass" cx="324" cy="17" r="5"/>
+
+      <path class="flow-dash" d="M347 17 H362"/>
+
+      <rect class="chip" x="368" y="0" width="76" height="34" rx="9"/>
+      <text class="chip-text" x="382" y="22">iAI</text>
+    </g>
+    <g transform="translate(0,62)">
+      <path class="flow-dash" d="M43 0 V22 H200"/>
+      <rect class="chip" x="206" y="6" width="134" height="32" rx="9"/>
+      <text class="chip-text" x="220" y="27">local (Ollama)</text>
+      <text class="stat-l" x="348" y="27">保底</text>
+    </g>
+  </g>
+
+  <!-- 右下：探針結果 -->
+  <g transform="translate(690,208)">
+    <text class="stat-l" x="0" y="0">VISION PROBE · 121 MODELS</text>
+    <g transform="translate(0,20)">
+      <rect class="chip" x="0" y="0" width="128" height="72" rx="12"/>
+      <text class="stat-n pass" x="18" y="40">12</text>
+      <text class="stat-l" x="18" y="60">收圖且答對</text>
+
+      <rect class="chip" x="142" y="0" width="128" height="72" rx="12"/>
+      <text class="stat-n warn" x="160" y="40">9</text>
+      <text class="stat-l" x="160" y="60">收圖卻答錯</text>
+
+      <rect class="chip" x="284" y="0" width="128" height="72" rx="12"/>
+      <text class="stat-n fail" x="302" y="40">12</text>
+      <text class="stat-l" x="302" y="60">明確拒絕</text>
+    </g>
+  </g>
+</svg>

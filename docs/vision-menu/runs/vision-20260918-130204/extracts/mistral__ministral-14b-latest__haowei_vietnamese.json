@@ -1,0 +1,412 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1741462.jpg",
+  "mime": "image/jpeg",
+  "bytes": 234232,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"好味\",\n  \"currency\": \"TWD\",\n  \"notes\": [\n    \"訂購專線：(07)352-0588 高雄市楠梓區創新路11號 0973-732296\",\n    \"越式料理\"\n  ],\n  \"categories\": [\n    {\n      \"name\": \"湯類\",\n      \"items\": [\n        {\"name\": \"生鮮牛肉\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"紅燒牛肉\", \"price\": 140, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"酸辣牛肉\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"酸辣海鮮\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"酸辣豬肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"酸辣雞肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"炒類\",\n      \"items\": [\n        {\"name\": \"牛肉\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞肉\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"冷拼類\",\n      \"items\": [\n        {\"name\": \"牛肉冷拼米粉\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸春捲冷拼米粉\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"燒肉冷拼米粉\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冷拼洋蔥海鮮\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冷拼洋蔥雞絲\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"冷拼木瓜雞絲\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"飯類\",\n      \"items\": [\n        {\"name\": \"紅燒牛肉飯\", \"price\": 140, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香芋雞肉飯\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"排骨飯\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉燒飯\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮燒飯\", \"price\": 110, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉燒飯\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉炒飯\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"海鮮炒飯\", \"price\": 100, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"肉絲炒飯\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"雞肉炒飯\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"炒菜類\",\n      \"items\": [\n        {\"name\": \"炒青菜\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉炒青菜\", \"price\": 120, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"牛肉炒青菜\", \"price\": 140, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"湯類(單點)\",\n      \"items\": [\n        {\"name\": \"蛋花湯\", \"price\": 30, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"風目魚九湯\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味/酸辣牛肉湯\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味/酸辣海鮮湯\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味/酸辣豬肉湯\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"原味/酸辣雞肉湯\", \"price\": 70, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"點心類\",\n      \"items\": [\n        {\"name\": \"養生春捲(2捲)\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"芋香炸春捲\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香芋雞肉\", \"price\": 80, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"白飯/荷包蛋(一顆)\", \"price\": 15, \"unit\": \"份\", \"note\": \"看不清\"}\n      ]\n    }\n  ]\n}\n```",
+  "parsed": {
+    "title": "好味",
+    "currency": "TWD",
+    "notes": [
+      "訂購專線：(07)352-0588 高雄市楠梓區創新路11號 0973-732296",
+      "越式料理"
+    ],
+    "categories": [
+      {
+        "name": "湯類",
+        "items": [
+          {
+            "name": "生鮮牛肉",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "紅燒牛肉",
+            "price": 140,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "酸辣牛肉",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "酸辣海鮮",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "酸辣豬肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "酸辣雞肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "炒類",
+        "items": [
+          {
+            "name": "牛肉",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞肉",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "冷拼類",
+        "items": [
+          {
+            "name": "牛肉冷拼米粉",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "炸春捲冷拼米粉",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "燒肉冷拼米粉",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冷拼洋蔥海鮮",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冷拼洋蔥雞絲",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "冷拼木瓜雞絲",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "飯類",
+        "items": [
+          {
+            "name": "紅燒牛肉飯",
+            "price": 140,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香芋雞肉飯",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "排骨飯",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉燒飯",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮燒飯",
+            "price": 110,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉燒飯",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉炒飯",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "海鮮炒飯",
+            "price": 100,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "肉絲炒飯",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "雞肉炒飯",
+            "price": 90,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "炒菜類",
+        "items": [
+          {
+            "name": "炒青菜",
+            "price": 60,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "豬肉炒青菜",
+            "price": 120,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "牛肉炒青菜",
+            "price": 140,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "湯類(單點)",
+        "items": [
+          {
+            "name": "蛋花湯",
+            "price": 30,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "風目魚九湯",
+            "price": 35,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味/酸辣牛肉湯",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味/酸辣海鮮湯",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味/酸辣豬肉湯",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "原味/酸辣雞肉湯",
+            "price": 70,
+            "unit": "份",
+            "note": ""
+          }
+        ]
+      },
+      {
+        "name": "點心類",
+        "items": [
+          {
+            "name": "養生春捲(2捲)",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "芋香炸春捲",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "香芋雞肉",
+            "price": 80,
+            "unit": "份",
+            "note": ""
+          },
+          {
+            "name": "白飯/荷包蛋(一顆)",
+            "price": 15,
+            "unit": "份",
+            "note": "看不清"
+          }
+        ]
+      }
+    ]
+  },
+  "parse_error": null,
+  "latency_s": 22.902767999999924,
+  "prompt_tokens": 2009,
+  "completion_tokens": 1567,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "haowei_vietnamese",
+  "battery": "extended",
+  "score": {
+    "json_ok": true,
+    "schema_ok": true,
+    "title": "好味",
+    "title_hit": true,
+    "item_count": 42,
+    "anchor_n": 9,
+    "name_json_recall": 0.8888888888888888,
+    "price_json_recall": 0.6666666666666666,
+    "name_recall": 0.8888888888888888,
+    "price_recall": 0.7777777777777778,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "生鮮牛肉",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "紅燒牛肉飯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "香茅雞肉飯",
+        "name_json": true,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "排骨飯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "炒青菜",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "蛋花湯",
+        "name_json": true,
+        "price_json": true,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "虱目魚丸湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "牛肉炒青菜",
+        "name_json": true,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

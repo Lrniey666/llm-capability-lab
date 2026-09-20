@@ -1,0 +1,143 @@
+{
+  "provider": "gemini",
+  "model": "models/gemini-3-flash-preview",
+  "file": "Screenshot_20260916-1739502.jpg",
+  "mime": "image/jpeg",
+  "bytes": 184694,
+  "ok": true,
+  "text": "{\n  \"title\": \"滿足飯包 MANZUFANBAO\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"飯包系列 Riceburger\",\n      \"items\": [\n        {\"name\": \"壹鮪魚\", \"price\": 70, \"unit\": \"份\", \"note\": \"招牌主打\"},\n        {\"name\": \"薑汁燒肉\", \"price\": 80, \"unit\": \"份\", \"note\": \"招牌主打\"},\n        {\"name\": \"打拋豬肉\", \"price\": 80, \"unit\": \"份\", \"note\": \"招牌主打\"},\n        {\"name\": \"壽喜牛肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"招牌主打\"},\n        {\"name\": \"鐵路肉排\", \"price\": 80, \"unit\": \"份\", \"note\": \"招牌主打\"},\n        {\"name\": \"肉鬆燒肉\", \"price\": 75, \"unit\": \"份\", \"note\": \"獨家口味\"},\n        {\"name\": \"花生肉鬆燒肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"獨家口味\"},\n        {\"name\": \"泡菜燒肉\", \"price\": 85, \"unit\": \"份\", \"note\": \"獨家口味\"},\n        {\"name\": \"泡菜鮪魚\", \"price\": 85, \"unit\": \"份\", \"note\": \"獨家口味\"},\n        {\"name\": \"泡菜牛肉\", \"price\": 99, \"unit\": \"份\", \"note\": \"獨家口味\"},\n        {\"name\": \"花生香滷豆腐\", \"price\": 70, \"unit\": \"份\", \"note\": \"素食口味 (方便素)\"},\n        {\"name\": \"椒麻香滷豆腐\", \"price\": 70, \"unit\": \"份\", \"note\": \"素食口味 (方便素)\"},\n        {\"name\": \"咖哩起司豬排\", \"price\": 85, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"花生起司豬排\", \"price\": 90, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"咖哩咔啦雞腿\", \"price\": 85, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"糖醋咔啦雞腿\", \"price\": 85, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"花生咔啦雞腿\", \"price\": 90, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"熔岩花生牛肉\", \"price\": 95, \"unit\": \"份\", \"note\": \"香濃醬香\"},\n        {\"name\": \"香脆椒麻雞\", \"price\": 90, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"糖醋炸魚\", \"price\": 85, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"鳳梨蝦球\", \"price\": 105, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"塔香三杯雞\", \"price\": 85, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"鹽酥杏鮑菇\", \"price\": 70, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"糖醋杏鮑菇\", \"price\": 80, \"unit\": \"份\", \"note\": \"台式經典\"},\n        {\"name\": \"椒麻杏鮑菇\", \"price\": 80, \"unit\": \"份\", \"note\": \"台式經典\"}\n      ]\n    },\n    {\n      \"name\": \"乾拌烏龍\",\n      \"items\": [\n        {\"name\": \"打拋豬肉\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"薑汁燒肉\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"壽喜牛肉\", \"price\": 95, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"湯鍋燒\",\n      \"items\": [\n        {\"name\": \"經典柴魚\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"古早沙茶\", \"price\": 90, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"韓式泡菜\", \"price\": 105, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    },\n    {\n      \"name\": \"湯品 Soup\",\n      \"items\": [\n        {\"name\": \"豆腐味噌湯\", \"price\": 25, \"unit\": \"份\", \"note\": \"季節限定\"},\n        {\"name\": \"玉米濃湯\", \"price\": 35, \"unit\": \"份\", \"note\": \"季節限定\"}\n      ]\n    },\n    {\n      \"name\": \"套餐升級 Upgrade\",\n      \"items\": [\n        {\"name\": \"A套餐\", \"price\": 45, \"unit\": \"份\", \"note\": \"$35炸物 + $25飲品\"},\n        {\"name\": \"B套餐\", \"price\": 50, \"unit\": \"份\", \"note\": \"酥炸黑輪 + $25飲品\"},\n        {\"name\": \"C套餐\", \"price\": 69, \"unit\": \"份\", \"note\": \"炸物 + 飲品 + 湯品 ($35炸物+$25飲品+$25湯品)\"}\n      ]\n    },\n    {\n      \"name\": \"炸物 Fried food\",\n      \"items\": [\n        {\"name\": \"鮮炸餃\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"脆薯球\", \"price\": 35, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"炸黑輪\", \"price\": 40, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"杏鮑菇\", \"price\": 50, \"unit",
+  "parsed": null,
+  "parse_error": "Expecting ',' delimiter: line 71 column 62 (char 3132)",
+  "latency_s": 13.482389299984789,
+  "prompt_tokens": 1298,
+  "completion_tokens": 1474,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "manzufanbao",
+  "battery": "extended",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 12,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 0.9166666666666666,
+    "price_recall": 0.9166666666666666,
+    "extra_names": [],
+    "hallucination_n": null,
+    "anchors": [
+      {
+        "name": "壹鮪魚",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "薑汁燒肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "打拋豬肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "壽喜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鐵路肉排",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "泡菜牛肉",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鳳梨蝦球",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "塔香三杯雞",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "鮮炸餃",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "黃金麥茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": false,
+        "price_text": false,
+        "name_hit": false,
+        "price_hit": false
+      },
+      {
+        "name": "豆腐味噌湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      },
+      {
+        "name": "玉米濃湯",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": true,
+        "name_hit": true,
+        "price_hit": true
+      }
+    ]
+  }
+}

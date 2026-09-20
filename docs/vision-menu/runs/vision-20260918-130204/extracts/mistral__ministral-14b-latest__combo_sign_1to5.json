@@ -1,0 +1,80 @@
+{
+  "provider": "mistral",
+  "model": "ministral-14b-latest",
+  "file": "Screenshot_20260916-1741242.jpg",
+  "mime": "image/jpeg",
+  "bytes": 98874,
+  "ok": true,
+  "text": "```json\n{\n  \"title\": \"\",\n  \"currency\": \"TWD\",\n  \"categories\": [\n    {\n      \"name\": \"5號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 蛋餅 + 薑餅\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司蛋堡\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"價格看不清楚\"}\n      ]\n    },\n    {\n      \"name\": \"4號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 蛋餅 + 薑餅\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"起司雞蛋熱狗\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"價格看不清楚\"}\n      ]\n    },\n    {\n      \"name\": \"3號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 蛋餅 + 薑餅\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"豬肉熱狗\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"價格看不清楚\"}\n      ]\n    },\n    {\n      \"name\": \"2號\",\n      \"items\": [\n        {\"name\": \"紅茶 + 蛋餅 + 薑餅\", \"price\": 75, \"unit\": \"份\", \"note\": \"\"},\n        {\"name\": \"香腸雞蛋熱狗\", \"price\": 看不清, \"unit\": \"份\", \"note\": \"價格看不清楚\"}\n      ]\n    },\n    {\n      \"name\": \"1號\",\n      \"items\": [\n        {\"name\": \"鐵板薯 + 紅茶\", \"price\": 60, \"unit\": \"份\", \"note\": \"\"}\n      ]\n    }\n  ],\n  \"notes\": [\n    \"優惠套餐\",\n    \"紅色星號標示為特選或優惠項目\"\n  ]\n}\n```",
+  "parsed": null,
+  "parse_error": "Expecting value: line 9 column 35 (char 205)",
+  "latency_s": 7.334243699995568,
+  "prompt_tokens": 873,
+  "completion_tokens": 502,
+  "error": null,
+  "status": null,
+  "endpoint": "chat",
+  "image_id": "combo_sign_1to5",
+  "battery": "core",
+  "score": {
+    "json_ok": false,
+    "schema_ok": false,
+    "title": "",
+    "title_hit": true,
+    "item_count": 0,
+    "anchor_n": 5,
+    "name_json_recall": 0.0,
+    "price_json_recall": 0.0,
+    "name_recall": 1.0,
+    "price_recall": 0.0,
+    "extra_names": [],
+    "hallucination_n": 0,
+    "anchors": [
+      {
+        "name": "1號鐵板麵加紅茶",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "2號香雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "3號豬肉蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "4號燻雞蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      },
+      {
+        "name": "5號起司蛋堡",
+        "name_json": false,
+        "price_json": false,
+        "name_text": true,
+        "price_text": false,
+        "name_hit": true,
+        "price_hit": false
+      }
+    ]
+  }
+}
