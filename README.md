@@ -52,7 +52,7 @@
 
 內建 Groq、Gemini、Mistral、可選的機構端點，以及本機 [Ollama](https://ollama.com)。雲端請求走 Chat Completions（`/v1/chat/completions`）；本機 Ollama 走官方 `/api/chat`。HTTP 服務的 `/docs` 是 [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)（OAS），與 Chat Completions、與 OpenAI 公司無關。用語見 [文件索引](docs/README.md#名詞)。
 
-測試 **82** 項：不呼叫外網、不需供應商金鑰。部分案例會在本機起 HTTP 伺服器，走真實的 `openai` 套件與 FastAPI 路由。
+測試：不呼叫外網、不需供應商金鑰。部分案例會在本機起 HTTP 伺服器，走真實的 `openai` 套件與 FastAPI 路由。
 
 ---
 
