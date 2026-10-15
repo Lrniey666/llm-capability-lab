@@ -61,14 +61,14 @@ Built-in Groq, Gemini, Mistral, an optional institutional endpoint, and local [O
 Python 3.10+.
 
 ```bash
-pip install "git+https://github.com/Lrniey666/llm-capability-lab.git"
-pip install "git+https://github.com/Lrniey666/llm-capability-lab.git[serve]"
+pip install "git+https://github.com/naritaroad/llm-capability-lab.git"
+pip install "git+https://github.com/naritaroad/llm-capability-lab.git[serve]"
 ```
 
 From a source checkout:
 
 ```bash
-git clone https://github.com/Lrniey666/llm-capability-lab.git
+git clone https://github.com/naritaroad/llm-capability-lab.git
 cd llm-capability-lab
 pip install -e ".[serve,dev]"
 ```

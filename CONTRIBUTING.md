@@ -12,7 +12,7 @@
 ## 環境
 
 ```bash
-git clone https://github.com/Lrniey666/llm-capability-lab.git
+git clone https://github.com/naritaroad/llm-capability-lab.git
 cd llm-capability-lab
 
 python -m venv .venv
@@ -109,7 +109,7 @@ pytest
 
 | 欄位 | TestPyPI | PyPI |
 |---|---|---|
-| Owner | `Lrniey666` | `Lrniey666` |
+| Owner | `naritaroad` | `naritaroad` |
 | Repository | `llm-capability-lab` | `llm-capability-lab` |
 | Workflow name | `publish.yml` | `publish.yml` |
 | Environment | `testpypi` | `pypi` |

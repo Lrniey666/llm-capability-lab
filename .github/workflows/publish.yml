@@ -1,6 +1,6 @@
 # Trusted Publishing（OIDC）。見 https://docs.pypi.org/trusted-publishers/
 #
-# Owner:       Lrniey666
+# Owner:       naritaroad
 # Repository:  llm-capability-lab
 # Workflow:    publish.yml
 # Environments: testpypi（手動或 Release）、pypi（僅 GitHub Release）

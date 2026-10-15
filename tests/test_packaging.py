@@ -103,11 +103,11 @@ def test_project_urls_use_well_known_labels():
     text = _pyproject_text()
     assert "[project.urls]" in text
     required = {
-        "Homepage": "https://github.com/Lrniey666/llm-capability-lab",
-        "Documentation": "https://github.com/Lrniey666/llm-capability-lab#readme",
-        "Repository": "https://github.com/Lrniey666/llm-capability-lab",
-        "Issues": "https://github.com/Lrniey666/llm-capability-lab/issues",
-        "Changelog": "https://github.com/Lrniey666/llm-capability-lab/blob/main/CHANGELOG.md",
+        "Homepage": "https://github.com/naritaroad/llm-capability-lab",
+        "Documentation": "https://github.com/naritaroad/llm-capability-lab#readme",
+        "Repository": "https://github.com/naritaroad/llm-capability-lab",
+        "Issues": "https://github.com/naritaroad/llm-capability-lab/issues",
+        "Changelog": "https://github.com/naritaroad/llm-capability-lab/blob/main/CHANGELOG.md",
     }
     for label, url in required.items():
         assert f'{label} = "{url}"' in text

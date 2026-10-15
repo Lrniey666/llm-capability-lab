@@ -61,14 +61,14 @@
 需要 Python 3.10+。
 
 ```bash
-pip install "git+https://github.com/Lrniey666/llm-capability-lab.git"
-pip install "git+https://github.com/Lrniey666/llm-capability-lab.git[serve]"
+pip install "git+https://github.com/naritaroad/llm-capability-lab.git"
+pip install "git+https://github.com/naritaroad/llm-capability-lab.git[serve]"
 ```
 
 從原始碼開發：
 
 ```bash
-git clone https://github.com/Lrniey666/llm-capability-lab.git
+git clone https://github.com/naritaroad/llm-capability-lab.git
 cd llm-capability-lab
 pip install -e ".[serve,dev]"
 ```
